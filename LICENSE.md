@@ -4,9 +4,7 @@ The prose, course text, slide layouts, class outlines, diagrams, HTML, CSS, and 
 ------------------------
 
 # Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)
-http://creativecommons.org/licenses/by-nc/3.0/
-
-This is a human-readable summary of the Legal Code (the full license).
+This is a [human-readable summary](http://creativecommons.org/licenses/by-nc/3.0/) of the [Legal Code (the full license)](http://creativecommons.org/licenses/by-nc/3.0/legalcode).
 
 
 ## You are free:
@@ -33,9 +31,10 @@ This is a human-readable summary of the Legal Code (the full license).
 Notice — For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.
 
 --------------------------------
+
 # Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)
 
-http://creativecommons.org/licenses/by-nc/3.0/legalcode
+<http://creativecommons.org/licenses/by-nc/3.0/legalcode>
 
 CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS LICENSE DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE.
 License
