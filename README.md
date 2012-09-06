@@ -14,3 +14,7 @@ We've already seen our materials in use by tens of thousands of individuals, but
 Help Us Improve These Materials
 ---------------------------------------
 We're always looking for contributions to improve these materials. If you have corrections, polish, or materials contributions, please submit them via a [Pull Request](https://help.github.com/articles/using-pull-requests). If your contribution is larger than a syntax fix or sentence re-wording, please initiate a discussion via a new Issue (type `c` after switching focus to the [Issues](https://github.com/github/teach.github.com/issues) tab) so we can help guide your contribution to the right location in the materials.
+
+Materials Format
+---------------------------------------
+The majority of these materials will be in [Markdown](http://whatismarkdown.com), a [lightweight markup language](http://en.wikipedia.org/wiki/Lightweight_markup_language) heavily supported in the GitHub web application user interface. There is a syntax guide to the original [Markdown format](http://daringfireball.net/projects/markdown/syntax) and also [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/).
