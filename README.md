@@ -1,6 +1,11 @@
 GitHub Official Git Learning Materials
 =======================================
-This is the official set of [GitHub Training](http://github.com/training/) courseware, including outlines, topic-specific guides, examples, and slides provided under the [_CC BY-NC 3.0_ license](http://creativecommons.org/licenses/by-nc/3.0/) to aid schools, universities, user groups, hackathons, corporate lunch-and-learns and other educational outlets in teaching Git and GitHub.
+This is the official set of [GitHub Training](http://github.com/training/) courseware, including outlines, topic-specific guides, examples, and slides provided under the [_CC BY-NC 3.0_ license](http://creativecommons.org/licenses/by-nc/3.0/) to aid schools, universities, user groups, hackathons, corporate lunch-and-learns and other educational outlets in teaching Git and GitHub. In short, you should take these materials and [make the development world a better place](http://en.wikipedia.org/wiki/A_rising_tide_lifts_all_boats) by leveraging them to teach a class or give a conference talk.
+
+> A rising tide lifts all boats
+> – John F. Kennedy
+
+GitHub believes, as a company, that educational materials should be free and improved by the wisdom of the community whenever possible. Inspiration for this comes from more places than we can list, but, to name just a few: [Khan Academy](http://www.khanacademy.org), [Git Immersion](http://gitimmersion.com), [Ruby Koans](http://rubykoans.com), [Coursera](https://www.coursera.org), and [MIT Open Courseware](http://ocw.mit.edu/index.htm).
 
 Original Authors
 ---------------------------------------
@@ -13,7 +18,7 @@ We've already seen our materials in use by tens of thousands of individuals, but
 
 Help Us Improve These Materials
 ---------------------------------------
-We're always looking for contributions to improve these materials. If you have corrections, polish, or materials contributions, please submit them via a [Pull Request](https://help.github.com/articles/using-pull-requests). If your contribution is larger than a syntax fix or sentence re-wording, please initiate a discussion via a new Issue (type `c` after switching focus to the [Issues](https://github.com/github/teach.github.com/issues) tab) so we can help guide your contribution to the right location in the materials.
+We're always looking for contributions to improve these materials. If you have corrections, polish, or materials contributions, please submit them via a [Pull Request](https://help.github.com/articles/using-pull-requests). If your contribution is larger than a syntax fix or sentence re-wording, please initiate a discussion via a new Issue (type `c` after switching focus to the [Issues](https://github.com/github/teach.github.com/issues) tab) so we can help guide your contribution to the right location in the materials. In the highly unlikely case you merely want to rant or denigrate our open materials, please resist that urge and turn that energy into a world-benefitting contribution.
 
 Materials Format
 ---------------------------------------
