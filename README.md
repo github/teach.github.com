@@ -1,6 +1,6 @@
 GitHub Official Git Learning Materials
 =======================================
-This is the official set of [GitHub Training](http://github.com/training/) courseware, including outlines, topic-specific guides, examples, and slides provided under the [_CC BY-NC 3.0_ license](http://creativecommons.org/licenses/by-nc/3.0/) to aid schools, universities, user groups, hackathons, corporate lunch-and-learns and other educational outlets in teaching Git and GitHub. In short, you should take these materials and [make the development world a better place](http://en.wikipedia.org/wiki/A_rising_tide_lifts_all_boats) by leveraging them to teach a class or give a conference talk. Do a quick check that you are using the materials in the [spirit of the license](https://github.com/github/teach.github.com/blob/master/LICENSE.md) and then go forth and spread the good Git and GitHub news.
+This is the official set of [GitHub Training](http://github.com/training/) courseware, including outlines, topic-specific guides, examples, and slides provided under the [_CC BY-NC-SA 3.0_ license](http://creativecommons.org/licenses/by-nc-sa/3.0/) to aid schools, universities, user groups, hackathons, corporate lunch-and-learns and other educational outlets in teaching Git and GitHub. In short, you should take these materials and [make the development world a better place](http://en.wikipedia.org/wiki/A_rising_tide_lifts_all_boats) by leveraging them to teach a class or give a conference talk. Do a quick check that you are using the materials in the [spirit of the license](https://github.com/github/teach.github.com/blob/master/LICENSE.md) and then go forth and spread the good Git and GitHub news.
 
 > A rising tide lifts all boats  
 >   – John F. Kennedy
@@ -9,7 +9,7 @@ GitHub believes, as a company, that educational materials should be free and imp
 
 Original Authors
 ---------------------------------------
-These materials were loving donated to the OSS community by [GitHub](https://github.com/about) because it is an awesome company that has a passion for open sourcing a [great many things](https://github.com/github).  The original authors of these materials include [Matthew McCullough](http://github.com/matthewmccullough), [Tim Berglund](https://github.com/tlberglund), and [Jared Koumentis](https://github.com/ShepBook), but we eagerly look forward to seeing their contributions diluted by the [community effort](https://github.com/github/teach.github.com/wiki/Hall-Of-Appreciation) to improve and grow these materials for the benefit of the Git-learning community.
+These materials were loving donated to the OSS community by [GitHub](https://github.com/about) because it is an awesome company that has a [passion for open sourcing](http://tom.preston-werner.com/2011/11/22/open-source-everything.html) a significant portion [of our work](https://github.com/github).  The original authors of these materials include [Matthew McCullough](http://github.com/matthewmccullough), [Tim Berglund](https://github.com/tlberglund), and [Jared Koumentis](https://github.com/ShepBook), but we eagerly look forward to seeing those contributions overwhelmed by a [community effort](https://github.com/github/teach.github.com/wiki/Hall-Of-Appreciation) to improve and grow these materials for the benefit of the Git-learning community.
 
 
 Spread the Love
@@ -22,4 +22,4 @@ We're always looking for contributions to improve these materials. If you have c
 
 Materials Format
 ---------------------------------------
-The majority of these materials will be in [Markdown](http://whatismarkdown.com), a [lightweight markup language](http://en.wikipedia.org/wiki/Lightweight_markup_language) heavily supported in the GitHub web application user interface. There is a syntax guide to the original [Markdown format](http://daringfireball.net/projects/markdown/syntax) and also [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/).
+The majority of these materials will be in [Markdown](http://whatismarkdown.com), a [lightweight markup language](http://en.wikipedia.org/wiki/Lightweight_markup_language) strongly supported in the GitHub web application user interface. There is a syntax guide to the original [Markdown format](http://daringfireball.net/projects/markdown/syntax) and also [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/).
