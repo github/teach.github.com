@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# *********************** NEW STYLE APPROACH WITH SVN2GIT ***************************
+# C++ http://gitorious.org/svn2git/svn2git
+# Ruby https://github.com/nirvdrum/svn2git
+# gem install svn2git
+# http://shrubbery.mynetgear.net/c/display/W/Converting+SVN+to+Git+with+svn2git
+mkdir groovy-core; cd groovy-core
+svn2git http://svn.codehaus.org/groovy/ --trunk trunk/groovy/groovy-core/ --branches branches --tags tags --exclude ".*branches/AlexT_Experiments.*" --exclude ".*branches/gep-3.*" --exclude ".*branches/groovy-antlr3.*" --exclude ".*tags/GROOVYJ.*" --exclude ".*tags/cc.*" --exclude ".*tags/ide.*" --exclude ".*tags/start.*" --no-minimize-url

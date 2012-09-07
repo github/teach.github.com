@@ -1,0 +1,43 @@
+# 1) svn clone with special config file
+# http://www.kernel.org/pub/software/scm/git/docs/git-svn.html
+# Curly brace delimited config
+
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+
+[svn-remote "svn2"]
+	#ignore-paths = .*/ide/groovyj.*|.*/ide/groovy-eclipse.*|.*groovy-eclipse/.*|.*modules/gspec/.*
+	ignore-paths = ".*/ide/groovyj.*|.*/ide/groovy-eclipse.*|.*groovy-eclipse/.*|.*org.{1}codehaus.{1}groovy/.*|.*org.{1}codehaus.{1}groovy.{1}eclipse.{1}core/.*|.*modules/gspec/.*"
+	url = http://svn.codehaus.org/groovy
+	fetch = trunk/groovy/groovy-core:refs/heads/trunk
+	branches = branches/{GROOVY_1_5_X,GROOVY_1_6_X,GROOVY_1_7_X,GROOVY_1_8_RC_X,GROOVY_1_8_X,groovy-antlr3,trunk}:refs/heads/*
+	tags = tags/{GROOVY_1_0,GROOVY_1_0_BETA_1,GROOVY_1_0_BETA_10,GROOVY_1_0_BETA_2,GROOVY_1_0_BETA_3,GROOVY_1_0_BETA_4,GROOVY_1_0_BETA_5,GROOVY_1_0_BETA_6,GROOVY_1_0_BETA_7,GROOVY_1_0_BETA_8,GROOVY_1_0_BETA_9,GROOVY_1_0_JSR_01,GROOVY_1_0_JSR_02,GROOVY_1_0_JSR_03,GROOVY_1_0_JSR_04,GROOVY_1_0_JSR_05,GROOVY_1_0_JSR_06,GROOVY_1_0_RC_1,GROOVY_1_0_RC_2,GROOVY_1_1_BETA_1,GROOVY_1_1_BETA_2,GROOVY_1_1_BETA_3,GROOVY_1_1_RC_1,GROOVY_1_1_RC_2,GROOVY_1_1_RC_3,GROOVY_1_5_0,GROOVY_1_5_1,GROOVY_1_5_2,GROOVY_1_5_4,GROOVY_1_5_5,GROOVY_1_5_6,GROOVY_1_5_7,GROOVY_1_5_8,GROOVY_1_6_0,GROOVY_1_6_0_RC_3,GROOVY_1_6_1,GROOVY_1_6_2,GROOVY_1_6_3,GROOVY_1_6_4,GROOVY_1_6_5,GROOVY_1_6_6,GROOVY_1_6_7,GROOVY_1_6_8,GROOVY_1_6_9,GROOVY_1_6_BETA_1,GROOVY_1_6_BETA_2,GROOVY_1_6_RC_1,GROOVY_1_6_RC_2,GROOVY_1_7_0,GROOVY_1_7_1,GROOVY_1_7_10,GROOVY_1_7_2,GROOVY_1_7_3,GROOVY_1_7_4,GROOVY_1_7_5,GROOVY_1_7_6,GROOVY_1_7_7,GROOVY_1_7_8}:refs/tags/*
+
+[svn-remote "svn3"]
+	ignore-paths = ".*/ide/groovyj.*|.*/ide/groovy-eclipse.*|.*groovy-eclipse/.*|.*org.{1}codehaus.{1}groovy/.*|.*org.{1}codehaus.{1}groovy.{1}eclipse.{1}core/.*|.*modules/gspec/.*"
+	url = http://svn.codehaus.org/groovy
+	#fetch = trunk/groovy/groovy-core:refs/heads/trunk2
+	tags = tags/{GROOVY_1_7_9,GROOVY_1_7_BETA_1,GROOVY_1_7_BETA_2,GROOVY_1_7_RC1,GROOVY_1_7_RC_2,GROOVY_1_8_0,GROOVY_1_8_0_BETA_3,GROOVY_1_8_0_RC_2,GROOVY_1_8_1,GROOVY_1_8_BETA_1,GROOVY_1_8_BETA_2,GROOVY_1_8_BETA_4,GROOVY_1_8_RC3,GROOVY_1_8_RC_1,GROOVY_1_8_RC_4,GROOVY_1_9_BETA_1}:refs/tags/*
+
+[svn]
+	authorsfile = /Users/mccm06/Documents/Temp/Scratch/Groovy-SVN-To-Git-Conversion-Effort/Groovy-SVN-To-Git-Scripts/Groovy-SVN-To-Git-Conversion-Authors.txt
+
+
+# 2) Use infinite loop to keep trying failed calls
+loop-infinite
+git svn fetch svn2
+git svn fetch svn3
+
+# Prune numbered tags
+git tag | egrep ".*@[0-9]+" | sed "s/^/git tag -d /" | sh
+
+# Convert remote branches to local branches
+
+# Find Groovy tags on the web and compare them with our repo
+curl http://svn.codehaus.org/groovy/tags/ | egrep "(GROOVY_[_0-9A-Z]+)/<" | sed "s/.*\"GR/GR/" | sed "s/\/.*$//" | sort > groovy-svn-repo-tags.txt
+git tag | sort > groovy-git-repo-tags.txt
+diff groovy-git-repo-tags.txt groovy-svn-repo-tags.txt

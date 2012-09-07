@@ -1,0 +1,113 @@
+#!/bin/bash
+
+# Find the SVN revision number for a given SVN tag
+svn info http://svn.codehaus.org/groovy/tags/GROOVY_1_9_BETA_1
+> Path: GROOVY_1_9_BETA_1
+> URL: http://svn.codehaus.org/groovy/tags/GROOVY_1_9_BETA_1
+> Repository Root: http://svn.codehaus.org/groovy
+> Repository UUID: a5544e8c-8a19-0410-ba12-f9af4593a198
+> Revision: 22735
+> Node Kind: directory
+> Last Changed Author: blackdrag
+> Last Changed Rev: 22641
+> Last Changed Date: 2011-07-21 09:22:46 -0600 (Thu, 21 Jul 2011)
+
+## Find the SVN revision number's Git hash in the Git converted history
+git svn find-rev 22735
+
+## Rebuild the tag from the git hash
+git tag <TAGNAME> <rev>
+
+## Rebuild the tag from the git hash
+git tag <TAGNAME> <rev>
+
+
+#################### SVN COs for Comparison purposes
+mkdir svn-branches
+cd svn-branches
+svn co http://svn.codehaus.org/groovy/branches/GROOVY_1_5_X/groovy/ GROOVY_1_5_X
+svn co http://svn.codehaus.org/groovy/branches/GROOVY_1_6_X/ GROOVY_1_6_X
+svn co http://svn.codehaus.org/groovy/branches/GROOVY_1_7_X/ GROOVY_1_7_X
+svn co http://svn.codehaus.org/groovy/branches/GROOVY_1_8_X/ GROOVY_1_8_X
+svn co http://svn.codehaus.org/groovy/branches/GROOVY_1_8_RC_X/ GROOVY_1_8_RC_X
+svn co http://svn.codehaus.org/groovy/branches/groovy-antlr3/ groovy-antlr3
+
+mkdir svn-tags
+cd svn-tags
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0/ GROOVY_1_0
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_BETA_1/groovy GROOVY_1_0_BETA_1
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_BETA_10/groovy GROOVY_1_0_BETA_10
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_BETA_2/groovy GROOVY_1_0_BETA_2
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_BETA_3/groovy GROOVY_1_0_BETA_3
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_BETA_4/groovy GROOVY_1_0_BETA_4
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_BETA_5/groovy GROOVY_1_0_BETA_5
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_BETA_6/groovy GROOVY_1_0_BETA_6
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_BETA_7/groovy GROOVY_1_0_BETA_7
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_BETA_8/groovy GROOVY_1_0_BETA_8
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_BETA_9/groovy GROOVY_1_0_BETA_9
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_JSR_01/groovy GROOVY_1_0_JSR_01
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_JSR_02/groovy GROOVY_1_0_JSR_02
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_JSR_03/groovy GROOVY_1_0_JSR_03
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_JSR_04/groovy GROOVY_1_0_JSR_04
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_JSR_05/groovy GROOVY_1_0_JSR_05
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_JSR_06/groovy GROOVY_1_0_JSR_06
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_RC_1/groovy-core/ GROOVY_1_0_RC_1
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_0_RC_2/ GROOVY_1_0_RC_2
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_1_BETA_1/groovy GROOVY_1_1_BETA_1
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_1_BETA_2/groovy GROOVY_1_1_BETA_2
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_1_BETA_3/groovy-core GROOVY_1_1_BETA_3
+
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_1_RC_1/groovy-core
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_1_RC_2/groovy
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_1_RC_3/groovy
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_5_0/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_5_1/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_5_2/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_5_4/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_5_5/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_5_6/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_5_7/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_5_8/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_0/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_0_RC_3/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_1/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_2/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_3/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_4/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_5/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_6/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_7/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_8/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_9/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_BETA_1/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_BETA_2/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_RC_1/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_6_RC_2/
+
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_0/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_1/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_10/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_2/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_3/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_4/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_5/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_6/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_7/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_8/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_9/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_BETA_1/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_BETA_2/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_RC1/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_7_RC_2/
+
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_8_0/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_8_0_BETA_3/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_8_0_RC_2/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_8_1/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_8_BETA_1/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_8_BETA_2/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_8_BETA_4/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_8_RC3/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_8_RC_1/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_8_RC_4/
+svn co http://svn.codehaus.org/groovy/tags/GROOVY_1_9_BETA_1/
