@@ -1,0 +1,86 @@
+[user]
+	name = YOURNAMEHERE
+	email = YOUREMAILADDRESSHERE
+
+[color]
+# ui = true is a superset of all the more specific color options
+#  as documented at http://book.git-scm.com/5_customizing_git.html
+# When set to always, always use colors in all git commands which are capable of colored output.
+# When false, never. When set to true or auto, use colors only when the output is to the terminal.
+# When more specific variables of color.* are set, they always take precedence over this setting.
+# Defaults to false.
+	ui = auto
+#	diff = auto
+#	status = auto
+#	branch = auto
+
+[gui]
+	fontdiff = -family Monaco -size 10 -weight normal -slant roman -underline 0 -overstrike 0
+
+[github]
+# For GitNub and Gitx (non SSH tools)
+# https://github.com/blog/180-local-github-config
+	user = YOURUSERNAMEHERE
+	token = YOURTOKENHERE
+
+[core]
+	excludesfile = /users/YOURUSERNAMEHERE/.gitignore
+	quotepath = false
+	autocrlf = input
+#	editor = emacs
+
+[alias]
+	br = branch -a
+	s = status
+	cl = clone
+	c = commit
+	co = checkout
+	d = diff
+	dh = diff HEAD
+	dc = diff --staged
+	dw = diff --word-diff
+	dcw = diff --color-words
+	dm = !git diff | mate
+	dv = !git diff | vim
+	who = shortlog -s --
+	ph = push
+	pl = pull
+	lp = log -p
+	lod = log --oneline --decorate
+	lg = log --graph
+	lpo = log --pretty=oneline --abbrev-commit --graph --decorate
+	spull = !git-svn fetch && git-svn rebase
+	spush = !git-svn dcommit
+	sync = !git pull && git push
+	lf = log --pretty=fuller
+	ignorechanges = update-index --assume-unchanged
+	noticechanges = update-index --no-assume-unchanged
+	gcap = gc --aggressive --prune
+	listconf = config --global --list
+	st = status
+    # newrepodoesntwork = !echo git init $1 && echo cd $1
+    # newrepo = !sh -c 'git init $1; echo hi' -
+    # newrepoalt = "!f() { git init $1}; f"
+    # testme = "!bash -c 'git init $0'"
+    # testme2 = !echo cd $1
+    # testme3 = "!function gitme() { git init $1; echo now cd to $1; }; gitme"
+
+[apply]
+	whitespace = nowarn
+[rerere]
+	enabled = 1
+
+[diff]
+	tool = myaraxis
+[difftool]
+	prompt = false
+[difftool "myaraxis"]
+	cmd = araxisgitdiff ONE "$LOCAL" THREE FOUR "$REMOTE"
+
+[merge]
+	tool = myaraxis
+[mergetool]
+	prompt = false
+	keepBackup = false
+[mergetool "myaraxis"]
+	cmd = araxisgitmerge "$PWD/$REMOTE" "$PWD/$BASE" "$PWD/$LOCAL" "$PWD/$MERGED"
