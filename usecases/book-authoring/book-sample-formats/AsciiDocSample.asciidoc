@@ -1,0 +1,14 @@
+== What Is AsciiDoc? ==
+This is an http://www.methods.co.nz/asciidoc/[AsciiDoc] sample.
+
+== What Would You Use It For? ==
+AsciiDoc is good for:
+
+* Books
+* Workbooks
+* Programming Guides
+* Brochures
+* eBooks
+
+== What Does It Convert To? ==
+It nicely converts to DocBook and can be used with the https://github.com/schacon/git-scribe[GitScribe] toolchain.
