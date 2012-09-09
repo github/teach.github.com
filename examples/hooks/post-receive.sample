@@ -10,3 +10,8 @@
 #  <oldrev> <newrev> <refname>
 # For example:
 #  aa453216d1 68f7abf4e6 refs/heads/master
+#
+# see contrib/hooks/ for a sample, or uncomment the next line and
+# rename the file to "post-receive".
+
+#. /usr/share/doc/git-core/contrib/hooks/post-receive-email
