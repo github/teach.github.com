@@ -3,8 +3,8 @@ The prose, course text, slide layouts, class outlines, diagrams, HTML, CSS, and 
 
 ------------------------
 
-# Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)
-This is a [human-readable summary](http://creativecommons.org/licenses/by-nc/3.0/) of the [Legal Code (the full license)](http://creativecommons.org/licenses/by-nc/3.0/legalcode).
+# Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
+This is a [human-readable summary](http://creativecommons.org/licenses/by-nc-sa/3.0/) of the [Legal Code (the full license)](http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode).
 
 
 ## You are free:
@@ -33,7 +33,7 @@ Notice — For any reuse or distribution, you must make clear to others the lice
 
 --------------------------------
 
-# Attribution-NonCommercial 3.0 Unported (CC BY-NC-SA 3.0)
+# Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
 
 http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
 
