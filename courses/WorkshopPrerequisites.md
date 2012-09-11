@@ -40,7 +40,7 @@ We'll need a command line version of Git for use during class. The following ste
 3. The Git source code can be obtained and compiled from the [Git mirror on GitHub](https://github.com/git/git).
 
 
-3) Skim the ProGit Free eBook (Optional)
+3) Skim the ProGit Free eBook
 -----------------------------------------------------------------------------
 Optionally, you can read several [free ProGit book](http://git-scm.com/book) chapters. The more knowledge you bring to the table on class day, the more we maximize the return on investment for the time spent learning together.  These selected chapters form a great introduction.
 
