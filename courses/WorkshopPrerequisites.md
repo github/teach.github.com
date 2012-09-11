@@ -1,19 +1,20 @@
-Git and GitHub Class Student Machine Prerequisites
+Git and GitHub Class Prerequisites
 ============================================
 This document outlines the requirements for preparing your account and laptop prior to class.  It may be required that you escalate to administrative privileges for the tool installations. It is common for development tools to require administrative privileges at installation time.
 
-GitHub.com Account
+1) GitHub.com Account
 ----------------------------------------------------------
 We'd like you to establish a GitHub account to facilitate hands-on practice of the network flow components of Git during class.  A free account can be established at the
 [GitHub Signup Page](http://github.com/signup/free).
 
-> Please keep your username and password close at hand. You'll use it several times during class.
+**Please keep your username and password close at hand. You'll use it several times during class.**
 
 It is best if you use a valid email address for your _GitHub.com_ signup at which you can receive email during class. Demonstrations of code comments and [Pull Requests](https://help.github.com/articles/using-pull-requests) work best when you can see them functioning end to end, including email-based notifications.
 
-Git Command Line and Desktop Program Installation
+2) Git Command Line and Desktop Program Installation
 -----------------------------------------------------------------------------
-We'll need a command line version of Git for use during class. The following steps describe how to test and accomplish that installation.
+We'll need a command line version of Git for use during class. The following steps and our [GitHub Git Installation Help Page](https://help.github.com/articles/set-up-git) describe how to test and accomplish that installation. You can bypass the SSH setup steps if you wish.  We'll focus on using HTTPS during our class.
+
 
 ### Common to all Operating Systems
 1. It is best if Git is version _1.7.10_ or higher to match the behavior of your instructor's machine. However, no actual repository incompatibilities will be encountered during class if your installed version is _1.7.x_ or newer.
@@ -37,3 +38,20 @@ We'll need a command line version of Git for use during class. The following ste
 1. Git will likely already be installed. It is present in most modern Linux distributions.
 2. Package managers such as _Synaptic_, `yum` and `apt-get` are the best way to install and update Git.
 3. The Git source code can be obtained and compiled from the [Git mirror on GitHub](https://github.com/git/git).
+
+
+3) Skim the ProGit Free eBook (Optional)
+-----------------------------------------------------------------------------
+Optionally, you can read several [free ProGit book](http://git-scm.com/book) chapters. The more knowledge you bring to the table on class day, the more we maximize the return on investment for the time spent learning together.  These selected chapters form a great introduction.
+
+
+* [Section 1.4 - Installing Git](http://git-scm.com/book/en/Getting-Started-Installing-Git)
+* [Section 1.5 - First Time Git Setup](http://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup)
+* [Section 2.1 - Getting a Git Repository](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository)
+* [Section 2.2 - Recording Changes to the Repository](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository)
+* [Section 2.3 - Viewing the Commit History](http://git-scm.com/book/en/Git-Basics-Viewing-the-Commit-History)
+* [Section 3.1 - What a Branch Is](http://git-scm.com/book/en/Git-Branching-What-a-Branch-Is)
+
+4) Jot Down Some In-class Questions
+-----------------------------------------------------------------------------
+Jot down a few questions about Git and GitHub.  The class flows best for everyone when we put the materials in the context of your real-world applications of Git and GitHub.
