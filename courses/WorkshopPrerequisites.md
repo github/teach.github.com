@@ -2,7 +2,7 @@ Git and GitHub Class Prerequisites
 ============================================
 This document outlines the requirements for preparing your account and laptop prior to class.  It may be required that you escalate to administrative privileges for the tool installations. It is common for development tools to require administrative privileges at installation time.
 
-1) GitHub.com Account
+1) Establish a GitHub.com Account
 ----------------------------------------------------------
 We'd like you to establish a GitHub account to facilitate hands-on practice of the network flow components of Git during class.  A free account can be established at the
 [GitHub Signup Page](http://github.com/signup/free).
@@ -11,7 +11,7 @@ We'd like you to establish a GitHub account to facilitate hands-on practice of t
 
 It is best if you use a valid email address for your _GitHub.com_ signup at which you can receive email during class. Demonstrations of code comments and [Pull Requests](https://help.github.com/articles/using-pull-requests) work best when you can see them functioning end to end, including email-based notifications.
 
-2) Git Command Line and Desktop Program Installation
+2) Install the Git Command Line and Desktop Program
 -----------------------------------------------------------------------------
 We'll need a command line version of Git for use during class. The following steps and our [GitHub Git Installation Help Page](https://help.github.com/articles/set-up-git) describe how to test and accomplish that installation. You can bypass the SSH setup steps if you wish.  We'll focus on using HTTPS during our class.
 
