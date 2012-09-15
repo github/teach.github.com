@@ -1,3 +1,11 @@
+header {
+font-size: 24px;
+}
+header a, header a:visited, header a:hover {
+color: #000;
+text-decoration: none;
+}
+
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
 display: block
 }
