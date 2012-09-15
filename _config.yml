@@ -1,6 +1,6 @@
 # standard jekyll configuration
 
-permalink: date
+permalink: /blog/:title
 pygments: true
 exclude: ['Rakefile', 'config.rb']
 markdown: rdiscount
@@ -20,9 +20,9 @@ email: training@github.com
 # google_analytics:
 #   account: UA-XXXXX-X
 
-# github:
-username: github/teach.github.com
+github:
+    username: github/teach.github.com
 
-# disqus:
-id: githubteachingmaterials
+disqus:
+    id: githubteachingmaterials
 
