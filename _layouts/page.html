@@ -1,0 +1,13 @@
+---
+layout: bare
+---
+
+<div id="page">
+  <div id="header">
+    <a href="/"><h1>{{ site.title }}</h1></a>
+  </div>
+  <div id="body">
+    {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+    {{ content }}
+  </div>
+</div>

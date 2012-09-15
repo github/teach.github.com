@@ -1,11 +1,11 @@
 ---
-layout: default
-title: GitHub Teaching Materials
+layout: bare
+title: Welcome
 description: A comprehensive set of course materials used to teach Git and GitHub.
 ---
 
 # What is this?
-Take a look at our README.md to discover why we released these materials as open source.  and how to contribute and use them.
+Take a look at our [README](README.html) to discover why we released these materials as open source.  and how to contribute and use them.
 
 <div id="pages">
   <h2>Pages</h2>
