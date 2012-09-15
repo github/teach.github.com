@@ -21,7 +21,7 @@ This is an outline for a comprehensive class that uses all modules in the `topic
 1. [Transporting-Changes-Patches and Bundles](https://github.com/github/teach.github.com/blob/master/topics/Transporting-Changes-Patches-and-Bundles.md)
 1. [GUIs](https://github.com/github/teach.github.com/blob/master/topics/GUIs.md)
 1. [Interoperability-with-SVN and Clearcase](https://github.com/github/teach.github.com/blob/master/topics/Interoperability-with-SVN-and-Clearcase.md)
-1. [Merging Rebase Rerere](https://github.com/github/teach.github.com/blob/master/topics/Merging-Rebase-Rerere.md)
+1. [Merging, Rebase, and Rerere](https://github.com/github/teach.github.com/blob/master/topics/Merging-Rebase-Rerere.md)
 1. [Power-Tools-Grep and Bisect](https://github.com/github/teach.github.com/blob/master/topics/Power-Tools-Grep-and-Bisect.md)
 1. [Repo Maintenance](https://github.com/github/teach.github.com/blob/master/topics/Repo-Maintenance.md)
 1. [Servers and WebUIs](https://github.com/github/teach.github.com/blob/master/topics/Servers-and-WebUIs.md)
