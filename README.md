@@ -1,6 +1,6 @@
 ---
 layout: bare
-title: GitHub Teaching Materials README
+title: README
 description: How to use and contribute to the teaching materials.
 ---
 
