@@ -22,6 +22,10 @@ This is by no means a complete list.  GitHub has a lot of nice little features t
 * [Inline Code Editing](https://github.com/blog/905-edit-like-an-ace)
 * [Event Hooks](https://github.com/blog/964-all-of-the-hooks)
 * [Multiple People Per Ticket](https://github.com/blog/1004-mention-autocompletion)
+* [Auto-Updating Comments](https://github.com/blog/1174-auto-updating-comments)
+* [Subversion Client Support](https://github.com/blog/1178-collaborating-on-github-with-subversion)
+* [Searching and Filtering Stars](https://github.com/blog/1236-searching-and-filtering-stars)
+* 
 
 ## Features in Detail
 
@@ -63,7 +67,13 @@ Here is a summary of some of the features, both major and minor, found in GitHub
 
 There are many options for both managing source code on GitHub as well as keeping up with activity streams outside of just using git or a web browser.  Here are a few examples:
 
-* [Mac Native Client](http://mac.github.com/)
+### Official Clients
+* [GitHub Mac Client](http://mac.github.com/)
+* [GitHub Windows Client](http://windows.github.com/)
 * [GitHub Issues for iPhone](https://github.com/blog/904-announcing-github-issues-for-iphone)
+* [GitHub Eclipse Plugin](http://eclipse.github.com/)
+
+### Unofficial Clients
+
 * [Unoffical GitHub Client for iPhone](http://dbloete.github.com/ioctocat/)
 * [Unofficial GitHub Client for Android](http://www.gandroidmix.com/hubdroid/)
