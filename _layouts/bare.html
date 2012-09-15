@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
     {% if page.description %}
     <meta name="description" content="{{ page.description }}" />
     {% endif %}
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
     <link rel="stylesheet" media="screen" href="/stylesheets/code.css" type="text/css" />
-	<link rel="stylesheet" media="screen" href="/stylesheets/page.css" type="text/css" />
+	  <link rel="stylesheet" media="screen" href="/stylesheets/page.css" type="text/css" />
+
     {% if site.feedburner %}
     <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
     {% endif %}
+    
     {% if site.google_analytics %}
     <!-- google analytics async -->
     <script type="text/javascript">
