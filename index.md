@@ -4,7 +4,7 @@ title: Home • Welcome
 description: A comprehensive set of course materials used to teach Git and GitHub.
 ---
 
-GitHub Official Git Teaching Materials
+GitHub Official Teaching Materials
 =======================================
 <img style="float:right" src="/images/octocat_professor_tiny.png" />
 
@@ -35,10 +35,9 @@ The majority of these materials will be in [Markdown](http://whatismarkdown.com)
 
 --------------
 
-# Auto-generated Lists of Pages
+# Teaching Materials
 
 <div id="pages">
-  <h2>Pages</h2>
   <ul>
     {% for page in site.html_pages %}
       {% if page.title %}
@@ -48,8 +47,9 @@ The majority of these materials will be in [Markdown](http://whatismarkdown.com)
   </ul>
 </div>
 
+# Blog Posts
+
 <div id="posts">
-  <h2>Blog Posts</h2>
   <ul>
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
