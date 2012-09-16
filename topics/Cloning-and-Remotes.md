@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Cloning
+description: Copying a repository from an upstream location to your local disk.
+---
+
 #Cloning Basics
 ## Cloning someone else's Git protocol-hosted repo
 List of Git-hosted projects

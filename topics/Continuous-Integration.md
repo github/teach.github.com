@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Continuous Integration
+description: Continuously building and testing your code.
+---
+
 # Continuous Integration
 
 ## Bamboo
@@ -20,3 +26,7 @@ Can walk through setting up a Git based project (from Apache Git sources)
 ## Hudson
 
 [Hudson](http://hudson-ci.org/) is an open source CI server. It has excellent Git integration via the [Git plugin](http://wiki.hudson-ci.org/display/HUDSON/Git+Plugin).
+
+## Commit Status API
+
+GitHub has a [Commit Status API](https://github.com/blog/1227-commit-status-api) and assocaited UI decorations that facilitates integration with any Continuous Integration server. It currently is supported by Travis CI, Jenkins, and others.
