@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Every Day Commands
+description: TODO
+---
+
 # Everyday Commands
 
 ## Status

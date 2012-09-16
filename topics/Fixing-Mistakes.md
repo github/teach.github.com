@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Fixing Mistakes
+description: TODO
+---
+
 # Fixing Mistakes
 
 ## Amend

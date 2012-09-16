@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • GUIs
+description: TODO
+---
+
 # GUIs
 
 ## Bundled GUIs
