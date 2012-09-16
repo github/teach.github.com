@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Outlines • Graphs, Hashes, an Compression, Oh My!
+description: An advanced Git talk directed at very technical User Groups.
+---
+
 # Graphs, Hashes, and Compression, Oh My!
 
 Git is a version control system. We can look at it from that high level. Git is a content tracking system. Some teachers advise us to look at it from that lowered elevation. But I will take you to the very bottom. The floor. The code. The algorithms. The directed acyclic graph of hashed bit sequences made efficient through LZW compression and deferred garbage collection determined by node reachability via hash relationships.

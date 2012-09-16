@@ -1,6 +1,6 @@
 ---
 layout: bare
-title: Git and GitHub Class Prerequisites
+title: Courses • Git and GitHub Class Prerequisites
 description: Installation, setup, and configuration prior to attending a Git and GitHub workshop.
 ---
 

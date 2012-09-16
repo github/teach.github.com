@@ -1,6 +1,6 @@
 ---
 layout: bare
-title: Git and GitHub Cheat Sheets
+title: Cheatsheets • List of Git and GitHub Cheat Sheets
 description: Cheat sheets and quick references for Git and GitHub commands.
 ---
 

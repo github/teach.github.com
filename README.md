@@ -1,6 +1,6 @@
 ---
 layout: bare
-title: README
+title: Home • README
 description: How to use and contribute to the teaching materials.
 ---
 

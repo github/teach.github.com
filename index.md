@@ -1,6 +1,6 @@
 ---
 layout: bare
-title: Welcome
+title: Home • Welcome
 description: A comprehensive set of course materials used to teach Git and GitHub.
 ---
 
