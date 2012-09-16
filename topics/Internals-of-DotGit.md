@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Internals of .git
+description: TODO
+---
+
 # The Internals
 
 ## Looking around the .git folder

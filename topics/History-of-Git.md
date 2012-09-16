@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • History of Git
+description: TODO
+---
+
 # Some History
 
 ## Dates for other VCSes
