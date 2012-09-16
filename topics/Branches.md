@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Branching
+description: Creating and checking out branches.
+---
+
 # Branches
 
 ## Branching

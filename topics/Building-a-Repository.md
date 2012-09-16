@@ -1,3 +1,10 @@
+---
+layout: bare
+title: Topics • Building a New Local Repository
+description: Creating a new local repository.
+---
+
+
 # Building a New Repository
 
 ## Creating a regular repository
@@ -16,13 +23,10 @@ And once pushed to another location, you'll want it *tracked*, which can be done
     git config branch.master.merge refs/heads/master
 
 ## Creating a free hosted repo
-Free hosting for small private Git repositories can be found at a number of sites on the web. A canonical list is maintained at [the official Git site](http://git.wiki.kernel.org/index.php/GitHosting).
+Hosting for Git repositories can be found at a number of sites on the web. A canonical list is maintained at [the official Git site](http://git.wiki.kernel.org/index.php/GitHosting).
 
-The one we'll use today is [GitFarm](http://gitfarm.appspot.com), which is hosted on the Google App Engine.
+The one we'll use today is [GitHub](https://github.com/githubtraining/hellogitworld).
 
 I've already set up a repository for us to try:
 
-    git clone http://students11@gitfarm.appspot.com/git/students11.git
-    password: password
-
-    git clone http://students11:password@gitfarm.appspot.com/git/students11.git
+    git clone https://github.com/githubtraining/hellogitworld.git
