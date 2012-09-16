@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Git and GitHub Cheat Sheets
+description: Cheat sheets and quick references for Git and GitHub commands.
+---
+
 # Git and GitHub Cheat Sheets
 
 Several sources for cheat sheets about Git and GitHub are as follows.

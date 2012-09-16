@@ -1,3 +1,10 @@
+---
+layout: bare
+title: Courses • Complete Class Plan
+description: A directed curriculum plan through all our courseware topics.
+---
+
+
 # Complete Class Outline
 
 This is an outline for a comprehensive class that uses all modules in the `topics` folder.
