@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-<i>{% if page.date %}<div class="postdate">Posted on {{ page.date | date_to_string }}{% if page.last_updated %}, last updated on {{ page.last_updated | date_to_string }}{% endif %}</div>{% endif %}</i>
 
 <div class="post">
 {{ content }}
@@ -17,8 +16,8 @@ layout: page
 </div>
 
 {% if site.disqus %}
-<div id="comments">
   <h2>Comments</h2>
+<div id="comments">
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_identifier = "{{ page.url }}";
