@@ -1,6 +1,10 @@
-# Viewing Logs and Files
+---
+layout: bare
+title: Topics • Viewing History
+description: Viewing the history of commits.
+---
 
-## Log history
+# Log history
 Show all history
 
     git log
@@ -39,26 +43,8 @@ Show the contents of a arbitrary commit
 
     git show HEAD^^
 
-## Composition of a file
-Visualize the file's commits that brought it to the current state, including  developer, branch, date
-
-    git blame FILENAME
-
-## Shortlog
-For release notes
-
-    git shortlog
-
-Author summary only
-
-    git shortlog -s -10
-
 ## Describe
 Short notation to refer to a commit based on its position relative to a branch point.
 
     git describe
 
-## Viewing a specific file
-To view the contents of a file at a specific point in time, 
-
-    cat-file
