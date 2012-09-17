@@ -271,7 +271,7 @@ pre code {
 
 header {
   max-width: 960px;
-  margin: 25px auto;
+  margin: 25px auto 21px auto;
   padding: 0 0 0 0; }
   header a {
     font-size: 18px; }
