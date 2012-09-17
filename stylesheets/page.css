@@ -200,7 +200,6 @@ abbr[title]:after {
   content: ""; }
 
 pre, blockquote {
-  border: 1px solid #999;
   page-break-inside: avoid; }
 
 thead {
@@ -253,19 +252,20 @@ code {
   background: -o-linear-gradient(top, white, #eeeeee);
   background: linear-gradient(top, white, #eeeeee);
   color: #000;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -o-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -khtml-border-radius: 8px;
-  border-radius: 8px; }
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  margin: 10px;
+  border: none; }
 
 p code {
   padding: 1px;
   display: inline-block; }
 
 pre code {
-  padding: 5px 5px 5px 10px;
+  padding: 5px 10px;
   border: 1px solid #ddd;
   display: block; }
 
