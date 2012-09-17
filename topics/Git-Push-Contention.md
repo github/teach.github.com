@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Git Push Contention
+description: TODO
+---
+
 # Git Push Contention
 
 When attempting to push commits to an upstream Git server such as GitHub, the push only succeeds if your local repository posesses all the upstream commits in the same branch. If not, it fails, reminding you with a hint that you can _merge in the remote changes_ and then attempt to push, with a higher likelihood of success.

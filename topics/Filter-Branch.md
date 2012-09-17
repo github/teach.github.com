@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Filter Branch
+description: TODO
+---
+
 # Filter-Branch
 This chapter was inspired by the Grails repo-splitting script from [Jeff Scott Brown of SpringSource](http://www.springsource.com/people/jbrown).
 

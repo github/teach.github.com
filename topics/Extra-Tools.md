@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Git Extras, Addons
+description: TODO
+---
+
 # Extra Git Tooling
 
 ## git extras

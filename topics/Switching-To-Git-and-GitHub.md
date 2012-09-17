@@ -1,5 +1,13 @@
+---
+layout: bare
+title: Topics • Switching to Git and GitHub
+description: Why you should consider changing your version control system.
+---
+
 # Switching to GitHub
 Many companies ask why they should switch to Git and GitHub. The answer primarily lies in doing less repetitive work, and making your source code control efforts disppear into the background instead of be in the forefront of your workflow. Your [focus should be on your creative work](https://github.com/features/projects) and just incidentally have it versioned. As soon as your project is no longer a solo effort, you desire to have it support collaboration. In the space of version control, our users claim that no set of tools does that as well as Git and GitHub.
+
+These goals are explained in a highly creative way by GitHub's CEO in [The Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html).
 
 Additionally, a [growing constituency](https://github.com/blog/865-github-dominates-the-forges) of open source is hosted at GitHub. In June of 2011, GitHub had [more commits than Sourceforge, Google Code, and CodePlex combined](http://www.readwriteweb.com/hack/2011/06/github-has-passed-sourceforge.php).
 

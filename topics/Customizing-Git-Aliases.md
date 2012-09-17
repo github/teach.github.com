@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Customizing Git
+description: TODO
+---
+
 # Customizing Git
 
 ## Aliases
