@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Saving In-Flight Changes
+description: Stashing away in-progress changes without a commit.
+---
+
 # Stash
 
 ## Stashing Work in Progress

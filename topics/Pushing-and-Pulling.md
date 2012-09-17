@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Pushing and Pulling
+description: Git's network transmission commands.
+---
+
 # Pushing and Pulling
 
 ## Pushing to a repo

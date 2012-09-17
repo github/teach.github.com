@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • SSH Setup
+description: Creating and using SSH keys.
+---
+
 # SSH Setup
 
 ## Setting up an SSH Key

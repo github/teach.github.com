@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Servers and Web Interfaces
+description: Web application front ends to serving Git repositories.
+---
+
 # Servers & Web Interfaces
 
 ## Git Daemon

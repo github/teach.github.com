@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Merging, Rebase, Rerere
+description: Merging branches together and polishing them with Rebase.
+---
+
 ## Merging
 Merge a branch into the current branch
 

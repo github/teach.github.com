@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Portable Change Bundles
+description: Transporting changes with bundle files.
+---
+
 # Transporting Changes
 
 ## Bundles

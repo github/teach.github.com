@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Setting up Git
+description: Git binaries and basic configuration.
+---
+
 # Setting up Git
 
 ## Get binaries

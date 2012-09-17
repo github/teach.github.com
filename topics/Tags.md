@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Tags
+description: Checkpointing releases and other milestones with tags.
+---
+
 # Managing Checkpoints
 
 ## Tagging

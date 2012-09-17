@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Power Tools
+description: Git's history research tools.
+---
+
 # Power Tools
 
 ## Searching in Code

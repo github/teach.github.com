@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Submodules
+description: Nesting Git repositories.
+---
+
 # Submodules
 
 ## Creating Submodules

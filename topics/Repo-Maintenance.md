@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • Repository maintenance
+description: Maintaining a repository and checking for integrity.
+---
+
 # Maintenance
 
 ## File System Check
