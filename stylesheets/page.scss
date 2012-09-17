@@ -433,7 +433,7 @@ h2 {
 
     h2 {
       border-right: 1px solid #DDD;
-       padding: 2px 25px 12px 25px;
+      padding: 2px 25px 12px 25px;
     }
   }
 
@@ -492,9 +492,7 @@ a.mini-button {
   color: #333 !important;
   font-size: 13px;
   font-weight: bold;
-  min-height: 28px;
-  line-height: 28px;
-  padding: 0 10px;
+  padding: 0 10px 6px 10px;
   float: right;
   text-shadow: 0 1px 1px rgba(255,255,255,.6);
   box-shadow: inset 0 1px 0 rgba(255,255,255,1), inset 0 0 3px rgba(255,255,255,.7), 0 1px 1px rgba(0,0,0,.02);
@@ -505,11 +503,12 @@ a.mini-button:hover {
 }
 
 a.mini-button span {
+  display: inline-block;
   font-family: 'Pictos';
   font-size: 20px;
   color: #D5D5D5;
   font-weight: normal;
-  margin: 0 6px 0 0;
+  margin: -5px 6px 0 0;
 }
 #comments {
   margin: 12px 25px;
