@@ -1,0 +1,25 @@
+From dc78da4c1cc991fce0f0259302967c150676a879 Mon Sep 17 00:00:00 2001
+From: Matthew McCullough <matthew@github.com>
+Date: Fri, 21 Sep 2012 14:11:56 -0700
+Subject: [PATCH 2/2] Commit two
+
+---
+ test.rb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/test.rb b/test.rb
+index f4dbe7c..c51f947 100644
+--- a/test.rb
++++ b/test.rb
+@@ -2,5 +2,7 @@ require 'test/unit'
+ 
+ class TestSomething < Test::Unit::TestCase
+   def test_assert
++    assert true
++	assert_equal 1, 1
+   end
+ end
+\ No newline at end of file
+-- 
+1.7.12
+
