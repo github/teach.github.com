@@ -1,10 +1,3 @@
----
-layout: bare
-title: Home • README
-description: How to use and contribute to the teaching materials.
----
-
-
 GitHub Official Git Teaching Materials
 =======================================
 This is the official set of [GitHub Training](http://github.com/training/) courseware, including outlines, topic-specific guides, examples, and slides provided under the [_CC BY-NC-SA 3.0_ license](http://creativecommons.org/licenses/by-nc-sa/3.0/) to aid schools, universities, user groups, hackathons, corporate lunch-and-learns and other educational outlets in teaching Git and GitHub. In short, you should take these materials and [make the development world a better place](http://en.wikipedia.org/wiki/A_rising_tide_lifts_all_boats) by leveraging them to teach a class or give a conference talk. Do a quick check that you are using the materials in the [spirit of the license](https://github.com/github/teach.github.com/blob/master/LICENSE.md) and then go forth and spread the good Git and GitHub news.

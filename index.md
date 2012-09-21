@@ -4,9 +4,9 @@ title: Home • Welcome
 description: A comprehensive set of course materials used to teach Git and GitHub.
 ---
 
-<h1>GitHub Official Teaching Materials</h1>
+<h1>GitHub Official Teaching Materials (BETA)</h1>
 <div class="left">
-  <p>This is the official set of <a href="http://github.com/training/">GitHub Training</a> courseware including outlines, topic-specific guides, examples, and slides provided under the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">_CC BY-NC-SA 3.0_ license</a> to aid schools, universities, user groups, hackathons, corporate lunch-and-learns and other educational outlets in teaching Git and GitHub. In short, you should take these materials and <a href="http://en.wikipedia.org/wiki/A_rising_tide_lifts_all_boats">make the development world a better place</a> by leveraging them to teach a class or give a conference talk. Do a quick check that you are using the materials in the <a href="https://github.com/github/teach.github.com/blob/master/LICENSE.md">spirit of the license</a> and then go forth and spread the good Git and GitHub news.</p>
+  <p>This is the official set of <a href="http://github.com/training/">GitHub Training</a> courseware including outlines, topic-specific guides, examples, and slides provided under the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0 license</a> to aid schools, universities, user groups, hackathons, corporate lunch-and-learns and other educational outlets in teaching Git and GitHub. In short, you should take these materials and <a href="http://en.wikipedia.org/wiki/A_rising_tide_lifts_all_boats">make the development world a better place</a> by leveraging them to teach a class or give a conference talk. Do a quick check that you are using the materials in the <a href="https://github.com/github/teach.github.com/blob/gh-pages/LICENSE.md">spirit of the license</a> and then go forth and spread the good Git and GitHub news.</p>
 
   <blockquote>A rising tide lifts all boats  – John F. Kennedy</blockquote>
 
