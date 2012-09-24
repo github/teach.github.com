@@ -1,0 +1,121 @@
+## Git-ing away from SVN
+
+If you like using [Subversion](http://subversion.apache.org), that's awesome. We won't fault you for it (a lot). If SVN isn't enough and you'd like to migrate to Git, here's an overview of the 'What', 'Why' and 'How'. 
+
+Maybe a move to Git started with a few questions at work. Change is hard, even in software, and Git usually causes enough consternation that a few typical questions arise. We'll try to answer those, too.
+
+### Why switch
+
+Also known as "What's the justification", the "Why" question is common in a well established team. You're already using something - maybe it works but gets corrupted every once in a while, or is hard to administer - and introducing Git is feared because the folks in charge are afraid it's only going to get worse. And someone has to appease the folks writing the checks, too.
+
+We've seen this phrased the following ways (if you have any additional examples, [submit a pull request](http://some_link_to_the_repo_at_github.com)). 
+
+> Please provide justifications for the \[using Git\] (e.g. We should use XXX because..., and XXX is better than the others because ...)
+> 
+
+Let's ask [Git itself](http://git-scm.com/about):
+> The Git feature that really makes it stand apart from nearly every other SCM out there is its branching model.
+>
+> Git allows and encourages you to have multiple local branches that can be entirely independent of each other. The creation, merging, and deletion of those lines of development takes seconds.
+
+In practical terms, Git's branching powers may give your developers more options and freedom in their styles of applying version control. Create a branch, blow it away, merge it into master with the world's greatest feature, or submit a simple bug fix. It can all be done with branches and it's only a few clicks and key presses away. And you don't have to worry about being too far out of sync with the one golden master.
+
+> Notably, when you push to a remote repository, you do not have to push all of your branches. You can choose to share just one of your branches, a few of them, or all of them. This tends to free people to try new ideas without worrying about having to plan how and when they are going to merge it in or share it with others.
+
+Git can 'free people' to be more productive, to experiment, to solve more problems. We like the sound of that. 
+
+#### MOAR Justifications
+
+1. [Git is small and fast](http://git-scm.com/about/small-and-fast).
+2. Distributed version controls gives you [lots of alternatives and workflow options](http://git-scm.com/about/small-and-fast). Not to mention multiple repositories, in case hard drives get lost or corrupted. Even though we all know [that never happens](http://www.zdnet.com/blog/storage/data-corruption-is-worse-than-you-know/191).
+3. Free as in free. [Git uses a GPLv2 license], which gives you lots of options. And plenty of freedom. There are free to read books such as [Pro Git](http://git-scm.com/book), a massively popular and wonderful hosting solution in [GitHub](http://github.com), tons of [great resources and documentation](http://git-scm.com/documentation/external-links) and even free tools for [using](http://code.google.com/p/tortoisegit/) or [hosting Git yourself][gitorious] (Be sure to check the References section of this page for other hosting solutions).
+
+### Suggested workflows
+
+Git's flexibility is intriguing. But too many choices can also paralyze. If you're workflow is pretty standard with another version control tool (i.e. check out the repo, make a change, commit it, resolve conflicts), here's a few good suggestions and references for Git-based workflows.
+
+#### The GitHub Flow
+
+Scott Chacon's [blog post on the 'GitHub Flow'](http://scottchacon.com/2011/08/31/github-flow.html) is a great reference for those looking at potential workflows. It boils down to the following:
+> * Anything in the master branch is deployable
+> * To work on something new, create a descriptively named branch off of master (ie: new-oauth2-scopes)
+> * Commit to that branch locally and regularly push your work to the same named branch on the server
+> * When you need feedback or help, or you think te branch is ready for merging, open a pull request
+> * After someone else has reviewed and signed off on the feature, you can merge it into master
+> * Once it is merged and pushed to ‘master’, you can and should deploy immediately
+
+
+#### git-flow
+
+In the aforementioned post on GitHub's choice of workflow, Scott starts off by discussing [git-flow](https://github.com/nvie/gitflow) - a set of Git extensions created after a series of ideas laid out by [Vincent Driessen](http://nvie.com/about/) in his blog post ['A successful git branching model'](http://nvie.com/posts/a-successful-git-branching-model/). Scott specifically points out some of the issues with using git-flow, so read the full post to get all the details. You may also want to avoid git-flow as it could [encourage long run feature branches](https://twitter.com/jmctee/status/240495167616978944), unless formal releases on a long scale (months) is part of your plan or requirements.
+
+#### The simplest thing that could work
+
+>Git itself is fairly complex to understand, making the workflow that you use with it more complex than necessary is simply adding more mental overhead to everybody’s day. I would always advocate using the simplest possible system that will work for your team and doing so until it doesn’t work anymore and then adding complexity only as absolutely needed. - Scott Chacon
+
+A Google search for ['simple git workflow']() returns over 500k results. Have we mentioned that Git's freedom results in lots of good information being shared all over the place? Whether it's a [hack && ship](http://jonrohan.me/guide/git/dead-simple-git-workflow-for-agile-teams/) or straight out of the [git man pages](http://www.kernel.org/pub/software/scm/git/docs/gitworkflows.html), there's a good starting point for your team out there somewhere. Just take Chacon's advice and start with something simple, then level up as needed. 
+
+#### Using Git in the desert
+
+What if you can't setup a git repository or hosting solution where you deliver your code and can only bring in a copy of your repository, in order to be able to make last minute changes? Let's just pretend we're going on safari and need to deploy some code in the middle of the desert to our [remote controlled robot camera](http://www.burrard-lucas.com/beetlecam).
+
+##### Help Matthew, not sure what a good answer is on this one. Use case is bringing 'unsafe' code into a 'safe' or offline environment.
+
+### Q & A
+
+* How do I manage multiple projects with Git?
+
+Use a Git hosting solution, like [GitHub][github] or [gitorious][gitorious].
+
+* Can I manage and use common and third party libraries with Git?
+
+Probably, but a Maven-compatible artifact repository like [Nexus](http://www.sonatype.org/nexus/) or [Artifactory](http://www.jfrog.com/home/v_artifactory_opensource_overview) may be a better option (for Java-based projects at least). 
+
+* Can I use Git to store test data? 
+
+If by 'test data' you mean 'large binary files that don't often change', then the answer is 'Yes!'. [git-submodules](http://git-scm.com/docs/git-submodule) may be just what you need. 
+
+* How do I manage different development environments (Eclipse, Netbeans, Ant, etc) with Git?
+
+Hopefully you're not checking in your .project files, right? At any rate, different branches may be what you need here. 
+
+### Git versus the World
+
+Quick differences between git and these:
+ 
+>Possible systems to evaluate:
+>Git
+>Mercurial
+>Bazaar
+>Monotone
+>SVN (Must include how to ensure corruptions don’t happen; not just an early detection mechanism)
+>CVS
+>Perforce
+>ClearCase
+>Others….
+ 
+### References
+
+#### Internal Hosting
+
+We all wish we could use [GitHub] [github]. If you're behind a firewall or in a restrictive environment, though, the public Internet site may not work. 
+Thankfully, [GitHub] [github] offers an [enterprise version](https://enterprise.github.com) that gives you the best of both worlds. [@devnulled's GitHub Enterprise overview](https://github.com/github/teach.github.com/blob/gh-pages/resources/GitHub-Enterprise.md) has lots of good reasons why GitHub Enterprise could benefit your team and organization.
+
+Here's a few other options for hosting Git yourself:
+* [Gitorious][gitorious] - "The Git hosting software that you can install yourself."
+* [Gitlab](http://gitlabhq.com) - a Rails based solution for hosting Git. Fast, secure and stable with releases every month.
+* [Gitolite](https://github.com/sitaramc/gitolite) - control everything yourself using gitolite. All it needs is git, perl, openssh and a *nix distro and you're off and running.
+
+#### Links
+
+[GitHub][github] the best place to share code with friends, co-workers, classmates, and complete strangers. 
+
+ [github]: http://github.com "GitHub"
+
+[10 things I hate about git][10-things] - - 10 things I hate about git. 
+
+[10-things]: https://steveko.wordpress.com/2012/02/24/10-things-i-hate-about-git/ "10 things I hate about Git"
+
+[gitorious]: http://gitorious.org
+
+[gitimmersion]: http://gitimmersion.com
