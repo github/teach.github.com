@@ -8,7 +8,7 @@ Maybe a move to Git started with a few questions at work. Change is hard, even i
 
 Also known as "What's the justification", the "Why" question is common in a well established team. You're already using something - maybe it works but gets corrupted every once in a while, or is hard to administer - and introducing Git is feared because the folks in charge are afraid it's only going to get worse. And someone has to appease the folks writing the checks, too.
 
-We've seen this phrased the following ways (if you have any additional examples, [submit a pull request](http://some_link_to_the_repo_at_github.com)). 
+We've seen this phrased the following ways (if you have any additional examples, [submit a pull request](https://help.github.com/articles/using-pull-requests)). 
 
 > Please provide justifications for the \[using Git\] (e.g. We should use XXX because..., and XXX is better than the others because ...)
 > 
@@ -65,34 +65,31 @@ What if you can't setup a git repository or hosting solution where you deliver y
 
 * How do I manage multiple projects with Git?
 
-Use a Git hosting solution, like [GitHub][github] or [gitorious][gitorious].
+	Use a Git hosting solution, like [GitHub][github] or [gitorious][gitorious].
 
 * Can I manage and use common and third party libraries with Git?
 
-Probably, but a Maven-compatible artifact repository like [Nexus](http://www.sonatype.org/nexus/) or [Artifactory](http://www.jfrog.com/home/v_artifactory_opensource_overview) may be a better option (for Java-based projects at least). 
+	Probably, but a Maven-compatible artifact repository like [Nexus](http://www.sonatype.org/nexus/) or [Artifactory](http://www.jfrog.com/home/v_artifactory_opensource_overview) may be a better option (for Java-based projects at least). 
 
 * Can I use Git to store test data? 
 
-If by 'test data' you mean 'large binary files that don't often change', then the answer is 'Yes!'. [git-submodules](http://git-scm.com/docs/git-submodule) may be just what you need. 
+	If by 'test data' you mean 'large binary files that don't often change', then the answer is 'Yes!'. [git-submodules](http://git-scm.com/docs/git-submodule) may be just what you need. 
 
 * How do I manage different development environments (Eclipse, Netbeans, Ant, etc) with Git?
 
-Hopefully you're not checking in your .project files, right? At any rate, different branches may be what you need here. 
+	Hopefully you're not checking in your .project files, right? At any rate, different branches may be what you need here. 
 
 ### Git versus the World
 
-Quick differences between git and these:
- 
->Possible systems to evaluate:
->Git
->Mercurial
->Bazaar
->Monotone
->SVN (Must include how to ensure corruptions don’t happen; not just an early detection mechanism)
->CVS
->Perforce
->ClearCase
->Others….
+Git certainly isn't the only distributed version control tool available. As usual, [there's a wikipedia page][version_compare] with a table outlining the differences between Git and other options (Bazaar, Mercurial, SVN, etc) that may be useful for a quickly spotlighting different options. 
+
+If you have additional feedback on the differences between git and other systems, let us know. 
+
+#### Git's not for everyone
+
+We get it. Software developers are known to be picky about the tools they use, and rightly so. So if we haven't swayed you with this document, let us know what it is about Git that doesn't work for you. Maybe there is an alternative that just fits better, but if Git can be improved, that's good to know.
+
+Steve Bennett's [blog post on "10 things I hate about git"](https://steveko.wordpress.com/2012/02/24/10-things-i-hate-about-git/) is one approach to doing just that. His blog got a lot of attention in early 2012 and part of that included additional tips and tricks to help ease his pain, so take a look to get his perspective as one example of a rare someone who wasn't enamored with Git. 
  
 ### References
 
@@ -108,13 +105,17 @@ Here's a few other options for hosting Git yourself:
 
 #### Links
 
-[GitHub][github] the best place to share code with friends, co-workers, classmates, and complete strangers. 
+[GitHub][github] - the best place to share code with friends, co-workers, classmates, and complete strangers. 
 
  [github]: http://github.com "GitHub"
 
-[10 things I hate about git][10-things] - - 10 things I hate about git. 
+[10 things I hate about git][10-things] - "10 things I hate about git"  
 
 [10-things]: https://steveko.wordpress.com/2012/02/24/10-things-i-hate-about-git/ "10 things I hate about Git"
+
+[Comparison of Version Control Software][version_compare] - Wikipedia
+
+[version_compare]: http://en.wikipedia.org/wiki/Comparison_of_revision_control_software
 
 [gitorious]: http://gitorious.org
 
