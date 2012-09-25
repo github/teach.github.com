@@ -85,11 +85,19 @@ Git certainly isn't the only distributed version control tool available. As usua
 
 If you have additional feedback on the differences between git and other systems, let us know. 
 
-#### Git's not for everyone
+#### I just can't Git you
 
 We get it. Software developers are known to be picky about the tools they use, and rightly so. So if we haven't swayed you with this document, let us know what it is about Git that doesn't work for you. Maybe there is an alternative that just fits better, but if Git can be improved, that's good to know.
 
 Steve Bennett's [blog post on "10 things I hate about git"](https://steveko.wordpress.com/2012/02/24/10-things-i-hate-about-git/) is one approach to doing just that. His blog got a lot of attention in early 2012 and part of that included additional tips and tricks to help ease his pain, so take a look to get his perspective as one example of a rare someone who wasn't enamored with Git. 
+
+#### But wait there's more
+
+If you want to stick with SVN, but maybe start to try out Git before you fully commit, there are options. 
+
+[git-svn](http://www.kernel.org/pub/software/scm/git/docs/git-svn.html) is a simple option and comes built in to git itself. There's a [simple overview and guide](http://learn.github.com/p/git-svn.html) over at Github itself if you're interested. But be aware that there are limitations that you should understand before you go too far down this path.
+
+Thankfully, the idea of using git and SVN together is popular enough to warrant several solutions. [SubGit](http://subgit.com) offers "smooth, stress-free Svn to Git migration". And it runs on the server side, so you can avoid client-side tweaks and some of the other major limitations of git-svn. If nothing else, SubGit offers great "let's give it a shot" potential that may be enough to eventually win over those in doubt.
  
 ### References
 
