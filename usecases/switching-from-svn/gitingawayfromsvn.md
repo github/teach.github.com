@@ -48,7 +48,7 @@ Scott Chacon's [blog post on the 'GitHub Flow'](http://scottchacon.com/2011/08/3
 * Anything in the `master` branch should be deployable at any time.
 * To work on something new, create a descriptively named branch off of master (ie: `new-oauth2-scopes`).
 * Commit to that branch locally, and regularly push your work to the same named branch on the server.
-* When you need feedback or help, or you think te branch is ready for merging, open a [pull request](TODO).
+* When you need feedback or help, or you think te branch is ready for merging, open a [pull request](https://help.github.com/articles/using-pull-requests).
 * After someone else has reviewed and signed off on the feature, merge it into `master`.
 * Once it is merged and pushed to `master`, you can and should deploy immediately
 
