@@ -114,7 +114,8 @@ Thankfully, the idea of using git and SVN together is popular enough to warrant 
 We all wish we could use [GitHub] [github]. If you're behind a firewall or in a restrictive environment, though, the public Internet site may not work. 
 Thankfully, [GitHub] [github] offers an [enterprise version](https://enterprise.github.com) that gives you the best of both worlds. [@devnulled's GitHub Enterprise overview](https://github.com/github/teach.github.com/blob/gh-pages/resources/GitHub-Enterprise.md) has lots of good reasons why GitHub Enterprise could benefit your team and organization.
 
-Here's a few other options for hosting Git yourself:
+Here's a few other options for hosting Git yourself
+
 * [Gitorious][gitorious] - "The Git hosting software that you can install yourself."
 * [Gitlab](http://gitlabhq.com) - a Rails based solution for hosting Git. Fast, secure and stable with releases every month.
 * [Gitolite](https://github.com/sitaramc/gitolite) - control everything yourself using gitolite. All it needs is git, perl, openssh and a *nix distro and you're off and running.
