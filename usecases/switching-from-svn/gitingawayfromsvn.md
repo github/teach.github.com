@@ -7,7 +7,7 @@ description: A journey from Subversion to Git and the challenges that are likely
 
 # Git-ing away from SVN
 
-If you like using [Subversion](http://subversion.apache.org), that's awesome. We won't fault you for it (a lot). If SVN isn't enough and you'd like to migrate to Git, here's an overview of the 'What', 'Why' and 'How'. 
+If you like using [Subversion](http://subversion.apache.org), that's awesome. If SVN isn't enough and you'd like to migrate to Git, here's an overview of the 'What', 'Why' and 'How'. 
 
 Maybe a move to Git started with a few questions at work. Change is hard, even in software, and Git usually causes enough concern that a few concerns arise. We'll try to answer those concerns with answers derived from experience.
 
