@@ -1,5 +1,6 @@
 ---
 layout: bare
+category: outline
 title: Courses • Complete Class Plan
 description: A directed curriculum plan through all our courseware topics.
 ---

@@ -1,5 +1,6 @@
 ---
 layout: bare
+category: email
 title: Courses • GitHub Git Online Training Preparation
 description: Installation, setup, and configuration prior to attending an online Git and GitHub workshop.
 ---
@@ -44,12 +45,11 @@ On class day, please sign in 15 minutes before the scheduled class start time.  
 My training team colleagues and I are happy to field logistics questions prior to class.  Just drop us a line at [training@github.com](mailto:training@github.com).
 
 
-Sincerely,
-TRAINER
-GitHub:Training
-http://github.com/training
-Author of O'Reilly's Git Master Class
-http://bit.ly/ogitvid
-http://bit.ly/ogitvid2
-Co-Author of O'Reilly Version Control with Git Book
+Sincerely,  
+GitHub:Training  
+http://github.com/training  
+O'Reilly's Git Master Class  
+http://bit.ly/ogitvid  
+http://bit.ly/ogitvid2  
+O'Reilly's Version Control with Git Book  
 http://bit.ly/ogitbook
