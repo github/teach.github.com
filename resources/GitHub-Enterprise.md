@@ -1,3 +1,9 @@
+---
+layout: bare
+title: Topics • GitHub Enterprise Features
+description: What features does GitHub Enterprise offer that help management in their purchase decision making?
+---
+
 # GitHub Enterprise
 
 What is [GitHub Enterprise](https://enterprise.github.com/)?  It's all of the features of [github.com](http://github.com) hosted as a virtual machine on your own servers.
