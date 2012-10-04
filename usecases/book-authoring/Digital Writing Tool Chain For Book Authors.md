@@ -1,3 +1,10 @@
+---
+layout: bare
+category: usecase
+title: Use Case • Book Authoring on Git and GitHub
+description: Formats, tips and techniques for using Git and GitHub to write short and long form books.
+---
+
 # Digital Toolchain for Book Authors
 
 ## Text markup and structure
