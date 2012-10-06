@@ -7,7 +7,7 @@ description: Continuously building and testing your code.
 # Continuous Integration
 
 ## Bamboo
-Git support is available as a [plugin for Bamboo](http://www.atlassian.com/software/bamboo/tour/bamboo-plugin.jsp]
+Git support is available as a [plugin for Bamboo](http://www.atlassian.com/software/bamboo/tour/bamboo-plugin.jsp)
 
 [The Git plugin](https://plugins.atlassian.com/plugin/details/9510) was authored by Kristian Rosenvold of Zenior AS in Norway and Don Brown of Atlassian.
 
