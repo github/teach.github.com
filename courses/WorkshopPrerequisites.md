@@ -1,3 +1,10 @@
+---
+layout: bare
+title: Courses • Git and GitHub Class Prerequisites
+description: Installation, setup, and configuration prior to attending a Git and GitHub workshop.
+---
+
+
 Git and GitHub Class Prerequisites
 ============================================
 This document outlines the requirements for preparing your account and laptop prior to class.  It may be required that you escalate to administrative privileges for the tool installations. It is common for development tools to require administrative privileges at installation time.

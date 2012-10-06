@@ -1,3 +1,10 @@
+---
+layout: bare
+title: Outlines • Advanced Git Workshop
+description: An advanced Git workshop outline and course plan.
+---
+
+
 # Advanced Git Workshop
 
 GeekOut Estonia, 2012-06-13  

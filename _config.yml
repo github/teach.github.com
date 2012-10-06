@@ -1,0 +1,28 @@
+# standard jekyll configuration
+
+permalink: /blog/:title
+pygments: true
+exclude: ['Rakefile', 'config.rb', 'README.md']
+markdown: rdiscount
+
+# configuration required for some pages
+
+domain: teach.github.com
+title: Teaching Materials for Git and GitHub
+author: The GitHub Training Team
+email: training@github.com
+
+# configuration for ehancements, uncomment to enable
+
+# feedburner:
+#   id: feedburnerid
+
+# google_analytics:
+#   account: UA-XXXXX-X
+
+github:
+    username: github/teach.github.com
+
+disqus:
+    id: githubteachingmaterials
+
