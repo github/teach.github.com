@@ -21,7 +21,7 @@ Or squashing all the commits into one, even if a fast forward:
 Merge conflict. How do we fix it? How do we continue?
 
     git add
-    git merge --continue
+    git commit
     
 Or aborting
 

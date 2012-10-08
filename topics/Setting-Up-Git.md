@@ -10,13 +10,13 @@ description: Git binaries and basic configuration.
 
 ### On UNIX
 
-  * Compiling from Source
+* Compiling from Source
     * [Web UI to browse source](http://git.kernel.org/?p=git/git.git;a=summary)
     * Git repo for source: `git://git.kernel.org/pub/scm/git/git.git`
     * Zipped source packages: `http://kernel.org/pub/software/scm/git/`
     * Run `make`
     * Then run `make install`
-  * Binaries from a Package manager
+ * Binaries from a Package manager
     * `apt-get git-core`
     * `apt-get git-gui`
     * `apt-get git-doc`
@@ -24,17 +24,16 @@ description: Git binaries and basic configuration.
 
 ### On Mac
 
+  * [git-osx-installer](http://code.google.com/p/git-osx-installer/) (precompiled)
   * [MacPorts](http://www.macports.org/) (user-compiled)
   * [HomeBrew](http://github.com/mxcl/homebrew) (user-compiled)
-  * [git-osx-installer](http://code.google.com/p/git-osx-installer/) (precompiled)
 
 ### On Windows
 
-  * Two [msysGit](http://code.google.com/p/msysgit/) choices: a full toolkit, or just a precompiled distribution.
-  * [Precompiled](http://msysgit.googlecode.com/files/Git-1.7.3.1-preview20101002.exe) is named "Git-XXXexe"
-  * [Full toolkit](http://msysgit.googlecode.com/files/msysGit-fullinstall-1.7.3.1-preview20101002.exe) with gcc compiler is named "msysGit-fullinstall-XXX.exe"
+  * Two [msysGit](http://msysgit.github.com) choices: a full toolkit, or just a precompiled distribution.
+  * [Precompiled](http://code.google.com/p/msysgit/downloads/list?q=full+installer+official+git) is named "Git-XXXexe"
   
-If you get stuck, a series of [help pages at GitHub](http://help.github.com/) are almost certain to assist.
+If you get stuck, the [help pages at GitHub](http://help.github.com/) can assist.
 
 
 ## Configuring your Git username and email address
