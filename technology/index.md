@@ -1,9 +1,9 @@
 ---
 layout: categorycontents
-title: List of Technical Topics
-description: Posts on technical topics for Git and GitHub classes.
-categories: ['techtopics']
+title: List of Technology Topics
+description: Posts on technology topics for Git and GitHub classes.
+categories: ['technology']
 ---
 
-{% assign selectedcategory = site.categories.techtopics %}
+{% assign selectedcategory = site.categories.technology %}
 {% include categorycontents %}
