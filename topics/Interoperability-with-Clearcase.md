@@ -6,7 +6,7 @@ description: Git's interoperability with ClearCase.
 
 # ClearCase Interoperability
 * Conversion Tools
-  * [CMBridge](http://www.clearvision-cm.com/version-control-connectors/cmbridge/ash_flypage.tpl.html)
+  * [CMBridge](http://www.clearvision-cm.com/clearcase-subversion-git-mercurial-integration.html)
     * Commercial tool
     * Round-trip conversion
     * SVN and Git support
@@ -34,3 +34,5 @@ description: Git's interoperability with ClearCase.
     * Write your own scripts
     * git fast-import
   
+  * [A ClearCase for Git blog post](http://blog.charleso.org/2008/10/clearcase-for-git.html/) and associated [code](https://github.com/charleso/git-cc/tree/master)
+  * 

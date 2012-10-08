@@ -92,7 +92,7 @@ So, how can this be done in a more reasonable way?
 2. Write 5% of the book based on passion.
 3. Level two bullets. See impact on level 1. Revise. Review.
 4. Consider the outline locked unless there is something massively broken.
-5. [Write a crappy first draft](http://www.mywritingmylife.com/2011/11/on-writing-the-shitty-first-draft.php) with high velocity.
+5. [Write a crappy first draft](http://www.mywritingmylife.com/blog/2011/11/22/on-writing-the-shitty-first-draft/) with high velocity.
 6. Stick to the outline. If you need to change it, change it, but don't let the prose drive the plan.
 
 ## Writing Hacks

@@ -10,4 +10,4 @@ Your contributions are very welcomed. We'd love to see many universities, high s
 
 We're excited to see where our curriculum goes, having created it in the open spirit of [Khan Academy](http://www.khanacademy.org), [Git Immersion](http://gitimmersion.com), [Ruby Koans](http://rubykoans.com), [Coursera](https://www.coursera.org), and [MIT Open Courseware](http://ocw.mit.edu/index.htm).
 
-Read more about our vision for these materials [the README](http://teach.github.com/README.html).
+Read more about our vision for these materials in [the README](https://github.com/github/teach.github.com/blob/gh-pages/README.md).

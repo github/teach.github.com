@@ -81,5 +81,5 @@ There are many options for both managing source code on GitHub as well as keepin
 
 ### Unofficial Clients
 
-* [Unoffical GitHub Client for iPhone](http://dbloete.github.com/ioctocat/)
+* [Unoffical GitHub Client for iPhone](https://github.com/dennisreimann/ioctocat)
 * [Unofficial GitHub Client for Android](http://www.gandroidmix.com/hubdroid/)

@@ -14,8 +14,8 @@ Uber-geeks are magic-slayers. We want and need to know precisely how things work
 
 Links
 --------------------------------
-* [Talk Outline, Guide](teach.github.com)
-* [Office Hours](http://github.com/training/free)
+* [Talk Outline, Guide](http://teach.github.com)
+* [Office Hours](http://training.github.com/web/free-classes/)
 * [ProGit Chapter on Git Guts](http://git-scm.com/book/en/Git-Internals-Git-Objects)
 * [Slides](https://speakerdeck.com/u/matthewmccullough/p/git-graphs-hashes-and-compression-oh-my-1)
 
