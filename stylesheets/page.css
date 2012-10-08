@@ -235,8 +235,7 @@ h2 {
 
 h3 {
   color: #636363;
-  border-bottom: 1px solid #636363;
-  text-transform: lowercase; }
+  border-bottom: 1px solid #636363; }
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none; }
@@ -363,6 +362,22 @@ h2 {
   #pages li, #posts li {
     line-height: 1.25;
     margin: 5px 0; }
+
+.relatedposts {
+  font-size: 10px;
+  padding: 5px 5px;
+  margin: 0;
+  line-height: 1;
+  border-radius: 0;
+  background-image: -webkit-gradient(linear, 75% 25%, 75% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #e5e5e5));
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #e5e5e5);
+  background-image: -moz-linear-gradient(top, #f2f2f2, #e5e5e5);
+  background-image: -o-linear-gradient(top, #f2f2f2, #e5e5e5);
+  background-image: linear-gradient(top, #f2f2f2, #e5e5e5);
+  border: 1px solid #DDD;
+  border-right: none;
+  border-left: none;
+  box-shadow: inset 0 1px 0 white, inset 0 0 3px rgba(255, 255, 255, 0.7), 0 1px 0 rgba(0, 0, 0, 0.02); }
 
 .right {
   float: right; }

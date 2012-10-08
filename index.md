@@ -40,7 +40,7 @@ description: A comprehensive set of course materials used to teach Git and GitHu
   <h2><span class="pictos">\</span>Blog Posts</h2>
   <div id="posts">
     <ul>
-      {% for post in site.posts %}
+      {% for post in site.categories.blog %}
         <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>

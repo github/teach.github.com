@@ -301,7 +301,6 @@ h2 {
 h3 {
   color: #636363;
   border-bottom: 1px solid #636363;
-  text-transform: lowercase;
 }
 
 a:link,a:visited,a:hover,a:active {
@@ -461,6 +460,24 @@ h2 {
     line-height: 1.25;
     margin: 5px 0;
   }
+}
+
+.relatedposts {
+  font-size: 10px;
+
+  padding: 5px 5px;
+  margin: 0;
+  line-height: 1;
+  border-radius: 0;
+  background-image: -webkit-gradient(linear, 75% 25%, 75% 100%, color-stop(0%, #F2F2F2), color-stop(100%, #E5E5E5));
+  background-image: -webkit-linear-gradient(top, #F2F2F2, #E5E5E5);
+  background-image: -moz-linear-gradient(top, #F2F2F2, #E5E5E5);
+  background-image: -o-linear-gradient(top, #F2F2F2, #E5E5E5);
+  background-image: linear-gradient(top, #F2F2F2, #E5E5E5);
+  border: 1px solid #DDD;
+  border-right: none;
+  border-left: none;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,1), inset 0 0 3px rgba(255,255,255,.7), 0 1px 0 rgba(0,0,0,.02);
 }
 
 .right {
