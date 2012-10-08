@@ -1,11 +1,11 @@
 ---
 layout: barewithrelated
 title: Resources TODO
-description: What else shoudl be in the Resources category?
+description: What else should be in the Resources category?
 ---
 
 # Resources
-Items that are not directly part of the curriculum outline, but supporting learning about or applying Git in a team.
+Items that are not directly part of the curriculum outline, but support learning about or applying Git in a team.
 
 ## Items 
 * Release Notes
