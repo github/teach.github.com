@@ -34,7 +34,7 @@ Git can 'free people' to be more productive, to experiment, to solve more proble
 
 1. [Git has a small disk and memory footprint and is very fast](http://git-scm.com/about/small-and-fast).
 2. Distributed version controls gives you [many workflow options](http://git-scm.com/about/small-and-fast). It even naturally created redundant repositories, in case hard drives get lost or corrupted. This [happens more frequently](http://www.zdnet.com/blog/storage/data-corruption-is-worse-than-you-know/191) than you'd like to believe.
-3. Git is free. [Git uses a GPLv2 license] allowing for it to be used in any commercial or non-commercial environment. There are free-to-read books such as [Pro Git](http://git-scm.com/book), a popular hosting solution in [GitHub](http://github.com), comprehensive [resources and documentation](http://git-scm.com/documentation/external-links) and even free tools for [graphically working with](http://code.google.com/p/tortoisegit/) or [hosting Git yourself][gitorious]. Check the References section of this page for other hosting solutions.
+3. Git is free. [Git uses a GPLv2 license](https://github.com/git/git/blob/master/COPYING) allowing for it to be used in any commercial or non-commercial environment. There are free-to-read books such as [Pro Git](http://git-scm.com/book), a popular hosting solution in [GitHub](http://github.com), comprehensive [resources and documentation](http://git-scm.com/documentation/external-links) and even free tools for [graphically working with](http://code.google.com/p/tortoisegit/) or [hosting Git yourself][gitorious]. Check the References section of this page for other hosting solutions.
 
 ## Suggested workflows
 
