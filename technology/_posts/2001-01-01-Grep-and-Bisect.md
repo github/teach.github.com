@@ -1,19 +1,21 @@
 ---
 layout: bare
-title: Power Tools
+title: Grep and Bisect
 description: Git's history research tools.
 ---
 
-# Power Tools
+# Git Grep and Bisect
 
-## Searching in Code
+## Searching in Code with Grep
+
 Find text in the tracked files
 
     git grep
     git grep <TREEISH>
 
 
-## Finding a bug
+## Finding a bug with Bisect
+
 Start the process of finding a commit where tests broke
 
     git bisect start
@@ -46,3 +48,7 @@ If you wish to automate the run of the tests and marking boolean outcome (testin
 Diagram the result of testing
 
     git bisect visualize
+
+### Bisect Video
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/dy21sMRV-To?rel=0" frameborder="0" allowfullscreen></iframe>
