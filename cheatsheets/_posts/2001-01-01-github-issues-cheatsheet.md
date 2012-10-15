@@ -1,13 +1,24 @@
-# GitHub Issues Shortcut words
+---
+layout: barewithrelated
+title: Git and GitHub Cheat Sheets
+description: Cheat sheets and quick references for Git and GitHub commands.
+tags: [reference, cheatsheet]
+---
 
-http://eclipsesource.com/blogs/2012/08/28/tips-and-tricks-using-eclipse-with-github/
-https://github.com/blog/831-issues-2-0-the-next-generation
+# GitHub Issues Shortcuts
 
-In addition to #<issue_number>, several other annotations can be used in a Git commit. For example, if you say fixes #<issue_number> in a commit message, the issue will be automatically closed when the commit is pushed back to GitHub.  Other synonyms include:
+* An Eclipse article on [tips and tricks of using Eclipse with GitHub](http://eclipsesource.com/blogs/2012/08/28/tips-and-tricks-using-eclipse-with-github/), including the use of the Mylin connector.
+* The [GitHub Eclipse](http://eclipse.github.com) page.
 
-		fixes #xxx
-		fixed #xxx
-		fix #xxx
-		closes #xxx
-		close #xxx
-		closed #xxx
+## Comment message keywords
+
+GitHub [Issues 2.0](https://github.com/blog/831-issues-2-0-the-next-generation) supports manipulating the state of issues with keywords in commit messages.
+
+In addition to `#<issue_number>`, several other annotations can be used in a Git commit. For example, if you say `fixes #<issue_number>` in a commit message, the issue will be automatically closed when the commit is pushed back to GitHub.  Other synonyms include:
+
+    fixes #xxx
+    fixed #xxx
+    fix #xxx
+    closes #xxx
+    close #xxx
+    closed #xxx
