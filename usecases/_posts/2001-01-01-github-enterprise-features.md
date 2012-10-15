@@ -16,6 +16,10 @@ Here are the major features of GitHub Enterprise:
 * [Collaboration & Project Management](https://github.com/features/projects/collaboration)
 * [Wiki's](https://github.com/features/projects/wikis)
 * [Issue Tracking](https://github.com/features/projects/issues) - [more details](https://github.com/blog/831-issues-2-0-the-next-generation)
+* [Subversion bridge](https://github.com/blog/1239-github-enterprise-11-10-280-release)
+* [Windows client app](http://windows.github.com) with "Clone in GitHub for Windows" buttons on repo pages.
+* [Mac client app](http://mac.github.com) with "Clone in GitHub for Mac" buttons on repo pages.
+
 
 ## Additional Features
 
@@ -31,7 +35,7 @@ This is by no means a complete list.  GitHub has a lot of nice little features t
 * [Auto-Updating Comments](https://github.com/blog/1174-auto-updating-comments)
 * [Subversion Client Support](https://github.com/blog/1178-collaborating-on-github-with-subversion)
 * [Searching and Filtering Stars](https://github.com/blog/1236-searching-and-filtering-stars)
-* 
+
 
 ## Features in Detail
 
@@ -51,8 +55,6 @@ Here is a summary of some of the features, both major and minor, found in GitHub
 * The ability of any permitted team member, no matter their skill, to fork code, edit it, and send a pull request in a controlled manner (not just the grant-them-access-to-the-core-repo approach).
 * HTML5 image diff (no plugin required)
 * Keyboard navigation in a web app (just hit ? for details)
-* The Fork Queue-- a list of all the commits in a repository's network and a visual indication of whether they will merge in cleanly.
-* You can commit merges easily online using the Fork Queue, even from mobile devices!
 * Extensible API allows you to perform various GitHub functionality programatically
 * Service Hooks allow you to integrate in and notify 3rd party resources such as Jira and Jenkins when actions within GitHub occur.  There are many, many supported 3rd party resources that are supported, and they provide an Open API so that you are able to write your own if needed.
 
