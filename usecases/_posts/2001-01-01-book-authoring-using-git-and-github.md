@@ -1,8 +1,18 @@
 ---
 layout: barewithrelated
-title: Book Authoring on Git and GitHub
-description: Formats, tips and techniques for using Git and GitHub to write short and long form books.
+title: Book Authoring Using Git and GitHub
+description: Formats, tips and techniques for using Git and GitHub as the verison control and collaborative platform for writing short and long form books.
 ---
+
+# Authoring Books on GitHub
+Git and GitHub are not just for writing programming code. They can also be an effective tool for writing articles and books. Matthew McCullough has written a quick [guide to writing books in lightweight formats](https://github.com/matthewmccullough/bookauthoringhowto). This article will be folded into this Teaching repository over the coming months.
+
+# What is this?
+This is a repository of ideas, techniques, tools and tricks on how to write a technical book. It was started by [Matthew McCullough](http://github.com/matthewmccullough), and added to by [Phil Haack](http://github.com/haacked), [Dan Allen](http://github.com/mojavelinux), [Neal Ford](http://github.com/nealford), and [Nate Schutta](http://github.com/ntschutta), and all the committers you'll see in the repo history. I just didn't want to hoard any knowledge that would help inspire others to write a technical book.
+
+# Inspirations
+The contents of this repo have been partly invented from colleague conversations at [O'Reilly](http://oreilly.com) during the [Gradle book](http://bit.ly/gradlebook1) with [Tim Berglund](http://augusttechnologygroup.com) and [Pearson](http://www.pearsoned.com) during the [Presentation Patterns](http://presentationpatterns.com) book, partly inspired by open source projects, and partly refactored from snippets from colleagues and friends. Many are attributed.
+
 
 # Digital Toolchain for Book Authors
 
@@ -130,13 +140,3 @@ Royalty and sales reporting typically sucks. Outdated sites that make Geocities 
 Basically, this could be the one stop shop for publishers and authors to collaborate on a book.
 
 _via Phil Haack_
-
-----------------
-Hope that helps.
-
-Matthew McCullough  
-[matthewm@ambientideas.com](mailto:matthewm@ambientideas.com)  
-[http://ambientideas.com/blog](http://ambientideas.com/blog)  
-[matthew@github.com](mailto:matthew@github.com)  
-[http://github.com/training](http://github.com/training)  
-[@matthewmccull](http://twitter.com/matthewmccull)
