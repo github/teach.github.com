@@ -1,18 +1,10 @@
 ---
 layout: bare
-title: Grep and Bisect
-description: Git's history research tools.
+title: Git Bisect
+description: Finding a regression in a repository's history
 ---
 
-# Git Grep and Bisect
-
-## Searching in Code with Grep
-
-Find text in the tracked files
-
-    git grep
-    git grep <TREEISH>
-
+# Git Bisect
 
 ## Finding a bug with Bisect
 
