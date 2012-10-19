@@ -1,3 +1,10 @@
+---
+layout: bare
+title: HTML5DevConf GitHub Workshop
+description: HTML5DevConf GitHub Workshop class notes
+tags: [notes, event]
+---
+
 # HTML5DevConf GitHub Workshop
 on 2012-10-17
 
