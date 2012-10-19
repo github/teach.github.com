@@ -31,7 +31,9 @@ description: A comprehensive set of course materials used to teach Git and GitHu
     <ul>
       {% for page in site.html_pages %}
         {% if page.title %}
-          <li><a href="{{ page.url | remove:'index.html' }}">{{ page.title }}</a></li>
+          {% if page.showinnav == true %}
+            <li><a href="{{ page.url | remove:'index.html' }}">{{ page.title }}</a></li>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </ul>
