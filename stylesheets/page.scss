@@ -428,18 +428,18 @@ h2 {
 
   .left {
     width: 70%;
+    box-shadow: inset -1px 0 0 0 #DDD;
 
     h2 {
+      border-right: 1px solid #DDD;
       padding: 2px 25px 12px 25px;
     }
   }
 
   .right {  
     width: 30%;
-    box-shadow: inset 1px 0 0 0 #DDD;
 
     h2 {
-      border-left: 1px solid #DDD;
      padding: 2px 25px 12px 25px;
     }
 
