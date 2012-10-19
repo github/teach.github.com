@@ -19,6 +19,7 @@ Taught by:
 * ProGit: http://git-scm.com/book
 * Getting started with Version Control: http://teach.github.com/articles/lesson-new-to-version-control/
 * Git Workflows: https://github.com/zkessin/dvcs-workflows
+* Cheat Sheets: http://teach.github.com/articles/git-cheatsheets/
 
 ## Course Materials, Links
 * Training Materials: http://teach.github.com

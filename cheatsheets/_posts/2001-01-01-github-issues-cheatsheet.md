@@ -1,7 +1,7 @@
 ---
 layout: barewithrelated
-title: Git and GitHub Cheat Sheets
-description: Cheat sheets and quick references for Git and GitHub commands.
+title: GitHub Issues Quick Reference
+description: Quick reference for GitHub Issues (bug tracking).
 tags: [reference, cheatsheet]
 ---
 
