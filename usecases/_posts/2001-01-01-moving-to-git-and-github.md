@@ -46,7 +46,7 @@ As listed on <https://github.com/> and <https://enterprise.github.com/>, the fol
 It was reported by the GitHub sales team that 20% of the [Fortune 100](http://money.cnn.com/magazines/fortune/fortune500/2011/) uses GitHub.
 
 ## Where can I find other public resources for learning Git?
-We've curated a set of Delicious bookmarks on [all things Git](http://delicious.com/matthew.mccullough/git) and [GitHub](http://delicious.com/matthew.mccullough/github).
+We've curated a set of Delicious bookmarks on [all things Git](https://pinboard.in/u:matthew.mccullough/t:git) and [GitHub](https://pinboard.in/u:matthew.mccullough/t:github).
 
 ------------
 

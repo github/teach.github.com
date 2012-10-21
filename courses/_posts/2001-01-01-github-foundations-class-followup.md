@@ -54,7 +54,7 @@ https://github.com/robbyrussell/oh-my-zsh
 
 ## Git Bookmarks
 
-http://delicious.com/matthew.mccullough/git
+https://pinboard.in/u:matthew.mccullough/t:git
 
 
 ## GitHub (Hub) Plugin for Git

@@ -16,11 +16,11 @@ The follow up materials from today's class are as follows:
 
 1. Today's Slides
 
-http://dl.dropbox.com/u/53401/github/Basics-of-GitHub.pdf
+http://teach.github.com/slides/
 
 2. Git Bookmarks
 
-http://delicious.com/matthew.mccullough/git
+https://pinboard.in/u:matthew.mccullough/t:git
 
 3. Today's Git Teaching Materials
 
@@ -43,21 +43,21 @@ http://help.github.com
 http://git-scm.com/book
 
 3. The free one-hour intro session offered approximately every one to four weeks
-https://github.com/training/free
+https://training.github.com/web/
 
 4. Office hours in which any Git or GitHub questions can be asked in a chat room
-https://github.com/training/free
+https://training.github.com/web/
 
 5. A full day online Git bootcamp
-http://github.com/training/online
+http://training.github.com/web/
 
 6. On-site custom Git training
-http://github.com/training
+http://training.github.com/in-person/
 
 
 Sincerely,  
 GitHub:Training  
-http://github.com/training  
+http://training.github.com  
 O'Reilly's Git Master Class  
 http://bit.ly/ogitvid  
 http://bit.ly/ogitvid2  

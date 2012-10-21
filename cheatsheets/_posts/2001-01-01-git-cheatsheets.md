@@ -9,7 +9,7 @@ tags: [reference, cheatsheet]
 
 Several sources for cheat sheets about Git and GitHub are as follows.
 
-* [Matthew's Delicious Git Cheatsheet Bookmarks](http://delicious.com/matthew.mccullough/git+cheatsheet)
+* [Matthew's Git Cheatsheet Bookmarks](https://pinboard.in/u:matthew.mccullough/t:git+cheatsheet)
 * [NDP Software Git Visual Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)
 * [Justin Hileman's Git Pretty Cheat Sheet](http://justinhileman.info/article/git-pretty/git-pretty.png)
 * Git Supervisual Cheat Sheet

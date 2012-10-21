@@ -86,7 +86,7 @@ As a command line productivity framework, I've become quite attached to oh-my-zs
 
 
 Git Bookmarks:  
-<http://delicious.com/matthew.mccullough/git>
+<https://pinboard.in/u:matthew.mccullough/t:git>
 
 
 GitHub (Hub) Plugin for Git:  
