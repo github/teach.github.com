@@ -31,7 +31,7 @@ We'll need a command line version of Git for use during class. The following ste
 ### and for _Windows_ Machines
 1. The preferred installation is from the Download button at:  
   <http://windows.github.com>
-2. The less feature-ful but potentially non-admin rights requiring download is at:  
+2. Another option for advanced users is to use MSysGit:
   <http://git-scm.com/download/win>
 
 ### and for _Mac OS X_ Machines
