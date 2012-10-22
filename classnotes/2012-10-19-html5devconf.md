@@ -230,13 +230,14 @@ from the terminal
     razic   yes but is a little tricky
     i'll show you how
 
-    razic   Skip Moore: https://github.com/razic/dotfiles/blob/mas…
+    razic   Skip Moore: https://github.com/razic/dotfiles/blob/master/.gitconfig
     because it's a tricky one, you have to specify !git first if you can see
     btw, the exclamation mark allows you to execute ANY shell command to a git alias
     
     Skip M. thanks so rm -rf could be alaised
     razic   yes, but why would you want rm -rf?
-    also here is more on git colors for those interested: http://git-scm.com/book/en/Customizing-Git…
+    also here is more on git colors for those interested:
+    http://git-scm.com/book/en/Customizing-Git-Git-Configuration#Colors-in-Git
     
     Quim G. Thank you for talking about the colors. I wanted to ask but I thought this was a problem in my terminal and the question was going too far from the got topic :)
     git topic
@@ -244,7 +245,7 @@ from the terminal
     razic   No problem. Colors in Git are extremely important to me.
     Did you check out my gitconfig?
     Jeff B. Can you send the gitconfig again? I joined after it was sent. Thanks
-    razic   https://github.com/razic/dotfiles/blob/mas…
+    razic   https://github.com/razic/dotfiles/blob/master/.gitconfig
     
     Skip M. what was the command is he talking about
     matthewmccullough   git add -p .
@@ -282,7 +283,7 @@ from the terminal
     
     Quim G. How do you get that treelive?
     11:05 AM
-    Scott R.    https://github.com/matthewmccullough/scrip… ?
+    Scott R.    https://github.com/matthewmccullough/scripts/blob/c9faaa4ede5136c4c87ea179f535680828e2e8f1/treelive ?
     Quim G. After 'git status' I get: # Not currently on any branch.
     brntbeer    Quim Gil: did you include the "-- first.txt"
     on the checkout command
