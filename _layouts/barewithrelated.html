@@ -1,0 +1,16 @@
+---
+layout: bare
+---
+
+{{ content }}
+
+<br/>
+
+<div id="relatedposts">
+  <h3 class="relatedposts">Related Posts</h3>
+  <ul class="relatedposts">
+    {% for post in site.related_posts limit:7 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

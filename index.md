@@ -1,6 +1,6 @@
 ---
 layout: bare
-title: Home • Welcome
+title: Welcome
 description: A comprehensive set of course materials used to teach Git and GitHub.
 ---
 
@@ -31,7 +31,9 @@ description: A comprehensive set of course materials used to teach Git and GitHu
     <ul>
       {% for page in site.html_pages %}
         {% if page.title %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+          {% if page.showinnav == true %}
+            <li><a href="{{ page.url | remove:'index.html' }}">{{ page.title }}</a></li>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </ul>
@@ -40,8 +42,8 @@ description: A comprehensive set of course materials used to teach Git and GitHu
   <h2><span class="pictos">\</span>Blog Posts</h2>
   <div id="posts">
     <ul>
-      {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% for post in site.categories.blog %}
+        <li><a href="{{ post.url }}/">{{ post.title }}</a><br/><span class="blogpostdate">{{ post.date | date_to_string }}</span></li>
       {% endfor %}
     </ul>
   </div>

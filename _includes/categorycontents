@@ -1,0 +1,10 @@
+<ul>
+{% for entry in selectedcategory %} 
+<section>
+<p>
+<a href="{{ entry.url }}/">{{ entry.title }}</a></br>
+  <em>{{ entry.description }}</em>
+</p>
+</section>
+{% endfor %}
+</ul>
