@@ -79,12 +79,12 @@ Git can 'free people' to be more productive, to experiment, to solve more proble
 ## Justifications
 
 1. [Git has a small disk and memory footprint and is very fast](http://git-scm.com/about/small-and-fast).
-2. Distributed version controls gives you [many workflow options](http://git-scm.com/about/small-and-fast). It even naturally created redundant repositories, in case hard drives get lost or corrupted. This [happens more frequently](http://www.zdnet.com/blog/storage/data-corruption-is-worse-than-you-know/191) than you'd like to believe.
-3. Git is free. [Git uses a GPLv2 license](https://github.com/git/git/blob/master/COPYING) allowing for it to be used in any commercial or non-commercial environment. There are free-to-read books such as [Pro Git](http://git-scm.com/book), a popular hosting solution in [GitHub](http://github.com), comprehensive [resources and documentation](http://git-scm.com/documentation/external-links) and even free tools for [graphically working with](http://code.google.com/p/tortoisegit/) or [hosting Git yourself][gitorious]. Check the References section of this page for other hosting solutions.
+2. Distributed version controls gives you [many workflow options](http://git-scm.com/about/small-and-fast). It provides naturally created redundant repositories, in case hard drives get lost or corrupted. This [happens more frequently](http://www.zdnet.com/blog/storage/data-corruption-is-worse-than-you-know/191) than you'd like to believe.
+3. Git is free. Git uses a [GPLv2 license](https://github.com/git/git/blob/master/COPYING) allowing for it to be used in any commercial or non-commercial environment. There are free-to-read books such as [Pro Git](http://git-scm.com/book), a popular hosting solution in [GitHub](http://github.com), comprehensive [resources and documentation](http://git-scm.com/documentation/external-links) and even free tools for [graphically working with](http://code.google.com/p/tortoisegit/) or [hosting Git yourself][gitorious]. Check the References section of this page for other hosting solutions.
 
 ## Suggested workflows
 
-Git's flexibility is intriguing. But too many choices can also paralyze. If you're workflow is pretty standard practice according to the prescriptions of another version control tool (i.e. check out the repository, make a change, commit it, resolve conflicts), here are a few suggestions and references for Git-based workflows.
+Git's flexibility is intriguing. But too many choices can also paralyze. If your workflow is pretty standard practice according to the prescriptions of another version control tool (i.e. check out the repository, make a change, commit it, resolve conflicts), here are a few suggestions and references for Git-based workflows.
 
 ### The GitHub Flow
 
@@ -110,7 +110,7 @@ A Google search for ['simple git workflow']() returns over 500k results. Have we
 
 ### Using Git in the desert
 
-What if you can't setup a Git repository or hosting solution where you deliver your code and can only bring in a copy of your repository, in order to be able to make last minute changes? Let's just say we're going on safari and need to deploy some code in the middle of the desert to our [remote controlled robot camera](http://www.burrard-lucas.com/beetlecam).
+What if you can't setup a Git repository or hosting solution where you deliver your code and can only bring in a copy of your repository, in order to be able to make last minute changes? Let's just say we're going on safari and need to deploy some code in the middle of the desert to our [remote controlled robot camera](http://www.burrard-lucas.com/beetlecam) and we may need to make last minute changes while disconnected.
 
 > TODO: What is a good answer is on this one. Use case is bringing 'unsafe' code into a 'safe' or offline environment.
 
@@ -134,13 +134,13 @@ What if you can't setup a Git repository or hosting solution where you deliver y
 
 ## Git versus the World
 
-Git certainly isn't the only distributed version control tool available. As usual, [there's a wikipedia page][version_compare] with a table outlining the differences between Git and other options (Bazaar, Mercurial, SVN, etc) that may be useful for a quickly spotlighting different options. 
+Git certainly isn't the only distributed version control tool available. As usual, [there's a Wikipedia page][version_compare] with a table outlining the differences between Git and other options (Bazaar, Mercurial, SVN, etc) that may be useful for a quickly spotlighting different options. 
 
 If you have additional feedback on the differences between git and other systems, let us know. 
 
 ## I just can't Git you
 
-We get it. Software developers are known to be picky about the tools they use, and rightly so. So if we haven't swayed you with this document, let us know what it is about Git that doesn't work for you. Maybe there is an alternative that just fits better, but if Git can be improved, that's good to know.
+We get it. Software developers are known to be picky about the tools they use, and rightly so. If we haven't swayed you with this document, let us know what it is about Git that doesn't work for you. Maybe there is an alternative that just fits better, but if Git can be improved, that's good to know.
 
 Steve Bennett's [blog post on "10 things I hate about git"](https://steveko.wordpress.com/2012/02/24/10-things-i-hate-about-git/) is one approach to doing just that. His blog got a lot of attention in early 2012 and part of that included additional tips and tricks to help ease his pain, so take a look to get his perspective as one example of a rare someone who wasn't enamored with Git. 
 
@@ -150,7 +150,7 @@ If you want to stick with SVN, but maybe start to try out Git before you fully c
 
 [git-svn](http://www.kernel.org/pub/software/scm/git/docs/git-svn.html) is a simple option and comes built in to git itself. There's a [simple overview and guide](http://learn.github.com/p/git-svn.html) over at Github itself if you're interested. But be aware that there are limitations that you should understand before you go too far down this path.
 
-Thankfully, the idea of using git and SVN together is popular enough to warrant several solutions. [SubGit](http://subgit.com) offers "smooth, stress-free Svn to Git migration". And it runs on the server side, so you can avoid client-side tweaks and some of the other major limitations of git-svn. If nothing else, SubGit offers great "let's give it a shot" potential that may be enough to eventually win over those in doubt.
+Thankfully, the idea of using git and SVN together is popular enough to warrant several solutions. [SubGit](http://subgit.com) offers "smooth, stress-free Svn to Git migration". And it runs on the server side, so you can avoid client-side tweaks and some of the other major limitations of git-svn. If nothing else, SubGit offers great "let's give it a shot" potential that may be enough to eventually win over those in doubt (note that you'll need to purchase a license if you use it in production).
  
 ## References
 
