@@ -5,9 +5,6 @@ description: GitHub Free Class and Office Hours (October 2012) class notes
 tags: [notes, event]
 ---
 
-# HTML5DevConf GitHub Workshop
-on 2012-10-17
-
 # Git Free Class and Office Hours
 
 _2012-10-25_
