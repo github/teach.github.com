@@ -23,9 +23,11 @@ It is best if you use a valid email address for your _GitHub.com_ signup at whic
 -----------------------------------------------------------------------------
 We'll need a command line version of Git for use during class. The following steps and our [GitHub Git Installation Help Page](https://help.github.com/articles/set-up-git) describe how to test and accomplish that installation. You can bypass the SSH setup steps if you wish.  We'll focus on using HTTPS during our class.
 
+We request that you use [version 1.7.9](https://github.com/git/git/blob/master/Documentation/RelNotes/1.7.9.txt) or newer to correctly handle interactive authentication when using HTTPS as the repository access protocol.
+
 
 ### Common to all Operating Systems
-1. It is best if Git is version _1.7.10_ or higher to match the behavior of your instructor's machine. However, no actual repository incompatibilities will be encountered during class if your installed version is _1.7.x_ or newer.
+1. It is absolutely best if Git is version _1.7.11_ or higher to match the behavior of your instructor's machine. However, no actual repository incompatibilities will be encountered during class if your installed version is _1.7.9_ or newer.
 2. Git's version can be queried by running `git --version` at the terminal or command prompt.
 
 ### and for _Windows_ Machines
