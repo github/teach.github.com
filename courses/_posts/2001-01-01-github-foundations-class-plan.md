@@ -10,7 +10,7 @@ tags: [outline, course]
 
 This is an outline for a comprehensive class that uses all modules in the `topics` folder.
 
-1. [Switching To Git and GitHub](/topics/Switching-To-Git-and-GitHub.html)
+1. [Switching To Git and GitHub](/articles/moving-to-git-and-github)
 1. [Wireless Setup](/topics/Wireless-Setup.html)
 1. [History of Git](/topics/History-of-Git.html)
 1. [SSH Setup](/topics/SSH-Setup.html)
