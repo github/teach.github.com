@@ -19,3 +19,4 @@ Several sources for cheat sheets about Git and GitHub are as follows.
 * DZone Git RefCard
     * [DZone Link](http://refcardz.dzone.com/refcardz/getting-started-git)
     * [Direct PDF Download](http://githubtraining.s3.amazonaws.com/dzone-git-refcard.pdf)
+* [The Git Guide](http://rogerdudler.github.com/git-guide/)
