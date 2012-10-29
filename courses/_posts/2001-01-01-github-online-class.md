@@ -22,7 +22,7 @@ Please have your colleagues sign up for each of the two half-days at the URLs be
 
 
 ## Timing
-Class is scheduled to begin at 9am [USA Mountain Time](http://wwp.greenwichmeantime.com/time-zone/usa/mountain-time/) and run for three hours each day, inclusive of a short break.
+Class is scheduled to begin at 09:00 AM [USA Mountain Time](http://wwp.greenwichmeantime.com/time-zone/usa/mountain-time/) and run for three hours each day, inclusive of a short break.
 
 
 ## Preparation
@@ -34,7 +34,7 @@ Verify your Mac or Windows computer meets the [basic requirements](http://suppor
 2. Have an Audio Setup or Dial-in Capability  
 You'll want to have a PC headset, or alternatively, are able to dial in to the conference bridge line. The dial-in number is displayed when you sign in to the webinar from your computer.
 
-3. Read and review the [computer pre-requisites page](/courses/WorkshopPrerequisites.html).
+3. Read and review the course [pre-requisites page](/articles/github-class-prerequisites/).
 This will ensure you've got Git up and ready to go for our interactive portions of the class.
 
 4. Arrive a Few Minutes Early  
@@ -42,7 +42,7 @@ On class day, please sign in 15 minutes before the scheduled class start time.  
 
 
 ## Pre-class questions
-My training team colleagues and I are happy to field logistics questions prior to class.  Just drop us a line at [training@github.com](mailto:training@github.com).
+My training team colleagues and I are happy to field logistics questions prior to class.  Just drop us a line at [training@github.com](mailto:training@github.com?subject=GitHub%20Pre-Class%20Question).
 
 
 Sincerely,  
