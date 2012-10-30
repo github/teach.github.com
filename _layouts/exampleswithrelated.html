@@ -11,7 +11,7 @@
 	  <link rel="stylesheet" media="screen" href="/stylesheets/page.css" type="text/css" />
     {% if page.examplesPath %}
     <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-    <script src="https://raw.github.com/brntbeer/github-files/master/src/main/javascript/github-files.js"></script>
+    <script src="/components/github-files/index.js"></script>
     <script type = "text/javascript">
       $.getGithubFileByFilePath("github", "teach.github.com", "{{page.examplesPath}}", function(contents) {
        $("#example pre code").html(contents);
