@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+    {% endif %}
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" media="screen" href="/stylesheets/code.css" type="text/css" />
+	  <link rel="stylesheet" media="screen" href="/stylesheets/page.css" type="text/css" />
+    {% if page.examplesPath %}
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="https://raw.github.com/brntbeer/github-files/master/src/main/javascript/github-files.js"></script>
+    <script type = "text/javascript">
+      $.getGithubFileByFilePath("github", "teach.github.com", "{{page.examplesPath}}", function(contents) {
+       $("#example pre code").html(contents);
+      });
+    </script>
+    {% endif %}
+
+    {% if site.feedburner %}
+    <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+    {% endif %}
+    
+    {% if site.google_analytics %}
+    <!-- google analytics async -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '{{ site.google_analytics.account }}']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    {% endif %}
+  </head>
+  <body>
+    <div class="top">
+      <header>
+        <a href ="/"><img alt="GitHub" class="github-logo-4x" height="30" src="/images/github_training_logo.png"></a>
+        <a href="https://github.com/github/teach.github.com" class="mini-button"><span>R</span>View it on GitHub</a>
+      </header>
+    </div>
+
+    <div id="content-wrapper">
+      {{ content }}
+      <div id="example">
+        <pre>
+          <code></code>
+        </pre>
+      </div>
+
+      <div id="relatedposts">
+        <h3 class="relatedposts">Related Posts</h3>
+        <ul class="relatedposts">
+          {% for post in site.related_posts limit:7 %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </body>
+</html>
