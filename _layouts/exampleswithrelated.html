@@ -13,9 +13,15 @@
     <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
     <script src="/components/github-files/index.js"></script>
     <script type = "text/javascript">
-      $.getGithubFileByFilePath("github", "teach.github.com", "{{page.examplesPath}}", function(contents) {
-       $("#example pre code").html(contents);
-      });
+      for(var i = 0; i < "{{page.examplesPath}}".split(" ").length; i++){
+        var filePath = "{{page.examplesPath}}".split(" ")[i];
+        (function(filePath){
+          $.getGithubFileByFilePath("github", "teach.github.com", filePath, function(contents) {
+            $("#example pre code").append("<h3>"+ filePath +"</h3>");
+            $("#example pre code").append(contents)
+          });
+        })(filePath);
+      }
     </script>
     {% endif %}
 
