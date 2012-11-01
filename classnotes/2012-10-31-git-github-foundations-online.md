@@ -36,22 +36,23 @@ Taught by:
 
 ## Installation
 * Git Installation
-    * [http://git-scm.com](http://git-scm.com)
-    * [http://windows.github.com](http://windows.github.com)
-* Minimum is 1.7.ANYTHING
+    * [The Git-SCM Web Site (All Platforms)](http://git-scm.com)
+    * [The GitHub for Windows Client and Command Line](http://windows.github.com)
+* Minimum is 1.7.ANYTHING, but can have issues with HTTPS credential prompting.
 * Best is 1.7.10 or higher
 
 ## Suggested Books, Articles
-* ProGit: [http://git-scm.com/book](http://git-scm.com/book)
-* Getting started with Version Control: [http://teach.github.com/articles/lesson-new-to-version-control/](http://teach.github.com/articles/lesson-new-to-version-control/)
-* Git Workflows: [https://github.com/zkessin/dvcs-workflows](https://github.com/zkessin/dvcs-workflows)
-* Cheat Sheets: [http://teach.github.com/articles/git-cheatsheets/](http://teach.github.com/articles/git-cheatsheets/)
+* [Free ProGit Book](http://git-scm.com/book)
+* [Getting started with Version Control](http://teach.github.com/articles/lesson-new-to-version-control/)
+* [DVCS Workflows Book](https://github.com/zkessin/dvcs-workflows)
+* [Git Cheat Sheets](http://teach.github.com/articles/git-cheatsheets/)
+* [Git Workflow Links](https://pinboard.in/u:matthew.mccullough/t:git+workflow)
 
 ## Course Materials, Links
-* Training Materials: [http://teach.github.com](http://teach.github.com)
-* Slides: [http://teach.github.com/articles/course-slides/](http://teach.github.com/articles/course-slides/)
-* Post-event Git and GitHub questions: [https://github.com/githubtraining/feedback/](https://github.com/githubtraining/feedback/)
-* Free Office Hours Sessions: [http://training.github.com/web/free-classes/](http://training.github.com/web/free-classes/)
+* [Git Teaching Materials](http://teach.github.com)
+* [Course Slides](http://teach.github.com/articles/course-slides/)
+* [Post-event Git and GitHub questions](https://github.com/githubtraining/feedback/)
+* [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
 
 ## Day 1 Q&A Transcript
