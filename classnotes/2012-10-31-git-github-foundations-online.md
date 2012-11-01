@@ -10,24 +10,42 @@ on 2012-10-31 through 2012-11-01
 
 Taught by:
 
-* Tim Berglund
-* Matthew McCullough
-* Brent Beer
+* Led by Tim Berglund ([Twitter](http://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
+* Supported by (Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
+* Supported by Brent Beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brntbeer))
+
+## Resources
+
+* [http://kb.perforce.com/article/1417/git-p4](http://kb.perforce.com/article/1417/git-p4)
+* [https://github.com/github/gitignore](https://github.com/github/gitignore)
+* [http://teach.github.com/articles/book-authoring-using-git-and-github/](http://teach.github.com/articles/book-authoring-using-git-and-github/)
+* [https://help.github.com/articles/post-receive-hooks](https://help.github.com/articles/post-receive-hooks)
+* [http://training.github.com/resources/videos/](http://training.github.com/resources/videos/)
+* [http://carl-topham.com/theblog/post/using-git-media-temple/](http://carl-topham.com/theblog/post/using-git-media-temple/)
+* [https://github.com/githubtraining/feedback/issues?state=open](https://github.com/githubtraining/feedback/issues?state=open)
+* [https://github.com/blog/1227-commit-status-api](https://github.com/blog/1227-commit-status-api)
+* [http://teach.github.com/articles/lesson-git-credential-cache/](http://teach.github.com/articles/lesson-git-credential-cache/)
+* [http://teach.github.com/articles/github-issues-cheatsheet/](http://teach.github.com/articles/github-issues-cheatsheet/)
+* [https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin)
+
+## Installation
+* Git Installation
+    * [http://git-scm.com](http://git-scm.com)
+    * [http://windows.github.com](http://windows.github.com)
+* Minimum is 1.7.ANYTHING
+* Best is 1.7.10 or higher
 
 ## Suggested Books, Articles
-
-* ProGit: http://git-scm.com/book
-* Getting started with Version Control: http://teach.github.com/articles/lesson-new-to-version-control/
-* Git Workflows: https://github.com/zkessin/dvcs-workflows
-* Cheat Sheets: http://teach.github.com/articles/git-cheatsheets/
+* ProGit: [http://git-scm.com/book](http://git-scm.com/book)
+* Getting started with Version Control: [http://teach.github.com/articles/lesson-new-to-version-control/](http://teach.github.com/articles/lesson-new-to-version-control/)
+* Git Workflows: [https://github.com/zkessin/dvcs-workflows](https://github.com/zkessin/dvcs-workflows)
+* Cheat Sheets: [http://teach.github.com/articles/git-cheatsheets/](http://teach.github.com/articles/git-cheatsheets/)
 
 ## Course Materials, Links
-
-* Training Materials: http://teach.github.com
-* Slides: http://teach.github.com/articles/course-slides/
-* Post-event Git and GitHub questions: https://github.com/githubtraining/feedback/
-* Free Office Hours Sessions: http://training.github.com/web/free-classes/
-
+* Training Materials: [http://teach.github.com](http://teach.github.com)
+* Slides: [http://teach.github.com/articles/course-slides/](http://teach.github.com/articles/course-slides/)
+* Post-event Git and GitHub questions: [https://github.com/githubtraining/feedback/](https://github.com/githubtraining/feedback/)
+* Free Office Hours Sessions: [http://training.github.com/web/free-classes/](http://training.github.com/web/free-classes/)
 
 
 ## Q&A Transcript
