@@ -44,6 +44,7 @@ Taught by:
 ## Suggested Books, Articles
 * [Free ProGit Book](http://git-scm.com/book)
 * [Getting started with Version Control](http://teach.github.com/articles/lesson-new-to-version-control/)
+* [The GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 * [DVCS Workflows Book](https://github.com/zkessin/dvcs-workflows)
 * [Git Cheat Sheets](http://teach.github.com/articles/git-cheatsheets/)
 * [Git Workflow Links](https://pinboard.in/u:matthew.mccullough/t:git+workflow)
