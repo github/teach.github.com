@@ -16,6 +16,9 @@ Taught by:
 
 ## Resources
 
+* [Adding SSL Certificates for GitHub.com (Common for Windows XP)](http://stackoverflow.com/questions/3777075/https-github-access/4454754#4454754)
+* Disabling SSL Certificate Checks for Git:
+        `git config --global http.sslVerify false`
 * [Open Source Git Ignore Templates](https://github.com/github/gitignore)
 * [Book Authoring on Git and GitHub](http://teach.github.com/articles/book-authoring-using-git-and-github/)
 * [Post Receive Hooks](https://help.github.com/articles/post-receive-hooks)
