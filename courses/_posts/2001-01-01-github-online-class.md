@@ -29,7 +29,7 @@ Class is scheduled to begin at 09:00 AM [USA Mountain Time](http://wwp.greenwich
 In preparation for the class:
 
 1. Verify GoToWebinar Requirements  
-Verify your Mac or Windows computer meets the [basic requirements](http://support.gotomeeting.com/ics/support/default.asp?deptID=5641).
+Verify your Mac or Windows computer meets the [basic requirements](http://support.citrixonline.com/en_US/GoToWebinar/help_files/GTW110003?title=Test+Your+GoToWebinar+Connection%7D).
 
 2. Have an Audio Setup or Dial-in Capability  
 You'll want to have a PC headset, or alternatively, are able to dial in to the conference bridge line. The dial-in number is displayed when you sign in to the webinar from your computer.
