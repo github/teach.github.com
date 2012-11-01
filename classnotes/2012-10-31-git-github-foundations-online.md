@@ -48,7 +48,7 @@ Taught by:
 * Free Office Hours Sessions: [http://training.github.com/web/free-classes/](http://training.github.com/web/free-classes/)
 
 
-## Q&A Transcript
+## Day 1 Q&A Transcript
 
     Q: Can you use regular expressions in the .gitignore file?
     A: Not exactly. It has a way of getting file globs. Like a "*" or something like "*.log", etc. Some examples of general git ignores could be found at https://github.com/github/gitignore for specifics per language project.
@@ -475,7 +475,7 @@ Taught by:
 
 
 
-## Command History
+## Day 1 Command History
 
     git init newproject
     ls
@@ -723,3 +723,12 @@ Taught by:
     vi ~/scripts/git-loglive
     git-loglive
     git loglive
+
+## Day 2 Q&A Transcript
+
+    TODO
+
+
+## Day 2 Command History
+
+    TODO
