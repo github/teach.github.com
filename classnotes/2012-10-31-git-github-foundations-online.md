@@ -737,9 +737,452 @@ Taught by:
 
 ## Day 2 Q&A Transcript
 
-    TODO
+    Q: I did not get the fork part on github
+    A: Keep me posted as you have more question. but in short, after we fork on github, we want to "git clone" that url, go into that project, make a change or add a new poem of your own, `git add` that file, make a commit, and git push back to your fork. I can dive into this more as you have more questions
+    Q: what's the benefit of doing an annotated tag vs a tag?
+    A: Often times i've found the annotated tag allows more explanation. If your tags are bumps in version numbers, often the description can be a changelog type situation which can help users and other developers keep track of what has changed between fixes!
+    Q: error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed while accessing https://github.co
+    fatal: HTTP request failed
+    A: Checking. What OS and version?
+    Q: git version 1.7.10.msysgit.1
+    A: So, permit me to just double check one more time (that's a sufficiently new Git). Did you "git clone https://github.com/mwilson2/poems" ?
+    Q: What about accountability? When something is deleted is it really gone or is there an audit trail.
+    A: Depends if you really need that history or not. As Tim touched on, once you push to a remote(like github), then you can lose accountability.
+    Q: Look at pull request 18.
+    A: Super!
+    Q: Are there any local tools that would preform the same navigation as github?
+    A: Actually there are not.
+    Q: Git version: git version 1.8.0.msysgit.0
+    A: Ah, that may be a difference in git 1.7.x and 1.8. Will have to keep our eye out for this
+    Q: Windows 7 - 64 bit
+    A: Michael - what version of Git? -- trying to search our knowledge base for a solution on Windows.
+    Q: Having an issue cloning the repo - SSL certificate problem.  Suggestions?
+    A: Checking...
+    Q: Failed: git clone http://github.com/msocolik/poems.git my-poems
+    A: Interesting, also what version of git are you on?
+    Q: git clone appears to have worked this time (without the my-poems)
+    A: Send me exactly what worked just so I can double check it?
+    Q: Worked: git clone http://github.com/msocolik/poems.git
+    A: Awesome.
+    Q: Having an issue cloning the repo - SSL certificate problem.  Suggestions?
+    A: What OS and version?
+    Q: what was the cherry-pick, was that the commit we skipped in the reabase -i?
+    A: Nope! the "pick" aspect of rebase isn't exactly the same as cherry-pick. "pick" in a rebase just says "yep, keep this commit". whereas cherry-pick can be used to grab a commit from one branch to another.
+    Q: so how do we get the change from origin?
+    A: I believe Tim will be touching on this shortly or at least before the class is over. The emails are a side-effect of being a collaborator to the repo. to get changes that get merged into githubtrainer, we'd need to add that as an origin and reupdate our fork. I'll ensure we touch on this shortly.
+    Q: seems not worth it
+    A: I've found it to be very helpful to my colleagues, especially if they want to reuse my work on another branch (merging it to more than one place), but your milage may vary
+    Q: fatal: Unable to create 'c:/Users/Greg/Documents/poems/.git/index.lock': Fil
+    ists.
+    If no other git process is currently running, this probably means a
+    git process crashed in this repository earlier. Make sure no other git
+    process is running and remove the file manually to continue.
+
+    c:\Users\Greg\Documents\poems>git add caesar.txt
+    fatal: Unable to create 'c:/Users/Greg/Documents/poems/.git/index.lock': Fil
+    ists.
+
+    If no other git process is currently running, this probably means a
+    git process crashed in this repository earlier. Make sure no other git
+    process is running and remove the file manually to continue.
+    A: Thats really strange. Could you try quitting out of your shell and re-opening and trying those commands again?
+    Q: Is there any way to get a digest
+    A: Via the API, but not via the broadcast emails yet. You can then turn it off in email and just view it via the web UI on https://github.com/notifications
+    Q: git branch feature3 HEAD^, prompte ""more?""
+    A: git branch feature3 'HEAD^'
+    Q: practically, whats the advantage of rebasing prior to a merge?
+    A: Clean and clear history for later users of this repo
+    Q: git branch feature3 HEAD^, prompte ""more?""
+    A: Some shells want single quotes whenever you use a caret
+    Q: same error
+    A: Greg - Some Git command previously might have crashed. Supplementing Brent here, `rm THATFILE` that it is complaining about or use the Windows Explorer/Mac Finder to do so and then you should be able to continue.
+    Q: so use git status prior to reset --hard, should clarify what's about to happen right?
+    A: Unfortunately not. If we ask a `git status` before a reset --hard, it won't show anything about to happen and reset will remove those commits.
+    Q: practically, whats the advantage of rebasing prior to a merge?
+    A: Dramtically fewer "merge loops" and merge commits (can be balls of mud) are very helpful to later repo users (even you).
+    Q: what command should we be running to push to remote?
+    A: to push your changes up to your forked remote would be a simple `git push origin master`
+    Q: so you would tags regularly throughout the process as you iterate changes so you could easily remember where to jump back to if you are unhappy with the path you are going down?
+    A: Jason - You certainly can. I do that personally, and then, just don't ""publish"" or push those tags so that others don't see them. They are sticky-notes and markers
+    Q: is there a one word summary of a tag vs. branch?
+    A: a tag is just a pointer to a specific commit to help you understand what had happened. a branch is a way of organizing new changes in a isolated way. Branches are generally like ""side quests"" of a main story-line
+    Q: so you would tags regularly throughout the process as you iterate changes so you could easily remember where to jump back to if you are unhappy with the path you are going down?
+    A: I have some that are "BEFORE_PBANDJ"
+    Q: will we be covering git stash?
+    A: Yes indeed! Stash is on the menu for a least a short visit.
+    Q: how about a few words on git stash? thanks
+    A: Sorry we didn't get to this! Be sure to ask this in https://github.com/githubtraining/feedback and we could address it there.
+    Q: why revert and not just checkout the original commit?
+    A: Sometimes you want to preserve that you completely undid a whole commit in one easy step.
+    Q: in the end will you talk about what the Advanced Class covers and who it is for?
+    A: We try to keep the classes pitch and sales free (such a respite from our advertising-bombarded lives), but if you drop us an email at training@github.com we'll happily do that for you!
+    Q: ah ok, must be us then, fair enough
+    A: Looking into the backend…  Trying. :)
+    Q: audio dropped out
+    A: Jeremy. Let me check what I can. You're currently the only report of 60 folks, but I'm checking...
+    Q: ah ok, must be us then, fair enough
+    A: If you need us to reiterate anything, let us know! Missing a word etc etc. That's what we're here for :)
+    Q: audio dropped out
+    A: hmm, strange. sounds good over here. Is it back now?
+    Q: not everyone is back from the break
+    A: It is about 14 minutes of break, but he's just warming back up. Happy to help.
+    Q: yesterday you guys sent out a link to your git-graphlive hook. i was trying to make it executable in the .git/hooks directory. how is git supposed to run it?
+    A: You can actually see that from `git help --all`
+    Q: yesterday you guys sent out a link to your git-graphlive hook. i was trying to make it executable in the .git/hooks directory. how is git supposed to run it?
+    A: Ah. Just put it on your path. Any path that is on your PATH environment locations. Any thing that is on your path that begins with git-SOMETHING becomes callable as `git SOMETHING`
+    Q: back to the graphlive hooks question - i'm trying to figure out from git help --all how to run the graphlive. what's the command you use in your prompt? do you use ""git git-graphlive""?
+    A: Ah. So here's the sequence. 1. I put the script on my $PATH somewhere. I verified it was found by `which git-graphlive` and made sure it found it. Then 3. I checked further by `git help --all` and made sure it showed up there. Then 4. ran it with `git graphlive 5` to choose how many nodes to show
+    Q: and what is a patch?
+    A: Seconding Brent - It's like a portable copy of the changes all self-contained in a single file
+    Q: and is it possible to have multiple remotes?
+    A: If this doesn't make sense later, please please please ask this question again to make sure you understand it!
+    Q: is there a way to set up a visual merge tool to work with rebase as well in the config?
+    A: You bet. You can use "mergetool" exactly as Tim demoed it before.
+    Q: could we get a recipe for "tortoise merge" as well? for windows users? thanks
+    A: I'll take a note to let tim know as well! thank you!
+    Q: did i get on the right link for the second day of the training?
+    A: Yes indeed!
+    Q: what if rebasing initiates conflicts?
+    A: The conflicts are presented in exactly the same way as a merge conflict. The only difference is in how you continue. You `git add SOLVEDFILE` and then `git rebase --continue` to go to the next step.
+    Q: or do I have to purposely set something to UTF 8?
+    A: So Git mostly relies on the external programs to do the merging (as long as they support UTF8), but I do that all the time and it works. In short, it is compatible with UTF-8 text files, treating them as text
+    Q: and can we rebase a few times?
+    A: Most certainly. For example, on the Git project itself, they socially require and enforce that your contributions are rebased onto the shipping edition of the product.
+    Q: I made another push and then tried to do a pull request and github did not allow it, does that mean that pull requests always go to the latest pushed commit?
+    A: What do you mean it didn't allow it? Did the pull request say that the remote is already up to date with that commit?
+    Q: and is it possible to have multiple remotes?
+    A: Yep! Multiple remotes for that same repository totally make sense. We'll see that shortly when we go over some forking behavior =)
+    Q: if we have a commit with multiple files, and we want to accept the cnages made only to a few of them, how would we do it?
+    A: There are a few options. Wanna as that in the feedback repo so the answers can benefit THE WHOLE WORLD? :)
+    Q: i finally mamanged to push
+    A: Glad to hear it!
+    Q: and what is a patch?
+    A: A patch is something that can be saved to essentially show git how to apply the changes that happened in a given branch.
+    Q: can we have remote in the global config?
+    A: Unfortunately this wouldn't really make much sense. The remote is simply a point at a which we can share our code to. if we created new projects, we would want new remotes. ie: githubtrainer/project1, githubtrainer/project2 or for me brntbeer/project1, brntbeer/mynewgitproject
+    Q: do we need to push?
+    A: If you haven't already. certainly! once you do, send that pull request!! =)
+    Q: does merging work correctly with different languages in the file? say chinese characters?
+    A: Yes, as long as Git think it's text. If it thinks it's binary, conflict resolution reduces to selecting our or theirs. Check out the .gitattributes file for tips on how to force Git to detect text if it's erroneously detecting binary. (This is quite rare.)
+    Q: how does git handle conflicts during rebase?
+    A: The conflicts are presented in exactly the same way as a merge conflict. The only difference is in how you continue. You `git add SOLVEDFILE` and then `git rebase --continue` to go to the next step.
+    Q: where do the fetched pull requests reside on the local system in case of a conflict?
+    A: So, git has storage for the two branches in the .git folder, but puts the ""smash together"" of the two in the working directory
+    Q: "$@" is better than $*.   protects against whitespace damage
+    A: .
+    Q: You lost the original annotation (Caesar was really in a rage here) during the create/delete operations
+    A: Yes indeed.
+    Q: Isn't there a way to tell git to reuse a specific commit message?
+    A: absolutely! `git commit` has a -C <commit> or --reuse-message=<commit> that allows you to reuse a given commit's message. ie: `git commit -C HEAD` or `git commit -C 4gfdrg2` where "4gfdrg2" is the beginning of a commit's hash. :)
+    Q: You might need to tell macvim to stay in the foreground to get it to work
+    A: I was thinking of something similar myself!
+    Q: is file5 now untracked?
+    A: Actually gone as far as the filesystem is concerned. You can still get it back from the "trash can" of orphaned commits, but it take a step of digging.
+    Q: Is there a way to restore the branch name after deletion?
+    A: yep! once a branch name is deleted, you can just reuse them a number of times. Depending on your workflow, some teams will take advantage of things such as always having an ""experiment"" or "development" branch before merging up to their remote.
+    Q: please touch on troubles of rebasing after someone else in the team, or the world, has a copy of your branch.
+    A: Tim doing so. :)
+    Q: rebasing is inherently *evil*
+    A: Oh, I understand where that sentiment comes from, but I politely disagree.  There are super efficient ways to use it productively, even in a team.  I've delighted folks with it in a workflow.
+    Q: i created a github repo yesterday and have been working w/ that one. is there a way to merge that one with my new ""poems"" one without forking (almost just cloning my old repo.)?
+    A: Technically yes, but for the purpose of the exercise, it'll make more sense to use Tim's and follow what he's doing there, if that's ok!
+    Q: can you fork like this if you're not using github? how hard is it to maintain/do on your own?
+    A: It's certainly not as easy, but possible. one of the core reasons github.com was even started was because the tools for doing these things were…frankely a nightmare. As we'll show in a second, the collaboration that github allows is quite nice!
+    Q: would've liked to see forking and pull requests without github in the mix. how easy is that to do?
+    A: Well, naturally we're disposed to show off the awesomeness of GitHub. It can all be done, though, as long as your Git hosting mechanism can copy one repo to another place at a different address. From there it's all fetch, merge, and push. And emalis. And todo lists. Etc. :)
+    Q: show up the full list of log from the beginning of the training?
+    A: You could do a `git log -3` to ensure that there are currently even 3 commits on your local repository. If you are following along as close as possible then you definitely have 3 commits. using mvim as a text editor shouldn't matter either. We could try a rebase with a `git rebase -i HEAD^` to get an idea if this works with the previous commit.
+    Q: I'll change it back and try you suggested
+    A: If it doesnt work, just keep it as vim. I've gotten just used to this flow since im not actually editing much or keeping it around for long. Thanks for the heads up though!
+    Q: ah, yes, Mac Vim does not work with this command
+    A: Thats strange. Personally i keep my editor set to vim, just so the context stays in the same window when im editing. I use macvim as well, just not for git message editing/rebasing. Maybe keep it as vi/vim. Not too much time is really spent in that environment.
+    Q: I tried to use git rebase -i HEAD~3 but the vi edit came up is empty?
+    A: Shane - Check with `git log` what your most recent three are (and if there are indeed three)
+    Q: dont need this for today, but it would be cool if you could make a script to keep the command history up like you do the git log
+    A: Mike - The bizarre thing -- history is not a tailable thing, but I guess we could watch it. I spent a few minutes even doing research on shell option vars.
+    Q: could he show how to use kdiff for this too?
+    A: http://www.youtube.com/watch?v=xfh13LcgqIU
+    Q: loop every second output the history from the other shell (there is a way to that with bash at least)
+    A: --unanswered--
+    Q: dont need this for today, but it would be cool if you could make a script to keep the command history up like you do the git log
+    A: Ah thanks! Will take note of this, it helps with future classes!
+    Q: My e-mail is flooded with git! Where can I change the preferences?
+    A: https://github.com/notifications and https://github.com/settings/notifications
+    Q: I have someone here waiting for approval again
+    A: Steven - Not seeing that waiting for approval
+    Q: This is off-topic, but wanted to throw this out there (feel free to answer it later or offline - whatever is more appropriate). Is there a best practice for authenticating pushes for a CI build server into a GitHub organization? We use the maven release plugin, and it needs to push pom file changes. I wound up creating a dummy user on github and associating with the SSH key of the unix user that owns the process of the CI build server, and then adding the dummy user to the organization. That works, but it seems like a lot of churn to make this happen... in addition it consumes an (expensive) github license. Is there another way to do this that is easier/cleaner/cheaper? Thanks!
+    A: Jeff - This is a big one.  Can I have you put that over at: https://github.com/githubtraining/feedback ?
+    Q: so git rebase -i lets you ""manage"" the commits, but eventually you need to do a git rebase --commit to finalize things?
+    A: Actually just `git rebase --continue` until it says 'rebase complete""
+    Q: I guess it just took it some times to update
+    A: Seems to be the case after your fork!
+    Q: I forked but I don't see my fork in https://github.com/githubtrainer/poems/network
+    A: Sometimes they take a few minutes to show up.
+    Q: What do you do about it? You ask them to rebase :-)
+    A: haha, that's certainly one way of handling it!
+    Q: Since it's so cheap to tag in git, is there any reason to not always use annotated tags instead of ref tags? When would you use a ref tag?
+    A: Mostly laziness - I like to leave little non-annotated tags for "BEFOREMYLUNCH" and "BEFOREDINNER"
+    Q: How can I revert the rebase changes if I messed things up?
+    A: `git reflog` is a history of your ""States"" of changes, and you can `git reset --hard ANOLDCOMMIT""
+    Q: There could still be conflicts when merging to master even if I rebase before, in case that someone else makes changes to master after I rebased, right?
+    A: Only would be conflicts if the same file and roughly the same lines were changed.
+    Q: Are ref tags shared when I push to a remote?
+    A: You have to explicitly push a tag, like you do a branch. For example `git push MYFIRSTTAG` or to push them all `git push --tags`  More to show on that as the class continues.
+    Q: Thanks, guys!! Great class, and bonus Shakespeare! Total win.
+    A: Thanks, Margaret. I try to keep the text interesting. :)
 
 
 ## Day 2 Command History
 
-    TODO
+    git branch -d feature 
+    tree .git/refs
+    git branch feature2
+    vi caesar.txt
+    git add .
+    git commit -m "Blood and destruction"
+    git checkout feature2
+    cat caesar.txt
+    vi tolkien.txt
+    git add .
+    git commit -m "All that is gold"
+    git checkout master
+    git merge feature2
+    vi caesar.txt
+    git add .
+    git commit -m "Smiley mothers"
+    git branch -d feature2
+    git branch feature3 HEAD^ 
+    git checkout feature3
+    vi caesar.txt
+    git add .
+    git commit -m "Corrupt shakespeare."
+    vi tolkien.txt
+    git commit -a -m "A title for the Tolkien poem"
+    git log
+    got ;g
+    git lg
+    git checkout master
+    git merge feature3
+    git status
+    vi caesar.txt
+    git add caesar.txt
+    git status
+    git commit
+    which p4merge
+    cat `which p4merge`
+    p4merge
+    git config merge.tool
+    git config mergetool.prompt
+    git config mergetool.keepbackups
+    git config mergetool.keeptemporaries
+    vi ~/.gitconfig
+    git reset --hard HEAD^
+    git merge feature3
+    git mergetool
+    git status
+    git commit
+    git config diff.tool
+    git config difftool.prompt
+    git difftool 
+    git branch -d feature3
+    cat caesar.txt
+    tree .git/refs
+    git tag
+    git tag SMILEY_MOTHERS
+    tree .git/refs
+    cat .git/refs/tags/SMILEY_MOTHERS
+    git show SMILEY_MOTHERS
+    vi caesar.txt
+    git commit -a -m "Rage"
+    tree .git/refs
+    tree .git/objects
+    tree .git/refs
+    git tag -a CEASAR_RAGE
+    tree .git/refs
+    tree .git/objects
+    git show SMILEY_MOTHERS
+    git show CEASAR_RAGE
+    git help tag
+    open .
+    open .git
+    git show CAESAR_RAGE
+    git tag -a CAESAR_TAG
+    git tag -d CEASAR_RAGE
+    git show CAESAR
+    git show CAESAR_TAG
+    history
+    open .git/objects
+    git branch feature4
+    vi caesar.txt
+    git commit -a -m "Choked pity"
+    git checkout feature4
+    ll
+    cd files
+    ll
+    generaterandomchanges 5 random txt
+    git loglive 10
+    git loglive -10
+    git loglive -20
+    git rebase master
+    git lg
+    git checkout master
+    git merge feature4
+    git branch -d feature4
+    history
+    git branch feature
+    vi file1.txt
+    git commit -am "Made trouble in file1"
+    git checkout feature
+    vi file1.txt
+    git commit -am "Just begging for trouble in file1"
+    git rebase master
+    vi file1.txt
+    git add file1.txt
+    git status
+    git rebase --continue 
+    git checkout master
+    git merge feature
+    git branch -d feature
+    cd ..
+    tree
+    pwd
+    git config --unset --global branch.autosetuprebase
+    cd files
+    generaterandomchanges 6 rebase txt
+    ls
+    ls -la
+    git rev-parse HEAD
+    git rev-parse HEAD~6
+    git rebase -i HEAD~6
+    vi rebase1.txt
+    git add rebase1.txt
+    git rebase --continue
+    git log --stat -1
+    git log -p -1
+    history
+    pwd
+    cd ..
+    tree
+    vi tolkien.txt
+    git commit -a -m "Made totally AWEXOME improvements"
+    cat tolkien.txt
+    git diff HEAD^
+    git diff HEAD^ --word-diff
+    git reset --hard ec7af
+    cat tolkien.txt
+    git reflog
+    git reset --hard HEAD@{1}
+    cat tolkien.txt
+    vi caesar.txt
+    git commit -am "Ate keeping Caesar company (and apparently warm)"
+    ls
+    cat caesar.txt
+    cat tolkien.txt
+    git show 7464bc1 
+    git show 7464bc1 --word-diff
+    git revert 7464bc1 
+    git show 7464bc1 --word-diff
+    git show HEAD --word-diff
+    ls
+    git remote add origin https://github.com/githubtrainer/poems.git
+    git remote
+    git remote -v
+    cat .git/config
+    git push -u origin master 
+    git remote
+    git branch
+    git branch -a
+    pwd
+    cd ..
+    ls
+    git clone https://github.com/githubstudent/poems.git my-poems 
+    cd my-poems
+    ls
+    ls -l
+    git remote -v
+    vi caesar.txt
+    git commit -am "Cry HAVOC\!:
+    git commit -am "Cry HAVOC\!"
+    git push
+    history
+    git remote -v
+    git show HEAD
+    pwd
+    cd ../newproject
+    git remote -v
+    git status
+    git pull 
+    git loglive -15
+    git loglive -10
+    gitk &
+    git branch -a
+    git ls-remote origin 
+    git fetch origin refs/pull/16/head
+    git fetch https://github.com/hpwhite/poems.git master
+    git show FETCH_HEAD
+    git merge FETCH_HEAD
+    git status
+    vi tolkien.txt
+    git add tolkien.txt
+    git commit -m "Accepted a conflicted PR"
+    git push
+    git fetch 
+    git branch -a
+    git pull
+    cd ../my-poems
+    ll
+    git remote
+    git remote add mainrepo https://github.com/githubtrainer/poems.git
+    git fetch mainrepo
+    git lg
+    git pull mainrepo master
+    ll
+    history
+    pwd
+    cd ..
+    ls
+    git clone https://github.com/githubtrainer/poems.git poems 
+    cd poems
+    ll
+    git checkout -b tlberglund
+    cd ../poems
+    git loglive 15
+    git loglive -15
+    git loglive -10
+    vi caesar.txt
+    git commit -a -m "Carrion men"
+    git push -u origin tlberglund 
+    git fetch
+    git diff origin/mteece
+    git checkout master
+    git pull
+    git merge tlberglund
+    git branch -a
+    git checkout mteece
+    git branch -a |less
+    ll
+    git diff master
+    git checkout master
+    git merge mteece
+    vi caesar.txt
+    git commit
+    git add caesar.txt
+    git commit
+    git push
+    git pull
+    git push
+    git lg
+    git diff origin/rt_branch
+    git lg
+    git show 77d3bff
+    git show 77d3bff^
+    git lg
+    git show 4404282
+    git cherry-pick 4404282
+    ll
+    cat pagefile.sys
+    git push 
+    git pull
+    git push
+    history
+    git help cherry-pick
