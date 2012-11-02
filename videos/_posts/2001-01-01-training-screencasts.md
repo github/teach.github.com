@@ -38,7 +38,7 @@ description: Screencasts that the Training team uses in teaching Git and GitHub.
 
 [Squash Merge](http://githubtraining.s3.amazonaws.com/github-training-screencast-squashmerge.mov)
 
-<iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/ZZZZZ?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/7FlR3qZV_h0?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 ## Advanced Moves
