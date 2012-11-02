@@ -6,14 +6,17 @@ description: Screencasts that the Training team uses in teaching Git and GitHub.
 
 # Training Screencasts
 
-## Setup
-[Git Configuration Setup](http://githubtraining.s3.amazonaws.com/github-training-screencast-configsetup.mov)
+## Setup and Configuration
+[Git Configuration](http://githubtraining.s3.amazonaws.com/github-training-screencast-configsetup.mov)
 
 <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/9mN0X3T3rUI?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 ## Version Controlling Files
 [Adding and Committing](http://githubtraining.s3.amazonaws.com/github-training-screencast-basicsaddandcommit.mov)
+
+<iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/e5JyXt4gx20?rel=0" frameborder="0" allowfullscreen></iframe>
+
 
 [Logging](http://githubtraining.s3.amazonaws.com/github-training-screencast-logging.mov)
 
