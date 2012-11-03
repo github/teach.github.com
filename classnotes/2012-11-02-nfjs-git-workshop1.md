@@ -6,11 +6,7 @@ tags: [notes, event]
 ---
 
 # NFJS GitHub Workshop
-on 2012-11-02
-
-Taught by:
-
-Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
+_Held on 2012-11-02 and taught by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
 
 ## Resources
 
