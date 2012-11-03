@@ -6,7 +6,7 @@ tags: [notes, event]
 ---
 
 # NFJS GitHub Workshop
-_Held on 2012-11-02 and taught by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
+Held on 2012-11-02 and taught by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
 
 ## Resources
 
@@ -33,10 +33,14 @@ _Held on 2012-11-02 and taught by Matthew McCullough ([Twitter](http://twitter.c
 
 ## Installation
 * Git Installation
-    * [The Git-SCM Web Site (All Platforms)](http://git-scm.com)
-    * [The GitHub for Windows Client and Command Line](http://windows.github.com)
-* Minimum is 1.7.ANYTHING, but can have issues with HTTPS credential prompting.
-* Best is 1.7.10 or higher
+    * [The Git-SCM Web Site (all platforms)](http://git-scm.com)
+    * [The GitHub for Windows GUI and Command Line](http://windows.github.com)
+* Version
+    * Minimum is 1.7.10, but can have issues with HTTPS credential prompting.
+    * Best is 1.8.0 or higher
+* GUIs
+    * [The GitHub for Windows GUI and Command Line](http://windows.github.com)
+    * [The GitHub for Mac GUI without Command Line](http://mac.github.com)
 
 ## Suggested Books, Articles
 * [Free ProGit Book](http://git-scm.com/book)
