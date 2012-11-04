@@ -6,7 +6,16 @@ tags: [notes, event]
 ---
 
 # NFJS GitHub Workshop
-Held on 2012-11-02 and taught by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
+Held on 2012-11-02 and 2012-11-03 and taught by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
+
+## Advanced Git Notes
+* [ghi gem](https://github.com/stephencelis/ghi)
+* [hubgem ](https://github.com/defunkt/hub)
+* [gist gem](https://github.com/defunkt/gist)
+* [gitg](http://git.gnome.org/browse/gitg) instead of gitk
+* [tig](http://gitready.com/advanced/2009/07/31/tig-the-ncurses-front-end-to-git.html)
+* [Matthew's shell scripts](https://github.com/matthewmccullough/scripts)
+* [Matthew's Git aliases](https://github.com/matthewmccullough/dotfiles) (in the gitconfig file)
 
 ## Resources
 
