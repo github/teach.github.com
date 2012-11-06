@@ -10,8 +10,10 @@ on 2012-11-05
 
 Taught by:
 
-* Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough)
+* Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
 * Supported by Brent Beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brntbeer))
+
+<iframe width="480" height="360" src="http://www.youtube-nocookie.com/embed/pIGYELKPeog?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 ## Installation
@@ -47,9 +49,10 @@ Taught by:
 
 ## Resources
 
-* [Adding SSL Certificates for GitHub.com (Common for Windows XP)](http://stackoverflow.com/questions/3777075/https-github-access/4454754#4454754)
-* Disabling SSL Certificate Checks for Git:
-        git config --global http.sslVerify false
+* SSL Certificates
+    * [Adding SSL Certificates for GitHub.com (Common for Windows XP)](http://stackoverflow.com/questions/3777075/https-github-access/4454754#4454754)
+    * Disabling SSL Certificate Checks for Git:
+            git config --global http.sslVerify false
 * [Open Source Git Ignore Templates](https://github.com/github/gitignore)
 * [Book Authoring on Git and GitHub](http://teach.github.com/articles/book-authoring-using-git-and-github/)
 * [Post Receive Hooks](https://help.github.com/articles/post-receive-hooks)
