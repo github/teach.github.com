@@ -75,7 +75,3 @@ Taught by:
 ## Q&A Transcript
 
 
-
-## Command History
-
- 

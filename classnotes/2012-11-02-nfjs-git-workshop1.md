@@ -170,3 +170,124 @@ Held on 2012-11-02 and 2012-11-03 and taught by Matthew McCullough ([Twitter](ht
     git bisect bad
     git bisect good HEAD~13
     git bisect run mvn test
+
+# NFJS Advanced Git - Command Line History
+
+    git clone git@github.com:matthewmccullough/github-workflow.git
+    cd github-workflow
+    tree .git | more
+    git tag
+    git checkout gh-pages
+    git checkout patch-1
+    git help remote
+    git remote remove origin
+    git push --mirror otes/origin/HEAD -> origin/master                                          │···
+    git push --mirror git@github.com:matthewmccullough/mirro1.git
+    
+    git clone git@github.com:matthewmccullough/github-workflow.git hgw1
+    cd hgw1
+    git branch -r 
+    git branch -r  | sed s/origin/git\ checkout/
+    vim ~/.gitconfig
+    
+    git clone ghsm://mirro1 test
+    cat .git/config
+    git branch -r
+    git help clone
+    generaterandomchanges 2 sample txt
+    git push origin other
+    git push origin 
+    
+    git clone git@github.com:matthewmccullough/poetry.git
+    git commit -a -m"Matthew changes"
+    git pull --rebase
+    git diff
+    git rebase --continue
+    tree
+    git checkout --orphan oraph1
+    git rm -rf *
+    touch docs.txt
+    git commit -m"Docs"
+    echo CHANGE >> docs.txt
+    git commit -a -m"One more docs"
+    gitk --all &
+    git branch feature10
+    echo CHANGE >> caesar.txt; git commit -a -m"Change'
+    git checkout feature10
+    echo CHANGE >> caesar.txt; git commit -a -m"Change"
+    echo Created a branch, created a few commits on each, with the intent of cherry picking one commit from the feature branch back to master
+    git log --format=raw -1 9ae6f3d
+    git config user.name "Bug Fixer"
+    git cherry-pick 9ae6f3d
+    vim caesar.txt
+    git commit
+    git log --format=raw -1
+    gitk --all&
+    git l2
+    git cherry-pick -x e2ffdc4
+    echo STUFF >> caesar.txt
+    git pull
+    git mergetool
+    git commit 
+    git branch
+    git push origin oraph1
+    git push origin feature10
+    git bundle create ../spencer.bundle master
+    git ls-remote spencer.bundle
+    cd test
+    git fetch ../spencer.bundle
+    git fetch ../spencer.bundle refs/heads/master
+    git merge FETCH_HEAD
+    open .git
+    git branch illcheckthisoutlater FETCH_HEAD
+    git ls-remote https://github.com/matthewmccullough/poetry
+    git fetch origin refs/pull/10/head
+    git merge --no-ff FETCH_HEAD
+    history
+    git ls-remote origin
+    git ls-remote origin | more
+    git fetch
+    git branch -a
+    vim .git/config
+    git show
+    git show HEAD~1
+    git show HEAD~1:caesar.txt
+    git show HEAD~1:/
+    subl hello.md
+    gist
+    gist hello.md
+    git init project9
+    cd project9
+    hub create
+    hub browse
+    git push -u origin master
+    
+    hub clone project9
+    
+    hub clone dhinojosa/usingguava
+    
+    hub clone jenkins-workshop-repos
+    
+    hub clone poetry
+    git checkout -b feature99
+    generaterandomchanges 10 sample txt
+    git push -u origin feature99
+    hub pull-request
+    ghi 
+    ghi list
+    ghi
+    ghi show 10
+
+    git ls-files 
+    git ls-files -m
+    git rm sample9.txt
+    rm sample8.txt
+    git ls-files -d
+    git annotate caesar.txt
+    git blame caesar.txt
+    git blame -C caesar.txt
+
+    z git_git
+    git blame rerere.c
+    git blame -C rerere.c
+    git annotate rerere.c
