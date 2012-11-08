@@ -84,6 +84,8 @@ Taught by:
   * Fetching
   * Pulling
 
+* git log-live
+  * https://gist.github.com/3714970
 
 ## Command History
 
