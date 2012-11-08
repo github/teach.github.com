@@ -89,101 +89,101 @@ Taught by:
 
 ## Command History
 
-  git init øredev
-  cd øredev
-  ls
-  ls -l
-  ls -la
-  tree .git
-  ls
-  vi caesar.txt
-  git status
-  ls
-  git add caesar.txt
-  git status
-  git commit -m "Initial commit"
-  git status
-  vi caesar.txt
-  git status
-  git add caesar.txt 
-  git status
-  git commit -m "Noblest man"
-  git log
-  git log --patch
-  tree .git
-  git log --pretty=raw
-  git ls-tree 59b3531c80e9d3ca2524e76211f158e490c08958
-  git cat-file -p 7b4bb63dfc314b1de8fd0b7a714d54732b7bd0c7
-  git status
-  git branch
-  tree .git/refs
-  cat .git/HEAD
-  cat .git/refs/heads/master
-  git log -1
-  git branch feature
-  git branch
-  git branch -d feature
-  git branch feature
-  git branch
-  vi caesar.txt
-  git commit -m "Costly blood"
-  git add caesar.txt
-  git commit -m "Costly blood"
-  ls
-  cat caesar.txt
-  git checkout feature 
-  cat .git/HEAD
-  cat caesar.txt
-  vi caesar.txt
-  vi beowulf.txt
-  git status
-  git add .
-  git status
-  git commit
-  git branch
-  git checkout master
-  cat caesar.txt
-  ls
-  git merge feature -m "Incorporated more poetry"
-  git log --pretty=raw
-  git log --pretty=raw -1
-  ls
-  cat caesar.txt
-  git branch -d feature
-  git branch feature2
-  vi caesar.txt
-  git add .
-  git commit -m "Beg my utterance"
-  git checkout feature
-  git checkout feature2
-  vi beowulf.txt
-  git add .
-  git commit -m "MOAR Beowulf FTW"
-  git status
-  generaterandomchanges 3 monkey txt
-  git rebase master 
-  git checkout master 
-  git merge feature2
-  git lg
-  tree .git
-  git remote add origin https://github.com/githubstudent/poetry.git
-  git remote
-  git remote -v
-  git branch
-  git push -u origin master 
-  git branch
-  git branch -a
-  git fetch
-  git lg
-  vi caesar.txt
-  git commit -am "Smiley mothers"
-  git lg
-  git pull 
-  vi caesar.txt
-  git add caesar.txt
-  git commit
-  git lg
-  git push
+    git init øredev
+    cd øredev
+    ls
+    ls -l
+    ls -la
+    tree .git
+    ls
+    vi caesar.txt
+    git status
+    ls
+    git add caesar.txt
+    git status
+    git commit -m "Initial commit"
+    git status
+    vi caesar.txt
+    git status
+    git add caesar.txt 
+    git status
+    git commit -m "Noblest man"
+    git log
+    git log --patch
+    tree .git
+    git log --pretty=raw
+    git ls-tree 59b3531c80e9d3ca2524e76211f158e490c08958
+    git cat-file -p 7b4bb63dfc314b1de8fd0b7a714d54732b7bd0c7
+    git status
+    git branch
+    tree .git/refs
+    cat .git/HEAD
+    cat .git/refs/heads/master
+    git log -1
+    git branch feature
+    git branch
+    git branch -d feature
+    git branch feature
+    git branch
+    vi caesar.txt
+    git commit -m "Costly blood"
+    git add caesar.txt
+    git commit -m "Costly blood"
+    ls
+    cat caesar.txt
+    git checkout feature 
+    cat .git/HEAD
+    cat caesar.txt
+    vi caesar.txt
+    vi beowulf.txt
+    git status
+    git add .
+    git status
+    git commit
+    git branch
+    git checkout master
+    cat caesar.txt
+    ls
+    git merge feature -m "Incorporated more poetry"
+    git log --pretty=raw
+    git log --pretty=raw -1
+    ls
+    cat caesar.txt
+    git branch -d feature
+    git branch feature2
+    vi caesar.txt
+    git add .
+    git commit -m "Beg my utterance"
+    git checkout feature
+    git checkout feature2
+    vi beowulf.txt
+    git add .
+    git commit -m "MOAR Beowulf FTW"
+    git status
+    generaterandomchanges 3 monkey txt
+    git rebase master 
+    git checkout master 
+    git merge feature2
+    git lg
+    tree .git
+    git remote add origin https://github.com/githubstudent/poetry.git
+    git remote
+    git remote -v
+    git branch
+    git push -u origin master 
+    git branch
+    git branch -a
+    git fetch
+    git lg
+    vi caesar.txt
+    git commit -am "Smiley mothers"
+    git lg
+    git pull 
+    vi caesar.txt
+    git add caesar.txt
+    git commit
+    git lg
+    git push
 
 
 
