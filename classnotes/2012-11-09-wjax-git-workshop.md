@@ -2,7 +2,7 @@
 layout: bare
 title: W-JAX Git Workshop
 description: W-JAX Git Workshop Class Notes
-tags: [notes, online, class]
+tags: [notes, inperson, class]
 ---
 
 # W-JAX Git Workshop
@@ -80,6 +80,21 @@ https://githubtraining.campfirenow.com/d8903
 * [NPD Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 * [More Git Cheatsheets](http://teach.github.com/articles/git-cheatsheets/)
 
+## Other Tips
+
+* Set Notepad++ as default editor
+    * `git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe'\
+    -multiInst -nosession -noPlugin"`
+
+## Windows, Mac, Linux CR, CRLF Line Endings, Whitespace Config
+* http://stackoverflow.com/questions/1889559/git-diff-to-ignore-m
+* `git config --global core.autocrlf true`
+* http://schacon.github.com/git/git-config.html
+* `core.whitespace = cr-at-eol`
+* `git config --global core.whitespace cr-at-eol`
+* `git diff --ignore-space-at-eol`
+* `git diff --ignore-space-change`
+* `git diff --ignore-all-space`
 
 ## Outline
 * Introductions
