@@ -3,6 +3,7 @@ layout: bare
 title: Sandia Online Git Training
 description: 
 tags: [notes, private, online, class]
+eventdate: 2012-11-12
 ---
 
 # Git/GitHub Introduction on 2012-11-12

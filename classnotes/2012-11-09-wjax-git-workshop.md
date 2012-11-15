@@ -3,6 +3,7 @@ layout: bare
 title: W-JAX Git Workshop
 description: W-JAX Git Workshop Class Notes
 tags: [notes, inperson, class]
+eventdate: 2012-11-09
 ---
 
 # W-JAX Git Workshop

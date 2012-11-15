@@ -10,7 +10,7 @@ categories: classnotes
 {% for page in site.html_pages %}
 {% if page.categories == classnotes %}
 {% if page.showinnav != true %}
-<li><a href="{{ page.url | remove:'index.html' }}">{{ page.title }}</a></li>
+<li>{{ page.eventdate }} • <a href="{{ page.url | remove:'index.html' }}">{{ page.title }}</a></li>
 {% endif %}
 {% endif %}
 {% endfor %}

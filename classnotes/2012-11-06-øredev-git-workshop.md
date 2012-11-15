@@ -3,6 +3,7 @@ layout: bare
 title: Øredev Git Workshop
 description: A three-hour Git workshop at Øredev 2012
 tags: [notes, conference, workshop]
+eventdate: 2012-11-06
 ---
 
 # Git/GitHub Introduction on 2012-11-06

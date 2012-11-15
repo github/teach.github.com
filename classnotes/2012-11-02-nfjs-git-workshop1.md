@@ -3,6 +3,7 @@ layout: bare
 title: NFJS GitHub Workshop
 description: NFJS GitHub Workshop class notes
 tags: [notes, event]
+eventdate: 2012-11-02
 ---
 
 # NFJS GitHub Workshop
