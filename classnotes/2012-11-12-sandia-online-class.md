@@ -66,8 +66,40 @@ Taught by:
 * [NPD Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 * [More Git Cheatsheets](http://teach.github.com/articles/git-cheatsheets/)
 
+## Git Foundations
 
-## Git Foundations Outline
+* Git's Three Stage Thinking
+* Versioning Files in Git
+* Differences
+* Viewing History in Git
+* Understanding Git's Content Tracking
+* Moving and copying files
+* Branching and Merging in Git
+* Rebase and interactive rebase
+* Establishing upstream repositories
+* RefLog as a safety net
+* Stash for work-in-progress
+* Reset modalities
+
+## GitHub Power Tools Outline
+
+* Push, pull, and fetch
+* Collaboration through Pull Requests
+* Code review features of GitHub
+* People, teams, and organizations
+    * Question: process in Enterprise for repo transfer between owners?
+* Issues
+* Project Sites
+* The GitHub API
+    * Question: rate limits in Enterprise?
+    * https://developer.github.com/v3/
+    * If there's no Internet (air gap), can Enterprise users map Gravatar requests to some other resource?
+    * We have a large LDAP auth network here, we want to limit access to our enterprise github to just our teams.  there is a LDAP group that describes us, but we haven't found a way to limit access to enterprise to just our group.
+* Server-side event hooks
+
+
+
+## Command Line History
 
     git config user.name
     git config user.email
@@ -564,3 +596,445 @@ Taught by:
     git reflog
     git reset --hard HEAD@{1}
     cat caesar.txt
+
+    git help diff
+    git diff SHATTERED_VISAGE BEOWULF_COMPLETE
+    git diff BEOWULF_COMPLETE SHATTERED_VISAGE
+    git status
+    git branch
+    git branch -a
+    git remote -v
+    ll
+    echo junk > junk.txt
+    git status
+    git add .
+    git status
+    git reset HEAD junk.txt
+    git status
+    ls
+    cat junk.txt
+    git add .
+    git status
+    git reset
+    git status
+    git add .
+    git status
+    vi ozymandias.txt
+    git add .
+    git status
+    git reset HEAD junk.txt
+    git status
+    git help clean
+    git clean
+    git clean -f 
+    ls
+    git status
+    git commit -m "Frown and wrinkled lip"
+    history 100
+    history
+    tree
+    ll ~ > console.log
+    mkdir target
+    echo "CAFEBABE" > JavaCode.class
+    tree
+    echo "CAFEBABE" > target/JavaCode.class
+    rm JavaCode.class
+    tree
+    git status
+    git status -u
+    touch .gitignore
+    vi .gitignore
+    git status
+    git add .
+    git status
+    git commit -m "Added a .gitignore file, finally"
+    mkdir -p src/main/resources
+    tree
+    vi src/main/resources/important-part-of-build.log
+    git status
+    vi .gitignore
+    vi src/main/resources/.gitignore
+    git status
+    git status -u
+    vi .gitignore
+    git status -u
+    mkdir -p src/test/java
+    tree 
+    touch src/test/java/.gitignore 
+    git status -u
+    git add .
+    git status
+    git commit -m "Some more sophisticated .gitignore examples"
+    git remote -v
+    git help remote 
+    git remote set-url origin git@github.com:githubtrainer/poetry.git
+    git remote -v 
+    git push
+    git push https://github.com/githubtrainer/poetry.git master 
+    ll ~/.ssh
+    chmod 400 ~/.ssh/id_rsa
+    ll ~/.ssh
+    git push
+    cat .git/config
+    git status
+    history
+    cd ..
+    ll
+    rm -rf poetry
+    git clone git@github.com:githubtrainer/poetry.git
+    cd poetry
+    git remote -v
+    git config user.name
+    git config user.email
+    history
+    cd ..
+    ls
+    cd poetry
+    git remote -
+    git remote -v
+    cat ~/.ssh/id_rsa.pub
+    git branch -a
+    tree .refs
+    tree .git/refs
+    git checkout -b student_changes
+    git lg
+    ll
+    git branch
+    git checkout master
+    git checkout student_changes
+    ll
+    vi caesar.txt
+    git add .
+    git commit -m "Cry Havoc"
+    git branch
+    git push -u origin student_changes 
+    history
+    git checkout master
+    git branch -a
+    cat .git/config
+    git branch -a
+    git fetch 
+    git branch -a
+    git fetch
+    git branch -a
+    git remote
+    git remote -v
+    git checkout bryanolivas_changes
+    git branch -a
+    ll
+    vi caesar.txt
+    git diff master
+    git status
+    git add .
+    git commit -m "Final two lines of the soliloquy"
+    git status
+    git push
+    git pull
+    git diff HEAD&
+    git diff HEAD^
+    history
+    vi caesar.txt
+    git commit -am "Cleaned up Caesar a little bit"
+    git push
+    git status
+    git push
+    git fetch
+    git push
+    git status
+    git pull
+    git status
+    vi caesar.txt
+    git add .
+    git status
+    git commit 
+    history
+    git lg
+    git checkout master
+    gitfetch
+    git fetch
+    git status
+    git lg
+    git pull
+    git lg
+    git branch
+    git branch -a
+    git merge bryanolivas_changes
+    git merge origin/theckla_changes
+    vi caesar.txt
+    git commit
+    git add .
+    git commit
+    git branch -a
+    git merge origin/lr1100_changes
+    vi beowulf.txt
+    git status
+    vi beowulf.txt
+    git merge --abort
+    history
+    git branch
+    git branch -a
+    history
+    git status
+    git push
+    git lg
+    git merge origin/theckla_changes
+    git branch -a
+    git merge student_changes
+    vi caesar.txt
+    git status
+    git add caesar.txt
+    git commit
+    git push
+    git pull
+    git push
+    git branch -a
+    git push origin :student_changes
+    git branch -d student_changes
+    history
+    git lg
+    git log
+    git fetch
+    git show 803cfcebc21c11fa73e1c9fed6cb34cd74c1e8ab
+    git diff HEAD 803cfcebc21c11fa73e1c9fed6cb34cd74c1e8ab
+    git diff HEAD 803cfc
+    git branch -a
+    git branch
+    git branch -d bryanolivas_changes
+    git merge bryanolivas_changes
+    git checkout bryanolivas_changes
+    git pull
+    git merge origin/bryanolivas_changes
+    git checkout master
+    git merge bryanolivas_changes
+    git branch -d bryanolivas_changes
+    git branch -D bryanolivas_changes
+    git help push
+    git status
+    git push
+    git push --prune 
+    open .git
+    git push --prune
+    git fetch --prune
+    history
+    git help push
+    vi README
+    git add .
+    git commit -m "Added a readme"
+    git branch -a
+    git push --prune
+    git push origin :bryanolivas_changes
+    git push origin :cpendle_branch
+    git push origin :dac
+    git push origin :davidblackledge_changes
+    git push origin :debodett
+    git push origin :foobar
+    git push origin :gha4me_branch
+    git push origin :jabroo
+    git push origin :jlromin_changes
+    git push origin :jmgries_changes
+    git push origin :jmlineb_changes
+    git push origin :jshaddi
+    git push origin :kmodglin_changes
+    git push origin :kpendle_changes
+    git push origin :lr1100_changes
+    git push origin :mak_branch
+    git push origin :master
+    git push origin :mnc_changes
+    git push origin :mtjenki_changes
+    git push origin :rstrong_features
+    git push origin :sjorgen_changes
+    git push origin :srlinds2_changes
+    git push origin :srlinds_changes
+    git push origin :student_changes_ghbb
+    git push origin :student_jlromin
+    git push origin :theckla_changes
+    git push origin :tienbui_changes
+    git branch -v
+    git branch -a
+    git push
+    git pull
+    cd ..
+    ls
+    git clone git@github.com:githubstudent/poetry.git forked-poetry 
+    cd forked-poetry
+    history
+    ls
+    ls -l
+    git lg
+    ll
+    vi chesterton.txt
+    git add .
+    git commit -a "Chieftains of the north"
+    git commit -am "Chieftains of the north"
+    git push
+    history
+    cat .git/config
+    history
+    git config push.default
+    git config --global push.default simple
+    git remote -v
+    git branch
+    git pull
+    git status
+    git ls-remote origin 
+    git fetch origin refs/pull/11/head 
+    git diff FETCH_HEAD
+    git merge FETCH_HEAD 
+    git status
+    vi chesterton.txt
+    git add chesterton.txt
+    git status
+    git commit
+    git status
+    git push
+    git remote add theckla https://github.com/Theckla/poetry.git
+    git remote -v
+    git fetch theckla
+    git branch -a
+    git diff theckla/master
+    git merge theckla/master
+    vi beowulf.txt
+    git add beowulf.txt
+    git commit
+    git push
+    git pull
+    git push
+    git remote rm theckla
+    git fetch https://github.com/githubstudent/poetry.git master
+    git merge FETCH_HEAD
+    vi chesterton.txt
+    git add .
+    git commit
+    git psuh
+    git push
+    git pull
+    git push
+    git remote add trainer https://github.com/githubtrainer/poetry.git
+    git remote set-url trainer git://github.com/githubtrainer/poetry.git
+    git remote -v
+    git fetch trainer
+    git branch -a
+    git merge trainer/master
+    git pull trainer master
+    ll
+    git push
+    history
+    git branch -a
+    history
+    git pull
+    git push
+    git branch -a
+    git remote -v
+    git remote add org https://github.com/githuborg/poetry.git
+    git remote -v
+    git push org master
+    git remote -v
+    git fetch
+    git remote set-url origin git@github.com:githuborg/poetry.git
+    git fetch
+    git push
+    git pull
+    git fetch
+    ll
+    vi chesterton.txt
+    vi ozymandias.txt
+    git add .
+    git commit -m "MOAR about Higgins and that broken statue"
+    git push
+    git pull
+    git push
+    git loglive -10
+    git loglive -15
+    git fetch
+    git push
+    git pull
+    git push
+    git loglive -10
+    gitk &
+    ll
+    vi tolkien.txt
+    git add .
+    git commit
+    git push
+    git pull
+    git push
+    history
+    git branch -a
+    git checkout --orphan gh-pages 
+    git log master --pretty=raw
+    git branch
+    git status
+    history
+    git status
+    git reset 
+    ll
+    git status
+    git rm --cached *
+    git status
+    rm console.log
+    git rm --cached *
+    git rm --cached -r *
+    git status
+    git rm --cached -r *
+    rm -rm target
+    rm -rf target
+    git rm --cached -r *
+    git status
+    ll
+    git clean -fdx 
+    git status
+    git rm --cached .gitignore
+    git clean -f
+    git status
+    ls
+    vi index.html
+    git add .
+    git commit -m "First commit of gh-pages"
+    git checkout master
+    git mv README README.md
+    git commit -m "Renamed the README"
+    git log gh-pages --pretty=raw
+    git checkout gh-pages
+    git push -u origin gh-pages
+    history
+    curl https://api.github.com/zen
+    man curl
+    brew install grcurl
+    grcurl
+    brew install grc
+    grcurl
+    grc
+    git checkout -b new_feature
+    git merge master
+    vi README.md
+    git commit -am "Changed README"
+    git push
+    git push -u origin new_feature
+    curl https://api.github.com/users/defunkt
+    curl https://api.github.com/users/defunkt
+    curl -i https://api.github.com/users/defunkt
+    curl -u pengwynn -i https://api.github.com/users/defunkt
+    curl -n -i https://api.github.com/user
+    curl -u defunkt -i http://api.github.dev/authorizations
+    curl -u defunkt -i http://api.github.dev/authorizations
+    curl -u defunkt -i -d '{"scopes": ["repo"]}' http://api.github.dev/authorizations
+    curl "http://api.github.dev/user?access_token=258fb4573a4f8a68c63ef37ac2a01fdf74861f27"
+    curl -H 'Authorization: token 258fb4573a4f8a68c63ef37ac2a01fdf74861f27' http://api.github.dev/user
+    curl -I -H 'Authorization: token 258fb4573a4f8a68c63ef37ac2a01fdf74861f27' http://api.github.dev/user
+    curl -I -H 'Authorization: token 258fb4573a4f8a68c63ef37ac2a01fdf74861f27' http://api.github.dev/repos/defunkt/dotjs
+    curl -i -H 'Authorization: token 258fb4573a4f8a68c63ef37ac2a01fdf74861f27' http://api.github.dev/repos/defunkt/dotjs
+    curl -i -H 'Authorization: token 258fb4573a4f8a68c63ef37ac2a01fdf74861f27' http://api.github.dev/user/repos
+    curl -i -H 'Authorization: token 258fb4573a4f8a68c63ef37ac2a01fdf74861f27' http://api.github.dev/users/defunkt/repos
+    curl -i -H 'Authorization: token 258fb4573a4f8a68c63ef37ac2a01fdf74861f27' http://api.github.dev/org/githubhelp/repos
+    curl -i -H 'Authorization: token 258fb4573a4f8a68c63ef37ac2a01fdf74861f27' http://api.github.dev/org/github/repos
+    curl -i -H 'Authorization: token 258fb4573a4f8a68c63ef37ac2a01fdf74861f27' http://api.github.dev/orgs/github/repos
+    curl -i http://api.github.dev/orgs/github/repos
+    curl -i https://api.github.com/orgs/github/repos
+    curl -I https://api.github.com/orgs/github/repos
+    curl -i https://api.github.com/repos/rails/rails/commits
+    curl -I https://api.github.com/repos/rails/rails/commits
+    curl -i -u pengwynn -d '{"title": "This is the title", "body": "Yo what is up?", "labels": ["foo"] }' https://api.github.com/repos/githuborg/poetry/issues
+    curl -i -u pengwynn -d '{"issue": 16, "head": "new_feature", "base": "master" }' https://api.github.com/repos/githuborg/poetry/pulls
+    curl -I https://api.github.com/repos/rails/rails
+    curl -i https://api.github.com/repos/rails/rails
+    curl -i -H 'If-None-Match: "1428448490de28afb6d3f836fdf8702e"' https://api.github.com/repos/rails/rails

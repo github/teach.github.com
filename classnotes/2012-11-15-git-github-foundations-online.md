@@ -65,7 +65,265 @@ Taught by:
 
 ## Day 1 Command History
 
-    STUB
+    git --version
+    ls
+    pwd
+    git init newproject
+    ls
+    cd newproject
+    ls
+    ls -la
+    tree .git
+    git config --list 
+    git config user.name
+    git config user.email
+    git config user.emaill
+    git config --global user.name "Tim Berglund"
+    git config --global user.email "tlberglund@github.com"
+    git config --global color.ui auto
+    cat .git/config
+    vi ~/.gitconfig
+    git log
+    pwd
+    ls
+    vi caesar.txt
+    ls
+    git status
+    git add caesar.txt
+    git status 
+    git commit -m "Initial commit"
+    git status
+    vi caesar.txt
+    git status
+    git add caesar.txt
+    git status
+    git commit -m "Tide of times"
+    l
+    git status
+    vi caesar.txt
+    git diff
+    git add caesar.txt
+    git diff 
+    git status
+    git diff --staged
+    git diff
+    git diff --staged
+    git status
+    vi caesar.txt
+    git status
+    git diff
+    git diff --staged
+    git diff HEAD
+    vi caesar.txt
+    git diff HEAD
+    git diff --staged
+    git diff
+    vi caesar.txt
+    git diff
+    git diff --color-words
+    git diff --word-diff 
+    clear
+    git status
+    git diff HEAD
+    git diff HEAD --color-words
+    git status
+    git diff --staged --color-words
+    git commit -m "Costly blood"
+    git status
+    git diff --color-words
+    git add caesar.txt
+    git commit -m "Dumb mouths"
+    git status
+    vi caesar.txt
+    git diff
+    vi caesar.txt
+    git status
+    git diff
+    git diff -w
+    vi caesar.txt
+    git diff
+    git status
+    git log
+    git lgo
+    git log
+    git log --stat 
+    git log --patch
+    git log --patch --color-words
+    git log --patch --color-words -1
+    git log --stat -2
+    git log --stat -738
+    git log --pretty=full
+    git log --pretty=raw
+    git log --pretty
+    git log --pretty=raw
+    git log --pretty=raw -1 
+    git log --pretty=oneline
+    git log --pretty=oneline --abbrev-commit
+    git log --pretty=oneline --abbrev-commit --graph
+    git lg 
+    git status
+    ls
+    mkdir target
+    echo "CLASS FILE" > target/Java.class
+    echo "angry monkey" > console.log
+    git statu
+    git status
+    tree
+    vi .gitignore 
+    git status
+    git add .gitignore
+    git status
+    git add *
+    git commit -m "Added a .gitignore"
+    git status
+    ls
+    rm -rf target
+    rm console.log
+    ls
+    git config core.excludesfile
+    vi `git config core.excludesfile`
+    vi ~/.gitignore
+    generaterandomfiles 5 junk txt
+    ls
+    git status
+    git add .
+    git status
+    git commit -m "Added some files prepared for destruction"
+    ls
+    git rm junk1.txt
+    ls
+    git status
+    rm junk2.txt
+    git status
+    git rm junk2.txt 
+    git status
+    open .
+    git status
+    git add . 
+    git status
+    git add -u . 
+    git status
+    git commit -m "Deleted all of the junk"
+    ll
+    generaterandomfiles 5 file txt
+    ls -l ~ > listing.txt
+    ls -l
+    git status
+    git add .
+    git status
+    git commit -m "Created some files to move around"
+    git log --stat -1 
+    git log --stat -3
+    ls
+    mkdir files
+    tree
+    git status
+    git mv file1.txt files/
+    tree
+    git status
+    tree
+    mv file2.txt files/
+    tree
+    git status
+    git rm file2.txt
+    git status
+    git add files/file2.txt
+    git status
+    open .
+    git status
+    git add -A .
+    git status
+    git commit -m "Moved the five 'file' files"
+    git log --stat
+    git log --stat -1
+    git log --stat -1 -M 
+    git log --pretty=raw -1
+    tree
+    git status
+    tree
+    vi listing.txt
+    git diff
+    git diff --word-diff
+    git mv listing.txt files/
+    git status
+    git add -A .
+    git status
+    git commit -m "Moved and changed content--tempting fate"
+    git log --stat -1
+    git log --stat -1 -M
+    git log --stat -1 -M85
+    git log --stat -1 -M80
+    git log --stat -1 -M60
+    git log --stat -1 -M95
+    git log --stat -1 -M
+    git log --stat -- files/listing.txt
+    git log --follow --stat -- files/listing.txt
+    git log --follow --stat -M80 -- files/listing.txt
+    git log --follow --stat -M85 -- files/listing.txt
+    git help config
+    git rev-parse HEAD
+    git log -1
+    git log --pretty=raw -
+    git log --pretty=raw -1
+    git ls-tree 05117ccdf05930f647814ed0b8d0f200fdc3de3d
+    git ls-tree e1f4947e42728b1f08c99de41c578b79901fb2f9
+    git cat-file -p 6db7dbc8436c140de5f90095525c49e097349b43
+    git lol
+    git log --graph --pretty=oneline --abbrev-commit
+    git config --global alias.lol "log --graph --pretty=oneline --abbrev-commit"
+    git lol
+    git config alias.lg
+    git lg
+    git status -u -s
+    git config --global alias.s "status -u -s"
+    git s
+    git log HEAD
+    git rev-parse HEAD
+    tr.git
+    cd scratch/newproject
+    git loglive -15
+    git status
+    git branc
+    git branch
+    git lg
+    git branch feature 
+    tree .git/refs
+    cat .git/refs/heads/master
+    cat .git/refs/heads/feature
+    cat .git/HEAD
+    git branch
+    vi caesar.txt
+    git add .
+    git commit -m "Domestic fury"
+    cat .git/refs/heads/master
+    cat .git/refs/heads/feature
+    cat caesar.txt
+    git checkout feature 
+    git status
+    git branch
+    cat caesar.txt
+    vi caesar.txt
+    vi tolkien.txt
+    git status
+    git add .
+    git status
+    git commit -m "New Shakespeare plus some aweXome Tolkien"
+    git lg
+    ls
+    cat caesar.txt
+    git checkout master
+    ls
+    cat caesar.txt
+    git branch
+    git merge feature -m "Merged in the feature branch"
+    git lg
+    git log --pretty=raw -1
+    git lg
+    git branch -d feature
+    cat caesar.txt
+    cat tolkien.txt
+    git config alias.lg
+
 
 ## Day 2 Q&A Transcript
 
