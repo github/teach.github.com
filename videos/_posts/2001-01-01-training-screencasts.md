@@ -4,7 +4,9 @@ title: Training Screencasts
 description: Screencasts that the Training team uses in teaching Git and GitHub.
 ---
 
-# Training Screencasts
+# {{ page.title }}
+
+{{ page.description }}
 
 ## Setup and Configuration
 [Git Configuration](http://githubtraining.s3.amazonaws.com/github-training-screencast-configsetup.mov)
