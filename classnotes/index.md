@@ -3,6 +3,7 @@ layout: categorycontents
 title: List of Class Notes
 description: Notes, resources, command line history, and chat transcripts of delivered GitHub classes.
 showinnav: true
+categories: classnotes
 ---
 
 <ul>
