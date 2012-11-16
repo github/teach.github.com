@@ -331,4 +331,276 @@ Taught by:
 
 ## Day 2 Command History
 
-    STUB
+    git branch
+    tree
+    git status
+    git add
+    git commit
+    git diff
+    git rev-parse HEAD
+    git ls-tree 42a38
+    git cat-file HEAD:caesar.txt
+    git loglive
+    cat ~/scripts/git-loglive
+    watch git lg
+    watch tree -L 3 .git
+    git lg
+    git checkout 41ab965
+    ls
+    ls -l
+    cat junk1.txt
+    git lg
+    git checkout a94da47
+    ls -l
+    git checkout 41ab965
+    ls
+    git checkout master
+    git lg
+    git branch feature2
+    vi caesar.txt
+    git status
+    git add . 
+    git commit -m "Blood and destruction"
+    git lg
+    git checkout feature2
+    vi caesar.txt
+    ls
+    vi tolkien.txt
+    git status
+    git add .
+    git commit -m 
+    git commit -m "More Shakespeare plus Tolkien"
+    git lg
+    git checkout master
+    git merge feature2
+    git status
+    vi caesar.txt
+    git merge --abort
+    git merge feature2
+    vi caesar.txt
+    git status
+    git add caesar.txt
+    git status
+    git commit
+    git lg
+    git config --global core.editor emacs 
+    git config --global core.editor "mate -w"
+    git config --global --unset core.editor 
+    git lg
+    git branch -d feature2
+    git lg
+    git tag DELETED_FILES a94da47  
+    git tag MERGE_CONFLICT_EXAMPLE 
+    tree .git/refs
+    cat .git/refs/tags/MERGE_CONFLICT_EXAMPLE
+    git show DELETED_FILES
+    git tag -a MOVED_FILES b1e8
+    tree .git/refs
+    cat .git/refs/tags/MOVED_FILES
+    git show MOVED_FILES
+    git tag -s SOOPER_SECURE 06f4
+    git show SOOPER_SECURE
+    git lg
+    git branch feature2 67206b0
+    git lg
+    git help reset
+    git reset --hard 0123b35
+    git tag -d MERGE_CONFLICT_EXAMPLE
+    git lf
+    git lg
+    git merge feature2
+    vi caesar.txt
+    git add .
+    git commit
+    git lg
+    git checkout MOVED_FILES
+    ls
+    git checkout master
+    ll
+    git branch -d feature2
+    git branch feature3
+    vi caesar.txt
+    git add .
+    git commit -m "Smiley mothers"
+    git checkout feature3
+    ls
+    vi ozymandias.txt
+    git add .
+    git commit -m "Shelly up in this"
+    vi ozymandias.txt
+    git add .
+    git commit -m "Shattered visage"
+    git lg
+    git lg -10
+    git rebase master
+    git show 2f9c0
+    git show 31ad
+    git branch
+    git checkout master
+    git merge feature3
+    vi caesar.txt
+    git add .
+    git commit -m "Caesar rage"
+    ls
+    vi README.md
+    git add .
+    git commit -m "Added a readme"
+    git checkout feature3
+    vi caesar.txt
+    git add .
+    git commit -m "trouble here..."
+    vi ozymandias.txt
+    git add .
+    git commit -m "Sneer of cold command"
+    git lg
+    git rebase master
+    git status
+    vi caesar.txt
+    git add caesar.txt
+    git status
+    git rebase --continue
+    git lg
+    git checkout master
+    git merge feature3
+    git lg
+    git branch -d feature3
+    tree
+    cd files
+    ls
+    generaterandomchanges 8 random txt
+    git rebase -i HEAD~8 
+    git status
+    ll
+    vi random8.txt
+    vi random3.txt
+    vi random1.txt
+    git status
+    git add .
+    git rebase --continue
+    git rebase -i HEAD~2
+    git lg
+    git lg -10
+    git log --stat -1
+    git reflog
+    git reset --hard HEAD@{12}
+    git reflog
+    git reset --hard HEAD@{1}
+    git help reflog
+    git reflog --all
+    ll -a
+    cd ..
+    ll -a
+    git remote add origin https://github.com/githubtrainer/poetry.git 
+    git remote
+    git remote -v
+    git push -u origin master 
+    git branch
+    vi README.md
+    git add .
+    git commit -m "New improved README"
+    git status
+    git branch -a
+    git lg
+    git lg -10
+    git branch -a
+    git status
+    git push
+    git lg -10
+    pwd
+    ls
+    git clone https://github.com/githubstudent/poetry.git
+    ls
+    cd poetry
+    ls -l
+    git help config
+    ls -l ~/.ssh
+    ssh-keygen -t rsa
+    ls -l ~/.ssh
+    cat ~/.ssh/id_rsa.pub
+    history
+    git remote -v
+    git status
+    git lg
+    vi caesar.txt
+    git status
+    git add .
+    git status
+    git commit -m "Cry HAVOC"
+    git status
+    git push
+    git config user.name
+    git conig user.email
+    git config user.email
+    git config --local user.name "GitHub Student"
+    git config --local user.email "training+githubstudent@github.com"
+    git log -2
+    git commit --amend
+    git log -2
+    git reset --hard HEAD^
+    vi caesar.txt
+    git commit -m "Cry havoc"
+    git add .
+    git commit -m "Cry havoc"
+    git log -2
+    git push
+    git status
+    git lg -10
+    git branch -a
+    git pull 
+    git lg 
+    git fetch https://github.com/githubstudent/poetry.git
+    git fetch https://github.com/githubstudent/poetry.git master
+    git diff FETCH_HEAD
+    git fetch https://github.com/githubstudent/poetry.git
+    git diff FETCH_HEAD
+    git merge FETCH_HEAD 
+    subl caesar.txt
+    git add caesar.txt
+    git status
+    git commit
+    git push
+    git pull
+    git push
+    git lg -10
+    git fetch
+    git pull
+    git fetch
+    git loglive -10
+    git merge origin/master 
+    git lg -10
+    git lg
+    git remote
+    git remote add trainer https://github.com/githubtrainer/poetry.git
+    git fetch trainer
+    git lg
+    git pull trainer master 
+    git lg
+    git push
+    git remote
+    git status
+    git fetch
+    git show 7e520ee
+    git branch -a
+    git pull
+    cat danny.txt
+    git fetch
+    git ls-remote origin
+    git fetch origin refs/pull/1/head 
+    git lg
+    git log FETCH_HEAD
+    git merge FETCH_HEAD
+    git lg
+    git revert 3a23650
+    git lg
+    git show 3a23650
+    cat caesar.txt
+    git show HEAD
+    git reflog
+    git reset --hard HEAD@{1}
+    git lg
+    git rebase -i HEAD~4
+    git lg
+    git push
+    git pull
+    git push
+
