@@ -410,6 +410,100 @@ Taught by:
 ## Day 2 Q&A Transcript
 
     STUB
+    Q: My push failed and posted error
+    A: Do this: "git config --global push.default matching
+    Q: if you are doing bug fixes, would you branch or just edit the original repo?
+    A: Personal preference. With git, branching is so fast and easy…i personally branch. Sometimes it just depends on how long it takes.
+    Q: i missed the SSL part then
+    A: git remote set-url origin git@github.com:USERNAME/poetry.git
+    Q: where does the next commit go, to feature3 or the master timeline?
+    A: Depends on the direction of the rebase! Since he was rebasing onto master (generally the behavior most people are going to do),
+       this will remain on his branch. As shown, however, when you go onto master and merge feature3 back into master, it comes in easy
+       without any merge conflicts. The conflicts would have been resolved in the rebase.
+    Q: Is that the correct naming convention for tags? (capitals?)
+    A: Again, git doesn't really care how you do it. If you notice on some projects on github.com, they use just numbers (0.0.15, etc).
+       Othertimes people use capital letters like tim has shown.
+    Q: Slightly off-topic: What terminal app is he using to get the nifty split-screening? Is that iTerm2?
+    A: Yup!
+    Q: Do you have a list of all the helpful customisations, gists and alias' for the way you work? Will you povide them for us in the notes
+       please?
+    A: Two list of different set of gitconfig's that we could use for examples are listed here:
+       https://github.com/github/teach.github.com/blob/gh-pages/examples/gitconfig/dot-gitconfig.txt and
+       https://github.com/github/teach.github.com/blob/gh-pages/examples/gitconfig/dot-gitconfig2.txt. There are some differences and
+       similarities between the two, so be careful to not just copy all of these. The things in the [] are the keys, and the thing after the "." is the
+       thing we're setting. So `git config --global alias.st status`. Hope this is helpful!
+    Q: Yes cloned...
+    A: Woo! good
+    Q: Can you descibre a real world case for branching.
+    A: Just wanting to cover this in chat: I use branching personally for any time i'm going to work on a new feature, some experimental
+       idea, etc. Especially if i don't know if it'll work out really well.
+    Q: How is "squash" different from simply deleting the previous commits?
+    A: Another way to think of this is "combine" with the commit before it, depending on how you have specified your commands in your
+       interactive rebase. If we're squashing one commit into another, one way to think about this is just "pretend i did work from here…inside
+       of this commit". Hope that definition helps, but as always, feel free to ask in https://github.com/githubtraining/feedback to get more
+       feedback from possibly matthew as well!
+    Q: Can we have a quick refresher from yesterday's core material?
+    A: Just wanted to also answer this in chat, but http://teach.github.com/classnotes/2012-11-15-git-github-foundations-online.html should
+       have the material from yesterday if you want to look over it.
+    Q: Does rm delete the file, or just from git history?
+    A: I know Tim answered this in class, but rm is going to remove the file. However you could always undo this command because of how
+       git works! Some of these tricks may have been shown a bit yesterday and may be shown a bit today (reset, revert commands)
+    Q: will any of this remote stuff affect the remote connection i have with my work repo?
+    A: Nope! The things we do here, are for this specific repository. Won't bother your work repo because your work repo is named
+       something else. (not poetry)
+    Q: how do you get the autorefreshing log on the side
+    A: Thats called loglive, it lives in a gist over here: https://gist.github.com/3714970
+    Q: are there any special characters you can't use in your git commit -m "message?!"
+    A: Actually yes and no. It depends on your quotes. In your above example you're using double quotes, but if you used a single quote: '',
+       you could include !?@#@ etc. :)
+    Q: what's difference between fetch and pull?
+    A: great question! a fetch is a way of updating your remote with what may be on the upstream (github.com). When we pull. this is
+       actually two commands: fetch + merge. It's generally easier to just say "git pull" but for the purpose of this exercise we do the fetch first
+       so we can see the changes we're about to merge in(pull in)
+    Q: i cloned a repo into the poetry repo.. what did i just do?????
+    A: So now you technically have a repo inside of a repo. you could delete this poetry repo and exit out to a higher project folder (outside
+       of newproject for example) and type the clone command again.
+    Q: When the git fetch was executed, does git assume that what you're fetching is a fork of the current project?
+    A: yep! it defaults to your origin (there's a bit more to this, but essentially this is what is happening). It's usually good to be specific on
+       which remote we're fetching from.
+    Q: How was the annotated message displayed? Which command?
+    A: Further, if you want to tag a specific commit, once you see the commit you want to tag(`git log --pretty=oneline` and find a specific
+       commit you want to tag), then you could say something like `git tag -a BRENTS_FIX <COMMIT_HASH> where COMMIT_HASH is that
+       series of letters and numbers that was returned in the log command
+    Q: What happens if you fetch a repo that is not a fork of the repo you are currently working in?
+    A: It works just fine, but there's just two completely distinct root nodes from this repo. It ends up being a complete mess. Tyically we
+    want to create different repositories for different projects. :)
+    Q: Reflog: Does it contain orphaned commits?
+    A: It can! It seems to be escaping us right now for how to do this, but if you could ask this question
+       https://github.com/githubtraining/feedback, we would love to take it offline and answer it right there.
+    Q: What is the syntax for the rebase "range" (i.e. HEAD~8)?
+    A: It's merely however many commits you want to rebase on. For instance. If you're on branch "feature3" and want to rebase master,
+       you would do: `git rebase -i master`. That last part of the command is just "which point do you want to touch back on. Remember from
+       yesterday, branches are just pointers to a specific hash (long string of numbers and letters) and HEAD~4 would be the same reference
+       pointer. We can even use this pointer explicitely if we find one (with a `git log` that we wanted to rebase against.
+    Q: And what if you wanted to save the history, that the merge was wrong and was removed, but still go back in history?
+    A: As Tim showed, the `git reflog` command can help us with this along side of `git reset`. There is caution when doing reset, so be sure
+       you fully understand the commits we're reseting to from the reflog.
+    Q: How do I grab all files from a specific tag?
+    A: Tim grabbed this in audio, but you would checkout to a specific tag. This is one reason why those tag names can be so important.
+       `git checkout <TAGNAME>` would get to that point. This is a little tricky, so I urge caution when doing this kind of move, but with a little
+       bit of finesse it's not too bad.
+    Q: when doing fetch don't have to specify branch.  do have to specify branch when using pull
+    A: Definitely. Because the `git pull` command deals with a merge, we have to tell it specifically what to merge.
+    Q: what do we need to do to see all of the master repo (yours) changes into our fork?
+    A: Great question! Now that the githubtrainer repo is further up to date then our current fork. We need to do this fetch/pull procedure
+       that tim is going through now, I'll be sure he shows this from the githubstudent project as well! Don't let me forget!
+    Q: how are you tailing the git log?
+    A: The command we're looking for here is https://gist.github.com/3714970 ! copy that, or by the end of class today you'll know how to
+       pull that info down to your local machine (clone'ing it)
+    Q: how can we get it to remember our login credientials to github?
+    A: Because we cloned from https and not ssh (the git@github.com:username/repo format) it will always ask us our credentials
+    Q: Will rebase "collect" the conflicts or will they need to be resovled one by one?
+    A: It's one by one. As a rebase is applied, it steps through each of the commits when it's rebasing. When you resolve each merge
+       conflict, you're able to `git rebase --continue` to move through these after you've created your merge conflict merges
+       I don't want to mislead you here. When you continue, you're not making any merge conflict commits. You're continuing and adding
+       the files after the conflicts. `git add` after the conflict has been resolved, then `git rebase --continue`
+    
 
 ## Day 2 Command History
 
