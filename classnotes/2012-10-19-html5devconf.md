@@ -3,6 +3,7 @@ layout: bare
 title: HTML5DevConf GitHub Workshop
 description: HTML5DevConf GitHub Workshop class notes
 tags: [notes, event]
+eventdate: 2012-10-19
 ---
 
 # HTML5DevConf GitHub Workshop

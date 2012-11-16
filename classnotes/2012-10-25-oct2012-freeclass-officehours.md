@@ -3,6 +3,7 @@ layout: bare
 title: GitHub Free Class and Office Hours (October 2012)
 description: GitHub Free Class and Office Hours (October 2012) class notes
 tags: [notes, event]
+eventdate: 2012-10-25
 ---
 
 # Git Free Class and Office Hours

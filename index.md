@@ -2,6 +2,7 @@
 layout: bare
 title: Welcome
 description: A comprehensive set of course materials used to teach Git and GitHub.
+categories: none
 ---
 
 <h1>GitHub Official Teaching Materials (BETA)</h1>

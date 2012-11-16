@@ -3,6 +3,7 @@ layout: bare
 title: Deutsche ePost Git Presentation
 description: Deutsche ePost Git presentation notes and resources
 tags: [notes, inperson, class]
+eventdate: 2012-11-13
 ---
 
 # {{ page.title }}

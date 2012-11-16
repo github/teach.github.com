@@ -3,6 +3,7 @@ layout: bare
 title: Introduciton to Git
 description: 
 tags: [notes, conference, class]
+eventdate: 2012-11-08
 ---
 
 # Git/GitHub Introduction on 2012-11-08

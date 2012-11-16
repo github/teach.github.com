@@ -3,6 +3,7 @@ layout: bare
 title: Git and GitHub Basics
 description: Git/GitHub Basics Free Online Class Notes
 tags: [notes, online, class]
+eventdate: 2012-11-05
 ---
 
 # Git/GitHub Free Online Basics Class

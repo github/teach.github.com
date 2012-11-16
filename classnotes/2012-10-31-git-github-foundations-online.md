@@ -3,6 +3,7 @@ layout: bare
 title: Git and GitHub Foundations
 description: Git/GitHub Foundations Online Class Notes
 tags: [notes, online, class]
+eventdate: 2012-10-31
 ---
 
 # Git/GitHub Foundations Online
