@@ -1,13 +1,12 @@
 ---
 layout: bare
-title: Git and GitHub Foundations
+title: Git and GitHub Foundations Online
 description: Git/GitHub Foundations Online Class Notes
 tags: [notes, online, class]
 path: classnotes/2012-11-15-git-github-foundations-online.md
 eventdate: 2012-11-15
 ---
 
-# Git/GitHub Foundations Online
 on 2012-11-15 through 2012-11-16
 
 Taught by:

@@ -1,13 +1,13 @@
 ---
 layout: bare
-title: Øredev Git Workshop
+title: Øredev Git/GitHub Workshop
 description: A three-hour Git workshop at Øredev 2012
 tags: [notes, conference, workshop]
 path: classnotes/2012-11-06-øredev-git-workshop.md
 eventdate: 2012-11-06
 ---
 
-# Git/GitHub Introduction on 2012-11-06
+on 2012-11-06
 
 Taught by:
 
