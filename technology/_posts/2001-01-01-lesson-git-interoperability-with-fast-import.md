@@ -1,10 +1,9 @@
 ---
 layout: bare
-title: Interoperability Import and Export
+title: Interoperability with Fast-Import and Fast-Export
 description: Git's interoperability with any system via fast-import and fast-export.
 path: technology/_posts/2001-01-01-lesson-git-interoperability-with-fast-import.md
 ---
-
 
 ## Fast-Import
 Git `fast-import` is a human-readable transport format for recreating repositories. Ben Lynn has written a quick description of [fast-import](http://crypto.stanford.edu/~blynn/gitmagic/ch05.html) that is helpful to read.

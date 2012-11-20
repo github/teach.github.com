@@ -5,7 +5,6 @@ description: TODO
 path: technology/_posts/2001-01-01-lesson-filter-branch.md
 ---
 
-# Filter-Branch
 This chapter was inspired by the Grails repo-splitting script from [Jeff Scott Brown of SpringSource](http://www.springsource.com/people/jbrown).
 
 ## Pruning out folders from a repo

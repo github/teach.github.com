@@ -5,9 +5,6 @@ description: Saving Git push and pull credentials for later reuse.
 path: technology/_posts/2001-01-01-lesson-git-credential-cache.md
 ---
 
-
-# Git Credential Cache
-
 ## Linux:
 
 [Git Credential Cache, Gnome Keyring Implementation](https://github.com/shugo/git-credential-gnomekeyring)

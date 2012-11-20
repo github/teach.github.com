@@ -5,8 +5,6 @@ description: Git's network transmission commands.
 path: technology/_posts/2001-01-01-lesson-pushing-and-pulling.md
 ---
 
-# Pushing and Pulling
-
 ## Pushing to a repo
 My Git playground repo URL
 

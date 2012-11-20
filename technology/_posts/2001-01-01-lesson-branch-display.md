@@ -5,8 +5,6 @@ description: Displaying existing local, remote and upstream branches.
 path: technology/_posts/2001-01-01-lesson-branch-display.md
 ---
 
-# Displaying Branches
-
 Show local branch names:
 
     git branch

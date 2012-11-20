@@ -5,8 +5,6 @@ description: Why would use use a version control system?
 path: technology/_posts/2001-01-01-lesson-new-to-version-control.md
 ---
 
-# New To Version Control
-
 We're glad you're considering learning Git. We also know, from having been in your shoes, that being new to version control can mean there's a lot to digest before a [class with existing VCS knowledge as a pre-requisite](http://github.com/training/online).  We've assembled some materials and links that provide a getting-starting perspective and the motivations behind version control. They form the basis of understanding how Git can be applied to a software development workflow.
 
 * [The Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html)

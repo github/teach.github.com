@@ -5,8 +5,6 @@ description: The next step in the evolution of software development is making ev
 path: technology/_posts/2001-01-01-lesson-continuous-delivery.md
 ---
 
-# Continuous Delivery
-
 Continuous delivery is the current buzz, but let's take a few minutes to demystify it. 1. Does it work? 2. How would you go about getting towards that mode of operation? 3. Why would you want to have continuous delivery? 4. What tools facilitate this? You'll leave a transformed developer. The idea of releases being non-stressful and able to be merged in on Friday at 4pm is attractive to the majority of us who have suffered at the hands of the "awful rollback" and the "long weekend." These travails are partially the result of being on the opposite end of the spectrum from continuous delivery. Come with an open mind to branching strategies, feature toggles, and Readme-driven development.
 
 ## Resources

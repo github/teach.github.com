@@ -5,7 +5,6 @@ description: Git's interoperability with Subversion.
 path: technology/_posts/2001-01-01-lesson-git-interoperability-with-subversion.md
 ---
 
-# Subversion (SVN) Interoperability
 Clone one part (branch, folder, tree) of a Subversion repository
 
     git svn clone URL

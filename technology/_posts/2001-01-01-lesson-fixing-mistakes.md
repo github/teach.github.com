@@ -5,8 +5,6 @@ description: TODO
 path: technology/_posts/2001-01-01-lesson-fixing-mistakes.md
 ---
 
-# Fixing Mistakes
-
 ## Amend
 Oops. You *just* committed something with a bad message or the wrong files. Redo a recent commit's file changes or comment. Get the file system in the state you want it before issuing this command.
 

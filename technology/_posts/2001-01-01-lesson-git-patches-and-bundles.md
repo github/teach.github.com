@@ -5,8 +5,6 @@ description: Transporting changes with bundle files.
 path: technology/_posts/2001-01-01-lesson-git-patches-and-bundles.md
 ---
 
-# Transporting Changes
-
 ## Bundles
 Bundles are binary compressed archives that contain a series of commits. This format can be easily transmitted via email or USB stick.
 

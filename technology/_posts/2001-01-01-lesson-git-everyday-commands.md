@@ -1,11 +1,9 @@
 ---
 layout: bare
-title: Every Day Commands
+title: Everyday Commands
 description: TODO
 path: technology/_posts/2001-01-01-lesson-git-everyday-commands.md
 ---
-
-# Everyday Commands
 
 ## Status
 Shows the current status of tracked objects in a repo while sitting anywhere in that repo's directory tree).
