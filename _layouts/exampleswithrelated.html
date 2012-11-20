@@ -9,12 +9,12 @@
 
     <link rel="stylesheet" media="screen" href="/stylesheets/code.css" type="text/css" />
 	  <link rel="stylesheet" media="screen" href="/stylesheets/page.css" type="text/css" />
-    {% if page.examplesPath %}
+    {% if page.examples %}
     <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
     <script src="/components/github-files/index.js"></script>
     <script type = "text/javascript">
-      for(var i = 0; i < "{{page.examplesPath}}".split(" ").length; i++){
-        var filePath = "{{page.examplesPath}}".split(" ")[i];
+      for(var i = 0; i < "{{page.examples}}".split(" ").length; i++){
+        var filePath = "{{page.path}}"+"{{page.examples}}".split(" ")[i];
         (function(filePath){
           $.getGithubFileByFilePath("github", "teach.github.com", filePath, function(contents) {
             $("#example pre code").append("<h3>"+ filePath +"</h3>");
@@ -47,7 +47,7 @@
     <div class="top">
       <header>
         <a href ="/"><img alt="GitHub" class="github-logo-4x" height="30" src="/images/github_training_logo.png"></a>
-        <a href="https://github.com/github/teach.github.com" class="mini-button"><span>R</span>View it on GitHub</a>
+        <a href="https://github.com/github/teach.github.com/blob/gh-pages/{{page.path}}" class="mini-button"><span>R</span>View it on GitHub</a>
       </header>
     </div>
 

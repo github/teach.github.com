@@ -2,7 +2,8 @@
 layout: exampleswithrelated
 title: Git SVN Conversion for the Groovy Project
 description: An example of converting a Subversion repo to Git.
-examplesPath: examples/git-svn-convert-groovy/Groovy-SVN-To-Git-Conversion.bsh
+path: examples/git-svn-convert-groovy/
+examples: Groovy-SVN-To-Git-Conversion.bsh
 tags: [example, code]
 ---
 
