@@ -2,6 +2,7 @@
 layout: bare
 title: Internals of .git
 description: TODO
+path: technology/_posts/2001-01-01-lesson-internals-of-dotgit.md
 ---
 
 # The Internals

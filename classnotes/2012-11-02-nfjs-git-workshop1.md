@@ -3,6 +3,7 @@ layout: bare
 title: NFJS GitHub Workshop
 description: NFJS GitHub Workshop class notes
 tags: [notes, event]
+path: classnotes/2012-11-02-nfjs-git-workshop1.md
 eventdate: 2012-11-02
 ---
 

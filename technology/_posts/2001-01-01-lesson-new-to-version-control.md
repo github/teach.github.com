@@ -2,6 +2,7 @@
 layout: bare
 title: New to Version Control
 description: Why would use use a version control system?
+path: technology/_posts/2001-01-01-lesson-new-to-version-control.md
 ---
 
 # New To Version Control

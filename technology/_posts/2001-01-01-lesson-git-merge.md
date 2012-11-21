@@ -2,6 +2,7 @@
 layout: bare
 title: Merging, Rebase, Rerere
 description: Merging branches together and polishing them with Rebase.
+path: technology/_posts/2001-01-01-lesson-git-merge.md
 ---
 
 ## Merging

@@ -2,6 +2,7 @@
 layout: bare
 title: Vintage Dates
 description: Setting vintage dates for new Git commits.
+path: technology/_posts/2001-01-01-lesson-forcing-vintage-commit-dates.md
 ---
 
 # Vintage Dates for Git Commits

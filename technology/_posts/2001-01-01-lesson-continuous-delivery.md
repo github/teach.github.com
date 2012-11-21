@@ -2,6 +2,7 @@
 layout: bare
 title: Continous Delivery
 description: The next step in the evolution of software development is making ever smaller changes and continually deploying to production.
+path: technology/_posts/2001-01-01-lesson-continuous-delivery.md
 ---
 
 # Continuous Delivery

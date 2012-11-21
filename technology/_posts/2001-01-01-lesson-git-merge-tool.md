@@ -2,6 +2,7 @@
 layout: bare
 title: Git Merge Tools
 description: Using external merge tools.
+path: technology/_posts/2001-01-01-lesson-git-merge-tool.md
 ---
 
 ## External Merge Tools
