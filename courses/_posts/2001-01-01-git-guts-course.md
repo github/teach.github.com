@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Graphs, Hashes, an Compression, Oh My!
 description: An advanced Git talk directed at very technical User Groups.
+path: courses/_posts/2001-01-01-git-guts-course.md
 ---
 
 # Graphs, Hashes, and Compression, Oh My!

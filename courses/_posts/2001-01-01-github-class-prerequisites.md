@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Git and GitHub Class Prerequisites
 description: Installation, setup, and configuration prior to attending a Git and GitHub workshop.
+path: courses/_posts/2001-01-01-github-class-prerequisites.md
 tags: [email, reference, resource]
 ---
 

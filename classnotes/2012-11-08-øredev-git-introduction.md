@@ -3,6 +3,7 @@ layout: bare
 title: Introduciton to Git
 description: 
 tags: [notes, conference, class]
+path: classnotes/2012-11-08-øredev-git-introduction.md
 eventdate: 2012-11-08
 ---
 

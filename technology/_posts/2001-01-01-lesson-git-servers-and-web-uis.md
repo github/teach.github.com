@@ -2,6 +2,7 @@
 layout: bare
 title: Servers and Web Interfaces
 description: Web application front ends to serving Git repositories.
+path: technology/_posts/2001-01-01-lesson-git-servers-and-web-uis.md
 ---
 
 # Servers & Web Interfaces

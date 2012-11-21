@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Curated Git Bookmarks
 description: A hand-selected list of Git links.
+path: resources/_posts/2001-01-01-git-bookmarks.md
 ---
 
 # Git Articles, Blog Posts, and Sites

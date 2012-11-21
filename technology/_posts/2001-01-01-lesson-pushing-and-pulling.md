@@ -2,6 +2,7 @@
 layout: bare
 title: Pushing and Pulling
 description: Git's network transmission commands.
+path: technology/_posts/2001-01-01-lesson-pushing-and-pulling.md
 ---
 
 # Pushing and Pulling

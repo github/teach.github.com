@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Git Beyond the Basics
 description: An intermediate Git workshop.
+path: courses/_posts/2001-01-01-git-intermediate-course.md
 ---
 
 # Git: Beyond the Basics

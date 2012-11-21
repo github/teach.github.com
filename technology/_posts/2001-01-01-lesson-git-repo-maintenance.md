@@ -2,6 +2,7 @@
 layout: bare
 title: Repository maintenance
 description: Maintaining a repository and checking for integrity.
+path: technology/_posts/2001-01-01-lesson-git-repo-maintenance.md
 ---
 
 # Maintenance

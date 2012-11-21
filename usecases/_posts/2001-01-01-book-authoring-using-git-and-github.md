@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Book Authoring Using Git and GitHub
 description: Formats, tips and techniques for using Git and GitHub as the verison control and collaborative platform for writing short and long form books.
+path: usecases/_posts/2001-01-01-book-authoring-using-git-and-github.md
 ---
 
 # Authoring Books on GitHub

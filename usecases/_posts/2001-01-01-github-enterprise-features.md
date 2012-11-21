@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: GitHub Enterprise Features
 description: What features does GitHub Enterprise offer that help management in their purchase decision making?
+path: usecases/_posts/2001-01-01-github-enterprise-features.md
 ---
 
 # GitHub Enterprise

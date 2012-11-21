@@ -2,6 +2,7 @@
 layout: bare
 title: Fixing Mistakes
 description: TODO
+path: technology/_posts/2001-01-01-lesson-fixing-mistakes.md
 ---
 
 # Fixing Mistakes

@@ -2,6 +2,7 @@
 layout: bare
 title: Creating Branches
 description: Creating a new branch.
+path: technology/_posts/2001-01-01-lesson-branch-creation.md
 ---
 
 # Creating Branches

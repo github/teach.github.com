@@ -2,6 +2,7 @@
 layout: bare
 title: Viewing History
 description: Viewing the history of commits.
+path: technology/_posts/2001-01-01-lesson-git-log-history.md
 ---
 
 # Log history

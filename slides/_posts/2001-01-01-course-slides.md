@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Workshop Training Slides
 description: Presentation slides for Git workshops
+path: slides/_posts/2001-01-01-course-slides.md
 ---
 
 # GitHub Training Slides

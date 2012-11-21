@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Shell Prompts
 description: Decorating a shell prompt with Git repository information.
+path: resources/_posts/2001-01-01-shell-prompts.md
 ---
 
 # Shell Prompts

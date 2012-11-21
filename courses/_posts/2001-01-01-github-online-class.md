@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: GitHub Git Online Training Preparation
 description: Installation, setup, and configuration prior to attending an online Git and GitHub workshop.
+path: courses/_posts/2001-01-01-github-online-class.md
 tags: [email, template, resource]
 ---
 

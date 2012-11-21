@@ -2,6 +2,7 @@
 layout: bare
 title: Tags
 description: Checkpointing releases and other milestones with tags.
+path: technology/_posts/2001-01-01-lesson-git-tag.md
 ---
 
 # Managing Checkpoints

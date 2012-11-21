@@ -2,6 +2,7 @@
 layout: bare
 title: Interoperability with ClearCase
 description: Git's interoperability with ClearCase.
+path: technology/_posts/2001-01-01-lesson-git-interoperability-with-clearcase.md
 ---
 
 # ClearCase Interoperability

@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Resources TODO
 description: What else should be in the Resources category?
+path: resources/_posts/X2001-01-01-Resources-TODO.md
 ---
 
 # Resources
