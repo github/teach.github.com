@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Advanced Git User Group Course
 description: An advanced Git talk directed at User Groups.
+path: courses/_posts/2001-01-01-git-advanced-usergroup-course.md
 ---
 
 # Advanced Git User Group Talks

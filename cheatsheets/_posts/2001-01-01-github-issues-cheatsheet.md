@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: GitHub Issues Quick Reference
 description: Quick reference for GitHub Issues (bug tracking).
+path: cheatsheets/_posts/2001-01-01-github-issues-cheatsheet.md
 tags: [reference, cheatsheet]
 ---
 

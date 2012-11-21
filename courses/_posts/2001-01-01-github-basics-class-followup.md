@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Free GitHub Basics Class Follow-up
 description: Resources that facilitate going beyond our Introduction to Git and GitHub class.
+path: courses/_posts/2001-01-01-github-basics-class-followup.md
 tags: [reference, email, template]
 ---
 

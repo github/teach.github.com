@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Advanced Git & GitHub Online Course
 description: An advanced Git talk delivered to online audiences over three hours.
+path: courses/_posts/2001-01-01-git-and-github-advanced-course.md
 ---
 
 

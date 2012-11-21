@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: GitHub Videos
 description: Videos that the Training team uses in teaching Git and GitHub.
+path: videos/_posts/2001-01-01-github-videos.md
 ---
 
 

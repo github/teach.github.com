@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Complete Class Plan
 description: A directed curriculum plan through all our courseware articles.
+path: courses/_posts/2001-01-01-github-foundations-class-plan.md
 tags: [outline, course]
 ---
 
