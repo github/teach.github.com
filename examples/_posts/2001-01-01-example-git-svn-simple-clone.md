@@ -7,6 +7,4 @@ examples: clone-a-project.sh
 tags: [example, code]
 ---
 
-# Git SVN Simple Clone
-
 <LINK>

@@ -5,8 +5,6 @@ description: An advanced Git talk directed at very technical User Groups.
 path: courses/_posts/2001-01-01-git-guts-course.md
 ---
 
-# Graphs, Hashes, and Compression, Oh My!
-
 Git is a version control system. We can look at it from that high level. Git is a content tracking system. Some teachers advise us to look at it from that lowered elevation. But I will take you to the very bottom. The floor. The code. The algorithms. The directed acyclic graph of hashed bit sequences made efficient through LZW compression and deferred garbage collection determined by node reachability via hash relationships.
 
 "But why?", you may ask. "Why go this deep?" Git is a tool that works so well for so many. It mystically corrects anticipated `merge` conflicts. It's "where did code come from" results from `blame` are impressive. The ability to re-write history through `rebase` is awesome. The globally unique identifier nature of a hash-produced ref is revolutionary.

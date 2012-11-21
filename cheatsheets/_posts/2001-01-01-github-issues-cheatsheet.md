@@ -6,8 +6,6 @@ path: cheatsheets/_posts/2001-01-01-github-issues-cheatsheet.md
 tags: [reference, cheatsheet]
 ---
 
-# GitHub Issues Shortcuts
-
 * An Eclipse article on [tips and tricks of using Eclipse with GitHub](http://eclipsesource.com/blogs/2012/08/28/tips-and-tricks-using-eclipse-with-github/), including the use of the Mylin connector.
 * The [GitHub Eclipse](http://eclipse.github.com) page.
 

@@ -7,6 +7,4 @@ examples: delete-merged-remote-branches.sh
 tags: [example, code]
 ---
 
-# Script to delete merged branches
-
 <LINK>

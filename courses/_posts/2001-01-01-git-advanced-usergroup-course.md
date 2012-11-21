@@ -5,7 +5,6 @@ description: An advanced Git talk directed at User Groups.
 path: courses/_posts/2001-01-01-git-advanced-usergroup-course.md
 ---
 
-# Advanced Git User Group Talks
 User groups and private companies are the most frequent places welcoming an _Advanced Git_ flavored talk. Such a talk can serve as a starting point for building out a event outline.
 
 ## Outline

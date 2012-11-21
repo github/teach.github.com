@@ -5,7 +5,7 @@ description: A hand-selected list of Git eBook links.
 path: resources/_posts/2001-01-01-git-ebooks.md
 ---
 
-# Git eBooks
+## Git eBooks
 
 There are many fantastic free and commercial eBooks explaining both how to use and how to get the most out of Git. A dynamically updated list of our 50 most recently updated Git eBook bookmarks are provided below.
 

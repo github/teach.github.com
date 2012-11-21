@@ -6,6 +6,4 @@ path: examples/_posts/2001-01-01-example-shellprompts.md
 tags: [example, code]
 ---
 
-# Shell Prompts
-
 <LINK>

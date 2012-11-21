@@ -7,6 +7,4 @@ examples: dot-gitconfig.txt
 tags: [example, code]
 ---
 
-# Git Config Files
-
 <LINK>
