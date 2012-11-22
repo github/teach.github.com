@@ -4,4 +4,4 @@ title: Git Hook Samples
 description: Hooks are small programs that run at certain lifecycle events.
 ---
 
-* [Git Training Hooks](https://github.com/matthewmccullough/git-workshop/tree/master/examples/hooks)
+* [Git Hook Examples](http://teach.github.com/articles/example-hooks/)
