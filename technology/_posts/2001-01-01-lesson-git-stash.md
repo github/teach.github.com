@@ -2,6 +2,7 @@
 layout: bare
 title: Saving In-Flight Changes
 description: Stashing away in-progress changes without a commit.
+path: technology/_posts/2001-01-01-lesson-git-stash.md
 ---
 
 # Stash

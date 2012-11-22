@@ -2,6 +2,7 @@
 layout: bare
 title: Ecosystem
 description: TODO
+path: technology/_posts/2001-01-01-lesson-git-ecosystem.md
 ---
 
 # Ecosystem

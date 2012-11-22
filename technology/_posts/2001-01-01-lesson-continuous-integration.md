@@ -2,6 +2,7 @@
 layout: bare
 title: Continuous Integration
 description: Continuously building and testing your code.
+path: technology/_posts/2001-01-01-lesson-continuous-integration.md
 ---
 
 # Continuous Integration

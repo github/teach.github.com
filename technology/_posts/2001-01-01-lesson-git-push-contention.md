@@ -2,6 +2,7 @@
 layout: bare
 title: Git Push Contention
 description: TODO
+path: technology/_posts/2001-01-01-lesson-git-push-contention.md
 ---
 
 # Git Push Contention

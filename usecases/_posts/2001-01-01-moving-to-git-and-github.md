@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Moving to Git and GitHub
 description: A journey from a version control system such as Subversion to Git and GitHub and the challenges that are likely to present themselves along the way.
+path: usecases/_posts/2001-01-01-moving-to-git-and-github.md
 ---
 
 

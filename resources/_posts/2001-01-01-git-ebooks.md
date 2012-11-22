@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Curated Git eBook Bookmarks
 description: A hand-selected list of Git eBook links.
+path: resources/_posts/2001-01-01-git-ebooks.md
 ---
 
 # Git eBooks

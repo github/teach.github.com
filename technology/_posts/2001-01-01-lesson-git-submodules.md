@@ -2,6 +2,7 @@
 layout: bare
 title: Submodules
 description: Nesting Git repositories.
+path: technology/_posts/2001-01-01-lesson-git-submodules.md
 ---
 
 # Submodules

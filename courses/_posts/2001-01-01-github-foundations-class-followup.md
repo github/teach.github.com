@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: GitHub Foundations Class Follow-up
 description: Resources that support our Git and GitHub Foundations class.
+path: courses/_posts/2001-01-01-github-foundations-class-followup.md
 tags: [email, template, resource]
 ---
 

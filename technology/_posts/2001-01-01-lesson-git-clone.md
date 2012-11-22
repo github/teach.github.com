@@ -2,6 +2,7 @@
 layout: bare
 title: Cloning
 description: Copying a repository from an upstream location to your local disk.
+path: technology/_posts/2001-01-01-lesson-git-clone.md
 ---
 
 #Cloning Basics

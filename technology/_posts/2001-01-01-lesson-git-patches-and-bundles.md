@@ -2,6 +2,7 @@
 layout: bare
 title: Portable Change Bundles
 description: Transporting changes with bundle files.
+path: technology/_posts/2001-01-01-lesson-git-patches-and-bundles.md
 ---
 
 # Transporting Changes

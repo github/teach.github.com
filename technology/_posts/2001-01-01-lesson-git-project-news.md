@@ -2,6 +2,7 @@
 layout: bare
 title: Git Release Notes
 description: TODO
+path: technology/_posts/2001-01-01-lesson-git-project-news.md
 ---
 
 # Git Release Notes

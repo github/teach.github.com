@@ -3,6 +3,7 @@ layout: bare
 title: NFJS Denver GitHub Workshop
 description: NFJS GitHub Workshop class notes
 tags: [notes, event]
+path: classnotes/2012-11-17-nfjs-denver.md
 eventdate: 2012-11-17
 ---
 

@@ -2,6 +2,7 @@
 layout: bare
 title: Viewing File Contents
 description: Viewing the contents of historical files.
+path: technology/_posts/2001-01-01-lesson-git-show-files.md
 ---
 
 # Viewing Files

@@ -3,6 +3,7 @@ layout: bare
 title: Sandia Online Git Training
 description: 
 tags: [notes, private, online, class]
+path: classnotes/2012-11-12-sandia-online-class.md
 eventdate: 2012-11-12
 ---
 

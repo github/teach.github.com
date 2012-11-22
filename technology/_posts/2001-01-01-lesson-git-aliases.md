@@ -2,6 +2,7 @@
 layout: bare
 title: Customizing Git
 description: TODO
+path: technology/_posts/2001-01-01-lesson-git-aliases.md
 ---
 
 # Customizing Git

@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Git and GitHub Cheat Sheets
 description: Cheat sheets and quick references for Git and GitHub commands.
+path: cheatsheets/_posts/2001-01-01-git-cheatsheets.md
 tags: [reference, cheatsheet]
 ---
 

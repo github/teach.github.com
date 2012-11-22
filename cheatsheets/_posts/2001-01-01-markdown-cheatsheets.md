@@ -2,6 +2,7 @@
 layout: barewithrelated
 title: Markdown Cheat Sheets
 description: Cheat sheets and quick references for the Markdown simple markup language.
+path: cheatsheets/_posts/2001-01-01-markdown-cheatsheets.md
 tags: [reference, cheatsheet]
 ---
 
