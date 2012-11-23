@@ -5,8 +5,6 @@ description: Decorating a shell prompt with Git repository information.
 path: resources/_posts/2001-01-01-shell-prompts.md
 ---
 
-# Shell Prompts
-
 Recent installations of MSysGit include a bash prompt that indicates the current branch and working tree status.
 
 * [Git's offical shell completion](https://github.com/github/git/blob/github/contrib/completion/git-completion.bash)

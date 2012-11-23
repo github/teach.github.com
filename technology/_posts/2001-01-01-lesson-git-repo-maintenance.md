@@ -1,11 +1,9 @@
 ---
 layout: bare
-title: Repository maintenance
+title: Repository Maintenance
 description: Maintaining a repository and checking for integrity.
 path: technology/_posts/2001-01-01-lesson-git-repo-maintenance.md
 ---
-
-# Maintenance
 
 ## File System Check
 File system check verifies integrity. Finds corrupt objects.

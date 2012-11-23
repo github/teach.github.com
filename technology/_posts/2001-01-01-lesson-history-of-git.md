@@ -4,8 +4,6 @@ title: History of Git
 description: TODO
 ---
 
-# Some History
-
 ## Dates for other VCSes
 There have been a plethora of VCSes over the years. All seem like an incremental improvement over the previous model.
 

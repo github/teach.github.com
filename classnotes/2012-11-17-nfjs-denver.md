@@ -7,8 +7,6 @@ path: classnotes/2012-11-17-nfjs-denver.md
 eventdate: 2012-11-17
 ---
 
-# {{ page.title }}
-
 ## CLI History
 
     git --version

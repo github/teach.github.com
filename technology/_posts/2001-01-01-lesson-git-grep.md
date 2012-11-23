@@ -5,8 +5,6 @@ description: Searching for code in a repository's history.
 path: technology/_posts/2001-01-01-lesson-git-grep.md
 ---
 
-# Git Grep and Bisect
-
 ## Searching in Code with Grep
 
 Find text in the tracked files

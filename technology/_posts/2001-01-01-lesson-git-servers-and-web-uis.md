@@ -5,8 +5,6 @@ description: Web application front ends to serving Git repositories.
 path: technology/_posts/2001-01-01-lesson-git-servers-and-web-uis.md
 ---
 
-# Servers & Web Interfaces
-
 ## Git Daemon
 Run a local Git server on port 9418 (`DEFAULT_GIT_PORT`). The `--base-path` option sets up a virtual new root for cloning. Otherwise, the cloning end would need to know the actual path on your disk from the root to the repository folder. That is generally undesirable and the more common expectation is that repos are at the top level.
 

@@ -5,7 +5,7 @@ description: A hand-selected list of Git links.
 path: resources/_posts/2001-01-01-git-bookmarks.md
 ---
 
-# Git Articles, Blog Posts, and Sites
+## Git Articles, Blog Posts, and Sites
 
 There are literally thousands of sites with Git content. This is where instructor information curating becomes helpful. A dynamically updated list of our 50 most recently updated Git bookmarks are provided below.
 

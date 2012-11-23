@@ -1,11 +1,9 @@
 ---
 layout: barewithrelated
-title: Workshop Training Slides
+title: GitHub Training Slides
 description: Presentation slides for Git workshops
 path: slides/_posts/2001-01-01-course-slides.md
 ---
-
-# GitHub Training Slides
 
 * [GitHub Git Training Slides - Foundations](http://githubtraining.s3.amazonaws.com/github-git-training-slides.pdf)
 * [GitHub Git Training Slides - Advanced](http://githubtraining.s3.amazonaws.com/github-git-training-slides-advanced.pdf)

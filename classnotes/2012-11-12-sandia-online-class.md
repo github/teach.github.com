@@ -7,7 +7,7 @@ path: classnotes/2012-11-12-sandia-online-class.md
 eventdate: 2012-11-12
 ---
 
-# Git/GitHub Introduction on 2012-11-12
+on 2012-11-12
 
 Taught by:
 

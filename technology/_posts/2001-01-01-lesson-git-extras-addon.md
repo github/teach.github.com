@@ -5,8 +5,6 @@ description: TODO
 path: technology/_posts/2001-01-01-lesson-git-extras-addon.md
 ---
 
-# Extra Git Tooling
-
 ## git extras
 
 [Git Extras](https://github.com/visionmedia/git-extras) are a series of commands that composite core Git functionality that would typically be accomplished in multiple command executions.

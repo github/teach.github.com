@@ -7,6 +7,4 @@ examples: asciidoc-sample.asciidoc
 tags: [example, code]
 ---
 
-# AsciiDoc Sample
-
 <LINK>

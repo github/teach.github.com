@@ -7,8 +7,6 @@ tags: [outline, course]
 ---
 
 
-# Complete Class Outline
-
 This is an outline for a comprehensive class that uses all modules in the `articles` folder.
 
 1. [Switching To Git and GitHub](/articles/moving-to-git-and-github/)

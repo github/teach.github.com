@@ -5,7 +5,6 @@ description: Git's interoperability with ClearCase.
 path: technology/_posts/2001-01-01-lesson-git-interoperability-with-clearcase.md
 ---
 
-# ClearCase Interoperability
 * Conversion Tools
   * [CMBridge](http://www.clearvision-cm.com/clearcase-subversion-git-mercurial-integration.html)
     * Commercial tool

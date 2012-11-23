@@ -5,9 +5,6 @@ description: An advanced Git workshop outline and course plan.
 path: courses/_posts/2001-01-01-git-advanced-course.md
 ---
 
-
-# Advanced Git Workshop
-
 GeekOut Estonia, 2012-06-13  
 by Matthew McCullough
 

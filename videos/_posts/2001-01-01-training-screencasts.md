@@ -5,8 +5,6 @@ description: Screencasts that the Training team uses in teaching Git and GitHub.
 path: videos/_posts/2001-01-01-training-screencasts.md
 ---
 
-# {{ page.title }}
-
 {{ page.description }}
 
 ## Setup and Configuration

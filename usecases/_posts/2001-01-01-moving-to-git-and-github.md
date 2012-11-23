@@ -5,8 +5,6 @@ description: A journey from a version control system such as Subversion to Git a
 path: usecases/_posts/2001-01-01-moving-to-git-and-github.md
 ---
 
-
-# Switching to GitHub
 Many companies ask why they should switch to Git and GitHub. The answer primarily lies in doing less repetitive work, and making your source code control efforts disppear into the background instead of be in the forefront of your workflow. Your [focus should be on your creative work](https://github.com/features/projects) and just incidentally have it versioned. As soon as your project is no longer a solo effort, you desire to have it support collaboration. In the space of version control, our users claim that no set of tools does that as well as Git and GitHub.
 
 These goals are explained in a highly creative way by GitHub's CEO in [The Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html).

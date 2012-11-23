@@ -5,8 +5,6 @@ description: Creating and using SSH keys.
 path: technology/_posts/2001-01-01-lesson-ssh-setup.md
 ---
 
-# SSH Setup
-
 ## Setting up an SSH Key
 This next step works with msysGit (Git for Windows) or on any *NIX system.
 

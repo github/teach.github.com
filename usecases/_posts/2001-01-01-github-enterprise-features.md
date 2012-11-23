@@ -5,8 +5,6 @@ description: What features does GitHub Enterprise offer that help management in 
 path: usecases/_posts/2001-01-01-github-enterprise-features.md
 ---
 
-# GitHub Enterprise
-
 What is [GitHub Enterprise](https://enterprise.github.com/)?  It's all of the features of [github.com](http://github.com) hosted as a virtual machine on your own servers.
 
 ## Major Features
