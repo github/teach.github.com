@@ -5,9 +5,6 @@ description: Checkpointing releases and other milestones with tags.
 path: technology/_posts/2001-01-01-lesson-git-tag.md
 ---
 
-# Managing Checkpoints
-
-## Tagging
 List all existing tags
 
     git tag

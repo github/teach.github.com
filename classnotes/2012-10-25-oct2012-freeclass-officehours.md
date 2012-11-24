@@ -7,9 +7,7 @@ path: classnotes/2012-10-25-oct2012-freeclass-officehours.md
 eventdate: 2012-10-25
 ---
 
-# Git Free Class and Office Hours
-
-_2012-10-25_
+on 2012-10-25
 
 * Led by Tim Berglund ([Twitter](http://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
 * Supported by (Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))

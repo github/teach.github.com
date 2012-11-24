@@ -5,8 +5,6 @@ description: Finding a regression in a repository's history
 path: technology/_posts/2001-01-01-lesson-git-bisect.md
 ---
 
-# Git Bisect
-
 ## Finding a bug with Bisect
 
 Start the process of finding a commit where tests broke

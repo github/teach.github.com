@@ -5,8 +5,6 @@ description: TODO
 path: technology/_posts/2001-01-01-lesson-git-aliases.md
 ---
 
-# Customizing Git
-
 ## Aliases
 Commands can be composed and renamed in Git to better suit your working style. For example, I've renamed `git status` to `git s` and I've composed `git log --oneline --decorate` to `git logod`.
 

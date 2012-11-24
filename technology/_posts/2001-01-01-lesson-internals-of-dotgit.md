@@ -5,8 +5,6 @@ description: TODO
 path: technology/_posts/2001-01-01-lesson-internals-of-dotgit.md
 ---
 
-# The Internals
-
 ## Looking around the .git folder
 The .git folder is the "magic" directory
 

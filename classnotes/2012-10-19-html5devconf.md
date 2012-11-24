@@ -7,7 +7,6 @@ path: classnotes/2012-10-19-html5devconf.md
 eventdate: 2012-10-19
 ---
 
-# HTML5DevConf GitHub Workshop
 on 2012-10-17
 
 Taught by:

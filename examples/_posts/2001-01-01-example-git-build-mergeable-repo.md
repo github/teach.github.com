@@ -7,6 +7,4 @@ examples: git-build-mergeable.sh
 tags: [example, code]
 ---
 
-# Build a mergeable Git repo
-
 <LINK>

@@ -5,9 +5,6 @@ description: Videos that the Training team uses in teaching Git and GitHub.
 path: videos/_posts/2001-01-01-github-videos.md
 ---
 
-
-# {{ page.title }}
-
 Several sources for videos about Git and GitHub are:
 
 [Git-SCM Official Site Videos  

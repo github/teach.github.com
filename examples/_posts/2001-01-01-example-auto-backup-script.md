@@ -7,6 +7,4 @@ examples: auto-backup-script.sh
 tags: [example, code]
 ---
 
-# Automatic Git Commits (Backups)
-
 <LINK>

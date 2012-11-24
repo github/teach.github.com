@@ -5,8 +5,6 @@ description: Nesting Git repositories.
 path: technology/_posts/2001-01-01-lesson-git-submodules.md
 ---
 
-# Submodules
-
 ## Creating Submodules
 This is the equivalent to SVN externals. [Submodules are subdirectories of a Git project that point to another Git project](http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html).
 

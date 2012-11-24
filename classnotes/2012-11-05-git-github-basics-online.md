@@ -7,7 +7,6 @@ path: classnotes/2012-11-05-git-github-basics-online.md
 eventdate: 2012-11-05
 ---
 
-# Git/GitHub Free Online Basics Class
 on 2012-11-05
 
 Taught by:

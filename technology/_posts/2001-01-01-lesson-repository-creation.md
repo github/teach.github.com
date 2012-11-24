@@ -5,9 +5,6 @@ description: Creating a new local repository.
 path: technology/_posts/2001-01-01-lesson-repository-creation.md
 ---
 
-
-# Building a New Repository
-
 ## Creating a regular repository
     mkdir anewproject
     cd anewproject

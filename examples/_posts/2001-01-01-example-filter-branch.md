@@ -7,7 +7,5 @@ examples: test-filter-branch.sh splitgitrepo.pl
 tags: [example, code]
 ---
 
-# Demonstrate the use of Git filter-branch
-
 Start out by downloading `originalrepo.tar`: [here](https://github.com/github/teach.github.com/blob/gh-pages/examples/filter-branch/originalrepo.tar?raw=true)
 <LINK>

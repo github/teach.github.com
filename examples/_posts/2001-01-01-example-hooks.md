@@ -7,6 +7,4 @@ examples: post-receive-email-SMTP.py
 tags: [example, code]
 ---
 
-# Git Hooks
-
 * [Hooks written in Groovy](http://mrhaki.blogspot.com/2012/10/groovy-goodness-using-groovy-for-git.html)

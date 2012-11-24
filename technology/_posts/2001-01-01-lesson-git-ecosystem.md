@@ -5,8 +5,6 @@ description: TODO
 path: technology/_posts/2001-01-01-lesson-git-ecosystem.md
 ---
 
-# Ecosystem
-
 ## Git-converted Projects
 * [Apache (select project only, read-only mode)](http://git.apache.org/)
 * 1.3 million projects at [GitHub](http://github.com)

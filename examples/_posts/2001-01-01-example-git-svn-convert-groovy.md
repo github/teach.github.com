@@ -7,8 +7,6 @@ examples: Groovy-SVN-To-Git-Conversion.bsh
 tags: [example, code]
 ---
 
-# Git SVN Conversion for the Groovy Project
-
 ________
 Alternatively, assuming people aren't doing bad things in your repository (like committing against a tag) you can use svn info, it returns information in the format
 

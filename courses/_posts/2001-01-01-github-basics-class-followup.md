@@ -6,8 +6,6 @@ path: courses/_posts/2001-01-01-github-basics-class-followup.md
 tags: [reference, email, template]
 ---
 
-# Free GitHub Basics Class Follow Up
-
 Thanks for joining our online class, "The Basics of GitHub."  We were glad to have you with us.
 
 

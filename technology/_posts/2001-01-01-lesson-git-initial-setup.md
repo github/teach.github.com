@@ -5,8 +5,6 @@ description: Git binaries and basic configuration.
 path: technology/_posts/2001-01-01-lesson-git-initial-setup.md
 ---
 
-# Setting up Git
-
 ## Get binaries
 
 ### On UNIX

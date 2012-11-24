@@ -1,11 +1,9 @@
 ---
 layout: bare
-title: Vintage Dates
+title: Vintage Dates for Git Commits
 description: Setting vintage dates for new Git commits.
 path: technology/_posts/2001-01-01-lesson-forcing-vintage-commit-dates.md
 ---
-
-# Vintage Dates for Git Commits
 
 Git uses the local clock setting for author and committer dates. Occasionally, when importing legacy projects that have nothing other than the file system date, there's a reason you would want to manually set the date for a commit.
 

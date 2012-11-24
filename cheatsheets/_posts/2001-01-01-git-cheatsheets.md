@@ -6,8 +6,6 @@ path: cheatsheets/_posts/2001-01-01-git-cheatsheets.md
 tags: [reference, cheatsheet]
 ---
 
-# Git and GitHub Cheat Sheets
-
 Several sources for cheat sheets about Git and GitHub are as follows.
 
 * [Matthew's Git Cheatsheet Bookmarks](https://pinboard.in/u:matthew.mccullough/t:git+cheatsheet)

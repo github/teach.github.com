@@ -5,7 +5,6 @@ description: Reshaping commits with rebase.
 path: technology/_posts/2001-01-01-lesson-git-rebase.md
 ---
 
-## Rebase
 Linearize the branch commits. Rebranches at the latest <source branch name> and replays committed branch work on top of that.
 
     git rebase <source branch name>
