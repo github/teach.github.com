@@ -18,20 +18,6 @@ Links
 * [ProGit Chapter on Git Guts](http://git-scm.com/book/en/Git-Internals-Git-Objects)
 * [Slides](https://speakerdeck.com/u/matthewmccullough/p/git-graphs-hashes-and-compression-oh-my-1)
 
-## Matthew McCullough Bio
-Matthew is an energetic 15 year veteran of enterprise software development and world-traveling open source educator. Matthew currently is the VP of training at GitHub.com, author of the Git Master Class series for O'Reilly, speaker on the No Fluff Just Stuff tour, author of three of the top 10 DZone RefCards, including the Git RefCard, and President of the Denver Open Source Users Group.
-
-## Delivered At Venues
-* GeekOut Conference
-	* Tallinn, Estonia
-	* 2012-06-14
-	* <http://geekout.ee>
-	
-* San Francisco JUG
-      * Yelp Offices
-	* 2012-09-11
-	* <http://www.sfjava.org>
-
 ---------------
 
 # Git Graph and Hashing Internals
@@ -346,8 +332,5 @@ Commits are the outermost object. Trees are the middle level object. Commits poi
     cd hellogitworld
     
     git show HEAD
-    history | tail -5
-    history
-    clear
     git log
     git gc
