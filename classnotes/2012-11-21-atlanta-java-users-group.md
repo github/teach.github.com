@@ -6,8 +6,6 @@ tags: [notes, event]
 eventdate: 2012-11-21
 ---
 
-# {{ page.title }}
-
 ## Resources
 
 * [The Guts of Git Outline](http://teach.github.com/articles/git-guts-course/)
