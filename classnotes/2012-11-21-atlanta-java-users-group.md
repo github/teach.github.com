@@ -8,6 +8,14 @@ eventdate: 2012-11-21
 
 # {{ page.title }}
 
+## Resources
+
+* [The Guts of Git Outline](http://teach.github.com/articles/git-guts-course/)
+
+## Slides
+
+<script async class="speakerdeck-embed" data-id="4fde51a8dbe56c001f013368" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 ## CLI History
 
     git init proejct3
@@ -64,10 +72,3 @@ eventdate: 2012-11-21
     git log
     git show 513efe358ff351be84076878d1a4f14ce24ee4ab:hello.txt
     git show 513efe358ff351be84076878d1a4f14ce24ee4ab:hello.txt | mate
-
-
-## Resources
-
-* Presentation Slides
-* Git Internals
-* Advanced Git Notes

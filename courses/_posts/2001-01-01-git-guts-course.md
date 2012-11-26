@@ -11,12 +11,15 @@ Git is a version control system. We can look at it from that high level. Git is 
 
 Uber-geeks are magic-slayers. We want and need to know precisely how things work. Like a hard 50 push-up workout, this study will make working with Git at the daily developer level a fraction of the effort --- like a mere ten push-ups. Let's dig into the guts of Git.
 
-Links
---------------------------------
+## Links
 * [Talk Outline, Guide](http://teach.github.com)
 * [Office Hours](http://training.github.com/web/free-classes/)
 * [ProGit Chapter on Git Guts](http://git-scm.com/book/en/Git-Internals-Git-Objects)
 * [Slides](https://speakerdeck.com/u/matthewmccullough/p/git-graphs-hashes-and-compression-oh-my-1)
+
+## Slides
+
+<script async class="speakerdeck-embed" data-id="4fde51a8dbe56c001f013368" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ---------------
 
