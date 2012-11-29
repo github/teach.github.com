@@ -23,3 +23,4 @@ We're always looking for contributions to improve these materials. If you have c
 Materials Format
 ---------------------------------------
 The majority of these materials will be in [Markdown](http://whatismarkdown.com), a [lightweight markup language](http://en.wikipedia.org/wiki/Lightweight_markup_language) strongly supported in the GitHub web application user interface. There is a syntax guide to the original [Markdown format](http://daringfireball.net/projects/markdown/syntax) and also [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/).
+Material not in markdown format is subject to full hatred.

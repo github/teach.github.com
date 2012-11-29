@@ -17,6 +17,10 @@ Show a week of history
 
     git log --since="one week ago"
 
+Show everything before a week ago in history
+
+    git log --before="one week ago"
+
 Show the history of one file
 
     git log -- SOMEFILENAME

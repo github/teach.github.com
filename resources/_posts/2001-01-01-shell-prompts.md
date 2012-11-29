@@ -11,3 +11,4 @@ Recent installations of MSysGit include a bash prompt that indicates the current
 * [Git Training Shell Prompts](https://github.com/github/teach.github.com/tree/gh-pages/examples/shellprompts)
 * [Robby Russell's oh-my-zsh • Git Enabled ZShell Prompts](http://github.com/robbyrussell/oh-my-zsh)
 * [Matthew's Bash and ZShell Scripts](https://github.com/matthewmccullough/scripts)
+* [Brent's secret link to a site that doesn't belong](http://subversion.tigris.org/)
