@@ -60,28 +60,117 @@ Teachers:
 * [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
 
-## Day 1 Q&A Transcript (Pending)
-Q: Matthew, so why the first push didn't work when your crendential cache is on?
-A: He had a different set of credentials cached! whoops.
-Q: will blame -C give us weird answers for very common lines such as "int i;" or "#include "attr.h""?
-A: If we tune the -C with an integer like "-C9" or "-C80" we can fine tune to watch for those copies a bit harder or softer
-Q: How can I see what branches are available?  git status shows current branch, how do I know what other branches there are?
-A: great question! a way to see this would be: `git branch`. if you want to see all branches (even remotes that your repository knows about) you can use: `git branch -a` to see all of them.
-Q: So it's possible to have multiple remote repo locations per local repo? Not sure if that's the right terminology..
-A: Perfect terminology. I have some projects that actually have 3 remote repos. Depending if i have a "fork" of a repository (fork's are something we'll chat on later for sure), i could have two origins that even live on github: origin for my fork, and the project my fork came from. Lastly, if i want to update to heroku.com, i can set a remote to there as well. This should all become more and more clear as we interact with github more often! Let me know if you want me to continue to clerify.
-Q: If you accidently commit a sensitive file is there a way to remove both file and history to ensure it can't be brought back?
-A: This can be a tricky situation! **If we havn't pushed to our remote** we can reset this commit. If in this situation we added the passwords/sensative information in our last commit, we can use `git reset`. With git reset, we can actually say "ok ok, undo those commits and pretend they never happened" and we actually undo those commits from history. The command to actually do this (with the previous commit) is: `git reset --hard HEAD^`. The "HEAD^" part just says "the most recent commit". we can scoot back a number of commits with the "HEAD~4" where 4 is the number of commits to jump back. Let me know if i can specify this further, but we'll definitely be touching on this in this class!
-Q: Is there a CLI for pull requests?
-A: You can then "hub pull-request" on a branch
-A: The one I use is "hub"
-Q: So what if you cherry pick in a change will git recognize the history in blame
-A: Yep, cherry-pick will result in the same thing.
-Q: Can you please confirm that "origin" means destination on the server?
-A: Yep! It's essentially just a keyword or bookmark for a specific url. We can confirm this with: `git remote -v`  and see that it's really a shorthand for the url to github.com
-Q: Is forking on the cli preferred?
-A: all about preferences! I personally use github.com, matthew uses a hub gem to do his forking and pull request. Details about which can be found here: https://github.com/defunkt/hub
+## Day 1 Q&A Transcript
+    Q: Matthew, so why the first push didn't work when your crendential cache is on?
+    A: He had a different set of credentials cached! whoops.
+    Q: will blame -C give us weird answers for very common lines such as "int i;" or "#include "attr.h""?
+    A: If we tune the -C with an integer like "-C9" or "-C80" we can fine tune to watch for those copies a bit harder or softer
+    Q: How can I see what branches are available?  git status shows current branch, how do I know what other branches there are?
+    A: great question! a way to see this would be: `git branch`. if you want to see all branches (even remotes that your repository knows about) you can use: `git branch -a` to see all of them.
+    Q: So it's possible to have multiple remote repo locations per local repo? Not sure if that's the right terminology..
+    A: Perfect terminology. I have some projects that actually have 3 remote repos. Depending if i have a "fork" of a repository (fork's are something we'll chat on later for sure), i could have two origins that even live on github: origin for my fork, and the project my fork came from. Lastly, if i want to update to heroku.com, i can set a remote to there as well. This should all become more and more clear as we interact with github more often! Let me know if you want me to continue to clerify.
+    Q: If you accidently commit a sensitive file is there a way to remove both file and history to ensure it can't be brought back?
+    A: This can be a tricky situation! **If we havn't pushed to our remote** we can reset this commit. If in this situation we added the passwords/sensative information in our last commit, we can use `git reset`. With git reset, we can actually say "ok ok, undo those commits and pretend they never happened" and we actually undo those commits from history. The command to actually do this (with the previous commit) is: `git reset --hard HEAD^`. The "HEAD^" part just says "the most recent commit". we can scoot back a number of commits with the "HEAD~4" where 4 is the number of commits to jump back. Let me know if i can specify this further, but we'll definitely be touching on this in this class!
+    Q: Is there a CLI for pull requests?
+    A: You can then "hub pull-request" on a branch
+    A: The one I use is "hub"
+    Q: So what if you cherry pick in a change will git recognize the history in blame
+    A: Yep, cherry-pick will result in the same thing.
+    Q: Can you please confirm that "origin" means destination on the server?
+    A: Yep! It's essentially just a keyword or bookmark for a specific url. We can confirm this with: `git remote -v`  and see that it's really a shorthand for the url to github.com
+    Q: Is forking on the cli preferred?
+    A: all about preferences! I personally use github.com, matthew uses a hub gem to do his forking and pull request. Details about which can be found here: https://github.com/defunkt/hub
 
-## Day 1 Command History (Pending)
+## Day 1 Command History
+
+    git --version
+    mkdir githubfoundations
+    cd githubfoundations
+    git init project1
+    open .
+    mv first.txt project1
+    cd project1
+    git config user.name
+    git config user.email
+    git config --global user.name "Matthew McCullough"
+    git config --global user.email "matthew@github.com"
+    git commit -m "My first commit"
+    git remote add origin https://github.com/githubstudent/project1.git
+    git cc-off
+    git push -u origin master
+    mate first.txt
+    git reset HEAD first.txt
+    git add -p first.txt
+    gitx
+    git diff
+    git diff HEAD
+    mate build.log
+    mate .gitignore
+    git diff --staged
+    git commit -m "Part one of changes"
+    git add first.txt
+    git commit -m "The remainder of the changes"
+    git add .gitignore
+    git commit -m "Ignoring build log files"
+    echo JUNK > build2.log
+    echo JUNKCHANGES >> build.log
+    echo JUNKCHANGES >> anything.log
+    git log
+    history
+    cp first.txt second.txt
+    cp first.txt third.txt
+    git commit -m "Copied files"
+    git rm second.txt
+    git rm third.txt
+    git checkout -- second.txt
+    git checkout HEAD -- second.txt
+    git checkout HEAD -- third.txt
+    git commit -m "Renaming the file"
+    git log --stat -1
+    git log --stat -1 -M
+    git log --stat -M
+    git log --stat -C
+    git log --stat -C -C
+    cp uno.txt fourth.txt
+    mate fourth.txt
+    git commit -m"Copied with slight modifications"
+    git log -1 --stat -C
+    git log -1 --stat -C -C
+    z git_git
+    git blame rerere.c
+    git blame -C rerere.c
+    cd -
+    git branch feature
+    git commit -a -m "Bug fix"
+    git checkout feature
+    cat uno.txt
+    mate uno.txt
+    mv uno.txt redesigned.txt
+    git add -A .
+    git status
+    git commit -m "Feature work"
+    git checkout master
+    git merge feature
+    cat redesigned.txt
+    mkdir thousands
+    cd thousands
+    generaterandomfiles 9001 sample txt
+    git commit -m "Over NINE THOUSAND new files"
+    git branch 
+    pwd
+    git clone https://github.com/github/gitignore.git
+    cd gitignore
+    git remote -v
+    git fetch
+    git fetch -v
+    cd ..
+    git clone https://github.com/githubstudent/hellogitworld.git
+    cd hellogitworld
+    ls
+    mate matthewmcc.txt
+    git add .
+    git commit -m"Matthew added some brilliant codez"
+    git push
 
 
 ## Day 2 Q&A Transcript (Pending)
