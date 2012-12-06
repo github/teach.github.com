@@ -14,6 +14,21 @@ Teachers:
 * Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
 * Brent Beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brntbeer))
 
+## Setting Move Detection As Default
+
+    git config diff.renames true #Turn on move detection (-M)
+    git config diff.renames copy #Turn on copy detection (-C)
+
+This code was found by:
+
+    git grep -A3 diff.renames
+
+* [Peff commenting on move detection config](http://git.661346.n2.nabble.com/git-show-doesn-t-respect-config-diff-renames-copies-td675625.html)
+* [Stack Overflow Move Detection](http://stackoverflow.com/questions/1043388/record-file-copy-operation-with-git)
+* [Git config command](http://git-scm.com/docs/git-config)
+
+
+
 ## Resources
 
 * [Adding SSL Certificates for GitHub.com (Common for Windows XP)](http://stackoverflow.com/questions/3777075/https-github-access/4454754#4454754)
