@@ -3,7 +3,7 @@ layout: bare
 title: Seagate Longmont Class
 description: Seagate Longmont Class
 tags: [notes, class]
-path: classnotes/2012-12-07-seagate-clsas.md
+path: classnotes/2012-12-07-seagate-class.md
 eventdate: 2012-12-03
 ---
 
