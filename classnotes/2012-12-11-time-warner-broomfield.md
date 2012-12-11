@@ -1,13 +1,13 @@
 ---
 layout: bare
-title: TWC Wynkoop Class
+title: TWC Broomfield Class
 description: A private class at the Wynkoop, Denver TWC Engineering Campus
 tags: [notes, class]
-path: classnotes/2012-12-10-time-warner-wynkoop.md
-eventdate: 2012-12-10
+path: classnotes/2012-12-11-time-warner-broomfield.md
+eventdate: 2012-12-11
 ---
 
-on 2012-12-10
+on 2012-12-11
 
 Taught by:
 
