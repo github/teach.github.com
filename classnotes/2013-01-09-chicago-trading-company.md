@@ -84,9 +84,6 @@ Taught by:
 * RefLog as a safety net
 * Reset and revert
 
-* JHSocialCoding - 403 on trying to push
-
-
 ## Command Line History
 
     git --version
