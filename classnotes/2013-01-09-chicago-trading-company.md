@@ -4,7 +4,7 @@ title: Chicago Trading Company Git Workshop
 description: Internal Class for the Chicago Trading Company
 tags: [notes, class, private]
 path: classnotes/2013-01-09-chicago-trading-company.md
-eventdate: 2013-01-00
+eventdate: 2013-01-09
 ---
 
 Taught by:
