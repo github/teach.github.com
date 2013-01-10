@@ -18,7 +18,6 @@ Many Git workshops successfully focus on the basics for those new to DVCS. Howev
 
 ## Topics
 * Common Branching Strategies
-* Branching Models
 * Applying Branching Strategies
 * Branch Pull Options
 * Reusing Small Pieces of Code
