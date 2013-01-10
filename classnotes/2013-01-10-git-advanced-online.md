@@ -21,12 +21,12 @@ Many Git workshops successfully focus on the basics for those new to DVCS. Howev
 * Applying Branching Strategies
 * Branch Pull Options
 * Reusing Small Pieces of Code
+* Advanced Interactive Rebase
 * Inserting Commits Into Existing History
-* Building Custom Commands via Aliases
 * Undoing and Re-doing Almost Anything
+* Building Custom Commands via Aliases
 * Minimizing Repetitive Conflict Resolution
 * Log History Searches
-* Advanced Interactive Rebase
 * Commit Data Structure Internals
 * Refspecs
 
@@ -735,5 +735,220 @@ __Duration:__ 5m
 # Command Line History
 
 ```
-Command line history here
+cd hellogitworld
+git remote -v
+git branch feature9
+git checkout feature9
+tree
+vim src/Division.groovy
+git commit -m"Fix"
+git commit -am"Fix"
+git push
+git push -u origin feature9
+git-flow
+clear
+cat .git/config
+git pull
+git ls-remote
+git fetch origin refs/pull/1/head
+git config --local branch.feature9.rebase true
+ls
+vim sample2.txt
+git commit -a -m"Matthew here"
+git pull
+clear
+git pull
+ls
+tree
+cat src/main/java/com/ambientideas/App.java
+vim src/main/java/com/ambientideas/App.java 
+git commit -a -m"Matthew was here at the same time as brent"
+git pull
+cat src/main/java/com/ambientideas/App.java 
+clear
+git checkout master
+git branch feature10
+git branch feature11
+git checkout feature10
+echo CHANGE1 >> sample1.txt
+git commit -a -m"Fix 1"
+echo CHANGE2 >> sample2.txt
+git commit -a -m"Fix 2"
+git cherry master
+git checkout master
+git cherry-pick 2f6fb
+git checkout feature10
+git cherry master
+git checkout master
+git cherry feature10
+git cherry feature10 feature11
+git checkout feature10
+git log -2
+git checkout master
+git cherry-pick -x cfab4c0
+git log -2
+git merge feature10
+git show HEAD
+git log --stat -1
+git log --format=raw -1
+gitx
+clear
+git push
+clear
+git checkout -b feature12
+ls
+vim README.txt
+git commit -a -m"Build instructions"
+vim src/Division.groovy 
+git commit -a -m"Change 1"
+vim src/Subtract.groovy
+git commit -a -m"Improved"
+vim src/Subtract.groovy
+git commit -a -m"fixup! Improved"
+vim src/Division.groovy 
+git commit -a -m"autosquash! Change 1"
+git rebase -i master
+git rebase -i --autosquash master
+git commit --amend
+git rebase -i --autosquash master
+gitx
+git checkout master
+clear
+git branch
+git checkout -b feature13
+generaterandomchanges featurethirteen txt
+generaterandomchanges 5 featurethirteen txt
+git checkout master
+git checkout -b greencustomer
+vim src/Square.groovy
+git commit -a -m"Green customer fix"
+git checkout feature13
+git rebase -i master
+git cherry-pick 7b10206
+git rebase --continue
+git checkout master
+git merge feature13
+git merge greencustomer
+git show greencustomer
+clear
+git reflog
+git checkout feature13
+git reflog
+git checkout master
+generaterandomchanges 5 bad txt
+git log --oneline
+git reset --hard 61214be
+git reflog
+git orphank
+git branch keepthis 8a4d
+clear
+git config orphank
+git config alias.orphank
+git branch -D keepthis
+echo STUFF >> fix.txt
+git commit -a -m"For Christoph"
+git orphank
+clear
+echo CHANGE >> fix.txt
+git commit -m"Fix 1"
+git commit -am"Fix 1"
+git reset --hard HEAD~1
+echo BETTERCHANGE >> fix.txt
+git commit -C b8b4399
+git commit -a -C b8b4399
+clear
+git push origin master
+ls
+vim sample2.txt
+git commit -a -m"Matthews change"
+git pull --no-commit
+git status
+git merge --abort
+git pull
+open .git
+gitk ORIG_HEAD master
+gitk ORIG_HEAD 
+clear
+echo "Make a new commit that looks like the ORIG_HEAD"
+git reset --soft ORIG_HEAD
+git status
+git diff --staged
+git commit -m"Restoring"
+git reset HEAD~3
+git status
+git commit -a -m"Restoring way back but with a new additive commit"
+clear
+git config --local alias.studentoops 'reset --hard HEAD~1'
+git studentoops
+clear
+mate ~/.gitconfig
+git l2
+git l2 --simplify-by-decoration
+git sync
+git wtf
+git orphanl
+git branch preservethis 8a4d2b5
+git orphanl
+git busypeople
+clear
+git branch featurererere1
+git branch featurererere2
+vim src/Division.groovy
+git commit -a -m"Retval fix"
+git show
+git checkout featurererere1
+vim src/Division.groovy
+git commit -a -m"Val one and two"
+git checkout featurererere2
+vim src/Division.groovy
+git commit -a -m"Val one and two on the other branch"
+clear
+git config --local rerere.enabled true
+git merge master
+vim src/Division.groovy
+git status
+git add src/Division.groovy
+git status
+git commit -m"Merged it and resolved"
+git checkout featurererere1
+git merge master
+git status
+cat src/Division.groovy
+git add .
+git commit -a 
+z git_git
+clear
+git log -5
+git log -1
+git log master~15 -1
+git log --pretty=oneline 
+git log --oneline
+git log --pretty=medium
+git log --pretty=short
+git log --pretty=fuller
+git log --grep="add"
+git log --grep="silly"
+git log --grep="silly" --oneline
+git log --grep="silly" --pretty=medium
+git log --grep="silly" --pretty=medium --author=peff
+git log --grep="silly" --pretty=medium --author=peff --since=2.years.ago
+git log --grep="silly" --pretty=medium --author=peff --since=3.years.ago
+git log --pretty=oneline
+git log --pretty=oneline --abbrev-commit
+git log --oneline
+git log --diff-filter=R (needs -M or -C etc for renames)
+git log --diff-filter=R
+git log --diff-filter=ARD
+git log --diff-filter=ARD --stat
+git log --diff-filter=ARD --summary
+git log --diff-filter=D --stat
+git log --diff-filter=R --stat
+git log --diff-filter=R --stat -M
+git log --diff-filter=R --stat -M --author=peff
+git log --diff-filter=A --stat -M --author=peff
+git log --diff-filter=A -M --author=peff -p
+git log --diff-filter=R -M --author=peff -p
+git show master~590:fast-import.c
+git show master~590:fast-import.c | mate
+git show master~590^{tree}
 ```
