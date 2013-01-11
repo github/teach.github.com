@@ -732,6 +732,22 @@ __Duration:__ 5m
 
 ---------------------------------------------------
 
+# Q&A From Chat
+    Q: So, if there's no metadata saying where it came from, what would happen if you then tried to merge that branch to master after cherry picking that commit?
+    A: bingo! just needs that -x if you want to maintain where it came from
+    Q: so did the cherry-pick create a new commit in master?
+    A: yep! but it maintains the original where it is as well!
+    Q: what happens to the state, if you add a new commit to master without the keepthis branch?
+    A: Those commits are still orphaned, there's just a commit ahead of them in history. but they still came from the older one. when we view this in gitk we can see the "orphan branch" from that older commit, and a newer commit being ahead of them from the master "branch line"
+    Q: So, just to be clear, are those green customer fixes stored as two separate commits now?  What happens if you try to merge greencustomer back onto master after the cherry-pick?
+    A: as we saw in visual/audio there are two different commits, but the content is the same. so a merge isnt FF, but no actual content changes
+    Q: I hadn't previously considered that orphaned commits are garbage collected automatically.  How often does that happen, or what is the trigger on that?
+    A: The default is actually every 90 days. you can find out more about it by typing `git help gc` =)
+    Q: I noticed that your oneline is only showing an abbreviated sha1, what is the git config option for that (the default is full sha1, apparently)
+    A: --oneline is actually a shorthand for `--pretty=oneline --abbrev-commit`
+    Q: How common is it? And, why shouldn't we have the rerere option on all the time?
+    A: depending on number of team members, and how often you reset/rebase this can be helpful constantly. it's one of those "oh wow that was nice, i only have to do that once"
+
 # Command Line History
 
     cd hellogitworld
