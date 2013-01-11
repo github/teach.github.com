@@ -556,6 +556,7 @@ or coworkers to see what you're up to without reading your code).
   in the message body, still finds it!)
 
 _Bonus Online Material_
+
 * `git log --since="2 weeks ago"
   * grab all the commits that happened between now and 2 weeks ago
 * `git log --before="2 weeks ago"
@@ -585,81 +586,75 @@ flag of `-p` allows me to actually see those renames.
 The `--stat` flag is useful in cases of wanting to know which files were affected in
 a particular commit.
 
-```
-[/github/teach.github.com]$ git log --stat
-commit 5c6d6f89e5f1d4137faf2af31275456dbb8cd166
-Author: brntbeer <brent.beer@gmail.com>
-Date:   Fri Nov 23 17:16:56 2012 -0800
+    [/github/teach.github.com]$ git log --stat
+    commit 5c6d6f89e5f1d4137faf2af31275456dbb8cd166
+    Author: brntbeer <brent.beer@gmail.com>
+    Date:   Fri Nov 23 17:16:56 2012 -0800
 
-    fixed path for example hooks
+        fixed path for example hooks
 
- examples/_posts/2001-01-01-example-hooks.md |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
-```
+     examples/_posts/2001-01-01-example-hooks.md |    2 +-
+     1 files changed, 1 insertions(+), 1 deletions(-)
 
 This gives us a bit higher view of what we're actually dealing with in terms of how many
 lines were changed in a commit. So we know there was an one line change to this particular
 file, but we don't actually know what this change involved. To view this, we need to see
 the commit's patch.
 
-* `git log -1 -p`
+ `git log -1 -p`
 
-```
-[/github/teach.github.com]$ git log -p
-commit 5c6d6f89e5f1d4137faf2af31275456dbb8cd166
-Author: brntbeer <brent.beer@gmail.com>
-Date:   Fri Nov 23 17:16:56 2012 -0800
-
-    fixed path for example hooks
-
-diff --git a/examples/_posts/2001-01-01-example-hooks.md b/examples/_posts/2001-01-01-example-hoo
-index 217e87e..78957e7 100644
---- a/examples/_posts/2001-01-01-example-hooks.md
-+++ b/examples/_posts/2001-01-01-example-hooks.md
-@@ -2,7 +2,7 @@
- layout: exampleswithrelated
- title: Git Hooks
- description: An example of hooks and their power for lifecycle driven activities with Git.
--path: examples/_posts/2001-01-01-example-hooks.md
-+path: examples/hooks/
- examples: post-receive-email-SMTP.py
- tags: [example, code]
- ---
-```
 The patch here shows us the specific file that was changed and what that change was
 because there had only been one file changed in this commit. This is a small change, but
 we see there was one line removed, and another almost identical line was inserted in it's 
 place.
 
+    [/github/teach.github.com]$ git log -p
+    commit 5c6d6f89e5f1d4137faf2af31275456dbb8cd166
+    Author: brntbeer <brent.beer@gmail.com>
+    Date:   Fri Nov 23 17:16:56 2012 -0800
+
+        fixed path for example hooks
+
+    diff --git a/examples/_posts/2001-01-01-example-hooks.md b/examples/_posts/2001-01-01-example-hoo
+    index 217e87e..78957e7 100644
+    --- a/examples/_posts/2001-01-01-example-hooks.md
+    +++ b/examples/_posts/2001-01-01-example-hooks.md
+    @@ -2,7 +2,7 @@
+     layout: exampleswithrelated
+     title: Git Hooks
+     description: An example of hooks and their power for lifecycle driven activities with Git.
+    -path: examples/_posts/2001-01-01-example-hooks.md
+    +path: examples/hooks/
+     examples: post-receive-email-SMTP.py
+     tags: [example, code]
+     ---
+
+
+
 * `git log -1 -p --word-diff`
-
-```
-[/github/teach.github.com]$ git log -1 -p --word-diff
-commit 5c6d6f89e5f1d4137faf2af31275456dbb8cd166
-Author: brntbeer <brent.beer@gmail.com>
-Date:   Fri Nov 23 17:16:56 2012 -0800
-
-    fixed path for example hooks
-
-diff --git a/examples/_posts/2001-01-01-example-hooks.md b/examples/_posts/2001-
-index 217e87e..78957e7 100644
---- a/examples/_posts/2001-01-01-example-hooks.md
-+++ b/examples/_posts/2001-01-01-example-hooks.md
-@@ -2,7 +2,7 @@
-layout: exampleswithrelated
-title: Git Hooks
-description: An example of hooks and their power for lifecycle driven activities
-path: [-examples/_posts/2001-01-01-example-hooks.md-]{+examples/hooks/+}
-examples: post-receive-email-SMTP.py
-tags: [example, code]
----
-```
 
 We can see with `--word-diff` that Git actually knows this change was really changing
 that same line.
 
+    [/github/teach.github.com]$ git log -1 -p --word-diff
+    commit 5c6d6f89e5f1d4137faf2af31275456dbb8cd166
+    Author: brntbeer <brent.beer@gmail.com>
+    Date:   Fri Nov 23 17:16:56 2012 -0800
 
+        fixed path for example hooks
 
+    diff --git a/examples/_posts/2001-01-01-example-hooks.md b/examples/_posts/2001-
+    index 217e87e..78957e7 100644
+    --- a/examples/_posts/2001-01-01-example-hooks.md
+    +++ b/examples/_posts/2001-01-01-example-hooks.md
+    @@ -2,7 +2,7 @@
+    layout: exampleswithrelated
+    title: Git Hooks
+    description: An example of hooks and their power for lifecycle driven activities
+    path: [-examples/_posts/2001-01-01-example-hooks.md-]{+examples/hooks/+}
+    examples: post-receive-email-SMTP.py
+    tags: [example, code]
+    ---
 
 ### Commit Data Structure Internals
 __Duration:__ 10m
