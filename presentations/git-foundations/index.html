@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="../dependencies/revealjs/css/reveal.min.css">
+		<link rel="stylesheet" href="../dependencies/revealjs/css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="../dependencies/revealjs/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="../dependencies/revealjs/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="../dependencies/revealjs/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-markdown>
+					<script type="text/template">
+						# GitHub Foundations
+						An exploration of the Git toolbox
+			    </script>
+				</section>
+
+				<!--Trainers-->
+				<section data-markdown>
+					<script type="text/template">
+						# Hello!
+
+						Meeting your trainers...
+			    </script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## Jordan McCullough
+						### GitHub Trainer
+
+						![Jordan McCullough](../assets/headshots/mccullough-jordan.jpg)
+			    </script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## Brent Beer
+						### GitHub Trainer
+
+						![Brent Beer](../assets/headshots/beer-brent.jpg)
+			    </script>
+				</section>
+
+
+
+				<section data-markdown>
+					<script type="text/template">
+						# Title
+						## Subtitle
+
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			    </script>
+				</section>
+
+
+
+			</div>
+
+		</div>
+
+		<script src="../dependencies/revealjs/lib/js/head.min.js"></script>
+		<script src="../dependencies/revealjs/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '../dependencies/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../dependencies/revealjs/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../dependencies/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../dependencies/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../dependencies/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '../dependencies/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
