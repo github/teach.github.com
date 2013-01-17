@@ -12,7 +12,7 @@ This document outlines the requirements for preparing your account and laptop pr
 1) Establish a GitHub.com Account
 ----------------------------------------------------------
 We'd like you to establish a GitHub account to facilitate hands-on practice of the network flow components of Git during class.  A free account can be established at the
-[GitHub Signup Page](http://github.com/signup/free).
+[GitHub Signup Page](http://github.com/signup/free). We'd also recommend you [take a look at our supported browsers](https://help.github.com/articles/supported-browsers) after you signup ensure the best experience.
 
 **Please keep your username and password close at hand. You'll use it several times during class.**
 
