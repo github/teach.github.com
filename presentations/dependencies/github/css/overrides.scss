@@ -1,9 +1,23 @@
-/* Override to resolve for Font-Awesome any RevealJS styling on icon- */
+/* Override to resolve Font-Awesome & RevealJS styling on icon- conflict */
 i[class^="icon-"]{
 	font-family: FontAwesome;
 	font-style: normal;
 }
 
+/* Background Octocat watermark */
+body::before{
+	content: "";
+  -webkit-mask-box-image: url(../backgrounds/blacktocat-2.png) round round;
+  background: $color-medium;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .07;
+  height: 100%;
+  width: 100%;
+}
+
+/* Authorship/curriculum footer*/
 body::after{
 	content: "Official GitHub training curriculum v4.0.0";
 	position: absolute;
@@ -32,7 +46,9 @@ body::after{
 	background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 47%,rgba(255,255,255,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 47%,rgba(255,255,255,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-
-
 }
 
+.reveal code{
+  font-size: 1.1em;
+  line-height: 1.1em;
+}

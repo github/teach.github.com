@@ -1,26 +1,14 @@
 <!doctype html>
 <html lang="en">
-
 	<head>
 		<meta charset="utf-8">
-
 		<title>GitHub Training : Foundations</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Git and GitHub Foundations and core fundamentals class">
+		<meta name="author" content="Jordan McCullough">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-		<!--RevealJS Styles-->
-		<link rel="stylesheet" href="../dependencies/revealjs/css/reveal.min.css">
-		<!-- <link rel="stylesheet" href="../dependencies/revealjs/css/theme/default.css" id="theme"> -->
-
-		<!--Font-Awesome Style-->
-		<link rel="stylesheet" href="../dependencies/font-awesome/css/font-awesome.min.css">
-
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="../dependencies/revealjs/lib/css/zenburn.css">
 
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
@@ -31,10 +19,8 @@
 		<script src="../dependencies/revealjs/lib/js/html5shiv.js"></script>
 		<![endif]-->
 
-
 		<!--GitHub Style-->
 		<link rel="stylesheet" href="../dependencies/github/css/theme.css">		
-
 	</head>
 
 	<body>
@@ -45,7 +31,7 @@
 			<div class="slides">
 				<section data-markdown>
 					<script type="text/template">
-						# GitHub Foundations <span><i class="icon-github-alt"></i></span>
+						# ![GitHub](../dependencies/github/branding/github_logo_social_coding_outlined.png) Foundations
 
 						An exploration of the Git toolbox
 			    </script>
@@ -53,7 +39,7 @@
 
 				<section data-markdown>
 					<script type="text/template">
-						# <span><i class="icon-github-sign"></i></span> + <span><i class="icon-github"></i></span> + <span><i class="icon-group"></i></span>	= <span><i class="icon-heart"></i></span>	
+						## <span><i class="icon-github-sign"></i></span> + <span><i class="icon-github"></i></span> + <span><i class="icon-group"></i></span>	= <span><i class="icon-heart"></i></span>	
 
 										
 					</script>
@@ -70,25 +56,34 @@
 				<section data-markdown>
 					<script type="text/template">
 						## Jordan McCullough
-						### GitHub Trainer
+						###GitHub Trainer
 
-						![Jordan McCullough](../assets/headshots/mccullough-jordan.jpg)
-			    </script>
-				</section>
+						<div class="pull-left text-left">
+							<div><i class="icon-github-alt"></i> github.com/jordanmccullough</div> 
+							<div><i class="icon-twitter"></i> @thejordanmcc</div>
+						</div>
+						<img class="headshot" src="../assets/headshots/mccullough-jordan.jpg" alt="Jordan McCullough">
 
-				<section data-markdown>
-					<script type="text/template">
-						## Brent Beer
-						### GitHub Trainer
-
-						![Brent Beer](../assets/headshots/beer-brent.jpg)
-			    </script>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						# Questions & Pacing
 						
+			    </script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## __Brent Beer__
+						###GitHub Trainer
+
+						<div class="pull-left text-left">
+							<div><i class="icon-github-alt"></i> github.com/brntbeer</div> 
+							<div><i class="icon-twitter"></i> @brntbeer</div>
+						</div>
+						<img class="headshot pull-right" src="../assets/headshots/beer-brent.jpg" alt="Brent Beer">
+			    </script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						# Class Structure
 						* Ask at any time. Do not wait!
 						* Suggest pacing of material
 			    </script>
@@ -127,9 +122,25 @@
 
 				<section data-markdown>
 					<script type="text/template">
-						## What this all means...
+						## Git version...
+							$ git --version
+					</script>
+				</section>
 
-						<a href="#">Hello. I'm a link</a>
+				<section data-markdown>
+					<script type="text/template">
+						## Git version...
+							$ git --version
+
+						__Higher than 1.7.x?__
+						Ready to roll!
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## What this means
+
 						Git __binaries__ are on your `$path`
 			    </script>
 				</section>
@@ -141,25 +152,678 @@
 			    </script>
 				</section>
 
-				<section>
+				<section data-markdown>
+					<script type="text/template">
+						## Initialization Options
+
+						* Starting from __scratch__
+						or
+						* Begin from __existing__ code
+			    </script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## New Project
+							# Create new Git repo and directory
+							$ git init myproject
+
+						...Start coding
+			    </script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## Existing Project
+							# Change directory, initialize Git
+							$ cd otherproj
+							$ git init
+						
+			    </script>
+				</section>
+					
+				<section data-markdown>
+					<script type="text/template">
+						## Initialization Options
+
+						* Starting from __scratch__
+						or
+						* Begin from __existing__ code
+			    </script>
+				</section>
+
+
+				<section data-markdown>
+					<script type="text/template">
+						## What is in .git?
+			    </script>
+				</section>
+
+
+				<section data-markdown>
+					<script type="text/template">
+						## Directory Contents
+						The entire repo consists of these directories
+
+							.git/
+							├── hooks
+							├── info
+							├── objects
+							│   ├── info
+							│   └── pack
+							└── refs
+							    ├── heads
+							    └── tags
+			    </script>
+				</section>
+
+
+				<!-- Chapter: Configuration -->
+				<section data-markdown>
+					<script type="text/template">
+						# Configuration
+			    </script>
+				</section>
+
 					<section data-markdown>
 						<script type="text/template">
-							## Initialize a new repo
-								# Create new Git repo and directory
-								$ git init myproject
+							Query __existing__ configuration
+
+							View __all__ entries
 				    </script>
 					</section>
 
 					<section data-markdown>
 						<script type="text/template">
-							## Initialize existing repo
-								# Change directory, initialize Git
-								$ cd otherproj
-								$ git init
+							## View all configurations
+								git config --list
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## View __local__ configuration
+								git config --local --list
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## View __user__ configuration
+								git config --global --list
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## View __system__ configuration
+								git config --system --list
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Configuration Scopes
+								git config --local --list
+								git config --global --list
+								git config --system --list
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### Review & Edit 
+							### __Single__ Entry
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Query effective value of a single key
+								git config --<scope> <section>.<key>
+								git config --<scope>  <section>.<subsection>.<key>
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Single config value
+								git config user.name
+								git config user.email
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## default config scope
+								git config --local
+								# Equivalent shorthand
+								git config
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							Configuring __your__ Git identity
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Entire user account
+								git config --global user.name "Angela J. Neff"
+								git config --global user.email "angela@ajneff.net"
+				    </script>
+					</section>
+
+
+					<section data-markdown>
+						<script type="text/template">
+							This is not __<span class="strike-out">authentication</span>__
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							This is not __<span class="strike-out">authorization</span>__
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Configurations
+							### Display Color
+				    </script>
+					</section>
+
+
+					<section data-markdown>
+						<script type="text/template">
+							## console __color__
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### Color configuration...
+								git config --global color.ui auto
+								# optionally set with same result...
+								git config --global color.ui true
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<div class="sticky">
+								<h1>color.ui</h1>
+								<strong>true</strong> is
+								equivalent<br> to 
+								<strong>auto</strong>
+							</div>
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							Color highlighting __when you need it__.
+
+							And only when you need it.
+				    </script>
+					</section>
+							
+
+					<section data-markdown>
+						<script type="text/template">
+							### line endings
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### Configuring line endings
+								# Linux/Mac...
+								git config --global core.autocrlf input
+								# Windows...
+								git config --global core.autocrlf true
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							default is to do __nothing__
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<div class="sticky">
+								<h1>Git File Mod-ing</h1>
+								autocrlf handling is one of the few times Git modifies your files directly and automatically
+							</div>
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### OS-specific Line Endings
+								# Force convert to LF during `git add`
+								git config --global core.autocrlf input
+
+								# Force convert CRLF on `git checkout`
+								# and LF on `add`
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							[http://help.github.com/dealing-with-lineendings](http://help.github.com/dealing-with-lineendings)
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## __ssh__ key pair
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### Create a key
+								$ ssh-keygen -t rsa -C"Work laptop - GitHub"
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### Verify key creation
+								$ cd ~/.ssh
+								$ ls
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							Screenshot Here
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<span class="warn">__id_rsa__</span> is the private half of the key
+
+							_Keep this secret_
+
+							---
+
+							<span class="good">__id_rsa.pub__</span> is the public half of the key
+
+							_Give_ this away freely, upload to GitHub
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							Upload __your key__ to GitHub
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							Screenshot of GitHub SSH panel
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### Test the key
+								$ ssh -T git@github.com
+
+								> Hi matthewmccullough! You've successfully
+								authenticated, but GitHub does not provide
+								shell access.
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### Test key with verbose SSH
+								ssh -v git@github.com
+								>OpenSSH_5.2p1, OpenSSL 0.9.8l 5 Nov 2009
+								debug1: Reading configuration data /Users/mccm06/.ssh/config
+								debug1: Reading configuration data /etc/ssh_config
+								debug1: Connecting to github.com [207.97.227.239] port 22.
+								debug1: Connection established.
+								debug1: identity file /Users/mccm06/.ssh/identity type -1
+								debug1: identity file /Users/mccm06/.ssh/id_rsa type 1
+								debug1: identity file /Users/mccm06/.ssh/id_dsa type 2
+								...
+								debug1: Host 'github.com' is known and matches the RSA host key.
+								debug1: Found key in /Users/mccm06/.ssh/known_hosts:3
+								debug1: ssh_rsa_verify: signature correct
+								...
+								debug1: Trying private key: /Users/mccm06/.ssh/identity
+								debug1: Offering public key: /Users/mccm06/.ssh/id_rsa
+								debug1: Remote: Forced command: gerve matthewmccullough
+				    </script>
+					</section>
+
+				<!-- Chapter: Using Git -->
+				<section data-markdown>
+					<script type="text/template">
+						# Using Git
+						## Three Stage Thinking
+						
+			    </script>
+				</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							* __Edit__ (Working Directory)
+							* __Add__ (Stage to Index)
+							* __Commit__ (Persist the Changes)
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							Three Stage Diagram here
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<div class="sticky">
+								<span><i class="icon-shopping-cart"></i></span>
+							</div>
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### Shopping Cart
+							* put things in
+							* take things out
+							* purchase at register
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							only __one__ _staging area_
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							three stage diagram
+				    </script>
+					</section>
+
+				<!-- Chapter: Editor Configuration -->
+				<section data-markdown>
+					<script type="text/template">
+						# Commit Message Editor
+			    </script>
+				</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							default is __vi__
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							an __alternate__ editor?
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### Environment's Editor
+								$ export EDITOR=<EditorOnYourPath>
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### Git-only Editor
+								# TextMate on Mac
+								$ git config --global core.editor "mate -w"
+
+								# Sublime Text 2 on Mac
+								$ git config --global core.editor "subl -w"
+
+								# Emacs on Linux
+								$ git config --global core.editor "emacs"
+
+								# Notepad on Windows
+								$ git config --global core.editor "notepad2.exe"
+				    </script>
+					</section>
+
+				<!-- Chapter: Usage Basics, First Commit -->
+				<section data-markdown>
+					<script type="text/template">
+						# Usage Basics
+						## First Commit
+			    </script>
+				</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							1. Create README.md
+							2. Inspect Git's status
+							3. Add to Staging
+							4. Commit
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							1. `$ git status`
+							2. `$ git add first.html`
+							3. `$ git commit -m"First commit"`
+				    </script>
+					</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						# Usage Basics
+						## Diff-ing Changes
+			    </script>
+				</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							What has __changed__ that is
+							__not committed__?
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Working Directory Diff
+								# Show the unstaged changes
+								$ git diff
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							thre stage diagram
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Staged Diff
+								# Show the staged (working dir) changes
+								$ git diff --staged
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<div class="sticky">
+								<span><i class="icon-warning-sign"></i></span>
+								Git diff by default is a pass-through
+								comparison to the last commit
+							</div>
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Uncommitted Diff
+								# Show uncommitted changes against repo
+								$ git diff HEAD
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							another diagram here
+				    </script>
+					</section>
+
+				<!-- Chapter: Diff output -->
+				<section data-markdown>
+					<script type="text/template">
+						# Usage Basics
+						## Diff Output
+			    </script>
+				</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							
+							Highlight word changes in place of full lines
+
+								git diff --color-words
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							Highlight word changes in place of full lines
+
+								git diff --word-diff
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							Limit diffs by type
+
+								# Added (A)
+								# Copied (C)
+								# Deleted (D)
+								# Modified (M)
+								# Renamed (R)
+								# Type changed (T)
+								# Unmerged (U)
+								# Unknown (X)
+								# Pairing Broken (B)
+
+								git diff --diff-filter=A
+				    </script>
+					</section>
+
+
+				<!-- Chapter: Commit History -->
+				<section data-markdown>
+					<script type="text/template">
+						# History
+						## Viewing Commits
+			    </script>
+				</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Show all commits 
+								git log
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<div class="sticky">
+								<span><i class="icon-lightbulb"></i></span>
+								`git log` displays in reverse chronological order
+							</div>
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Show all commits with filenames
+								git log --stat
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Show all commits with patches
+								git log --patch
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Show n-many commits 
+								git log -<n>
+				    </script>
+					</section>
+					
+					<section data-markdown>
+						<script type="text/template">
+							## Show commits with output control
+								# full - commit, author, message
+								# raw
+								# email - 
+								# oneline - compact
+								git log --pretty=<option>
+				    </script>
+					</section>
+
+				<!-- Chapter: Commit History -->
+				<section data-markdown>
+					<script type="text/template">
+						# Ignoring Files
+						## Avoiding File Commits
+			    </script>
+				</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							diagram here
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							__suppress__ files from being reported as __untracked__							
+				    </script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							1. Create .gitignore text file in root of project
+							2. Add ignore patterns, one per line
 							
 				    </script>
 					</section>
-				</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<div class="sticky">
+								<span><i class="icon-wrench"></i></span>
+								Use glob patterns for ignoring files and folders
+							</div>
+				    </script>
+					</section>
+
 
 				<!-- Templates -->
 				<!--
@@ -175,6 +839,14 @@
 
 				<section data-markdown>
 					<script type="text/template">
+						# Section Title`
+						section content
+						
+			    </script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
 
 			    </script>
 				</section>
@@ -182,16 +854,11 @@
 				-->
 
 			</div>
-
 		</div>
-
-		<div class="watermark"></div>
 
 		<script src="../dependencies/revealjs/lib/js/head.min.js"></script>
 		<script src="../dependencies/revealjs/js/reveal.min.js"></script>
-
 		<script>
-
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
@@ -201,7 +868,7 @@
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+				transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/none
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
@@ -214,8 +881,6 @@
 					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
-
 		</script>
-
 	</body>
 </html>

@@ -2,34 +2,19 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  font-family: "Raleway", sans-serif;
-  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
   font-weight: 200;
   letter-spacing: -0.02em;
   color: $mnch-dark;
 
-
-  background: rgb(255,255,255); /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 7%, rgba(229,229,229,1) 85%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(7%,rgba(255,255,255,1)), color-stop(85%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 7%,rgba(229,229,229,1) 85%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 7%,rgba(229,229,229,1) 85%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 7%,rgba(229,229,229,1) 85%); /* IE10+ */
-background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 7%,rgba(229,229,229,1) 85%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-  
-}
-
-.watermark{
-  -webkit-mask-box-image: url(../backgrounds/blacktocat-2.png) round round;
-  background: $color-medium;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: .07;
-  height: 100%;
-  width: 100%;
+  background: $mnch-bright; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  $mnch-bright 7%, $mnch-light 85%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(7%,$mnch-bright), color-stop(85%,$mnch-light)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  $mnch-bright 7%,$mnch-light 85%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  $mnch-bright 7%,$mnch-light 85%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  $mnch-bright 7%,$mnch-light 85%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  $mnch-bright 7%,$mnch-light 85%); /* W3C */
 }
 
 .headshot{
@@ -38,23 +23,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   border-radius: 50%;
 }
 
-.text-left{
-  text-align: left;
-}
-.text-right{
-  text-align: right;
-}
-.pull-right{
-  float:right;
-}
-.pull-left{
-  float:left;
-}
-
-.reveal code{
-  font-size: 1.3em;
-  line-height: 1.1em;
-}
 
 ::selection {
   color: $mnch-dark;
@@ -71,30 +39,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 .5em 0;
+  margin: 0 0 0 0;
   line-height: 0.9em;
   /*text-transform: uppercase;*/
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
 }
 
 .reveal h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: -.05em;
   color: $mnch-dark;
-  text-shadow: 1px 1px 3px $mnch-medium, -1px 2px 0 $mnch-light, 0 3px 0 $mnch-medium, 0 4px 0 $mnch-light;
+
+  /*text-shadow: 1px 1px 3px $mnch-medium, -1px 2px 0 $mnch-light, 0 3px 0 $mnch-medium, 0 4px 0 $mnch-light;*/
 }
 .reveal h2{
-  color: $mnch-dark;
-  font-weight: 600;
+  font-family: "Lusitana";
+  text-transform: lowercase;
+  color: $color-dark;
+  text-shadow: 0 0 2px $mnch-bright;
 }
-/*  .reveal h2::after{
+  h1 + h2::before, h1 + h2::after{
     content: "";
-    position: absolute;
-    bottom: 0.8em;
-    border: solid 1px $color-dark;
-    box-shadow: 0 0 .25em $mnch-bright;
-    margin-left: -100%;
-    width: 100%;
+    height: 1em;
+    width: 1em;
+    margin: 0 .25em;
+    margin-bottom: -.7em;
+    border-top: solid 2px $color-dark;
+    display: inline-block;
   }
-*/
+
 .reveal h3{
   margin-top: -.2em;
 }

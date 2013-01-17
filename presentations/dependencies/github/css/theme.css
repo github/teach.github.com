@@ -1,12 +1,32 @@
+@import url(../../revealjs/css/reveal.min.css);
+@import url(../../font-awesome/css/font-awesome.min.css);
+@import url(../../revealjs/lib/css/zenburn.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+@import url(http://fonts.googleapis.com/css?family=Montserrat|Lusitana);
+/* Core Dependency Styles */
+/* Theme */
 /*Colors*/
 /*Alternate*/
 /*Monochrome*/
-/* Override to resolve for Font-Awesome any RevealJS styling on icon- */
+/* Override to resolve Font-Awesome & RevealJS styling on icon- conflict */
 i[class^="icon-"] {
   font-family: FontAwesome;
   font-style: normal; }
 
+/* Background Octocat watermark */
+body::before {
+  content: "";
+  -webkit-mask-box-image: url(../backgrounds/blacktocat-2.png) round round;
+  background: #00a5ea;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .07;
+  height: 100%;
+  width: 100%; }
+
+/* Authorship/curriculum footer*/
 body::after {
   content: "Official GitHub training curriculum v4.0.0";
   position: absolute;
@@ -42,50 +62,9 @@ body::after {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
   /* IE6-9 */ }
 
-.strike-out {
-  text-decoration: line-through;
-  color: #f10000; }
-
-/*********************************************
- * GLOBAL STYLES
- *********************************************/
-body {
-  font-family: "Raleway", sans-serif;
-  font-size: 36px;
-  font-weight: 200;
-  letter-spacing: -0.02em;
-  color: black;
-  background: white;
-  /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, white 7%, #e5e5e5 85%);
-  /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(7%, white), color-stop(85%, #e5e5e5));
-  /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, white 7%, #e5e5e5 85%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, white 7%, #e5e5e5 85%);
-  /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, white 7%, #e5e5e5 85%);
-  /* IE10+ */
-  background: radial-gradient(ellipse at center, white 7%, #e5e5e5 85%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */ }
-
-.watermark {
-  -webkit-mask-box-image: url(../backgrounds/blacktocat-2.png) round round;
-  background: #00a5ea;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: .07;
-  height: 100%;
-  width: 100%; }
-
-.headshot {
-  width: 33%;
-  height: auto;
-  border-radius: 50%; }
+.reveal code {
+  font-size: 1.1em;
+  line-height: 1.1em; }
 
 .text-left {
   text-align: left; }
@@ -99,9 +78,93 @@ body {
 .pull-left {
   float: left; }
 
-.reveal code {
+.strike-out {
+  text-decoration: line-through;
+  color: #f10000; }
+
+.circle {
+  border: solid 3px #f10000; }
+
+.good {
+  color: #009e0f; }
+
+.warn {
+  color: #f27800; }
+
+.reveal .sticky {
+  font-family: 'Coming Soon';
+  background: #fffab4;
+  box-shadow: 0px 2px 0.25em #555555, 0 0 1em #e5cd62, 0 0 1.5em #f1f1f1, inset 0 0 3em #fff799;
+  border-radius: 5em 10em 0.25em 1.5em/0.25em 0.25em 1em 0.25em;
+  width: 66%;
+  margin: 0 auto;
+  padding: 1em 1em 1em 1em;
+  background: #fefcea;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fffab4 0%, #fff799 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fffab4), color-stop(100%, #fff799));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fffab4 0%, #fff799 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fffab4 0%, #fff799 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fffab4 0%, #fff799 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fffab4 0%, #fff799 100%);
+  /* W3C */
+  -webkit-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  transform: rotate(-3deg); }
+
+.reveal .sticky i[class^="icon-"] {
+  font-size: 5em;
+  display: block;
+  line-height: 1.2em; }
+
+.reveal .sticky h1 {
+  font-size: 2.2em;
+  font-weight: 600;
+  color: #9e7300;
+  text-shadow: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0; }
+
+.reveal .sticky h2 {
   font-size: 1.3em;
-  line-height: 1.1em; }
+  color: #9e7300;
+  text-shadow: none; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  color: black;
+  background: white;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, white 7%, #f1f1f1 85%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(7%, white), color-stop(85%, #f1f1f1));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, white 7%, #f1f1f1 85%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, white 7%, #f1f1f1 85%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, white 7%, #f1f1f1 85%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, white 7%, #f1f1f1 85%);
+  /* W3C */ }
+
+.headshot {
+  width: 33%;
+  height: auto;
+  border-radius: 50%; }
 
 ::selection {
   color: black;
@@ -117,29 +180,33 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 0.5em 0;
+  margin: 0 0 0 0;
   line-height: 0.9em;
   /*text-transform: uppercase;*/
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
 .reveal h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: -.05em;
   color: black;
-  text-shadow: 1px 1px 3px #555555, -1px 2px 0 #f1f1f1, 0 3px 0 #555555, 0 4px 0 #f1f1f1; }
+  /*text-shadow: 1px 1px 3px $mnch-medium, -1px 2px 0 $mnch-light, 0 3px 0 $mnch-medium, 0 4px 0 $mnch-light;*/ }
 
 .reveal h2 {
-  color: black;
-  font-weight: 600; }
+  font-family: "Lusitana";
+  text-transform: lowercase;
+  color: #1875c6;
+  text-shadow: 0 0 2px white; }
 
-/*  .reveal h2::after{
-    content: "";
-    position: absolute;
-    bottom: 0.8em;
-    border: solid 1px $color-dark;
-    box-shadow: 0 0 .25em $mnch-bright;
-    margin-left: -100%;
-    width: 100%;
-  }
-*/
+h1 + h2::before, h1 + h2::after {
+  content: "";
+  height: 1em;
+  width: 1em;
+  margin: 0 0.25em;
+  margin-bottom: -.7em;
+  border-top: solid 2px #1875c6;
+  display: inline-block; }
+
 .reveal h3 {
   margin-top: -.2em; }
 
