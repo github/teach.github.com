@@ -1,0 +1,5 @@
+/* Override to resolve for Font-Awesome any RevealJS styling on icon- */
+i[class^="icon-"]{
+	font-family: FontAwesome;
+	font-style: normal;
+}
