@@ -54,12 +54,22 @@ body {
   /*text-shadow: 1px 1px 3px $mnch-medium, -1px 2px 0 $mnch-light, 0 3px 0 $mnch-medium, 0 4px 0 $mnch-light;*/
 }
 .reveal h2{
+  font-size: 1.8em;
   font-family: "Lusitana";
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
   color: $color-dark;
   text-shadow: 0 0 2px $mnch-bright;
+  margin: auto auto .5em auto;
 }
-  h1 + h2::before, h1 + h2::after{
+  h1 + h2::before{
+    content: '';
+    border-top: solid 2px $color-dark;
+    height: .25em;
+    margin-top: .15em;
+    width: 100%;
+    display: block;
+  }
+  /*h1 + h2::before, h1 + h2::after{
     content: "";
     height: 1em;
     width: 1em;
@@ -67,17 +77,18 @@ body {
     margin-bottom: -.7em;
     border-top: solid 2px $color-dark;
     display: inline-block;
-  }
+  }*/
 
 .reveal h3{
-  margin-top: -.2em;
+  font-size: 1.3em;
+  color: $color-medium;
 }
 
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: $color-dark;
+  color: $mnch-dark;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;

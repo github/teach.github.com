@@ -36,7 +36,7 @@ body::after {
   height: 1em;
   width: 100%;
   text-align: center;
-  color: #00a5ea;
+  color: #c9e1f5;
   font-size: .4em;
   z-index: 5000;
   padding-top: .5em;
@@ -77,6 +77,13 @@ body::after {
 
 .pull-left {
   float: left; }
+
+.reveal .brand {
+  background: url(../branding/github_logo_social_coding.png) no-repeat center;
+  background-size: contain;
+  height: 6em;
+  width: 98%;
+  margin: auto auto 1em auto; }
 
 .strike-out {
   text-decoration: line-through;
@@ -193,28 +200,39 @@ body {
   /*text-shadow: 1px 1px 3px $mnch-medium, -1px 2px 0 $mnch-light, 0 3px 0 $mnch-medium, 0 4px 0 $mnch-light;*/ }
 
 .reveal h2 {
+  font-size: 1.8em;
   font-family: "Lusitana";
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
   color: #1875c6;
-  text-shadow: 0 0 2px white; }
+  text-shadow: 0 0 2px white;
+  margin: auto auto 0.5em auto; }
 
-h1 + h2::before, h1 + h2::after {
+h1 + h2::before {
+  content: '';
+  border-top: solid 2px #1875c6;
+  height: .25em;
+  margin-top: .15em;
+  width: 100%;
+  display: block; }
+
+/*h1 + h2::before, h1 + h2::after{
   content: "";
   height: 1em;
   width: 1em;
-  margin: 0 0.25em;
+  margin: 0 .25em;
   margin-bottom: -.7em;
-  border-top: solid 2px #1875c6;
-  display: inline-block; }
-
+  border-top: solid 2px $color-dark;
+  display: inline-block;
+}*/
 .reveal h3 {
-  margin-top: -.2em; }
+  font-size: 1.3em;
+  color: #00a5ea; }
 
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #1875c6;
+  color: black;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
