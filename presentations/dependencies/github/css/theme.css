@@ -78,6 +78,11 @@ body::after {
 .pull-left {
   float: left; }
 
+/* Alt Backgrounds */
+.chapter .reveal .state-background {
+  background: #1875c6;
+  opacity: .2; }
+
 .reveal .brand {
   background: url(../branding/github_logo_social_coding.png) no-repeat center;
   background-size: contain;
