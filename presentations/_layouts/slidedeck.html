@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="reveal">
+	<div class="slides">
+		{% for ch in page.chapters %}
+			{% for section in site.tags[ch] reversed %}
+				<!--Chapter Auto-Injection-->
+				{% if forloop.first %}
+					{% if section.chapter %}
+						{% include design/slide-open-chapter.html %}
+							<h1>{{ section.chapter }}</h1>
+						{% include design/slide-close.html %}
+					{% endif %}
+				{% endif %}
+
+				{% include design/slide-open.html %}
+					{% if section.title %}
+						<h2>{{ section.title }}</h2>
+					{% endif %}
+					{{ section.content }}
+				{% include design/slide-close.html %}
+			{% endfor %}
+		{% endfor %}
+		
+	</div>
+</div>
+
+{% include design/revealjs.html %}
+
