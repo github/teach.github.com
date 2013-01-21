@@ -9,18 +9,18 @@ layout: default
 				<!--Chapter Auto-Injection-->
 				{% if forloop.first %}
 					{% if section.chapter %}
-						{% include hydeslide/slide-open-chapter.html %}
+						{% include hydeslides/slide-open-chapter.html %}
 							<h1>{{ section.chapter }}</h1>
-						{% include hydeslide/slide-close.html %}
+						{% include hydeslides/slide-close.html %}
 					{% endif %}
 				{% endif %}
 
-				{% include hydeslide/slide-open.html %}
+				{% include hydeslides/slide-open.html %}
 					{% if section.title %}
 						<h2>{{ section.title }}</h2>
 					{% endif %}
 					{{ section.content }}
-				{% include hydeslide/slide-close.html %}
+				{% include hydeslides/slide-close.html %}
 			{% endfor %}
 		{% endfor %}
 		
