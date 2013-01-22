@@ -181,6 +181,9 @@ body {
   height: auto;
   border-radius: 50%; }
 
+.diagram {
+  /* No Op*/ }
+
 ::selection {
   color: black;
   background: #fff799;

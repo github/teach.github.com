@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="432px" height="288px" viewBox="0 0 432 288" enable-background="new 0 0 432 288" xml:space="preserve">
+<path fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" d="M146.333,244.016c0,3.12-2.378,5.65-5.312,5.65H43.645
+	c-2.933,0-5.312-2.53-5.312-5.65V39.318c0-3.121,2.378-5.651,5.312-5.651h97.377c2.933,0,5.312,2.53,5.312,5.651V244.016z"/>
+<path fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" d="M270,244.016c0,3.12-2.379,5.65-5.312,5.65h-97.377
+	c-2.933,0-5.312-2.53-5.312-5.65V39.318c0-3.121,2.378-5.651,5.312-5.651h97.377c2.933,0,5.312,2.53,5.312,5.651V244.016z"/>
+<path fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" d="M393.666,244.016c0,3.12-2.379,5.65-5.311,5.65h-97.377
+	c-2.934,0-5.312-2.53-5.312-5.65V39.318c0-3.121,2.379-5.651,5.312-5.651h97.377c2.932,0,5.311,2.53,5.311,5.651V244.016z"/>
+<text transform="matrix(1 0 0 1 55.9302 54.333)" font-family="'MyriadPro-Bold'" font-size="19">Working</text>
+<text transform="matrix(1 0 0 1 183.0835 54.333)" font-family="'MyriadPro-Bold'" font-size="19">Staging</text>
+<text transform="matrix(1 0 0 1 317.8545 54.333)" font-family="'MyriadPro-Bold'" font-size="19">Repo</text>
+<g>
+	<g>
+		<line fill="none" stroke="#00D880" stroke-width="28" stroke-miterlimit="10" x1="92.333" y1="64.667" x2="92.333" y2="118.081"/>
+		<g>
+			<polygon fill="#00D880" points="128.049,113.292 56.617,113.292 92.333,149 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#00D880" stroke-width="28" stroke-miterlimit="10" x1="105.666" y1="179" x2="176.748" y2="179"/>
+		<g>
+			<polygon fill="#00D880" points="171.958,143.283 171.958,214.717 207.667,179 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#00D880" stroke-width="28" stroke-miterlimit="10" x1="234.666" y1="199" x2="305.748" y2="199"/>
+		<g>
+			<polygon fill="#00D880" points="300.959,163.283 300.959,234.717 336.667,199 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(-4.371139e-08 1 -1 -4.371139e-08 86.4624 89.9204)" font-family="'MyriadPro-Regular'" font-size="20">Edit</text>
+<text transform="matrix(1 0 0 1 129.9336 185.332)" font-family="'MyriadPro-Regular'" font-size="20">Add</text>
+<text transform="matrix(1 0 0 1 244.0469 204)" font-family="'MyriadPro-Regular'" font-size="20">Commit</text>
+</svg>
