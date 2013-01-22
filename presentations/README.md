@@ -16,7 +16,7 @@ All "chapter" content for teach.github.com HydeSlides are located in the `_posts
 A chapter consists of a `_posts/<yourchapter>` and markdown files consisting of four YAML front matter fields: `chapter`, `layout`, `title`, `tags`.
 
 * `chapter` serves as the string for the cover slide auto-built by HydeSlides
-* 'layout` must be set to slide
+* `layout` must be set to slide
 * `title` must be a string or, to hide the slide header, an empty string. e.g. `''`
 * `tags` for simplicity sake is only assigned one value, usually the same name as the chapter folder
 
