@@ -23,8 +23,10 @@ body {
   border-radius: 50%;
 }
 
-.diagram{
+.reveal section img.diagram{
  /* No Op*/
+ border: none;
+ box-shadow: none;
 }
 
 
