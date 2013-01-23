@@ -60,26 +60,6 @@ Teachers:
 * [Post-event Git and GitHub questions](https://github.com/githubtraining/feedback/)
 * [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
-# Outline
-
-* Intro
-* Creating Repo
-* Repo Structure
-* Edit/add/commit (three stages)
-* Diff
-* Log
-* gitignore
-* Delete
-* Repo structure
-* Move
-* Branch
-* Merge
-* Rebase
-* Network (push/pull/fetch)
-* Pull Request
-
-## Day 1 Q&A Transcript
-
 ## Day 1 Command History
 
     git --version
@@ -392,9 +372,251 @@ Teachers:
     git checkout feature3
     git branch
 
-
-## Day 2 Q&A Transcript
-
-
 ## Day 2 Command History
+
+    git lg
+    tree .git/refs
+    git branch -d feature2
+    tree .git/refs
+    vi raven.txt
+    git add .
+    git commit -m "Eagerly wishing"
+    git branch
+    git checkout master
+    git raven.txt
+    vi raven.txt
+    git add .
+    git commit -m "Weak, etc"
+    git merge feature3
+    git loglive - 15
+    git loglive -15
+    git branch -d feature3
+    mate raven.txt
+    git config --global core.editor "mate -w"
+    vi raven.txt
+    git add .
+    git commit
+    git config --global --unset core.editor
+    git lg
+    git branch feature4
+    vi caesar.txt
+    git add .
+    git commit -m "Caesar Rage"
+    cat caesar.txt
+    git checkout feature4
+    vi raven.txt
+    git add .
+    git commit -m "Surcease of sorrow"
+    vi raven.txt
+    git add .
+    git commit -m "Gently rapping"
+    git lg -10
+    git lg -5
+    git rebase master
+    cat raven.txt
+    git checkout master
+    cat raven.txt
+    git merge feature4
+    git branch -d feature4
+    cd files
+    tree
+    generaterandomchanges 10 random txt
+    git lg
+    git rebase -i HEAD~10 
+    git status
+    ls
+    vi random10.txt
+    vi random3.txt
+    vi listing.txt
+    git status
+    git add .
+    git status
+    git rebase --continue 
+    git rebase -i HEAD^^
+    git commit --amend
+    git reflog 
+    git status
+    git reset --hard HEAD@{15}
+    ll
+    cat random10.txt
+    cat listing.txt
+    git reflog
+    git reset --hard HEAD@{1}
+    ls
+    cat random1
+    cat random10.txt
+    ll
+    git lg
+    tr.git
+    cd scratch/newproject
+    pwd
+    ll
+    git remote add origin https://github.com/githubtrainer/poetry.git 
+    cd ..
+    cat .git/config
+    git push -u origin master 
+    git config --global --unset branch.autosetuprebase
+    git remote -v
+    tr.git
+    cd scratch/newproject
+    vi .git/config
+    vi ~/.gitconfig
+    cat .git/config
+    git config user.name "GitHub Trainer"
+    git config user.email "training+githubtrainer@github.com"
+    cd ..
+    pwd
+    ls
+    ls -l
+    pwd
+    git clone https://github.com/githubstudent/poetry.git
+    cd poetry 
+    ls -l
+    git log
+    ls
+    git config user.email "training+githubstudent@github.com"
+    git config user.name "GitHub Student"
+    vi caesar.txt
+    git add .
+    git commit -m "Cry Havoc"
+    git log -1
+    git push
+    history
+    git remote -v
+    git pull 
+    ls -l
+    cat NewOne.txt
+    cat bing
+    cat caseys_file.txt
+    history
+    git branch
+    cat .git/config
+    git pull 
+    git pull
+    cat caesar.txt
+    git remote -v
+    git fetch 
+    git lg -10
+    git status
+    git branch
+    git branch -r
+    git branch -a
+    git fetch
+    ll
+    git merge origin/master 
+    ll
+    git loglive -10
+    git loglive -14
+    git reflog
+    git reset --hard HEAD@{1}
+    git merge origin/master
+    git status
+    git fetch https://github.com/jordanmccullough/poetry.git master
+    git diff FETCH_HEAD
+    git merge FETCH_HEAD
+    git status
+    vi caesar.txt
+    git add caesar.txt
+    git commit
+    git status
+    git push
+    git fetch https://github.com/Amelie527/poetry.git master
+    git diff FETCH_HEAD
+    git branch amelie FETCH_HEAD 
+    git loglive -14
+    git branch
+    git checkout amelie
+    git lg
+    git branch
+    ll
+    ll files
+    ll build
+    ll
+    git diff amelie
+    git diff master
+    git diff -- caesar.txt
+    git diff master -- caesar.txt
+    git checkout
+    git merge amelie
+    git checkout master
+    git merge amelie
+    git branch -d amelie
+    git push
+    history
+    ll
+    git remote add trainer https://github.com/githubtrainer/poetry.git
+    git remote -v
+    git fetch trainer 
+    git branch -a 
+    git lg
+    git merge trainer/master 
+    git lg
+    history
+    git status
+    git push 
+    tr.git
+    cd scratch
+    pwd
+    cd ..
+    git clone https://github.com/githubtrainer/poetry.git trainer-poetry 
+    cd trainer-poetry/
+    cd trainer-poetry
+    git loglive
+    git loglive -15
+    history
+    git branch -a
+    cat .git/config
+    git branch -a
+    git checkout -b tlberglund
+    vi raven.txt
+    git add .
+    git commit -m "Rare and radiant"
+    git push -u origin tlberglund 
+    history
+    git push -u origin tlberglund:timbranch
+    git help config
+    git help gitcredentials
+    git fetch origin 
+    git branch -a
+    git checkout frost 
+    ll
+    vi frost.txt
+    git branch
+    vi frost.txt
+    git add .
+    git commit -m "All of the differences"
+    git push
+    git checkout master
+    git merge frost
+    git status
+    git lg
+    git status
+    git push
+    git pull
+    git push
+    git fetch
+    git checkout master
+    git merge tlberglund
+    git lg
+    git config --global credential.helper cache
+    git push
+    git pull
+    git push
+    git pull
+    git push
+    git pull
+    git push
+    git pull
+    git loglive -8
+    git pull
+    git lf
+    git lg
+    git pull
+    git loglive -12
+    git pull
+    git checkout tlberglund
+    vi raven.txt
+    git commit -am "Nameless"
+    git push
+    git push origin tlberglund:timbranch
 
