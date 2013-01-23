@@ -88,12 +88,28 @@
 
 	<body>
 
+		<!-- Current Slide -->
 		<div id="wrap-current-slide" class="slides">
-			<iframe src="../../index.html" width="1280" height="1024" id="current-slide"></iframe>
+			<!--Writing HTML out with script feels dirty-->
+			<script>
+				var slideDeckPath = window.location.search.split("name=")[1]
+				document.write(
+					"<iframe src='../../../../" + slideDeckPath + ".html' width='1280' height='1024' id='current-slide'></iframe>"
+				);
+			</script>
+			
 		</div>
 
+		<!-- What's Next -->
 		<div id="wrap-next-slide" class="slides">
-			<iframe src="../../index.html" width="640" height="512" id="next-slide"></iframe>
+			<!--Writing HTML out with script feels dirty-->
+			<script>
+				var slideDeckPath = window.location.search.split("name=")[1]
+				document.write(
+					"<iframe src='../../../../" + slideDeckPath + ".html' width='640' height='512' id='next-slide'></iframe>"
+				);
+			</script>
+
 			<span>UPCOMING:</span>
 		</div>
 		<div id="notes"></div>
