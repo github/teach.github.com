@@ -8,7 +8,7 @@ layout: default
 			{% for section in site.tags[ch] reversed %}
 				<!--Chapter Auto-Injection-->
 				{% if forloop.first %}
-					{% if section.chapter %}
+					{% if section.chapter != '' %}
 						{% include hydeslides/slide-open-chapter.html %}
 							<h1>{{ section.chapter }}</h1>
 						{% include hydeslides/slide-close.html %}
@@ -16,7 +16,7 @@ layout: default
 				{% endif %}
 
 				{% include hydeslides/slide-open.html %}
-					{% if section.title %}
+					{% if section.title != '' %}
 						<h2>{{ section.title }}</h2>
 					{% endif %}
 					{{ section.content }}
