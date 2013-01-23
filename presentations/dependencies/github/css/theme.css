@@ -181,8 +181,10 @@ body {
   height: auto;
   border-radius: 50%; }
 
-.diagram {
-  /* No Op*/ }
+.reveal section img.diagram {
+  /* No Op*/
+  border: none;
+  box-shadow: none; }
 
 ::selection {
   color: black;
