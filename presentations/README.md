@@ -26,9 +26,9 @@ A chapter consists of a `_posts/<yourchapter>` and markdown files consisting of 
 
 Speaker notes, only shown on the "split" screen displayed by presseing the S key, are included on slides in an HTML wrapped element with `class="notes"`.
 
-	<aside class="notes">
+	{% include hydeslides/notes-open.html %}
 	  Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-	</aside>
+	{% include hydeslides/notes-close.html %}
 
 ### What's Next
 
