@@ -30,15 +30,11 @@ Speaker notes, only shown on the "split" screen displayed by presseing the S key
 	  Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
 	{% include hydeslides/notes-close.html %}
 
-### What's Next
+### Slide Deck "What's Next" Feature
 
-HydeSlides has a special implementation to support multiple slide decks and their associated "notes" mirroring mode.
+Pressing S will launch the slide deck What's Next with presenter notes (if any are in the original slide markdown).
 
-In order to support multiple slide deck HTML files in the root, pass the querystring parameter `name=` with the slide deck (name only) when opening in a browser. 
-
-	http://teach.github.com/presentations/git-foundations.html?name=git-foundations
-
-Pressing S will then correctly launch the slide deck What's Next with presenter notes (if any are in the markup)
+One idiosyncrasy of the core RevealJS behavior is browser focus must be on the main slide deck window when navigating slides.
 
 	
 ## To Do
