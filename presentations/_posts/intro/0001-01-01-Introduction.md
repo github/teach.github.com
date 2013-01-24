@@ -1,5 +1,5 @@
 ---
-chapter: Thanks for Coming
+chapter: ''
 layout: slide
 title: ''
 tags: ['intro']
