@@ -12,20 +12,20 @@
 
 			#notes {
 				font-size: 24px;
-				width: 640px;
+				width: 441px;
 				margin-top: 5px;
 			}
 
 			#wrap-current-slide {
-				width: 640px;
-				height: 512px;
+				width: 441px;
+				height: 358px;
 				float: left;
 				overflow: hidden;
 			}
 
 			#current-slide {
-				width: 1280px;
-				height: 1024px;
+				width: 882px;
+				height: 716px;
 				border: none;
 
 				-webkit-transform-origin: 0 0;
@@ -42,16 +42,27 @@
 			}
 
 			#wrap-next-slide {
-				width: 448px;
+				width: 441px;
 				height: 358px;
 				float: left;
-				margin: 0 0 0 10px;
-				overflow: hidden;
+				margin: 0 0 0 50px;
+				/*overflow: hidden;*/
+			}
+			#wrap-next-slide::before{
+				content: '';
+				height: 0;
+				width: 0;
+				position: absolute;
+				border-color: transparent transparent transparent black;
+			  border-style:solid;
+			  border-width:30px;
+			  margin-left: -40px;
+			  margin-top: 139px;
 			}
 
 			#next-slide {
-				width: 1280px;
-				height: 1024px;
+				width: 882px;
+				height: 716px;
 				border: none;
 
 				-webkit-transform-origin: 0 0;
@@ -60,11 +71,11 @@
 						 -o-transform-origin: 0 0;
 								transform-origin: 0 0;
 
-				-webkit-transform: scale(0.35);
-					 -moz-transform: scale(0.35);
-						-ms-transform: scale(0.35);
-						 -o-transform: scale(0.35);
-								transform: scale(0.35);
+				-webkit-transform: scale(0.5);
+					 -moz-transform: scale(0.5);
+						-ms-transform: scale(0.5);
+						 -o-transform: scale(0.5);
+								transform: scale(0.5);
 			}
 
 			.slides {
@@ -94,7 +105,7 @@
 			<script>
 				var slideDeckPath = window.location.search.split("name=")[1]
 				document.write(
-					"<iframe src='/presentations/" + slideDeckPath + ".html' width='1280' height='1024' id='current-slide'></iframe>"
+					"<iframe src='" + slideDeckPath + "' width='441' height='358' id='current-slide'></iframe>"
 				);
 			</script>
 			
@@ -106,7 +117,7 @@
 			<script>
 				var slideDeckPath = window.location.search.split("name=")[1]
 				document.write(
-					"<iframe src='/presentations/" + slideDeckPath + ".html' width='640' height='512' id='next-slide'></iframe>"
+					"<iframe src='" + slideDeckPath + "' width='441' height='358' id='next-slide'></iframe>"
 				);
 			</script>
 
