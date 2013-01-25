@@ -4,6 +4,24 @@ i[class^="icon-"]{
 	font-style: normal;
 }
 
+/*Stage Building Diagrams*/
+.diagram-group{
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;
+}
+.reveal section .fragment.diagram:nth-child(1){
+	background: orange;
+}
+.reveal section .fragment.diagram:nth-child(n+2){
+	display: none;
+}
+.reveal section .fragment.diagram.visible:nth-child(n+2){
+	display: block;
+	top: 0;
+	position: absolute;
+}
+
 /* Background Octocat watermark */
 body::before{
 	content: "";
