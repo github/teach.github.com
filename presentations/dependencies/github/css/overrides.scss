@@ -15,7 +15,7 @@ i[class^="icon-"]{
 	max-width: 100%;
 	max-height: 100%;
 	background: $mnch-bright;
-	box-shadow: 0 0 5px $mnch-medium;
+	box-shadow: 0 0 0 10px $mnch-bright, 0 0 30px $mnch-medium;
 	border-radius: .5em;
 	overflow: hidden;
 }
