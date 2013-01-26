@@ -4,6 +4,11 @@ i[class^="icon-"]{
 	font-style: normal;
 }
 
+/*Default RevealJS scales images too large for GitHub theme*/
+.reveal img, .reveal iframe{
+	max-height: 77%;
+}
+
 /*Stage Building Diagrams*/
 .diagram-group{
 	position: relative;
@@ -11,16 +16,12 @@ i[class^="icon-"]{
 	max-height: 100%;
 	background: $mnch-bright;
 	box-shadow: 0 0 5px $mnch-medium;
-
 	border-radius: .5em;
 	overflow: hidden;
 }
 .reveal section .fragment.diagram{
 	background: $mnch-bright;
-}
-.reveal section img.fragment.diagram, .reveal section img.diagram{
-	padding: 5%;
-	width: 90%;
+	max-height: 100%;
 }
 .reveal section .fragment.diagram:nth-child(n+2){
 	display: none;
