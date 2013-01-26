@@ -14,6 +14,32 @@ i[class^="icon-"] {
   font-family: FontAwesome;
   font-style: normal; }
 
+/*Default RevealJS scales images too large for GitHub theme*/
+.reveal img, .reveal iframe {
+  max-height: 77%; }
+
+/*Stage Building Diagrams*/
+.diagram-group {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  background: white;
+  box-shadow: 0 0 0 10px white, 0 0 30px #555555;
+  border-radius: .5em;
+  overflow: hidden; }
+
+.reveal section .fragment.diagram {
+  background: white;
+  max-height: 100%; }
+
+.reveal section .fragment.diagram:nth-child(n+2) {
+  display: none; }
+
+.reveal section .fragment.diagram.visible:nth-child(n+2) {
+  display: block;
+  top: 0;
+  position: absolute; }
+
 /* Background Octocat watermark */
 body::before {
   content: "";
