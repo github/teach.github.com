@@ -65,7 +65,7 @@ body {
   /*text-transform: lowercase;*/
   color: $color-dark;
   text-shadow: 0 0 2px $mnch-bright;
-  margin: auto auto .5em auto;
+  margin: auto auto .15em auto;
 }
   h1 + h2::before{
     content: '';
