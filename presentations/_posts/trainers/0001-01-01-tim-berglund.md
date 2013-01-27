@@ -1,5 +1,5 @@
 ---
-chapter: Trainers
+chapter: ''
 layout: slide
 title: Tim Berglund
 tags: ['trainers']
