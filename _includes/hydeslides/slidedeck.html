@@ -1,23 +1,31 @@
 <div class="reveal">
 	<div class="slides">
 		{% for ch in page.chapters %}
-			{% for section in site.tags[ch] reversed %}
-				<!--Chapter Auto-Injection-->
-				{% if forloop.first %}
-					{% if section.chapter != '' %}
-						{% include hydeslides/slide-open-chapter.html %}
-							<h1>{{ section.chapter }}</h1>
-						{% include hydeslides/slide-close.html %}
+			<!--Nest all chapter's content. Chapters traverse left-right; Sections slide up-down-->
+			<section>
+				{% for section in site.tags[ch] reversed %}
+					<!--Chapter Auto-Injection-->
+					{% if forloop.first %}
+						{% if section.chapter != '' %}
+							{% include hydeslides/slide-open-chapter.html %}
+								<h1>{{ section.chapter }}</h1>
+							{% include hydeslides/slide-close.html %}
+						{% endif %}
 					{% endif %}
-				{% endif %}
 
-				{% include hydeslides/slide-open.html %}
-					{% if section.title != '' %}
-						<h2>{{ section.title }}</h2>
-					{% endif %}
-					{{ section.content }}
-				{% include hydeslides/slide-close.html %}
-			{% endfor %}
+					{% include hydeslides/slide-open.html %}
+						{% if section.chapter != '' %}
+							<div class="chapter-banner">{{ section.chapter }}</div>
+						{% endif %}
+
+
+						{% if section.title != '' %}
+							<h2>{{ section.title }}</h2>
+						{% endif %}
+						{{ section.content }}
+					{% include hydeslides/slide-close.html %}
+				{% endfor %}
+			</section>
 		{% endfor %}
 	</div>
 </div>

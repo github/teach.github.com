@@ -1,0 +1,27 @@
+<style>
+	.abs{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 15em;
+		height: 1em;
+		font-size: .7em;
+		background: #ccc;
+	}
+</style>
+
+<div class="abs">
+	{% assign slideNum = 1 %}
+	{% for ch in page.chapters %}
+		{% for section in site.tags[ch] reversed %}
+				
+				<li>{{ section.chapter }} {{ slideNum }}</li>
+
+				{{ slideNum | plus: forloop.index }}
+
+		{% endfor %}
+
+		{{ slideNum | plus: forloop.index }}
+		
+	{% endfor %}
+</div>

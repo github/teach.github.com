@@ -1,8 +1,8 @@
 ---
-chapter: Trainers
+chapter: ''
 layout: slide
 title: Jordan McCullough
-tags: ['trainers']
+tags: ['trainers/jordan-mccullough']
 ---
 
 <img class="headshot" src="assets/headshots/mccullough-jordan.jpg" alt="Jordan McCullough">

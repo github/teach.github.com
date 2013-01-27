@@ -1,8 +1,8 @@
 ---
-chapter: Trainers
+chapter: ''
 layout: slide
 title: Brent Beer
-tags: ['trainers']
+tags: ['trainers/brent-beer']
 ---
 
 <img class="headshot" src="assets/headshots/beer-brent.jpg" alt="Brent Beer">

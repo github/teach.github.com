@@ -5,13 +5,22 @@
 }
 .reveal .brand{
 	background: url(../branding/github_logo_social_coding.png) no-repeat center;
-
 	background-size: contain;
 	height: 6em;
 	width: 98%;
-
 	margin: auto auto 1em auto;
 }
+
+
+
+.reveal .git{
+	background: url(../branding/git-logo-black.png) no-repeat center;
+	background-size: contain;
+	height: 6em;
+	width: 98%;
+	margin: auto auto 1em auto;
+}
+
 
 .strike-out{
 	text-decoration: line-through;
@@ -35,7 +44,7 @@
 .reveal .sticky{
 	font-family: 'Coming Soon';
 	background: $alt-bright;
-	box-shadow: 0px 2px .25em $mnch-medium, 0 0 1em $alt-medium, 0 0 1.5em $mnch-light, inset 0 0 3em $alt-light;
+	box-shadow: 0px 2px .25em $mnch-medium, 0 0 .66em $alt-medium, inset 0 0 3em $alt-light;
 	border-radius: 5em 10em .25em 1.5em / 0.25em 0.25em 1em .25em;
 
 	width: 66%;
