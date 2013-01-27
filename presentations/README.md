@@ -38,8 +38,8 @@ One idiosyncrasy of the core RevealJS behavior is browser focus must be on the m
 
 	
 ## To Do
-*[] Download Google Fonts for offline slide use
-*[] Simplify layouts.scss styles
+* [ ] Download Google Fonts for offline slide use
+* [ ] Simplify layouts.scss styles
 
 ## Theming
 
