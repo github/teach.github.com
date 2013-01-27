@@ -14,6 +14,11 @@
 					{% endif %}
 
 					{% include hydeslides/slide-open.html %}
+						{% if section.chapter != '' %}
+							<div class="chapter-banner">{{ section.chapter }}</div>
+						{% endif %}
+
+
 						{% if section.title != '' %}
 							<h2>{{ section.title }}</h2>
 						{% endif %}
