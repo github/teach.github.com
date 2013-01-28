@@ -18,13 +18,47 @@ i[class^="icon-"] {
 .reveal img, .reveal iframe {
   max-height: 77%; }
 
+/*Chapter Identifier Headers for Sub-Sections*/
+.reveal .chapter-banner {
+  background: #c9e1f5;
+  width: 50%;
+  margin: 0 auto 0.5em auto;
+  color: white;
+  text-transform: uppercase; }
+
+.reveal .chapter-banner::before {
+  content: '';
+  display: inline-block;
+  float: left;
+  border-color: #c9e1f5 #c9e1f5 #c9e1f5 transparent;
+  border-style: solid;
+  border-width: 18px 14px 18px 12px;
+  width: 0;
+  height: 0;
+  margin-left: -20px;
+  margin-top: 5px;
+  /*-webkit-transform:rotate(-5deg);*/ }
+
+.reveal .chapter-banner::after {
+  content: '';
+  display: inline-block;
+  float: right;
+  border-color: #c9e1f5 transparent #c9e1f5 #c9e1f5;
+  border-style: solid;
+  border-width: 18px 14px 18px 12px;
+  width: 0;
+  height: 0;
+  margin-right: -20px;
+  margin-top: 5px;
+  /*-webkit-transform:rotate(5deg);*/ }
+
 /*Stage Building Diagrams*/
 .diagram-group {
   position: relative;
   max-width: 100%;
   max-height: 100%;
   background: white;
-  box-shadow: 0 0 0 10px white, 0 0 30px #555555;
+  box-shadow: 10px 0 0 0 white, -10px 0 0 0 white, 0 0 30px #555555;
   border-radius: .5em;
   overflow: hidden; }
 
@@ -128,6 +162,13 @@ body::after {
   width: 98%;
   margin: auto auto 1em auto; }
 
+.reveal .git {
+  background: url(../branding/git-logo-black.png) no-repeat center;
+  background-size: contain;
+  height: 6em;
+  width: 98%;
+  margin: auto auto 1em auto; }
+
 .strike-out {
   text-decoration: line-through;
   color: #f10000; }
@@ -147,7 +188,7 @@ body::after {
 .reveal .sticky {
   font-family: 'Coming Soon';
   background: #fffab4;
-  box-shadow: 0px 2px 0.25em #555555, 0 0 1em #e5cd62, 0 0 1.5em #f1f1f1, inset 0 0 3em #fff799;
+  box-shadow: 0px 2px 0.25em #555555, 0 0 0.66em #e5cd62, inset 0 0 3em #fff799;
   border-radius: 5em 10em 0.25em 1.5em/0.25em 0.25em 1em 0.25em;
   width: 66%;
   margin: 0 auto;
@@ -256,7 +297,7 @@ body {
   /*text-transform: lowercase;*/
   color: #1875c6;
   text-shadow: 0 0 2px white;
-  margin: auto auto 0.5em auto; }
+  margin: auto auto 0.15em auto; }
 
 h1 + h2::before {
   content: '';

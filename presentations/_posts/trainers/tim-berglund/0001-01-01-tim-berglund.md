@@ -1,8 +1,8 @@
 ---
-chapter: Trainers
+chapter: ''
 layout: slide
 title: Tim Berglund
-tags: ['trainers']
+tags: ['trainers/tim-berglund']
 ---
 
 <img class="headshot" src="assets/headshots/berglund-tim.jpg" alt="Tim Berglund">
