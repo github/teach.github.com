@@ -289,7 +289,9 @@ body {
   font-size: 3em;
   letter-spacing: -.05em;
   color: black;
-  /*text-shadow: 1px 1px 3px $mnch-medium, -1px 2px 0 $mnch-light, 0 3px 0 $mnch-medium, 0 4px 0 $mnch-light;*/ }
+  /*text-shadow: 1px 1px 3px $mnch-medium, -1px 2px 0 $mnch-light, 0 3px 0 $mnch-medium, 0 4px 0 $mnch-light;*/
+  border-top: solid 2px #c9e1f5;
+  border-bottom: solid 2px #c9e1f5; }
 
 .reveal h2 {
   font-size: 1.8em;
