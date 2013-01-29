@@ -91,17 +91,3 @@ Or preview (`-n` or `--dry-run`) what will be done
 Or clean directories (`-d`) too (not just files)
 
     git clean -f -d
-    
-## Reflog
-The `reflog` is the transactional journal of what's been performed on your repository, including `reset`s, `commit`s, `merge`s and `rebase`s. Can be used to identify a treeish to `reset` to (a known `HEAD@{X}` point).
-
-    git reflog
-    817c5e7 HEAD@{0}: commit (initial): Adding files
-
-    git reset HEAD@{0}
-
-or
-
-    git merge HEAD@{0}
-
-Reflog entries are [kept for 90 days](https://www.kernel.org/pub/software/scm/git/docs/git-reflog.html). Orphaned entries are kept for 30 days.
