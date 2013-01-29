@@ -6,7 +6,7 @@ path: technology/_posts/2001-01-01-lesson-git-reflog.md
 ---
 
 ## The Reflog
-The `reflog` is the transactional journal of what's been performed on your repository, including `reset`s, `commit`s, `merge`s and `rebase`s. Can be used to identify a treeish to `reset` to (a known `HEAD@{X}` point).
+The `reflog` is the transactional journal of what's been performed on your repository, including all `reset`, `commit`, `merge`, and `rebase` commands. It can be used to identify a treeish to `reset` to (a known point specified by `HEAD@{X}`).
 
 To show the current contents of the current branch's reflog:
 
