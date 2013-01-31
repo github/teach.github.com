@@ -1,3 +1,12 @@
+---
+layout: bare
+title: GitHub Foundations
+description: GitHub Foundations ILT class notes
+tags: [notes, event]
+path: classnotes/ 2013-01-28-ILT-git-foundations.md
+eventdate: 2013-01-28
+---
+
 # Event Date: 2013-01-28
 ## Delivered by Jordan McCullough
 
