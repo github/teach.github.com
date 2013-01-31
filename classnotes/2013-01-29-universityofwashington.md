@@ -24,10 +24,10 @@ eventdate: 2013-01-29
 ## Conflicted merges (Diff Tools)
 Use graphical diff tools (`difftool` and `mergetool`).
 
-* http://www.gitguys.com/topics/merging-with-a-gui/
-* http://gitguru.com/2009/02/22/integrating-git-with-a-visual-merge-tool/
-* http://git-scm.com/book/en/Customizing-Git-Git-Configuration
-* http://blog.wuwon.id.au/2010/09/painless-merge-conflict-resolution-in.html
+* <http://www.gitguys.com/topics/merging-with-a-gui/>
+* <http://gitguru.com/2009/02/22/integrating-git-with-a-visual-merge-tool/>
+* <http://git-scm.com/book/en/Customizing-Git-Git-Configuration>
+* <http://blog.wuwon.id.au/2010/09/painless-merge-conflict-resolution-in.html>
 * [Video on using diff and merge tools](https://www.youtube.com/watch?v=xfh13LcgqIU)
 * [`git difftool`](http://git-scm.com/docs/git-difftool)
 * [`git mergetool`](http://git-scm.com/docs/git-mergetool)
@@ -53,13 +53,13 @@ Squashing commits into one bit change at merge time can be a simplifying pre-com
 * [Graphical diff](https://github.com/githubtrainer/hellogitworld/commit/7c0ffa9d88616972bb84befbec40a2212478149e) on web site for images
 
 ## Office Hours
-* http://training.github.com/web/free-classes/
+* <http://training.github.com/web/free-classes/>
 
 ## TravisCI Continuous Integration
-* https://www.travis-ci.org/githubtrainer/hellogitworld/builds/4465602
+* <https://www.travis-ci.org/githubtrainer/hellogitworld/builds/4465602>
 
 ## Cheat Sheets
-* http://teach.github.com/articles/git-cheatsheets/
+* <http://teach.github.com/articles/git-cheatsheets/>
 
 ## Slides from Community Talk
 * [Slides from University of Washington Talk](https://speakerdeck.com/matthewmccullough/git-and-github-at-washington-university)
