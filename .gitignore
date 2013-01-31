@@ -1,4 +1,5 @@
 /.ruby-version
+/vendor/gems/
 .DS_Store
 .sass-cache/
 _site
