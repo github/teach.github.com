@@ -6,6 +6,35 @@ path: courses/_posts/2001-01-01-github-foundations-class-plan.md
 tags: [outline, course]
 ---
 
+---------------
+
+## Timing
+* 08:40am Setup and Test Projector
+* 08:50am Student Introductions
+* 09:00am Begin Training
+* 10:30am 10 minute Break
+* 12:00pm Lunch Break
+* 12:45pm Resume Teaching
+* 02:15pm 10 minute Break
+* 04:00pm Conclude Training
+* 04:05pm Student Q&A
+
+## Day One Outline
+* Setting Up Git (identity)
+* Building a Repository
+* Cloning and Remotes
+* Pushing and Pulling
+* Git Push Contention
+* Branch Creation
+* Branch Display
+* Git Aliases
+* Internals of .git
+* Viewing 
+* History Viewing File Contents
+* Merging (recursive and fast-forward)
+
+-------------------
+
 
 This is an outline for a comprehensive class that uses all modules in the `articles` folder.
 
