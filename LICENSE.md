@@ -3,7 +3,7 @@ The prose, course text, slide layouts, class outlines, diagrams, HTML, CSS, and 
 
 ------------------------
 
-# Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
+# Attribution 3.0 Unported (CC BY 3.0)
 This is a [human-readable summary](http://creativecommons.org/licenses/by/3.0/deed.en_US) of the [Legal Code (the full license)](http://creativecommons.org/licenses/by/3.0/legalcode).
 
 
@@ -31,7 +31,7 @@ Notice — For any reuse or distribution, you must make clear to others the lice
 
 --------------------------------
 
-# Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
+# Attribution 3.0 Unported (CC BY 3.0)
 
 http://creativecommons.org/licenses/by/3.0/legalcode
 
