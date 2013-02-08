@@ -468,13 +468,6 @@ eventdate: 2013-01-29
     jekyll --server
     git help
     man git
-    cd github/teach.github.com/classnotes
-    ll
-    cp 2013-01-23-sioux.nl-workshop-and-hotornot.md 2013-01-29-nab-advanced-class.md
-    subl 2013-01-29-nab-advanced-class.md
-    subl .
-    history
-    pbpaste|cut -c 8-|pbcopy
     git help gitattributes
     git help bundle
     git help filter-branch
