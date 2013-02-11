@@ -7,9 +7,11 @@
 					<!--Chapter Auto-Injection-->
 					{% if forloop.first %}
 						{% if section.chapter != '' %}
-							{% include hydeslides/slide-open-chapter.html %}
-								<h1>{{ section.chapter }}</h1>
-							{% include hydeslides/slide-close.html %}
+							{% if section.cover != false %}
+								{% include hydeslides/slide-open-chapter.html %}
+									<h1>{{ section.chapter }}</h1>
+								{% include hydeslides/slide-close.html %}
+							{% endif %}
 						{% endif %}
 					{% endif %}
 
