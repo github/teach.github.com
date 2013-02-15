@@ -12,8 +12,32 @@ Taught by:
 * Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
 * Brent Beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brntbeer))
 
-<iframe width="480" height="360" src="http://www.youtube-nocookie.com/embed/pIGYELKPeog?rel=0" frameborder="0" allowfullscreen></iframe>
 
+## Video
+
+**Still being edited. Thank you for your patience**
+<!-- <iframe width="480" height="360" src="http://www.youtube-nocookie.com/embed/pIGYELKPeog?rel=0" frameborder="0" allowfullscreen></iframe> -->
+
+## Web Flow Blog Posts
+* https://github.com/blog/1327-creating-files-on-github
+* https://github.com/blog/1377-create-and-delete-branches
+* https://github.com/blog/1335-tidying-up-after-pull-requests
+* https://github.com/blog/1369-restore-tidied-pull-requests
+* https://github.com/blog/1307-new-close-and-merge-notifications
+* https://github.com/blog/1301-latest-commit-per-directory
+* https://github.com/blog/1227-commit-status-api
+* https://github.com/blog/1204-notifications-stars
+* https://github.com/blog/1217-friendlier-edit-and-delete-actions
+* https://github.com/blog/1267-github-launch-page
+* https://github.com/blog/1264-introducing-the-command-bar
+* https://github.com/blog/1184-contributing-guidelines
+* https://github.com/blog/1357-issue-autocompletion
+* https://github.com/blog/1347-issue-attachments
+* https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments
+* https://github.com/blog/1378-view-long-running-pull-requests
+* https://github.com/blog/1379-zen-writing-mode
+* https://github.com/blog/1386-closing-issues-via-commit-messages
+* https://github.com/blog/category/ship
 
 ## Installation
 * Git Installation
