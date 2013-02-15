@@ -1116,3 +1116,8 @@ Teachers:
     Doug A. thanks so much!
     sachin t.   Thanks
     matthewmccullough   Thanks all!
+
+## Diagrams
+
+![Diagram 1](https://f.cloud.github.com/assets/24734/162362/6c6b0534-77b6-11e2-97c0-6c5c663c6fdf.jpg)
+
