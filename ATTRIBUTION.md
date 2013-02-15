@@ -1,15 +1,10 @@
-# CC-BY License Attribution
+# CC-BY Attribution Requirement
 
-These teaching materials are licensed as [CC-BY](http://creativecommons.org/licenses/by/3.0/) GitHub, Inc.
+The teaching materials on this site are licensed under a
+[Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
 
-This license requires attribution in any use of or derivation of these materials. Our specific form of
-that attribution requirement a prominent link to this file with the objective being to help others
-easily become aware of the host of other educational materials we offer under this same CC-BY license.
+As stated in the license:
+> Attribution — You must attribute the work in the manner specified by the author or licensor (but not
+> in any way that suggests that they endorse you or your use of the work).
 
-# Other Resources
-
-* http:/teach.github.com
-* http:/learn.github.com
-* http:/training.github.com
-* http:/youtube.com/github
-* https://github.com/edu
+For any use of the materials we require a prominently placed link to <http://teach.github.com>.
