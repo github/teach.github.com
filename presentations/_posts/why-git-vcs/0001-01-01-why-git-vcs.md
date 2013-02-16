@@ -1,11 +1,9 @@
 ---
-chapter: Setup
+chapter: Why Git?
 layout: slide
-title: 'Why Git? Why Version Control?'
+title: 'Why Use Version Control?'
 tags: ['why-git-vcs']
 ---
-
-Why should you use version control?
 
 * Safety
 * Clarity
