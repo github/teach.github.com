@@ -2,7 +2,7 @@
 chapter: Why Git?
 layout: slide
 title: 'What will you benefit?'
-tags: ['what-benefit']
+tags: ['why-git-vcs']
 ---
 
 What will you benefit from putting this weekend's work on GitHub?
