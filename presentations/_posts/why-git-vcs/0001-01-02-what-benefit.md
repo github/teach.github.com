@@ -1,11 +1,9 @@
 ---
 chapter: Why Git?
 layout: slide
-title: 'What will you benefit?'
+title: 'What's the benefit of GitHub hosting?'
 tags: ['why-git-vcs']
 ---
-
-What will you benefit from putting this weekend's work on GitHub?
 
 * Marketing yourself
 * GitHub is your new resume
