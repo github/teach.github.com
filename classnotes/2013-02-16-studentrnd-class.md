@@ -39,3 +39,24 @@ We've heard you have are interested in:
 * What are some of the challenging points you might see this weekend?
     * Merge conflicts
     * Unpushed changes
+
+## Resources
+* [Slides](http://teach.github.com/presentations/git-foundations.html)
+* [GitHub Training Videos](http://training.github.com/resources/videos/)
+* [GitHub Training Feedback and Follow-up Questions](https://github.com/githubtraining/feedback/issues?state=open)
+* [NPD Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
+* [More Git Cheatsheets](http://teach.github.com/articles/git-cheatsheets/)
+
+## Suggested Books, Articles
+* [Free ProGit Book](http://git-scm.com/book)
+* [Getting started with Version Control](http://teach.github.com/articles/lesson-new-to-version-control/)
+* [The GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html)
+* [DVCS Workflows Book](https://github.com/zkessin/dvcs-workflows)
+* [Git Cheat Sheets](http://teach.github.com/articles/git-cheatsheets/)
+* [Git Workflow Links](https://pinboard.in/u:matthew.mccullough/t:git+workflow)
+
+## Course Materials, Links
+* [Git Teaching Materials](http://teach.github.com)
+* [Course Slides](http://teach.github.com/articles/course-slides/)
+* [Post-event Git and GitHub questions](https://github.com/githubtraining/feedback/)
+* [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
