@@ -3,6 +3,7 @@ chapter: GUIs
 layout: slide
 title: 'Other Tools'
 tags: ['gui']
+categories: ['slidecontent']
 ---
 
 __GitHub for Windows__

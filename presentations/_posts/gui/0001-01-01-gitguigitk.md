@@ -3,6 +3,7 @@ chapter: GUIs
 layout: slide
 title: 'Native Tools'
 tags: ['gui']
+categories: ['slidecontent']
 ---
 
 	# Committing

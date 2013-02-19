@@ -3,6 +3,7 @@ chapter: ''
 layout: slide
 title: 'Questions?'
 tags: ['goodbye']
+categories: ['slidecontent']
 ---
 
 [training@github.com](mailto:training@github.com)

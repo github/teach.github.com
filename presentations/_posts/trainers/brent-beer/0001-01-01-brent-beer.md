@@ -3,6 +3,7 @@ chapter: ''
 layout: slide
 title: Brent Beer
 tags: ['trainers/brent-beer']
+categories: ['slidecontent']
 ---
 
 <img class="headshot" src="assets/headshots/beer-brent.jpg" alt="Brent Beer">

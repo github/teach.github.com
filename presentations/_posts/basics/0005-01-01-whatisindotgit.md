@@ -3,6 +3,7 @@ chapter: Basics
 layout: slide
 title: What is in .git?
 tags: ['basics']
+categories: ['slidecontent']
 ---
 
 The entire repo consists of these directories

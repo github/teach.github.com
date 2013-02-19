@@ -3,6 +3,7 @@ chapter: 'Git'
 layout: slide
 title: 'The Brief Tour'
 tags: ['git/repository']
+categories: ['slidecontent']
 ---
 
 

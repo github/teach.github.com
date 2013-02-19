@@ -3,6 +3,7 @@ chapter: Network
 layout: slide
 title: 'Remote Branches'
 tags: ['network']
+categories: ['slidecontent']
 ---
 
 	#List remote branches

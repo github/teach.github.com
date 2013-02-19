@@ -3,6 +3,7 @@ chapter: GitHub
 layout: slide
 title: ''
 tags: ['github/intro']
+categories: ['slidecontent']
 ---
 
 Obtain a local "copy":

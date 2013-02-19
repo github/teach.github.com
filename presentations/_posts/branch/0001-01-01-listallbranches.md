@@ -3,6 +3,7 @@ chapter: Branch
 layout: slide
 title: 'List All'
 tags: ['branch']
+categories: ['slidecontent']
 ---
 
 	#List (Local) Branches

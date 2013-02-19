@@ -3,6 +3,7 @@ chapter: Commit
 layout: slide
 title: ''
 tags: ['commit']
+categories: ['slidecontent']
 ---
 
 

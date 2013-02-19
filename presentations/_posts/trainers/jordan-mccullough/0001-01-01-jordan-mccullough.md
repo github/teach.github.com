@@ -3,6 +3,7 @@ chapter: ''
 layout: slide
 title: Jordan McCullough
 tags: ['trainers/jordan-mccullough']
+categories: ['slidecontent']
 ---
 
 <img class="headshot" src="assets/headshots/mccullough-jordan.jpg" alt="Jordan McCullough">

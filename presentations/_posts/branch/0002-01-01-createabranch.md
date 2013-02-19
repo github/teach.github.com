@@ -3,6 +3,7 @@ chapter: Branch
 layout: slide
 title: 'Create a Branch'
 tags: ['branch']
+categories: ['slidecontent']
 ---
 
 	git branch <branchname> <ref>

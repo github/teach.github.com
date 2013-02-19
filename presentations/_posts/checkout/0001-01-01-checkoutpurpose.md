@@ -3,6 +3,7 @@ chapter: Checkout
 layout: slide
 title: ''
 tags: ['checkout']
+categories: ['slidecontent']
 ---
 
 * Aborting Changes

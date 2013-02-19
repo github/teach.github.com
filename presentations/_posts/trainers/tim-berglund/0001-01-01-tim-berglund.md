@@ -3,6 +3,7 @@ chapter: ''
 layout: slide
 title: Tim Berglund
 tags: ['trainers/tim-berglund']
+categories: ['slidecontent']
 ---
 
 <img class="headshot" src="assets/headshots/berglund-tim.jpg" alt="Tim Berglund">

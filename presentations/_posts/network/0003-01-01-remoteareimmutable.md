@@ -3,6 +3,7 @@ chapter: Network
 layout: slide
 title: ''
 tags: ['network']
+categories: ['slidecontent']
 ---
 
 <div class="sticky">

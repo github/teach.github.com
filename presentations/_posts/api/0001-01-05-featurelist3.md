@@ -3,6 +3,7 @@ chapter: API
 layout: slide
 title: 'What can it do?'
 tags: ['api']
+categories: ['slidecontent']
 ---
 
 	$ curl -n https://api.github.com

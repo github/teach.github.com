@@ -3,6 +3,7 @@ chapter: ''
 layout: slide
 title: Matthew McCullough
 tags: ['trainers/matthew-mccullough']
+categories: ['slidecontent']
 ---
 
 <img class="headshot" src="assets/headshots/mccullough-matthew.jpg" alt="Matthew McCullough">

@@ -3,6 +3,7 @@ chapter: Basics
 layout: slide
 title: Initialization Options
 tags: ['basics']
+categories: ['slidecontent']
 ---
 
 * Starting from __scratch__

@@ -3,6 +3,7 @@ chapter: Commit
 layout: slide
 title: 'Your First Commit'
 tags: ['commit']
+categories: ['slidecontent']
 ---
 
 	git add <filename>
