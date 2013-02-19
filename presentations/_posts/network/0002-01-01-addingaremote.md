@@ -3,6 +3,7 @@ chapter: Network
 layout: slide
 title: 'Adding a Remote'
 tags: ['network']
+categories: ['slidecontent']
 ---
 
 	git remote add <name> <url>
