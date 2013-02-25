@@ -1,7 +1,7 @@
 ---
 chapter: Why Git?
 layout: slide
-title: 'What's the benefit of GitHub hosting?'
+title: 'What is the benefit of GitHub hosting?'
 tags: ['why-git-vcs']
 ---
 
