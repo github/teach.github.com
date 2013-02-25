@@ -7,7 +7,7 @@ categories: classnotes
 ---
 
 <ul>
-{% for page in site.html_pages %}
+{% for page in site.html_pages sort_by:eventdate order:ascending %}
 {% if page.categories == classnotes %}
 {% if page.showinnav != true %}
 <li>{{ page.eventdate }} • <a href="{{ page.url | remove:'index.html' }}">{{ page.title }}</a></li>
