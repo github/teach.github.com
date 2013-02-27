@@ -63,7 +63,7 @@ Teachers:
 
 # Command Line History, Day 1
 
-```bash
+```
 git --version
 git init project1
 cd project1
