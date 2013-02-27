@@ -23,9 +23,9 @@ eventdate: 2013-02-26
 * GitHub Free Online Classes
     * [https://training.github.com/web/free-classes/](https://training.github.com/web/free-classes/)
 * Training Team Q&A
-	  * [https://github.com/githubtraining/feedback](https://github.com/githubtraining/feedback)
+    * [https://github.com/githubtraining/feedback](https://github.com/githubtraining/feedback)
 * Shell Scripts
-	  * [https://github.com/matthewmccullough/scripts](https://github.com/matthewmccullough/scripts)
+    * [https://github.com/matthewmccullough/scripts](https://github.com/matthewmccullough/scripts)
 
 
 # CLI History
