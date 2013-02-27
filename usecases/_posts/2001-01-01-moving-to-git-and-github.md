@@ -156,7 +156,7 @@ Thankfully, the idea of using git and SVN together is popular enough to warrant 
 ### Internal Hosting
 
 We all wish we could use [GitHub] [github]. If you're behind a firewall or in a restrictive environment, though, the public Internet site may not work. 
-Thankfully, [GitHub] [github] offers an [enterprise version](https://enterprise.github.com) that gives you the best of both worlds. [@devnulled's GitHub Enterprise overview](https://github.com/github/teach.github.com/blob/gh-pages/resources/GitHub-Enterprise.md) has lots of good reasons why GitHub Enterprise could benefit your team and organization.
+Thankfully, [GitHub] [github] offers an [enterprise version](https://enterprise.github.com) that gives you the best of both worlds. [@devnulled's GitHub Enterprise overview](http://teach.github.com/articles/github-enterprise-features/) has lots of good reasons why GitHub Enterprise could benefit your team and organization.
 
 Here's a few other options for hosting Git yourself
 
