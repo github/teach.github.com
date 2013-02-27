@@ -20,7 +20,7 @@ Additional, there is an [About Git](http://git-scm.com/about) set of pages that 
 
 * [Switching Our Corporate Version Control System to GitHub](http://dotheweb.posterous.com/switching-our-corporate-version-control-syste)
 * [Moving from SVN to Git in 1,000 easy steps • Etsy](http://codeascraft.etsy.com/2011/12/02/moving-from-svn-to-git-in-1000-easy-steps/)
-* [Basho | A Few More Details On Why We Switched To GitHub]()
+* [Basho | A Few More Details On Why We Switched To GitHub](http://basho.com/a-few-more-details-on-why-we-switched-to-github/)
 * [From CVS to Git, 9 Things I’ve Learned](http://eclipsesource.com/blogs/2011/06/09/git-lessons-learned/)
 * [Git, Top Eclipse Juno Feature #6](http://eclipsesource.com/blogs/2012/06/20/git-top-eclipse-juno-feature-6/)
 * [Eclipse • Migrating to Git](http://wiki.eclipse.org/Git/Migrating_to_Git)
