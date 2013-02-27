@@ -63,69 +63,67 @@ Teachers:
 
 # Command Line History, Day 1
 
-```
-git --version
-git init project1
-cd project1
-open .
-pwd
-vim first.txt
-git add first.txt
-git commit -m "My first commit"
-git config --list
-git config user.name
-git config --global user.name "Matthew McCullough"
-git config --global user.email "matthew@github.com"
-git config user.email
-git clone https://github.com/githubtraining/hellogitworld.git hgw1
-tree 
-cd hgw1
-git log -2
-historytailzsh
-historytailzsh 3 10
-git log --oneline
-git log --oneline -4
-git commit -m "Saving this locally"
-git commit -m "My change" 
-git clone https://github.com/githubteacher/hellogitworld.git hgwmine
-vim matthewmccullough.txt
-git add matthewmccullough.txt
-git commit -m "Matthews new file"
-git remote -v
-cd ..
-cd hgwmine
-git push
-subl ~/.gitconfig
-vim fix.txt
-git add fix.txt
-git diff
-git diff --staged
-git commit -m "All of things"
-github
-git gui
-echo CHANGE >> fix.txt
-git gui &
-git log -1
-gitk 
-clear
-which -a git
-touch .gitignore
-ls
-ls -al
-echo JUNK >> newtmp
-echo JUNK >> new.tmp
-rm newtmp
-git add .
-git commit -m "Ignoring all tmp and subfolder"
-cat .gitignore
-mkdir stufffolder
-echo JUNK >> stufffolder/thing.txt
-git log master..origin/master
-git log origin/master..master
-git log origin/master master --oneline
-git log origin/master..master --oneline
-git fetch
-echo STUFF >> keepme.tmp
-vim .gitignore
-git status
-```
+    git --version
+    git init project1
+    cd project1
+    open .
+    pwd
+    vim first.txt
+    git add first.txt
+    git commit -m "My first commit"
+    git config --list
+    git config user.name
+    git config --global user.name "Matthew McCullough"
+    git config --global user.email "matthew@github.com"
+    git config user.email
+    git clone https://github.com/githubtraining/hellogitworld.git hgw1
+    tree 
+    cd hgw1
+    git log -2
+    historytailzsh
+    historytailzsh 3 10
+    git log --oneline
+    git log --oneline -4
+    git commit -m "Saving this locally"
+    git commit -m "My change" 
+    git clone https://github.com/githubteacher/hellogitworld.git hgwmine
+    vim matthewmccullough.txt
+    git add matthewmccullough.txt
+    git commit -m "Matthews new file"
+    git remote -v
+    cd ..
+    cd hgwmine
+    git push
+    subl ~/.gitconfig
+    vim fix.txt
+    git add fix.txt
+    git diff
+    git diff --staged
+    git commit -m "All of things"
+    github
+    git gui
+    echo CHANGE >> fix.txt
+    git gui &
+    git log -1
+    gitk 
+    clear
+    which -a git
+    touch .gitignore
+    ls
+    ls -al
+    echo JUNK >> newtmp
+    echo JUNK >> new.tmp
+    rm newtmp
+    git add .
+    git commit -m "Ignoring all tmp and subfolder"
+    cat .gitignore
+    mkdir stufffolder
+    echo JUNK >> stufffolder/thing.txt
+    git log master..origin/master
+    git log origin/master..master
+    git log origin/master master --oneline
+    git log origin/master..master --oneline
+    git fetch
+    echo STUFF >> keepme.tmp
+    vim .gitignore
+    git status
