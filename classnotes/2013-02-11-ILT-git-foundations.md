@@ -17,9 +17,9 @@ eventdate: 2013-02-11
 
 # Helpful Links
 * Git-SCM
-  * [http://www.git-scm.com](http:/www.git-scm.com)
+  * [http://www.git-scm.com](http://www.git-scm.com)
 * Free-Online Git Pro Book
-	* [http://http://git-scm.com/book](http://http://git-scm.com/book)
+	* [http://git-scm.com/book](http://git-scm.com/book)
 * GitHub Free Online Classes
 	* [https://training.github.com/web/free-classes/](https://training.github.com/web/free-classes/)
 * Training Team Q&A
