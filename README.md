@@ -9,7 +9,7 @@ GitHub believes, as a company, that educational materials should be free and imp
 
 ## Original Authors
 
-These materials were loving donated to the OSS community by [GitHub](https://github.com/about) because it is an awesome company that has a [passion for open sourcing](http://tom.preston-werner.com/2011/11/22/open-source-everything.html) a significant portion [of our work](https://github.com/github).  The original authors of these materials include [Matthew McCullough](http://github.com/matthewmccullough), [Tim Berglund](https://github.com/tlberglund), and [Jared Koumentis](https://github.com/ShepBook), but we eagerly look forward to seeing those contributions overwhelmed by a [community effort](https://github.com/github/teach.github.com/wiki/Hall-Of-Appreciation) to improve and grow these materials for the benefit of the Git-learning community.
+These materials were lovingly donated to the OSS community by [GitHub](https://github.com/about) because it is an awesome company that has a [passion for open sourcing](http://tom.preston-werner.com/2011/11/22/open-source-everything.html) a significant portion [of our work](https://github.com/github).  The original authors of these materials include [Matthew McCullough](http://github.com/matthewmccullough), [Tim Berglund](https://github.com/tlberglund), and [Jared Koumentis](https://github.com/ShepBook), but we eagerly look forward to seeing those contributions overwhelmed by a [community effort](https://github.com/github/teach.github.com/wiki/Hall-Of-Appreciation) to improve and grow these materials for the benefit of the Git-learning community.
 
 ## Spread the Love
 
