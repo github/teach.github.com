@@ -1,13 +1,14 @@
 ---
 layout: bare
-title: GitHub Foundations
-description: GitHub Foundations Online class notes
-tags: [notes, event]
+title: Private Git/GitHub Class
+description: Private Git/GitHub Class
+tags: [notes, event, private]
 path: classnotes/ 2013-02-25-private-git-class.md
 eventdate: 2013-02-25
 ---
 
 # Instructors
+
 * Tim Berglund ([Twitter](http://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
 * Brent Beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brentbeer))
 * David Graham ([Twitter](http://twitter.com/davidgraham), [GitHub](https://github.com/davidgraham))
