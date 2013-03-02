@@ -12,7 +12,7 @@ on 2013-02-26 through 2013-02-27
 Teachers:
 
 * Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
-* Matt Yoho ([Twitter](), [GitHub](https://github.com/mattyoho))
+* Matt Yoho ([Twitter](https://twitter.com/mattyoho), [GitHub](https://github.com/mattyoho))
 
 
 ## Resources
@@ -30,7 +30,7 @@ Teachers:
 * [Open Source Git Ignores](https://github.com/github/gitignore)
 * [Ship of Theseus - Related to Similarity Index](http://en.wikipedia.org/wiki/Ship_of_Theseus)
 * [git-p4 Perforce Script](http://kb.perforce.com/article/1417/git-p4)
-* [Unix watch command](http://en.wikipedia.org/wiki/Watch_(Unix))
+* [Unix watch command](http://en.wikipedia.org/wiki/Watch_(Unix\))
 * [SHA-1 Hash Collisions](http://git-scm.com/book/ch6-1.html#A-SHORT-NOTE-ABOUT-SHA-1)
 * [NPD Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 * [More Git Cheatsheets](http://teach.github.com/articles/git-cheatsheets/)

@@ -23,7 +23,7 @@ eventdate: 2013-02-22
 * [Ask a Git or GitHub Question](https://github.com/githubtraining/feedback)
 * [Workshop Slides](http://cl.ly/1l3d1Z1r3p3b/content)
 * [Cheat Sheets](http://teach.github.com/articles/git-cheatsheets/)
-* [Visual Merge Tools](http://www.youtube.com/watch?v=xfh13LcgqIU&feature=plcp)
+* [Visual Merge Tools](http://www.youtube.com/watch?v=xfh13LcgqIU)
 * [Git & GitHub Public Videos](http://www.youtube.com/github)
 * [Slides](http://teach.github.com/articles/course-slides/)
 * [Slide PDF 1](http://githubtraining.s3.amazonaws.com/github-git-training-slides.pdf)

@@ -37,7 +37,7 @@ Taught by:
 ## Tools, Tips, Shortcuts
 
 * [ghi gem](https://github.com/stephencelis/ghi)
-* [hubgem ](https://github.com/defunkt/hub)
+* [hubgem](https://github.com/defunkt/hub)
 * [gist gem](https://github.com/defunkt/gist)
 * [gitg](http://git.gnome.org/browse/gitg) instead of gitk
 * [tig](http://gitready.com/advanced/2009/07/31/tig-the-ncurses-front-end-to-git.html)
@@ -63,7 +63,7 @@ Taught by:
 * [Open Source Git Ignores](https://github.com/github/gitignore)
 * [Ship of Theseus - Related to Similarity Index](http://en.wikipedia.org/wiki/Ship_of_Theseus)
 * [git-p4 Perforce Script](http://kb.perforce.com/article/1417/git-p4)
-* [Unix watch command](http://en.wikipedia.org/wiki/Watch_(Unix))
+* [Unix watch command](http://en.wikipedia.org/wiki/Watch_(Unix\))
 * [SHA-1 Hash Collisions](http://git-scm.com/book/ch6-1.html#A-SHORT-NOTE-ABOUT-SHA-1)
 * [NPD Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 * [More Git Cheatsheets](http://teach.github.com/articles/git-cheatsheets/)
