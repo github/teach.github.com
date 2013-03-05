@@ -64,7 +64,7 @@ Directly quoted from their site:
 ## Git in the Life Sciences – A Paper by Karthik Ram
 * [Git: A powerful tool to facilitate greater reproducibility and transparency in science. – README](https://github.com/karthikram/smb_git/#readme)
 * [Git: A powerful tool to facilitate greater reproducibility and transparency in science. – PDF](https://github.com/karthikram/smb_git/blob/master/git_manuscript.pdf?raw=true)
-* [Twitter praise for Karthik's paper](https://twitter.com/berndweiss/status/292532082335416320)
+* [Social media response to Karthik's paper](http://altmetric.com/details.php?citation_id=1270911)
 
 -----------------
 
