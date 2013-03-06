@@ -77,7 +77,7 @@ Teachers:
     git config --global user.email "matthew@github.com"
     git config user.email
     git clone https://github.com/githubtraining/hellogitworld.git hgw1
-    tree 
+    tree
     cd hgw1
     git log -2
     historytailzsh
@@ -85,7 +85,7 @@ Teachers:
     git log --oneline
     git log --oneline -4
     git commit -m "Saving this locally"
-    git commit -m "My change" 
+    git commit -m "My change"
     git clone https://github.com/githubteacher/hellogitworld.git hgwmine
     vim matthewmccullough.txt
     git add matthewmccullough.txt
@@ -105,7 +105,7 @@ Teachers:
     echo CHANGE >> fix.txt
     git gui &
     git log -1
-    gitk 
+    gitk
     which -a git
     touch .gitignore
 
@@ -205,7 +205,7 @@ Teachers:
     git difftool --tool-help
     git mergetool
     git status
-    git commit 
+    git commit
     git push
     git difftool --tool-help
     historytailzsh 5 8
@@ -269,15 +269,15 @@ Teachers:
     git stash
     git checkout master
     git stash pop
-    git stash 
+    git stash
     git stash branch newfeature
     git stash
     echo CHANGE >> .gitignore
     git status
     git stash pop
-    git stash 
+    git stash
     echo CHANGE >> .gitignore
-    git stash 
+    git stash
     git stash pop
     git tag AGOODPOINTREF
     git tag -a AGOODPOINTREF2
@@ -288,7 +288,7 @@ Teachers:
     git log --format=raw
     git log --format=raw AGOODPOINT3
     git log --format=raw AGOODPOINTREF3
-    git log --format=raw --decorate AGOODPOINTREF3 
+    git log --format=raw --decorate AGOODPOINTREF3
     cd ..
     svn co https://github.com/matthewmccullough/dotfiles/trunk
     cd trunk
@@ -303,374 +303,410 @@ Teachers:
 
 ## Day One Chat
 
-    Feb 26  
+    Feb 26
     matthewmccullough   Hi everyone!
-    Richard S.  Hi, is there audio yet?
-    matthewmccullough   Richard. Indeed there. is. Just was testing.
-    I see GoToMeeting saying I'm speaking with good levels.
-    Richard S.  ok thanks
-    Rajesh P.   Hello
+    Richard S.          Hi, is there audio yet?
+    matthewmccullough   Richard. Indeed there. is. Just was testing. I see GoToMeeting saying I'm speaking with good levels.
+    Richard S.          ok thanks
+    Rajesh P.           Hello
     matthewmccullough   Howdy Rajesh!
-    Matt Y. Hi!
-    Rajesh P.   Hi
-    Rajesh P 
-    git version 1.7.12.4 (Apple Git-37)
-    John H. git version 1.8.1.GIT
-    Cheri V 
-    $ git --version
-    git version 1.7.7.6
-    Jeff K. git version 1.7.8.2
-    Ilya    1.7.12.4
-    Dan 
-    Dans-MacBook-Air:~ danarnold$ git --version
-    git version 1.8.1.3
-    Brandee 1.7.12.4
-    Alejandro G.    git version 1.7.11
-    Sean M. 1.8.0
-    AL  git version 1.7.12.4 (Apple Git-37)
-    Seth    git version 1.8.0.msysgit.0
-    Jim A.  git version 1.7.10.2 (Apple Git-33)
-    Wouter K.   git version 1.7.9.6 (Apple Git-31.1)
-    Daniel K.   git version 1.8.1.msysgit.1
-    David R.    git version 1.8.1.msysgit.1
-    Gary M 
-    git version 1.7.10.2 (Apple Git-33)
-    Justin C.   git version 1.8.0.msysgit.0
-    Phillip J.  git version 1.7.10.2 (Apple Git-33)
-    Pream T.    1.8.0.msysgit.0
-    Nazila N.   git version 1.7.1
-    Jon T.  git version 1.8.0.msysgit.0
-    Matt Y. Thanks for joining.
-    Ruben M.    1.7.11
-    Randy C.    git version 1.7.11.msysgit.1
-    Matt Y. If anyone has any questions about signing up, please ask.
+    Matt Y.             Hi!
+    Rajesh P.           Hi
+                        git version 1.7.12.4 (Apple Git-37)
+    John H.             git version 1.8.1.GIT
+    Cheri V             $ git --version
+                        git version 1.7.7.6
+    Jeff K.             git version 1.7.8.2
+    Ilya                1.7.12.4
+    Dan                 Dans-MacBook-Air:~ danarnold$ git --version
+                        git version 1.8.1.3
+    Brandee             1.7.12.4
+    Alejandro G.        git version 1.7.11
+    Sean M.             1.8.0
+    AL                  git version 1.7.12.4 (Apple Git-37)
+    Seth                git version 1.8.0.msysgit.0
+    Jim A.              git version 1.7.10.2 (Apple Git-33)
+    Wouter K.           git version 1.7.9.6 (Apple Git-31.1)
+    Daniel K.           git version 1.8.1.msysgit.1
+    David R.            git version 1.8.1.msysgit.1
+    Gary M              git version 1.7.10.2 (Apple Git-33)
+    Justin C.           git version 1.8.0.msysgit.0
+    Phillip J.          git version 1.7.10.2 (Apple Git-33)
+    Pream T.            1.8.0.msysgit.0
+    Nazila N.           git version 1.7.1
+    Jon T.              git version 1.8.0.msysgit.0
+    Matt Y.             Thanks for joining.
+    Ruben M.            1.7.11
+    Randy C.            git version 1.7.11.msysgit.1
+    Matt Y.             If anyone has any questions about signing up, please ask.
     matthewmccullough   git init project1
-    Randy C.    What was the first command to initialize
+    Randy C.            What was the first command to initialize
     matthewmccullough   cd project1
-    TEXTEDITOR first.txt
-    git status
-    UNTRACKED
-    git add first.txt
-    STAGING AREA
-    git status
-    git commit -m "First commit"
-    Matt Y. Keep the questions coming. :-)
-    Randy C.    does git bash have an text editor?
+                        TEXTEDITOR first.txt
+                        git status
+                        UNTRACKED
+                        git add first.txt
+                        STAGING AREA
+                        git status
+                        git commit -m "First commit"
+    Matt Y.             Keep the questions coming. :-)
+    Randy C.            does git bash have an text editor?
     matthewmccullough   $EDITOR
-    Matt Y. Randy: Did that answer your question? I wasn't sure that was what you were curious about. :-)
-    Cheri V.    git add . - start from where you are?
-    Matt Y. Yep, it starts from the current directory.
-    Cheri V.    and 'git add --all' will add everything regardless of where you are?
-    Matt Y. So everything at the current level and further down.
-    Cheri V.    so are . and --all the same thing?
-    Matt Y. Cheri: git add . and git add --all are similar.
-    Cheri: The difference is that git add -all will also stage files that have been deleted from the directory, but git still thinks are being tracked.
-    git add . will only stage changes to new files or to already tracked files whose contents have changed.
-    Matt Y. git config --list
-    Jeff K. would you pls share the cool command prompt? :)
-    Matt Y. Jeff K: I think Matthew has that open-sourced. I'm sure he'll share the GitHub URL later. :-)
+    Matt Y.             Randy: Did that answer your question? I wasn't sure that was what you were curious about. :-)
+    Cheri V.            git add . - start from where you are?
+    Matt Y.             Yep, it starts from the current directory.
+    Cheri V.            and 'git add --all' will add everything regardless of where you are?
+    Matt Y.             So everything at the current level and further down.
+    Cheri V.            so are . and --all the same thing?
+    Matt Y.             Cheri: git add . and git add --all are similar.
+    Cheri:              The difference is that git add -all will also stage files that have been deleted from the directory,
+                        but git still thinks are being tracked.
+                        git add . will only stage changes to new files or to already tracked files whose contents have
+                        changed.
+    Matt Y.             git config --list
+    Jeff K.             would you pls share the cool command prompt? :)
+    Matt Y.             Jeff K: I think Matthew has that open-sourced. I'm sure he'll share the GitHub URL later. :-)
     matthewmccullough   oh-my-zsh
-    Jeff K. thx
-    jcamou  echo $PS1 (:
-    Alejandro G.    thx, its look amazing
-    Matt Y. To see the settings specific to the current repository, for example, would be: git config --local --list
-    Daniel K.   Is there a way to have git config --list indicate which (local/global/system) a setting is coming from?
-    Justin C.   So local config has higher "specificity" than global?
-    Matt Y. Justin: Local takes top precedence, yep.
-    Matt Y. Daniel: I don't believe there is, but let me investigate for a moment.
-    Daniel: I don't think so, no.
-    Daniel K.   ok. thx
+    Jeff K.             thx
+    jcamou              echo $PS1 (:
+    Alejandro G.        thx, its look amazing
+    Matt Y.             To see the settings specific to the current repository, for example, would be: git config --local --list
+    Daniel K.           Is there a way to have git config --list indicate which (local/global/system) a setting is coming from?
+    Justin C.           So local config has higher "specificity" than global?
+    Matt Y.             Justin: Local takes top precedence, yep.
+    Matt Y.             Daniel: I don't believe there is, but let me investigate for a moment.
+    Daniel:             I don't think so, no.
+    Daniel K.           ok. thx
     matthewmccullough   https://github.com/githubtraining
-    matthewmccullough 
-    git clone https://github.com/githubtraining/hellogitworld.git hgw1
-    Richard S.  hmm, any alternative to paste the url in windows git bash?
-    Matt Y. Richard: Not sure about that one, I don't have a Windows machine handy at the moment.
-    Possibly a right-click option?
-    Richard S.  perfect thanks
-    Bill    Is there a tree command in OSX?
-    matthewmccullough   Brew Package Manager
-    for OS X
-    brew install tree
-    Pawel R.    there are two interesting files: .gitattributes .gitignore
-    what are those
+                        git clone https://github.com/githubtraining/hellogitworld.git hgw1
+    Richard S.          hmm, any alternative to paste the url in windows git bash?
+    Matt Y.             Richard: Not sure about that one, I don't have a Windows machine handy at the moment.
+                        Possibly a right-click option?
+    Richard S.          perfect thanks
+    Bill                Is there a tree command in OSX?
+    matthewmccullough   Brew Package Manager for OS X
+                        brew install tree
+    Pawel R.            there are two interesting files: .gitattributes .gitignore
+                        what are those
     matthewmccullough   cd hgw1
-    Matt Y. Pawel: DId Matthew provide enough info for the time being?
+    Matt Y.             Pawel: DId Matthew provide enough info for the time being?
     matthewmccullough   git log -2
-    Pawel R.    yes, I think so
-    Matt Y. Pawel: Okay, we'll return to it later as well.
-    .gitignore is used much more frequently than .gitattributes, but generally remains static per repository over the lifetime of the codebase.
-    Ruben M.    In Windows how do I finish (get out) of the END?
-    Enter doesn't do it
-    jcamou  nice, can even do git log --oneline -2
-    Ruben M.    thx
-    David R.    so the hex numbers to the left are the shortened "version numbers"?
-    Ruben M.    Globally meaning?
-    Matt Y. Globally means statisitically unlikely that any other commit has the same id.
-    Matt Y. So, *very* unlikely. :-)
-    Daniel K.   Incoming meteorites?
-    Matt Y. More likely.
-    Daniel K.   :^)
-    Matt Y. :-)
-    Public repositories are available for anyone to read and make a copy of, but you still need to be granted access to write to them.
-    git add fix.txt
-    jcamou  but doesn´t fix.txt already exist in the repo_
-    Matt Y. It does!
-    Ruben M.    What's the difference between add and commit?
-    Matt Y. Ruben: This should help.
-    The "Working" area is just what we think of as the files as they exist in the directory.
-    The staging area is the way that git sees the files have changed, and what will be committed when we run git commit.
-    Ruben M.    I made a change to a file and then committed without adding!
-    Matt Y. In git, we have to tell git to pay attention to the changes we make to files on disk. This turns out to be very powerful.
-    Ruben: Run git status
-    jcamou  so commit doesn´t do anything on the origin repo.
-    Dan I'm not getting prompted for a password, instead I see (1 more line) 
-    Dans-MacBook-Air:hgw1 danarnold$ git push 
-    warning: push.default is unset; its implicit value is changing in
-    Git 2.0 from 'matching' to 'simple'. To squelch this message
-    and maintain the current behavior after the default changes, use:
-      git config --global push.default matching
-    To squelch this message and adopt the new behavior now, use:
-      git config --global push.default simple
-    See 'git help config' and search for 'push.default' for further information.
-    (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
-    'current' instead of 'simple' if you sometimes use older versions of Git)
-    ...
-    Ruben M.    So I could commit other1.txt without adding? That's what I did.
-    Richard S.  I get "push.default is unset;" - did I miss the instruction for setting this? And how come when I cloned the repo this wasn't automatically set?
-    Daniel K.   There is also: git commit -a -m "my changes"
-    Matt Y. Dan: What Matthew is talking about is is the same issue you're seeing.
-    Gary M. How do I know what has been staged?
-    Richard S.  I see, which do you suggest?
-    Alejandro G.    git status
-    Matt Y. Historically, git would push al branches, but that had some surprising rough edges, so people often changed from matching to simple.
-    So eventually git changed the default.
-    Richard S.  gotcha thanks Matt
-    Matt Y. The 'simple' option is probably the safer option.
-    jcamou  git add should be done against any modified file?
-    Nazila N.   What does this mean: # Your branch is ahead of 'origin/master' by 1 commit.
-    Matt Y. No problem.
-    This is where it's important to keep in mind that every copy of a git repository is a complete and independent one. We're not connected to the repo on the server, like we would be in a system like SVN.
-    Nazila N.   Thanks - got it
-    Daniel K.   ... as far as your local repo knows
-    Matt Y. Daniel: True. :-)
-    Matt Y. Other activity "upstream" would come from, say, other developers on your team pushing their changes before you.
-    Anyone can "fork" their own copy of a public repo on GitHub. That fork then belongs to the person who created the fork, so they will have write permissions.
-    When you create a Pull Request, you're asking the original owner or owners of the repository you've forked to accept your contributions.
-    Matt Y. It's up to them to pull them in, ignore them, or discuss them with you and suggest further changes.
-    Any questions at this point, about process or otherwise?
+    Pawel R.            yes, I think so
+    Matt Y.             Pawel: Okay, we'll return to it later as well.
+                        .gitignore is used much more frequently than .gitattributes, but generally remains static per
+                        repository over the lifetime of the codebase.
+    Ruben M.            In Windows how do I finish (get out) of the END?
+                        Enter doesn't do it
+    jcamou              nice, can even do git log --oneline -2
+    Ruben M.            thx
+    David R.            so the hex numbers to the left are the shortened "version numbers"?
+    Ruben M.            Globally meaning?
+    Matt Y.             Globally means statisitically unlikely that any other commit has the same id.
+                        So, *very* unlikely. :-)
+    Daniel K.           Incoming meteorites?
+    Matt Y.             More likely.
+    Daniel K.           :^)
+    Matt Y.             :-)
+                        Public repositories are available for anyone to read and make a copy of, but you still need to be
+                        granted access to write to them.
+                        git add fix.txt
+    jcamou              but doesn´t fix.txt already exist in the repo_
+    Matt Y.             It does!
+    Ruben M.            What's the difference between add and commit?
+    Matt Y.             Ruben: This should help.
+                        The "Working" area is just what we think of as the files as they exist in the directory.
+                        The staging area is the way that git sees the files have changed, and what will be committed when we run git commit.
+    Ruben M.            I made a change to a file and then committed without adding!
+    Matt Y.             In git, we have to tell git to pay attention to the changes we make to files on disk. This turns out to be very powerful.
+    Ruben:              Run git status
+    jcamou              so commit doesn´t do anything on the origin repo.
+    Dan                 I'm not getting prompted for a password, instead I see (1 more line)
+                        Dans-MacBook-Air:hgw1 danarnold$ git push
+                        warning: push.default is unset; its implicit value is changing in
+                        Git 2.0 from 'matching' to 'simple'. To squelch this message
+                        and maintain the current behavior after the default changes, use:
+                          git config --global push.default matching
+                        To squelch this message and adopt the new behavior now, use:
+                          git config --global push.default simple
+                        See 'git help config' and search for 'push.default' for further information.
+                        (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+                        'current' instead of 'simple' if you sometimes use older versions of Git)
+                        ...
+    Ruben M.            So I could commit other1.txt without adding? That's what I did.
+    Richard S.          I get "push.default is unset;" - did I miss the instruction for setting this? And how come when I
+                        cloned the repo this wasn't automatically set?
+    Daniel K.           There is also: git commit -a -m "my changes"
+    Matt Y.             Dan: What Matthew is talking about is is the same issue you're seeing.
+    Gary M.             How do I know what has been staged?
+    Richard S.          I see, which do you suggest?
+    Alejandro G.        git status
+    Matt Y.             Historically, git would push al branches, but that had some surprising rough edges, so people often
+                        changed from matching to simple.
+                        So eventually git changed the default.
+    Richard S.          gotcha thanks Matt
+    Matt Y.             The 'simple' option is probably the safer option.
+    jcamou              git add should be done against any modified file?
+    Nazila N.           What does this mean: # Your branch is ahead of 'origin/master' by 1 commit.
+    Matt Y.             No problem.
+                        This is where it's important to keep in mind that every copy of a git repository is a complete
+                        and independent one. We're not connected to the repo on the server, like we would be in a system
+                        like SVN.
+    Nazila N.           Thanks - got it
+    Daniel K.           ... as far as your local repo knows
+    Matt Y.             Daniel: True. :-)
+                        Other activity "upstream" would come from, say, other developers on your team pushing their
+                        changes before you.
+                        Anyone can "fork" their own copy of a public repo on GitHub. That fork then belongs to the
+                        person who created the fork, so they will have write permissions.
+                        When you create a Pull Request, you're asking the original owner or owners of the repository
+                        you've forked to accept your contributions.
+    Matt Y.             It's up to them to pull them in, ignore them, or discuss them with you and suggest further changes.
+                        Any questions at this point, about process or otherwise?
     matthewmccullough   https://github.com/githubtraining/hellogitworld
-    Fork
-    Copy
-    Your copy now lives under your username
-    Grab that URL
-    (It had your username in the URL)
-    Ilya    sorry where exactly on the web page is "fork"? i missed it
+                        Fork
+                        Copy
+                        Your copy now lives under your username
+                        Grab that URL
+                        (It had your username in the URL)
+    Ilya                sorry where exactly on the web page is "fork"? i missed it
     matthewmccullough   git clone YOURUSERNAMEURL hgwmine
-    Matt Y. Ilya: Were you able to find the button?
-    Ruben M.    I got "Untracked..."
-    Done. Maybe I mispeled something
-    Matt Y. Ruben: Do you have it sorted out, or are you still seeing "Untracked"?
-    Ruben: You may want to watch Matthew walk through this, then we can follow up if you're still having trouble.
-    Ruben M.    But it's not in your local drive?
-    Dan I'm assuming I might need to set credentials somewhere when I get the following error?
-    error: git-credential-osxkeychain died of signal 11
-    Matt Y. Dan: Could you share your set up process?
-    Jeff K. Daniel Kirkdorffer: K asked earlier about printing the scope where a config var comes from. You could do something like this and alias it...
-    for scope in "local" "global" "system"; do git config --${scope} --list | awk -v s=$scope '{print s "\t" $1}'; done 2>/dev/null
-    Matt Y. Ruben: I apologize, could you clarify your question?
-    jcamou  beautiful.
-    Ruben M.    Yes, changes made in the web are not locally. right?
-    Daniel K.   Jeff < true, aliasing would be an option. thx
-    Matt Y. Ruben: That's correct. Changes on the web will remain on the server until you run a git command to pull those changes down.
-    Dan Matt Y, I setup git some time ago but haven't really used it since. I installed git again this morning, but I've also installed things like source tree a while back as well
-    Randy C 
-    I did "git add *" (no quotes) instead of "git add [filename]" and got:
-    warning: LF will be replaced by CRLF in h.
-    Now status shows new file h
-    What is this file h and where did it come from?
-    Matt Y. Dan: My guess is that the copy of git-credential-osxkeychain is out of date. Could you follow the steps in this article specific to installing that utility: https://help.github.com/articles/set-up-git
-    It will be the steps under the portion Password Caching
+    Matt Y.             Ilya: Were you able to find the button?
+    Ruben M.            I got "Untracked..."
+    Done.               Maybe I mispeled something
+    Matt Y.             Ruben: Do you have it sorted out, or are you still seeing "Untracked"?
+    Ruben:              You may want to watch Matthew walk through this, then we can follow up if you're still
+                        having trouble.
+    Ruben M.            But it's not in your local drive?
+    Dan                 I'm assuming I might need to set credentials somewhere when I get the following error?
+                        error: git-credential-osxkeychain died of signal 11
+    Matt Y.             Dan: Could you share your set up process?
+    Jeff K.             Daniel Kirkdorffer: K asked earlier about printing the scope where a config var comes from. You
+                        could do something like this and alias it...
+                        for scope in "local" "global" "system";
+                        do git config --${scope} --list | awk -v s=$scope '{print s "\t" $1}'; done 2>/dev/null
+    Matt Y.             Ruben: I apologize, could you clarify your question?
+    jcamou              beautiful.
+    Ruben M.            Yes, changes made in the web are not locally. right?
+    Daniel K.           Jeff < true, aliasing would be an option. thx
+    Matt Y.             Ruben: That's correct. Changes on the web will remain on the server until you run a git command to
+                        pull those changes down.
+    Dan                 Matt Y, I setup git some time ago but haven't really used it since. I installed git again this
+                        morning, but I've also installed things like source tree a while back as well
+    Randy C             I did "git add *" (no quotes) instead of "git add [filename]" and got:
+                        warning: LF will be replaced by CRLF in h.
+                        Now status shows new file h
+                        What is this file h and where did it come from?
+    Matt Y.             Dan: My guess is that the copy of git-credential-osxkeychain is out of date. Could you follow the
+                        steps in this article specific to installing that utility: https://help.github.com/articles/set-up-git
+                        It will be the steps under the portion Password Caching
     matthewmccullough   Matt Y: Spot on. That sounds like what I was going digging for. You are fast.
-    Richard S.  I got a 403 error when I tried to push
-    Matt Y. Randy: It's possible that file came from a slight mis-type of another command. I would guess it is safe to remove it.
-    matthewmccullough   Randy: On that warning, it is just saying that it will convert the line endings between Unix and Windows style. That is controlled by the setting:
-    Matt Y. matthewmccullough: I had my water cup on hand already. ;-)
-    Tom H.  I added a file "Tom" to my local file, did git add Tom then git commit then git push
-    matthewmccullough 
-    git config --global core.autocrlf false
-    git config --global core.autocrlf true
-    git config --global core.autocrlf auto
-    git config --global core.autocrlf input
-    Tom H.  Do not see it in the list of files on the web
+    Richard S.          I got a 403 error when I tried to push
+    Matt Y.             Randy: It's possible that file came from a slight mis-type of another command.
+                        I would guess it is safe to remove it.
+    matthewmccullough   Randy: On that warning, it is just saying that it will convert the line endings between Unix
+                        and Windows style. That is controlled by the setting:
+    Matt Y.             matthewmccullough: I had my water cup on hand already. ;-)
+    Tom H.              I added a file "Tom" to my local file, did git add Tom then git commit then git push
+    matthewmccullough   git config --global core.autocrlf false
+                        git config --global core.autocrlf true
+                        git config --global core.autocrlf auto
+                        git config --global core.autocrlf input
+    Tom H.              Do not see it in the list of files on the web
     matthewmccullough   The "false" choice turns that behavior off.
     matthewmccullough   Tom, can you paste your push's success message from the command line? We'll check it from there
-    Also, paste us the `git remote -v` results so we can double check the URL and push success.
-    Tom: Sorry I didn't prefix those words above. Those are for you on the push output request and remote -v request
-    Tom H.  Just noticed I forgot the message on the commit. Push now did something. And the file is there. Sorry about the drill.
-    Matt Y. Tom: No problem.
-    Dan Thanks Matt and Matthew. The osxkeychain helper that i'm using is the one that was installed with the git download I did this morning, so it looks up to date.
+                        Also, paste us the `git remote -v` results so we can double check the URL and push success.
+    Tom:                Sorry I didn't prefix those words above. Those are for you on the push output request and
+                        remote -v request
+    Tom H.              Just noticed I forgot the message on the commit. Push now did something. And the file is there.
+                        Sorry about the drill.
+    Matt Y.             Tom: No problem.
+                        Dan Thanks Matt and Matthew. The osxkeychain helper that i'm using is the one that was
+                        installed with the git download I did this morning, so it looks up to date.
     matthewmccullough   Tom: No apologies in this room! This is learning at its finest.
-    Question EVERYTHING. ;)
-    Justin C.   Once a file is added to the stage I assume that changes to the file are tracked, is that correct?
-    Dan I can still enter my username and password after I get the error so I can proceed, but I'd like understand how to fix it.
-    matthewmccullough   Dan: I'd suggest turning the helper off for class until we can troubleshoot if there's another account hanging in the keychain
-    To turn it off, here's the one-linger
-    liner:
-    git config --unset --global credential.helper
-    So that just removes it from trying to use the helper
-    Then, test its setting by running
-    git config credential.helper
-    and it should report nothing and instead just prompt each time
-    I'm 92% confident that there's a wrong username and password stored in your OSX Keychain -- maybe old -- maybe just off by a letter
-    Matt Y. Justin C: Sort of; If you stage changes to a file then change that file further, you would have to re-stage it for those latter changes to be tracked for commit.
-    Richard S.  I'm good on the 403 by the way; Just realized I didn't clone my own fork, but yours instead, pushed successfully now.
-    Justin C.   Oh, okay. Thanks.
-    Matt Y. Richard S: Great, glad you worked it out. I think your issue slipped through, my apologies.
-    Dan It doesn't seem to be removing the fix 
-    Dans-MacBook-Air:myworld1 danarnold$ git config --unset --global credential.helper
-    Dans-MacBook-Air:myworld1 danarnold$ git config credential.helper
-    osxkeychain
-    Matt Y. Dan: Just for sanity's sake, try removing it from --system and --local as well.
-    Dan thanks! It looks like it was set at the system level
-    Matt Y. Dan: Interesting. Sorry for the trouble.
-    Dan thanks for your help. I must have set up something months ago without realizing it.
-    Matt Y. It happens. :-)
-    Jeff K. I have a hard stop in 5 minutes, but will be back tomorrow morning. great training guys. thank you.
-    Matt Y. Thanks, Jeff, see you tomorrow.
-    Alejandro G.    bye Jeff
-    thx
+                        Question EVERYTHING. ;)
+    Justin C.           Once a file is added to the stage I assume that changes to the file are tracked, is that correct?
+                        Dan I can still enter my username and password after I get the error so I can proceed,
+                        but I'd like understand how to fix it.
+    matthewmccullough   Dan: I'd suggest turning the helper off for class until we can troubleshoot if there's another
+                        account hanging in the keychain
+                        To turn it off, here's the one-liner:
+                        git config --unset --global credential.helper
+                        So that just removes it from trying to use the helper
+                        Then, test its setting by running
+                        git config credential.helper
+                        and it should report nothing and instead just prompt each time
+                        I'm 92% confident that there's a wrong username and password stored in your
+                        OSX Keychain -- maybe old -- maybe just off by a letter
+    Matt Y.             Justin C: Sort of; If you stage changes to a file then change that file further, you would
+                        have to re-stage it for those latter changes to be tracked for commit.
+    Richard S.          I'm good on the 403 by the way; Just realized I didn't clone my own fork, but yours instead,
+                        pushed successfully now.
+    Justin C.           Oh, okay. Thanks.
+    Matt Y.             Richard S: Great, glad you worked it out. I think your issue slipped through, my apologies.
+    Dan                 It doesn't seem to be removing the fix
+                        Dans-MacBook-Air:myworld1 danarnold$ git config --unset --global credential.helper
+                        Dans-MacBook-Air:myworld1 danarnold$ git config credential.helper
+                        osxkeychain
+    Matt Y.             Dan: Just for sanity's sake, try removing it from --system and --local as well.
+    Dan                 thanks! It looks like it was set at the system level
+    Matt Y.             Dan: Interesting. Sorry for the trouble.
+    Dan                 thanks for your help. I must have set up something months ago without realizing it.
+    Matt Y.             It happens. :-)
+    Jeff K.             I have a hard stop in 5 minutes, but will be back tomorrow morning. great training guys. thank you.
+    Matt Y.             Thanks, Jeff, see you tomorrow.
+    Alejandro G.        bye Jeff
+                        thx
     matthewmccullough   https://github.com/githubteacher/hellogitworld/...
-    Matt Y. So, Pull Requests can be made betweens forks of a repo OR within the same repo.
-    Matt Y. Branches are used often in git because they're so lightweight and make it easy using GitHub in particular to review changes collaboratively.
-    Branches are very often short-lived.
-    Sorry, Matthew, I guess I'm slow to the mic! :-)
-    Ruben M.    Could you quickly repeat the process of branching from the student viewpoint?
-    Matt Y. Ruben: We'll review it again quickly, sure.
-    Ruben M.    thx
-    Matt Y. You're welcome.
-    Cheri V.    how are merge conflicts handled in github?
-    Matt Y. Cheri: If there are merge conflicts, you won't be able to merge using the GitHub UI.
-    But the UI will tell you that's the case.
-    Alejandro G.    wow that was amazing
-    Matt Y. That's somewhat rare, particularly with standard workflow, but in those cases you fall back to manually merging the branch locally, and then push the merge back up.
-    Dan i think I missed where you pointed to githubteacher's repository instead of githubtraining. Could you possible show that again?
-    Ruben M.    At least in my pc, the screen is not refreshing
-    Matt Y. Dan: Did that show what you needed to see?
-    Daniel K.   What is the easiest way to do a complete unified diff of a specific commit?
-    Matt Y. Daniel: If you would like to see the changes for a specific commit, you can use git show
-    git show <hash id>
-    Daniel K.   Ah
-    Dan Yes, thanks Matt and Matthew
-    Matt Y. You can also use git diff for arbitrary commits.
-    Like `git diff HEAD`, you can substitute the hash id for any commit.
-    Instead of "HEAD".
-    Dan: You're welcome.
-    Bill    How do you launch the Mac GUI?
-    Matt Y. Bill: You can open Spotlight with Cmd+Space, then type "GitHub". That should find it.
-    Daniel K.   Can you repeat the definition of what "git diff HEAD" does?
-    Matt Y. Sure.
-    Bill    Is it a Mac App that was installed when I installed Git or do I need to download it from Github?
-    Matt Y. git diff HEAD will show changes in the current state of the files as compared against the most recent commit.
-    Daniel K.   thx
-    Matt Y. HEAD is basically a variable name that points to the most recent commit in the branch you're currently working with.
-    Bill    Thank you.
-    jcamou 
-    [jcamou@local:hgwmine]$ git gui
-    git: 'gui' is not a git command. See 'git --help'.
-    gotcha.
-    Cheri V.    yum install git-gui installed it for me on Fedora
-    Ruben M.    How about Tortoise?
-    Daniel K.   Off topic: Can one update a commit msg before a push (particularly not that of the last commit)?
-    jcamou  thanks Cheri.. got gitk out of distro yum repo.
-    Daniel K.   TortoiseGit 1.8 is quite an improvement over 1.7.
-    Matt Y. Daniel: If you haven't pushed up the commit you want to change, you can update it, yes. You may be familiar with the `git commit --amend` case, sicne you're referencing a commit other than the latest.
-    Daniel K.   thx
-    Matt Y. As Matthew is saying, it's a bit advanced. :-)
-    Bill    How about IDE Integration? IntelliJ?
-    Matt Y. The `git rebase` command can be used to rewrite previous commits.
-    Daniel K.   Eclipse has eGit
-    Alejandro G.    best learn to use it from console first and the switch to a gui :)
-    Richard S.  what was the command for making existing non-git projects ready for git again?
-    Matt Y. Alejandro: That's definitely a strong option from a learning fundamentals perspective. People who enjoy GUIs have options, though. :-)
-    Richard: git init
-    Richard S.  thanks!
-    Matt Y. No problem.
-    Bill    IntelliJ?
-    Jim A.  Can you talk about upgrading git in xCode?
-    Alejandro G.    i mean, you need the console if you are going to work with git. You can have a GUI but sooner or latter you will need console skill to fix and do high level stuff
-    Jim A.  thx
-    perfect.
-    jcamou  does .gitignore go on homedir or per directory basis inside the repo_
-    nvm (:
-    Matt Y. jcamou: There is a .gitignore file per-repo.
-    But you can also have one in your home directory. The repo-level one will take precedence.
-    jcamou  copy, thanks!
-    Ruben M.    Something like bin/release/*.exe?
-    Alejandro G.    can you do things like folder/sobfolder/*.log
-    Matt Y. Yep.
-    Jim A.  global .gitignore?
-    Matt Y. tmp/* - will ignore all files in tmp, but preserve temp
-    tmp - will ignore the tmp directory itself and all child nodes
-    Bill    When you create a file on github using the + key on the web page, how do you get that file to your local machine?
-    Matt Y. Bill: Once your change (the new file) is committed on GitHub, you can run `git pull` in your local repo to bring down the new commit with the new file.
-    Daniel K.   can git status or git log just show the unpushed commits?
-    Matt Y. Daniel: You can use git log to show unpushed commits.
-    git log <COMMIT 1> <COMMIT 2>
-    I left out the .. between the commits in the above.
-    Jim A.  can you get just the changes on the remote? Without pulling the actual files?
-    Daniel K.   Great, thx
-    Ruben M.    I created the files: !a.log a.log !a.tmp. When I do a log status it doesn't seem to go by the ! mark
-    Jim A.  thx
-    Bill    Is all the functionality of the command line available within Mac GUI app and IDE Integration?
-    Daniel K.   Ruben < did you actually create a file that begins with a "!" character?
-    Ruben M.    sorry...
-    I didn't change the .ignore
-    Bill    Thank you.
-    Matt Y. The everyday commands for a standard workflow will be there.
-    Phillip J.  `brew install git` automatically installed and added git 1.8.1 to my path
-    should i have to do anything else?
-    it had a few caveats listed - not sure if that's something to worry about
-    David R.    To go back a little bit... In subversion it is *really* hard to lose history (a feature that has pros and cons). Awhile ago you I think you said you sometimes clean up old, not useful branches. That actually cleans up the server-side repository so those changes are purged? That is, you if you view the network graph (e.g. gitk) you will not see that branch anymore? Is that branch lost immediately or does it go to a "recycle bin" (to use a windows gui metaphor)? If so, how is it be restored? How much time do you have?
-    Daniel K.   Will you be talking more about line endings / autocrlf?
-    Bill    Thank you for a great class!
-    Alejandro G.    it almost imposible to lose nothing in git
-    jcamou  tomorrow same time?
-    AL  Full slide deck?
-    Richard S.  awesome class, thank you guys!
+    Matt Y.             So, Pull Requests can be made betweens forks of a repo OR within the same repo.
+    Matt Y.             Branches are used often in git because they're so lightweight and make it easy using GitHub
+                        in particular to review changes collaboratively.
+                        Branches are very often short-lived.
+                        Sorry, Matthew, I guess I'm slow to the mic! :-)
+    Ruben M.            Could you quickly repeat the process of branching from the student viewpoint?
+    Matt Y.             Ruben: We'll review it again quickly, sure.
+    Ruben M.            thx
+    Matt Y.             You're welcome.
+    Cheri V.            how are merge conflicts handled in github?
+    Matt Y.             Cheri: If there are merge conflicts, you won't be able to merge using the GitHub UI.
+                        But the UI will tell you that's the case.
+    Alejandro G.        wow that was amazing
+    Matt Y.             That's somewhat rare, particularly with standard workflow, but in those cases you fall back to
+                        manually merging the branch locally, and then push the merge back up.
+    Dan                 i think I missed where you pointed to githubteacher's repository instead of githubtraining.
+                        Could you possible show that again?
+    Ruben M.            At least in my pc, the screen is not refreshing
+    Matt Y.             Dan: Did that show what you needed to see?
+    Daniel K.           What is the easiest way to do a complete unified diff of a specific commit?
+    Matt Y.             Daniel: If you would like to see the changes for a specific commit, you can use git show
+                        git show <hash id>
+    Daniel K.           Ah
+    Dan                 Yes, thanks Matt and Matthew
+    Matt Y.             You can also use git diff for arbitrary commits.
+                        Like `git diff HEAD`, you can substitute the hash id for any commit.
+                        Instead of "HEAD".
+    Dan:                You're welcome.
+    Bill                How do you launch the Mac GUI?
+    Matt Y.             Bill: You can open Spotlight with Cmd+Space, then type "GitHub". That should find it.
+    Daniel K.           Can you repeat the definition of what "git diff HEAD" does?
+    Matt Y.             Sure.
+    Bill                Is it a Mac App that was installed when I installed Git or do I need to download it from Github?
+    Matt Y.             git diff HEAD will show changes in the current state of the files as compared against
+                        the most recent commit.
+    Daniel K.           thx
+    Matt Y.             HEAD is basically a variable name that points to the most recent commit in the branch
+                        you're currently working with.
+    Bill                Thank you.
+    jcamou              [jcamou@local:hgwmine]$ git gui
+                        git: 'gui' is not a git command. See 'git --help'.
+                        gotcha.
+    Cheri V.            yum install git-gui installed it for me on Fedora
+    Ruben M.            How about Tortoise?
+    Daniel K.           Off topic: Can one update a commit msg before a push (particularly not that of the last commit)?
+    jcamou              thanks Cheri.. got gitk out of distro yum repo.
+    Daniel K.           TortoiseGit 1.8 is quite an improvement over 1.7.
+    Matt Y.             Daniel: If you haven't pushed up the commit you want to change, you can update it, yes.
+                        You may be familiar with the `git commit --amend` case, sicne you're referencing a commit
+                        other than the latest.
+    Daniel K.           thx
+    Matt Y.             As Matthew is saying, it's a bit advanced. :-)
+    Bill                How about IDE Integration? IntelliJ?
+    Matt Y.             The `git rebase` command can be used to rewrite previous commits.
+    Daniel K.           Eclipse has eGit
+    Alejandro G.        best learn to use it from console first and the switch to a gui :)
+    Richard S.          what was the command for making existing non-git projects ready for git again?
+    Matt Y.             Alejandro: That's definitely a strong option from a learning fundamentals perspective.
+                        People who enjoy GUIs have options, though. :-)
+    Richard:            git init
+    Richard S.          thanks!
+    Matt Y.             No problem.
+    Bill                IntelliJ?
+    Jim A.              Can you talk about upgrading git in xCode?
+    Alejandro G.        i mean, you need the console if you are going to work with git. You can have a GUI but sooner or
+                        latter you will need console skill to fix and do high level stuff
+    Jim A.              thx
+                        perfect.
+    jcamou              does .gitignore go on homedir or per directory basis inside the repo_
+                        nvm (:
+    Matt Y.             jcamou: There is a .gitignore file per-repo.
+                        But you can also have one in your home directory. The repo-level one will take precedence.
+    jcamou              copy, thanks!
+    Ruben M.            Something like bin/release/*.exe?
+    Alejandro G.        can you do things like folder/sobfolder/*.log
+    Matt Y.             Yep.
+    Jim A.              global .gitignore?
+    Matt Y.             tmp/* - will ignore all files in tmp, but preserve temp
+                        tmp - will ignore the tmp directory itself and all child nodes
+    Bill                When you create a file on github using the + key on the web page, how do you get that file to
+                        your local machine?
+    Matt Y.             Bill: Once your change (the new file) is committed on GitHub, you can run `git pull` in your
+                        local repo to bring down the new commit with the new file.
+    Daniel K.           can git status or git log just show the unpushed commits?
+    Matt Y.             Daniel: You can use git log to show unpushed commits.
+                        git log <COMMIT 1> <COMMIT 2>
+                        I left out the .. between the commits in the above.
+    Jim A.              can you get just the changes on the remote? Without pulling the actual files?
+    Daniel K.           Great, thx
+    Ruben M.            I created the files: !a.log a.log !a.tmp. When I do a log status it doesn't seem to go by the ! mark
+    Jim A.              thx
+    Bill                Is all the functionality of the command line available within Mac GUI app and IDE Integration?
+    Daniel K.           Ruben < did you actually create a file that begins with a "!" character?
+    Ruben M.            sorry...
+                        I didn't change the .ignore
+    Bill                Thank you.
+    Matt Y.             The everyday commands for a standard workflow will be there.
+    Phillip J.          `brew install git` automatically installed and added git 1.8.1 to my path
+                        should i have to do anything else?
+                        it had a few caveats listed - not sure if that's something to worry about
+    David R.            To go back a little bit... In subversion it is *really* hard to lose history (a feature
+                        that has pros and cons). Awhile ago you I think you said you sometimes clean up old, not
+                        useful branches. That actually cleans up the server-side repository so those changes are purged?
+                        That is, you if you view the network graph (e.g. gitk) you will not see that branch anymore?
+                        Is that branch lost immediately or does it go to a "recycle bin" (to use a windows gui metaphor)?
+                        If so, how is it be restored? How much time do you have?
+    Daniel K.           Will you be talking more about line endings / autocrlf?
+    Bill                Thank you for a great class!
+    Alejandro G.        it almost imposible to lose nothing in git
+    jcamou              tomorrow same time?
+    AL                  Full slide deck?
+    Richard S.          awesome class, thank you guys!
     matthewmccullough   Thanks Matt! Great help here. AL - Yes. Total set of slide decks emailed
-    They are all OSS so you can even use them at your company
-    CC-BY open source licensed
-    Alejandro G.    thx for the class matt!
-    Matt Y. Phillip: Feel free to paste the caveats, but you should be fine.
-    RIchard: Thanks.
-    Wouter K.   thx c u tomm.
-    Pawel R.    thanks
-    Phillip J 
-    ==> Caveats
-    The OS X keychain credential helper has been installed to:
-      /usr/local/bin/git-credential-osxkeychain
-    The 'contrib' directory has been installed to:
-      /usr/local/share/git-core/contrib
-    Bash completion has been installed to:
-      /usr/local/etc/bash_completion.d
+                        They are all OSS so you can even use them at your company
+                        CC-BY open source licensed
+    Alejandro G.        thx for the class matt!
+    Matt Y.             Phillip: Feel free to paste the caveats, but you should be fine.
+    RIchard:            Thanks.
+    Wouter K.           thx c u tomm.
+    Pawel R.            thanks
+    Phillip J           ==> Caveats
+                        The OS X keychain credential helper has been installed to:
+                          /usr/local/bin/git-credential-osxkeychain
+                        The 'contrib' directory has been installed to:
+                          /usr/local/share/git-core/contrib
+                        Bash completion has been installed to:
+                          /usr/local/etc/bash_completion.d
     matthewmccullough   David R. : As for the buffer of deleting the branch, you have a few hours to restore it
-    David R.    Good to know, thanks!
-    matthewmccullough   You are right in that it can be perceived as easier to lose history, but in reality, I have not seen that manifest very much.
-    Bill    What happens in cases where you have source code in multiple directories? Is that one repository? How does this work?
-    Matt Y. David: When a branch is deleted, the commits it contain and the changes it introduced will remain. It's more the "name" that points to a particular path of commits that goes away.
+    David R.            Good to know, thanks!
+    matthewmccullough   You are right in that it can be perceived as easier to lose history, but in reality,
+                        I have not seen that manifest very much.
+    Bill                What happens in cases where you have source code in multiple directories?
+                        Is that one repository? How does this work?
+    Matt Y.             David: When a branch is deleted, the commits it contain and the changes it introduced will
+                        remain. It's more the "name" that points to a particular path of commits that goes away.
     matthewmccullough   The reason is that folks have a copy of the repo locally and server side in almost all real world cases
-    and the local side saves all trash for 90 days
-    Matt Y. Bill: You would either have a repository per directory (git init in each) or use the parent directory as the root of the repo.
-    If they're really two code bases, two repos would be appropriate.
-    matthewmccullough   So server side, the trash collection is a little quicker, but client side (and almost every developer will have a local copy), you have a 90 day insurance policy.
-    Matt Y. Phillip: Those notes should be just fine.
-    Phillip J.  thanks matt.
-    David R.    Great. I appreciate the help. See you tomorrow.
-    Justin C.   Thanks for the great class!
+                        and the local side saves all trash for 90 days
+    Matt Y.             Bill: You would either have a repository per directory (git init in each) or use the parent
+                        directory as the root of the repo.
+                        If they're really two code bases, two repos would be appropriate.
+    matthewmccullough   So server side, the trash collection is a little quicker, but client side (and almost every developer
+                        will have a local copy), you have a 90 day insurance policy.
+    Matt Y.             Phillip: Those notes should be just fine.
+    Phillip J.          thanks matt.
+    David R.            Great. I appreciate the help. See you tomorrow.
+    Justin C.           Thanks for the great class!
     matthewmccullough   Thanks all! Hope you learned a lot. See you tomorrow!
     matthewmccullough   Feel free to ask any extra-curricular questions over at our Q&A repo
-    that we hit every few days between travel training at:
-    https://github.com/githubtraining/feedback/issues
+                        that we hit every few days between travel training at:
+                        https://github.com/githubtraining/feedback/issues
     matthewmccullough   And class-structure feedback is cheerfully accepted at training@github.com
 
 ## Day Two Chat
@@ -708,7 +744,7 @@ Teachers:
     Daniel K.   Terrific. Thx.
     Matt Y. Sorry for the misinformation!
     Daniel K.   np
-    Phillip J 
+    Phillip J
     # On branch master
     # Changes to be committed:
     #   (use "git reset HEAD <file>..." to unstage)
@@ -720,7 +756,7 @@ Teachers:
     Rajesh P.    copy of same file to a different name and move the file to a different name
     matthewmccullough   git log --stat
     Matt Y. Questions!
-    Rajesh P 
+    Rajesh P
      first.txt => t/first.txt   | 4 ++++
      second.txt => t/second.txt | 0
      second.txt => third.tx     | 0
@@ -760,7 +796,7 @@ Teachers:
     Matt Y. Phillip: It turns out that git pull is a shortcut for git fetch and another command, git merge. We'll take in more detail a bit later.
     *talk
     Phillip J.  ok thank you
-    Pream T 
+    Pream T
     # On branch master
     # Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
     #
@@ -779,7 +815,7 @@ Teachers:
     Matt Y. Alejandro asked a few moments ago, "how can you know what is going to be updated by a git pull command?"
     Daniel K.   David do: git merge origin/master
     jcamou  is it a good practice to always do a pull before push?
-    David R 
+    David R
     > git status
     # On branch master
     # Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
@@ -796,7 +832,7 @@ Teachers:
     Matt Y. Bill: origin is the name of the primary/default remote.
     "Upstream" is a general term referring to a remote.
     Daniel K.   Wasn't prompted but using new version.
-    git version 1.8.1.msysgit.1 
+    git version 1.8.1.msysgit.1
     $ git pull
     remote: Counting objects: 5, done.
     remote: Compressing objects: 100% (1/1), done.
@@ -822,7 +858,7 @@ Teachers:
     Matt Y. If you run git diff now, what does it look like?
     Daniel K.   How do I merge?
     Richard S.  it shows the changes of my one liner on local and the change on server
-    Daniel K 
+    Daniel K
     $ git merge origin/master
     Updating 9f6b991..e394d83
     error: Your local changes to the following files would be overwritten by merge:
@@ -839,7 +875,7 @@ Teachers:
     copy.
     Matt Y. Richard: You could paste the output of the diff if you'd like.
     Richard S.  sure
-    Richard S 
+    Richard S
     $ git diff
     diff --cc fix.txt
     index a30ffa5,ba3cc83..0000000
@@ -858,7 +894,7 @@ Teachers:
     Richard S.  in this case is it best to just reset my changes since changes locally are in the same spot as server?
     Matt Y. Richard: The local change needed to be the very top line to avoid the conflict. Those changes weren't on the same line, but were close enough for git to consider them a potential conflict.
     Alejandro: Yep.
-    Randy C.    What does this mean 
+    Randy C.    What does this mean
     error: The requested URL returned error: 403 while accessing https://github.com/
     githubtraining/hellogitworld.git/info/refs
     fatal: HTTP request failed
@@ -910,7 +946,7 @@ Teachers:
     Phillip J.  could you show your zsh history once
     one more time
     Bill    Could you clarify what is "origin", the local cache of GitHub or actually GitHub?
-    matthewmccullough 
+    matthewmccullough
     10109  git branch featurework2
     10112  git add -u .
     10114  git commit -m"Deleted all of the things"
@@ -965,7 +1001,7 @@ Teachers:
     Phillip J.  can you cat a stash and port it to another box, say like my laptop
     gotcha
     Daniel K.   So you can git reset --hard MYTAG
-    Ruben M 
+    Ruben M
     I have a general question:
     How secure is the code in GitHub? I understand there is no encrypt option or something like that, at least for some files.
     Daniel K.   This is only available from GitHub, not just any Git repo, right?
