@@ -37,7 +37,7 @@ Facilitates new commits
 * TextMate
 
 ## Shell Plugins
-* Tortise Git
+* Tortoise Git
 * Cheetah
 * Git Shell Extensions (for Windows)
 * For Mac

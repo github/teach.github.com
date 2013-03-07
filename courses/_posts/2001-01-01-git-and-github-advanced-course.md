@@ -9,7 +9,7 @@ Once you've spent some time getting to know Git and GitHub, you'll be interested
 
 ## The `hub` gem
 
-We'll begin with a look at the helpful [`hub` command line tool](https://github.com/defunkt/hub) that can create, open, and browse repositories in addition to diffing arbitrary hashes and forking repos. CLI afficianandos will enjoy the return to the console, doing what they thought was only possible in the web browser.
+We'll begin with a look at the helpful [`hub` command line tool](https://github.com/defunkt/hub) that can create, open, and browse repositories in addition to diffing arbitrary hashes and forking repos. CLI afficionados will enjoy the return to the console, doing what they thought was only possible in the web browser.
 
 ## Refspecs
 

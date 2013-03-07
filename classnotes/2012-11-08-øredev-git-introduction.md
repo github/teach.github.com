@@ -1,6 +1,6 @@
 ---
 layout: bare
-title: Øredev Introduciton to Git
+title: Øredev Introduction to Git
 description: 
 tags: [notes, conference, class]
 path: classnotes/2012-11-08-øredev-git-introduction.md

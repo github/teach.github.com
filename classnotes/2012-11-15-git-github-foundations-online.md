@@ -471,7 +471,7 @@ Taught by:
        commit you want to tag), then you could say something like `git tag -a BRENTS_FIX <COMMIT_HASH> where COMMIT_HASH is that
        series of letters and numbers that was returned in the log command
     Q: What happens if you fetch a repo that is not a fork of the repo you are currently working in?
-    A: It works just fine, but there's just two completely distinct root nodes from this repo. It ends up being a complete mess. Tyically we
+    A: It works just fine, but there's just two completely distinct root nodes from this repo. It ends up being a complete mess. Typically we
     want to create different repositories for different projects. :)
     Q: Reflog: Does it contain orphaned commits?
     A: It can! It seems to be escaping us right now for how to do this, but if you could ask this question
@@ -498,7 +498,7 @@ Taught by:
        pull that info down to your local machine (clone'ing it)
     Q: how can we get it to remember our login credientials to github?
     A: Because we cloned from https and not ssh (the git@github.com:username/repo format) it will always ask us our credentials
-    Q: Will rebase "collect" the conflicts or will they need to be resovled one by one?
+    Q: Will rebase "collect" the conflicts or will they need to be resolved one by one?
     A: It's one by one. As a rebase is applied, it steps through each of the commits when it's rebasing. When you resolve each merge
        conflict, you're able to `git rebase --continue` to move through these after you've created your merge conflict merges
        I don't want to mislead you here. When you continue, you're not making any merge conflict commits. You're continuing and adding
