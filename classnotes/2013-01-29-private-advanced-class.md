@@ -1,7 +1,7 @@
 ---
 layout: bare
 title: Private Advanced Class
-description: A three-day Adavnced Git class
+description: A three-day Advanced Git class
 tags: [notes, class, workshop]
 path: classnotes/2013-01-29-private-advanced-class.md
 eventdate: 2013-01-29

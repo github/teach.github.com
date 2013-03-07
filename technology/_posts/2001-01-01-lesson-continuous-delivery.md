@@ -1,6 +1,6 @@
 ---
 layout: bare
-title: Continous Delivery
+title: Continuous Delivery
 description: The next step in the evolution of software development is making ever smaller changes and continually deploying to production.
 path: technology/_posts/2001-01-01-lesson-continuous-delivery.md
 ---
@@ -31,7 +31,7 @@ Continuous delivery is the current buzz, but let's take a few minutes to demysti
 * [Continuous Delivery Web Site](http://continuousdelivery.com)
 * [Continuous Delivery Book](http://amzn.com/0321601912)
 * [Martin Fowler on Continuous Delivery](http://martinfowler.com/delivery.html)
-* [Want to Prove Agile works? Practice Continous Delivery!](http://www.informit.com/articles/article.aspx?p=1758809)
+* [Want to Prove Agile works? Practice Continuous Delivery!](http://www.informit.com/articles/article.aspx?p=1758809)
 * [Continuous Delivery on Azure](http://www.windowsazure.com/en-us/develop/net/common-tasks/continuous-delivery/)
 
 ### Build Automation
@@ -46,7 +46,7 @@ Continuous delivery is the current buzz, but let's take a few minutes to demysti
 * [Agile: Nature’s Way of Managing, Sustaining, and Empowering an Organization](http://www.scrumalliance.org/articles/385-agile-natures-way-of-managing-sustaining-and-empowering-an-organization)
 * [Business agility](http://en.wikipedia.org/wiki/Business_agility)
 
-### Continous Integration
+### Continuous Integration
 * [Jenkins](http://jenkins-ci.org)
 * [Travis CI](http://travis-ci.org)
 * [Travis CI Pro](http://travis-ci.com)
@@ -54,7 +54,7 @@ Continuous delivery is the current buzz, but let's take a few minutes to demysti
 * [ThoughtWorks Go](http://www.thoughtworks-studios.com/go-agile-release-management)
 * [BuildHive from CloudBees](https://buildhive.cloudbees.com)
 * [Janky](https://github.com/github/janky) (layer on top of Jenkins)
-* [Michael Nygard on Continous Integration](https://twitter.com/mtnygard/status/253139057712979969): "Continuous Integration is a practice not a tool." from @JezHumble
+* [Michael Nygard on Continuous Integration](https://twitter.com/mtnygard/status/253139057712979969): "Continuous Integration is a practice not a tool." from @JezHumble
 
 ### Deploying
 * [Deploying at GitHub](https://github.com/blog/1241-deploying-at-github)
