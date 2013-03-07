@@ -5,7 +5,7 @@ description: TODO
 path: technology/_posts/2001-01-01-lesson-git-push-contention.md
 ---
 
-When attempting to push commits to an upstream Git server such as GitHub, the push only succeeds if your local repository posesses all the upstream commits in the same branch. If not, it fails, reminding you with a hint that you can _merge in the remote changes_ and then attempt to push, with a higher likelihood of success.
+When attempting to push commits to an upstream Git server such as GitHub, the push only succeeds if your local repository possesses all the upstream commits in the same branch. If not, it fails, reminding you with a hint that you can _merge in the remote changes_ and then attempt to push, with a higher likelihood of success.
 
 The command line output of such a failure in Git 1.7.12 appears as follows. 
 
