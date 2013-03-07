@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    RedCloth (4.2.9)
     anemone (0.7.2)
       nokogiri (>= 1.3.0)
       robotex (>= 1.0.0)
@@ -41,6 +42,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  RedCloth
   anemone
   compass
   jekyll
