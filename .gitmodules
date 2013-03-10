@@ -1,0 +1,3 @@
+[submodule "/Users/jordanm/Documents/Projects/teach.github.com/presentations/dependencies/plugins"]
+	path = /Users/jordanm/Documents/Projects/teach.github.com/presentations/dependencies/plugins
+	url = https://github.com/jordanmccullough/hydeslides-plugins.git
