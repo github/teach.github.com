@@ -235,7 +235,7 @@ h2 {
 
 h3 {
   color: #636363;
-  border-bottom: 1px solid #636363; }
+  padding: 12px 25px 0px; }
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none; }
