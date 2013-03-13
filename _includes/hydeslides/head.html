@@ -16,5 +16,14 @@
 <script src="../dependencies/revealjs/lib/js/html5shiv.js"></script>
 <![endif]-->
 
+<!--Core RevealJS and FontAwesome-->
+<link rel="stylesheet" href="dependencies/themes/core/core.css">
+
 <!--GitHub Style-->
-<link rel="stylesheet" href="dependencies/github/css/theme.css">	
+{% if page.theme %}
+	{% assign theme = page.theme %}
+{% else %}
+	{% assign theme = "original" %}
+{% endif %}
+<link rel="stylesheet" href="dependencies/themes/{{ theme }}/theme.css">
+
