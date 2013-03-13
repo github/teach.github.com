@@ -77,7 +77,7 @@ i[class^="icon-"] {
 /* Background Octocat watermark */
 body::before {
   content: "";
-  -webkit-mask-box-image: url(../backgrounds/blacktocat-2.png) round round;
+  -webkit-mask-box-image: url(backgrounds/blacktocat-2.png) round round;
   background: #00a5ea;
   position: absolute;
   top: 0;
@@ -156,14 +156,14 @@ body::after {
   opacity: .2; }
 
 .reveal .brand {
-  background: url(../branding/github_logo_social_coding.png) no-repeat center;
+  background: url(branding/github_logo_social_coding.png) no-repeat center;
   background-size: contain;
   height: 6em;
   width: 98%;
   margin: auto auto 1em auto; }
 
 .reveal .git {
-  background: url(../branding/git-logo-black.png) no-repeat center;
+  background: url(branding/git-logo-black.png) no-repeat center;
   background-size: contain;
   height: 6em;
   width: 98%;
