@@ -71,7 +71,7 @@ i[class^="icon-"]{
 /* Background Octocat watermark */
 body::before{
 	content: "";
-  -webkit-mask-box-image: url(../backgrounds/blacktocat-2.png) round round;
+  -webkit-mask-box-image: url(backgrounds/blacktocat-2.png) round round;
   background: $color-medium;
   position: absolute;
   top: 0;
