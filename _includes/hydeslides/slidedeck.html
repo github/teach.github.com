@@ -6,24 +6,15 @@
 				{% for section in site.tags[ch] reversed %}
 					<!--Chapter Auto-Injection-->
 					{% if forloop.first %}
-						{% if section.chapter != '' %}
-							{% if section.cover != false %}
-								{% include hydeslides/slide-open-chapter.html %}
-									<h1>{{ section.chapter }}</h1>
-								{% include hydeslides/slide-close.html %}
-							{% endif %}
+						{% if section.cover != false %}
+							{% include hydeslides/slide-open-chapter.html %}
+								<h1>{{ section.chapter }}</h1>
+							{% include hydeslides/slide-close.html %}
 						{% endif %}
 					{% endif %}
 
 					{% include hydeslides/slide-open.html %}
-						{% if section.chapter != '' %}
-							<div class="chapter-banner">{{ section.chapter }}</div>
-						{% endif %}
-
-
-						{% if section.title != '' %}
-							<h2>{{ section.title }}</h2>
-						{% endif %}
+						<h2 {% if section.heading == false %}class="hidden"{% endif %}>{{ section.title }}</h2>
 						{{ section.content }}
 					{% include hydeslides/slide-close.html %}
 				{% endfor %}

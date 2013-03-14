@@ -1,0 +1,15 @@
+---
+chapter: Diff
+layout: slide
+tags: ['diff']
+---
+
+	# Show the staged changes
+	$ git diff --staged
+
+<img class="diagram" src="assets/diagrams/git-diff-staged.png">
+
+<!--
+Diagram three stage thinking
+(Staging -- Repo)
+-->
