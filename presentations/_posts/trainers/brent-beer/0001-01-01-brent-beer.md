@@ -1,7 +1,7 @@
 ---
-chapter: ''
+chapter: 'Trainer'
+cover: false
 layout: slide
-title: Brent Beer
 tags: ['trainers/brent-beer']
 categories: ['slidecontent']
 ---

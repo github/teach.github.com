@@ -1,7 +1,6 @@
 ---
 chapter: Config
 layout: slide
-title: 'Config Scope Visualization'
 tags: ['config']
 categories: ['slidecontent']
 ---

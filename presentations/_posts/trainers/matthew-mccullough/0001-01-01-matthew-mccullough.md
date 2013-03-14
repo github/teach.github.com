@@ -1,7 +1,7 @@
 ---
-chapter: ''
+chapter: 'Trainer'
+cover: false
 layout: slide
-title: Matthew McCullough
 tags: ['trainers/matthew-mccullough']
 categories: ['slidecontent']
 ---

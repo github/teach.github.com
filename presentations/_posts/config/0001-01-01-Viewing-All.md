@@ -1,7 +1,6 @@
 ---
 chapter: Config
 layout: slide
-title: Viewing All
 tags: ['config']
 categories: ['slidecontent']
 ---
