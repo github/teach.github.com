@@ -76,7 +76,163 @@ Teachers:
 
 # Command Line History, Day 1
 
-    TBD
+    git config --list
+    echo Matthew has no idea how to be minimal
+    echo Brent is a 5 minimalist
+    git config user.name
+    git config user.email
+    git config --global user.name "Matthew McCullough"
+    git config --global user.email "matthew@github.com"
+    cat ~/.gitconfig
+    cat ~/.gitconfig | more 
+    git config --local
+    git config --local --list
+    echo YOU ARE NOT IN A GIT REPO YET
+    git config --list
+    echo looking local (nothing), then look global, then system
+    echo "looking local (nothing), then look global, then system"
+    git init newproject
+    open .
+    cd newproject
+    git config --local --list
+    cd ..
+    mkdir oldproject
+    cd oldproject
+    touch main.java
+    touch build.xml
+    git init 
+    to.scratch
+    cd oldproject
+    tree .git
+    git add .
+    git status
+    git commit -m "Our first commit"
+    cd ..
+    cd newproject
+    vim first.txt
+    git status
+    git add first.txt
+    git commit -m "My first commit in the new repo"
+    echo We just committed only to our LOCAL machine
+    echo My team members will never push their changes
+    git add .
+    echo "That just added everything modified"
+    echo "That just added everything modified or new"
+    git status
+    touch abrandnewfile.txt
+    git status
+    git add .
+    git status
+    git commit -m "One more file"
+    vim first.txt
+    git status
+    git diff
+    git diff --color-words
+    github
+    git sttaus
+    git status
+    git diff --color-words
+    git diff
+    git add --patch
+    git gui
+    git status
+    git log -1
+    vim first.txt
+    git status
+    git diff
+    git add -p 
+    git status
+    git diff 
+    git diff --staged
+    git gui
+    git status
+    git commit -m "Only the staged changes"
+    git status
+    git add first.txt
+    git commit -m "The rest of the changes"
+    git status
+    vim first.txt
+    git status
+    git diff
+    git diff --color-words
+    git diff --word-diff
+    git diff --stat
+    git add -p first.txt
+    git status
+    git diff --stat
+    git diff --stat --staged
+    git log
+    git log --format=full
+    git log --format=fuller
+    git log --format=raw
+    git log --stat
+    git log --patch
+    git log --patch --color-words
+    git log --oneline
+    git log --pretty=oneline --abbrev-commit
+    git log --pretty=oneline
+    git log -1
+    git log -2
+    git log -2 HEAD
+    git log -2 HEAD~3
+    git log -2 HEAD~90
+    cp first.txt second.txt
+    git add .
+    git commit -m "Copied the first file"
+    git status
+    git rm second.txt
+    git status
+    git add -u .
+    git status
+    git commit -m"Deleting a bunch of files"
+    git rm --cached -- first.txt
+    git status
+    git reset --hard
+    git status
+    git status
+    git add -A .
+    git status
+    git commit -m "Renamed ALL OF THE THINGS"
+    git log --stat
+    git log --stat --no-find-renames
+    git status
+    git add .
+    git status
+    git commit -m "Copied the file"
+    git log -1 --stat
+    git log -1 --stat -C
+    git log -1 --stat --find-copies-harder
+    git log -- src/abrandnewfile-copy.txt
+    git log --follow -- src/abrandnewfile-copy.txt
+    git log --stat --follow -- src/abrandnewfile-copy.txt
+    git status
+    cd src
+    echo STUFF >> stuff.txt
+    git status
+    git add stuff.txt
+    echo "It walks upwards until it finds a .git folder. That's the top"
+    cd .
+    cd ..
+    touch outout.log
+    git status
+    rm src/stuff.txt
+    git status
+    git reset --hard
+    git status
+    vim .gitignore
+    git status
+    git add .gitignore
+    git commit -m "Ignoring all log files"
+    cd ..
+    git clone https://github.com/githubstudent/hellogitworld.git hwgstudent
+    cd hwgstudent
+    git log -2
+    vim matthewm.txt
+    git add matthewm.txt
+    git commit -m "Matthew added himself to the repo"
+    git status
+    git push
+    git gui
 
 ## Command Line History, Day 2
 
@@ -84,7 +240,7 @@ Teachers:
 
 ## Day One Chat
 
-     TBD
+    TBD
 
 ## Day Two Chat
 
