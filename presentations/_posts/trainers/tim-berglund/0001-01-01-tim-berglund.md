@@ -1,7 +1,7 @@
 ---
-chapter: ''
+chapter: 'Trainer'
+cover: false
 layout: slide
-title: Tim Berglund
 tags: ['trainers/tim-berglund']
 categories: ['slidecontent']
 ---

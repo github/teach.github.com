@@ -1,7 +1,7 @@
 ---
-chapter: ''
+chapter: 'Trainer'
+cover: false
 layout: slide
-title: Jordan McCullough
 tags: ['trainers/jordan-mccullough']
 categories: ['slidecontent']
 ---

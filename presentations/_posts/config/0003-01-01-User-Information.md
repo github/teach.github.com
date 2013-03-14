@@ -1,7 +1,6 @@
 ---
 chapter: Config
 layout: slide
-title: User Info
 tags: ['config']
 categories: ['slidecontent']
 ---
