@@ -3,8 +3,8 @@ chapter: 'Git'
 cover: false
 heading: false
 layout: slide
-tags: ['git']
+tags: ['intro']
 ---
 
-<div class="git"></div>
-<!-- Git Logo -->
+
+<div class="brand"></div>

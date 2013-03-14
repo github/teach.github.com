@@ -1,0 +1,20 @@
+---
+chapter: Diff
+layout: slide
+tags: ['diff']
+categories: ['slidecontent']
+---
+
+	# Show the unstaged changes
+	$ git diff
+
+<img class="diagram" src="assets/diagrams/git-diff.png">
+
+
+{% include hydeslides/notes-open.html %}
+
+Recall how changes can be in staging and working tree?
+
+`git diff` provides support for evaluating these differences
+
+{% include hydeslides/notes-close.html %}
