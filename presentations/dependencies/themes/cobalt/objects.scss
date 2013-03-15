@@ -15,6 +15,13 @@
 		display: inline-block;
 	}
 
+/* Headshots and Special Image Styling */
+.headshot{
+	height: 40%;
+	width: auto;
+	border-radius: 50%;
+	box-shadow: 0 0 0 5px $mid-mnch, 0 0 1em $dark-mnch;
+}
 
 /*Stage Building Diagrams*/
 .diagram-group{
