@@ -227,10 +227,6 @@ body {
  * IMAGES
  *********************************************/
 .reveal section img {
-  -webkit-border-radius: .5em;
-  -moz-border-radius: .5em;
-  -ms-border-radius: .5em;
-  border-radius: .5em;
   padding: 0px;
   background: #eeeeee;
   /*-webkit-transition: all .2s linear;
@@ -304,6 +300,13 @@ body {
   content: '\2014';
   height: 1em;
   display: inline-block; }
+
+/* Headshots and Special Image Styling */
+.headshot {
+  height: 40%;
+  width: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #b9c5d4, 0 0 1em #2b2c25; }
 
 /*Stage Building Diagrams*/
 .diagram-group {
