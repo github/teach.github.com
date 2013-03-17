@@ -69,11 +69,11 @@ code, em {
 .blackout .reveal .state-background::before {
   content: "";
   -webkit-mask-box-image: url(backgrounds/blacktocat-2.png) round round;
-  background: #f1f1f1;
+  background: #eeeeee;
   position: absolute;
   top: 0;
   left: 0;
-  opacity: .07;
+  opacity: .15;
   height: 100%;
   width: 100%; }
 
