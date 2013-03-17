@@ -11,3 +11,11 @@ categories: ['slidecontent']
 	mv <FILENAME> <NEWFILENAME>
 	# Then follow up with git add
 	git add -A .
+
+{% capture notes %}
+
+* Moving generates new tree, not a new blob
+	* Hash will be differ
+
+{% endcapture %}
+{% include hydeslides/notes %}

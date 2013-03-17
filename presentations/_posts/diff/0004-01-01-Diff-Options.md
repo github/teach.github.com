@@ -2,7 +2,6 @@
 chapter: Diff
 layout: slide
 tags: ['diff']
-categories: ['slidecontent']
 ---
 
 	git diff --color-words

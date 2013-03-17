@@ -2,7 +2,6 @@
 chapter: Diff
 layout: slide
 tags: ['diff']
-categories: ['slidecontent']
 ---
 
 	# Show uncommitted changes
@@ -10,6 +9,9 @@ categories: ['slidecontent']
 
 <img class="diagram" src="assets/diagrams/git-diff-head.png">
 
-<!--
-(Working -- Repo)
--->
+{% capture notes %}
+
+Working copy to commited changes
+
+{% endcapture %}
+{% include hydeslides/notes %}

@@ -2,7 +2,6 @@
 chapter: Config
 layout: slide
 tags: ['config']
-categories: ['slidecontent']
 ---
 
 	#Colorize console output for legibility

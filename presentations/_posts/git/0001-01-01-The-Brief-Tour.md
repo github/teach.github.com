@@ -1,8 +1,7 @@
 ---
 chapter: 'Git'
 layout: slide
-tags: ['git/repository']
-categories: ['slidecontent']
+tags: ['git']
 ---
 
 

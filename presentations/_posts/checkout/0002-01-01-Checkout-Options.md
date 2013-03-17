@@ -9,3 +9,11 @@ tags: ['checkout']
 	$ git checkout <branch>
 
 	$ git checkout <REF>
+
+
+{% capture notes %}
+
+* The power of simple branch toggling
+
+{% endcapture %}
+{% include hydeslides/notes %}

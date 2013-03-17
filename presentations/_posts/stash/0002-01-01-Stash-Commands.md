@@ -12,14 +12,14 @@ categories: ['slidecontent']
 	# List your stashes
 	git stash list
 
-	# Stash your pending changes
-	git stash save “<Message>”
-
 	# Merge & delete the latest stash
 	git stash pop
 
 	# Merge & delete a stash
-	git stash pop stash@{0}
+	git stash pop <name>
+
+	# Remove a stash
+	git stash drop <name>
 
 	# Merge & keep the latest stash
 	git stash apply

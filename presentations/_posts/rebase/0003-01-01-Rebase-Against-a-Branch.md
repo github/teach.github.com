@@ -5,7 +5,7 @@ tags: ['rebase']
 categories: ['slidecontent']
 ---
 
-
+	git checkout <feature-branch>
 	git rebase <branch>
 
 

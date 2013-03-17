@@ -4,9 +4,9 @@ layout: slide
 tags: ['checkout']
 ---
 
-* Aborting Changes
-* Exploring Commits
-* Changing Branches
+* _Aborting_ Changes
+* _Exploring_ Commits
+* _Changing_ Branches
 
 
 {% capture notes %}

@@ -5,6 +5,8 @@ tags: ['revert']
 categories: ['slidecontent']
 ---
 
+Restore past patch set via new commit
+
 	git revert <REF>
 
 {% capture notes %}
