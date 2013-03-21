@@ -42,10 +42,13 @@ body {
 .reveal h1 {
   font-family: $font-title;
   font-size: 3em;
+  margin: auto auto .5em auto;
   letter-spacing: -.05em;
   color: $bright-mnch;
-  text-shadow: 2px 2px 3px $dark-mnch, -1px 2px 0 $mnch-light, 0 3px 0 $mnch-medium, 0 2px 0 $mnch-light;
+  text-shadow: 2px 2px 3px $dark-mnch;
 }
+
+
 .reveal h2{
   font-size: 1.8em;
   font-family: $font-title;
