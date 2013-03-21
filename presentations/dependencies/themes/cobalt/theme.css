@@ -64,18 +64,7 @@ code, em {
 */
 /* No HydeSlides layouts defined yet */
 .blackout .reveal .state-background {
-  background: #2b2c25; }
-
-.blackout .reveal .state-background::before {
-  content: "";
-  -webkit-mask-box-image: url(backgrounds/blacktocat-2.png) round round;
-  background: #eeeeee;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: .15;
-  height: 100%;
-  width: 100%; }
+  background: none; }
 
 .reveal .brand {
   background: url(branding/github_logo_social_coding.png) no-repeat center;
@@ -200,9 +189,10 @@ body {
 .reveal h1 {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 3em;
+  margin: auto auto 0.5em auto;
   letter-spacing: -.05em;
   color: #eeeeee;
-  text-shadow: 2px 2px 3px #2b2c25, -1px 2px 0 #e1e1e1, 0 3px 0 #333333, 0 2px 0 #e1e1e1; }
+  text-shadow: 2px 2px 3px #2b2c25; }
 
 .reveal h2 {
   font-size: 1.8em;

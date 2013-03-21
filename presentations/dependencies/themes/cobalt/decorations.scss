@@ -1,18 +1,5 @@
 .blackout .reveal .state-background {
-  background: $dark-mnch;
-}
-
-
-.blackout .reveal .state-background::before{
-	content: "";
-  -webkit-mask-box-image: url(backgrounds/blacktocat-2.png) round round;
-  background: $bright-mnch;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: .15;
-  height: 100%;
-  width: 100%;
+  background: none;
 }
 
 
