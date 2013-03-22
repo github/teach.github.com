@@ -57,244 +57,244 @@ eventdate: 2013-03-21
 * [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
 ## Command History
-  git branch -d feature2
-  git branch feature3
-  git branch
-  ls -l
-  vi raven.txt
-  git add .
-  git commit -m "Nearly napping"
-  git checkout feature3
-  vi raven.txt
-  git add .
-  git commit -m "Some visitor"
-  git checkout master
-  git merge feature3
-  git log --format=raw -1
-  git branch -d feature3
-  git branch feature4
-  git checkout feature4
-  vi tolkien.txt
-  git add .
-  git commit -m "Deep roots"
-  ls
-  vi README.md
-  git add .
-  git commit -m "Added a README"
-  git lol -10
-  git checkout master
-  git merge feature4
-  git loglive -15
-  git loglive -20
-  git branch -d feature4
-  ls
-  vi raven.txt
-  git add .
-  git commit -m "Gently rapping"
-  git checkout -b feature5 ac678
-  vi tolkien.txt
-  git add .
-  git commit -m "Fire"
-  vi tolkien.txt
-  git add .
-  git commit -m "Light from shadow"
-  cat raven.txt
-  cat tolkien.txt
-  git lol -10
-  git lol -8
-  git rebase master
-  ls
-  git checkout master
-  git merge feature5
-  git branch -d feature5
-  git branch feature5
-  git reflog
-  vi tolkien.txt
-  git add .
-  git commit -m "Buggy Tolkien"
-  cat tolkien.txt
-  git reset --hard 9159
-  cat tolkien.txt
-  git reflog
-  git reset --hard HEAD@{1}
-  cat tolkien.txt
-  git reset --hard HEAD^
-  git reflot
-  git reflog
-  ll .git/objects/1e
-  ls
-  git checkout feature5
-  cd files
-  tree
-  tree ..
-  git loglive -15
-  generaterandomchanges 10 random txt
-  git lol
-  git rev-parse HEAD~10
-  git rebase -i HEAD~10
-  git loglive -20
-  vi random7.txt
-  git status
-  git add .
-  git rebase --continue
-  git rebase -i HEAD~10
-  git log --stat -1
-  git checkout master
-  git merge feature5
-  git branch -d feature5
-  git rebase --abort
-  cd newproject
-  ls
-  ll
-  git remote
-  git remote add origin https://github.com/githubteacher/poetry.git
-  git remote
-  git remote v
-  git remote -v
-  git remote show origin
-  cd ..
-  cat .git/config
-  git push -u origin master
-  ll ~/.ssh
-  ssh-keygen -f ~/.ssh/monkey
-  ll ~/monkey
-  ll ~/.ssh/monkey
-  ll ~/.ssh/
-  rm ~/.ssh/monkey
-  rm ~/.ssh/monkey.pub
-  cat ~/.ssh/config
-  cat /etc/ssh_config
-  ssh-keygen -f github-class
-  vi ~/.ssh/config
-  ll
-  rm github-class*
-  ssh-keygen -f ~/.ssh/github-class
-  cat ~/.ssh/github-class.pub
-  ls
-  vi tolkien.txt
-  git add .
-  git commit -m "Finished Tolkien"
-  git branch -a
-  git lol -10
-  git status
-  git push
-  git remote set-url origin git@github.com:githubteacher/poetry.git
-  git push
-  git fetch
-  git log -2
-  git log origin/master -2
-  git merge origin/master
-  cat tolkien.txt
-  ls
-  vi raven.txt
-  git add .
-  git commit -m "Some late visitor"
-  git pull
-  git push
-  pwd
-  ls
-  cd ..
-  ls
-  git clone git@github.com:githubstudent/poetry.git
-  ll
-  cd poetry
-  ls
-  ls -l
-  git remote show origin
-  vi ozymandias.txt
-  git add .
-  git commit -m "Shelly FTW"
-  vi ozymandias.txt
-  git add .
-  git commit -m "SHelly conflict"
-  git push
-  git push
-  git remote set-url origin https://github.com/githubstudent/poetry.git
-  git push
-  git fetch
-  git status
-  git diff origin/master --stat
-  git diff origin/master -- README.md
-  git diff origin/master -- raven.txt
-  git pull
-  git push
-  git pull https://github.com/githubstudent/poetry.git master
-  git status
-  vi ozymandias.txt
-  git add ozymandias.txt
-  git commit
-  git status
-  git push
-  git fetch
-  git loglive -15
-  git push
-  git pull
-  git push
-  git lol
-  git remote -v
-  git remote add upstream git@github.com:githubteacher/poetry.git
-  git pull upstream master
-  git lol
-  git status
-  git push
-  git remote -v
-  cd ..
-  git clone git@github.com:githubteacher/poetry.git teacher-poetry
-  cd teacher-poetry
-  ls
-  vi ozymandias.txt
-  git add .
-  git commit -m "Lifeless things"
-  git push
-  git pull && git push
-  git loglive -10
-  git pull && git push
-  git lol
-  git pull
-  git lol
-  git config --global branch.autosetuprebase always
-  git config --local branch.master.rebase true
-  git pull
-  vi ozymandias.txt
-  git add .
-  git commit -m "Fixed lines"
-  git pull
-  git push
-  git pull
-  git loglive -10
-  git loglive -18
-  git pull
-  git loglive -15
-  git pull
-  git show 69d3
-  git pull
-  git push
-  git pull
-  git checkout -b tlberglund
-  vi ozymandias.txt
-  git mv ozymandias.txt ozymandias.md
-  git add .
-  git commit -m "MOAR Shelley"
-  git push -u origin tlberglund
-  git branch -a
-  git fetch
-  git loglive -20
-  git loglive -18
-  git fetch
-  git checkout master
-  git merge tlberglund
-  git merge origin/philips
-  git loglive -15
-  git branch -a
-  git checkout amberry
-  git branch -a
-  git remote show origin
-  git log --patch -1
-  vi foo.md
-  git add .
-  git commit -m "More markdowny"
-  git push
-  git branch -a
+    git branch -d feature2
+    git branch feature3
+    git branch
+    ls -l
+    vi raven.txt
+    git add .
+    git commit -m "Nearly napping"
+    git checkout feature3
+    vi raven.txt
+    git add .
+    git commit -m "Some visitor"
+    git checkout master
+    git merge feature3
+    git log --format=raw -1
+    git branch -d feature3
+    git branch feature4
+    git checkout feature4
+    vi tolkien.txt
+    git add .
+    git commit -m "Deep roots"
+    ls
+    vi README.md
+    git add .
+    git commit -m "Added a README"
+    git lol -10
+    git checkout master
+    git merge feature4
+    git loglive -15
+    git loglive -20
+    git branch -d feature4
+    ls
+    vi raven.txt
+    git add .
+    git commit -m "Gently rapping"
+    git checkout -b feature5 ac678
+    vi tolkien.txt
+    git add .
+    git commit -m "Fire"
+    vi tolkien.txt
+    git add .
+    git commit -m "Light from shadow"
+    cat raven.txt
+    cat tolkien.txt
+    git lol -10
+    git lol -8
+    git rebase master
+    ls
+    git checkout master
+    git merge feature5
+    git branch -d feature5
+    git branch feature5
+    git reflog
+    vi tolkien.txt
+    git add .
+    git commit -m "Buggy Tolkien"
+    cat tolkien.txt
+    git reset --hard 9159
+    cat tolkien.txt
+    git reflog
+    git reset --hard HEAD@{1}
+    cat tolkien.txt
+    git reset --hard HEAD^
+    git reflot
+    git reflog
+    ll .git/objects/1e
+    ls
+    git checkout feature5
+    cd files
+    tree
+    tree ..
+    git loglive -15
+    generaterandomchanges 10 random txt
+    git lol
+    git rev-parse HEAD~10
+    git rebase -i HEAD~10
+    git loglive -20
+    vi random7.txt
+    git status
+    git add .
+    git rebase --continue
+    git rebase -i HEAD~10
+    git log --stat -1
+    git checkout master
+    git merge feature5
+    git branch -d feature5
+    git rebase --abort
+    cd newproject
+    ls
+    ll
+    git remote
+    git remote add origin https://github.com/githubteacher/poetry.git
+    git remote
+    git remote v
+    git remote -v
+    git remote show origin
+    cd ..
+    cat .git/config
+    git push -u origin master
+    ll ~/.ssh
+    ssh-keygen -f ~/.ssh/monkey
+    ll ~/monkey
+    ll ~/.ssh/monkey
+    ll ~/.ssh/
+    rm ~/.ssh/monkey
+    rm ~/.ssh/monkey.pub
+    cat ~/.ssh/config
+    cat /etc/ssh_config
+    ssh-keygen -f github-class
+    vi ~/.ssh/config
+    ll
+    rm github-class*
+    ssh-keygen -f ~/.ssh/github-class
+    cat ~/.ssh/github-class.pub
+    ls
+    vi tolkien.txt
+    git add .
+    git commit -m "Finished Tolkien"
+    git branch -a
+    git lol -10
+    git status
+    git push
+    git remote set-url origin git@github.com:githubteacher/poetry.git
+    git push
+    git fetch
+    git log -2
+    git log origin/master -2
+    git merge origin/master
+    cat tolkien.txt
+    ls
+    vi raven.txt
+    git add .
+    git commit -m "Some late visitor"
+    git pull
+    git push
+    pwd
+    ls
+    cd ..
+    ls
+    git clone git@github.com:githubstudent/poetry.git
+    ll
+    cd poetry
+    ls
+    ls -l
+    git remote show origin
+    vi ozymandias.txt
+    git add .
+    git commit -m "Shelly FTW"
+    vi ozymandias.txt
+    git add .
+    git commit -m "SHelly conflict"
+    git push
+    git push
+    git remote set-url origin https://github.com/githubstudent/poetry.git
+    git push
+    git fetch
+    git status
+    git diff origin/master --stat
+    git diff origin/master -- README.md
+    git diff origin/master -- raven.txt
+    git pull
+    git push
+    git pull https://github.com/githubstudent/poetry.git master
+    git status
+    vi ozymandias.txt
+    git add ozymandias.txt
+    git commit
+    git status
+    git push
+    git fetch
+    git loglive -15
+    git push
+    git pull
+    git push
+    git lol
+    git remote -v
+    git remote add upstream git@github.com:githubteacher/poetry.git
+    git pull upstream master
+    git lol
+    git status
+    git push
+    git remote -v
+    cd ..
+    git clone git@github.com:githubteacher/poetry.git teacher-poetry
+    cd teacher-poetry
+    ls
+    vi ozymandias.txt
+    git add .
+    git commit -m "Lifeless things"
+    git push
+    git pull && git push
+    git loglive -10
+    git pull && git push
+    git lol
+    git pull
+    git lol
+    git config --global branch.autosetuprebase always
+    git config --local branch.master.rebase true
+    git pull
+    vi ozymandias.txt
+    git add .
+    git commit -m "Fixed lines"
+    git pull
+    git push
+    git pull
+    git loglive -10
+    git loglive -18
+    git pull
+    git loglive -15
+    git pull
+    git show 69d3
+    git pull
+    git push
+    git pull
+    git checkout -b tlberglund
+    vi ozymandias.txt
+    git mv ozymandias.txt ozymandias.md
+    git add .
+    git commit -m "MOAR Shelley"
+    git push -u origin tlberglund
+    git branch -a
+    git fetch
+    git loglive -20
+    git loglive -18
+    git fetch
+    git checkout master
+    git merge tlberglund
+    git merge origin/philips
+    git loglive -15
+    git branch -a
+    git checkout amberry
+    git branch -a
+    git remote show origin
+    git log --patch -1
+    vi foo.md
+    git add .
+    git commit -m "More markdowny"
+    git push
+    git branch -a
 
 
 ## Chat History
