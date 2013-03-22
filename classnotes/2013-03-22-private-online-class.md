@@ -57,6 +57,309 @@ eventdate: 2013-03-21
 * [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
 ## Command History
+
+    git config user.name
+    git config user.email
+    git config --list
+    git config user.name
+    git config --global user.name "Tim Berglund"
+    git config user.name
+    git config user.email
+    git config user.email "tlberglund@github.com"
+    git config --global user.email "tlberglund@github.com"
+    git config --list --global
+    git config --global color.ui auto
+    git config --global --unset core.autocrlf
+    pwd
+    git init newproject
+    ls
+    cd newproject
+    ls
+    ls -la
+    tree .git
+    cat .git/config
+    tree .git
+    git status
+    vi raven.txt
+    git status
+    git add raven.txt
+    git status
+    git config color.ui
+    git commit -m "Initial commit"
+    git status
+    vi raven.txt
+    git status
+    git raven.txt
+    git add raven.txt
+    git status
+    git commit -m "Eagerly wished"
+    git status
+    ls
+    vi raven.txt
+    git status
+    git diff
+    git diff --stat
+    git diff
+    git add raven.txt
+    git status
+    git diff
+    git diff --staged
+    git status
+    vi raven.txt
+    git status
+    git diff
+    git diff --staged
+    git diff
+    git diff --color-words
+    git diff --word-diff
+    vi raven.txt
+    git diff --word-diff
+    git status
+    git diff HEAD
+    git diff HEAD --color-words
+    git diff --staged
+    git diff
+    git diff HEAD
+    git status
+    git diff HEAD
+    git status
+    git add raven.txt
+    git status
+    git diff
+    git diff --staged
+    git diff HEAD
+    git commit -m "Surcease of sorrow"
+    git status
+    git help log
+    git log
+    git config user.name
+    git config user.email
+    git log --format=raw
+    git log --format=raw -1
+    git log --format=raw -2
+    git log --stat
+    git log --patch
+    git log --patch --stat
+    git log --patch --stat --color-words
+    git log --patch --color-words -1
+    git log --graph
+    git log --graph --format=oneline
+    git log --graph --format=oneline --abbrev-commit
+    git log --graph --format=oneline --abbrev-commit --te
+    git log --graph --format=oneline --abbrev-commit --te --all'\n'
+    git log --graph --format=oneline --abbrev-commit --te --all
+    git lol
+    git config --global alias.lol "log --graph --=online --abbrev-commit --decorate --all"
+    git lol
+    git config --global alias.lol "log --graph --=oneline --abbrev-commit --decorate --all"
+    git lol
+    ls
+    generaterandomfiles 5 cruft txt
+    ls
+    rm cruft*.txt
+    generaterandomfiles 6 cruft txt
+    ls
+    git status
+    git add .
+    git status
+    git commit -m "Set up my cruft to clean up"
+    git log --stat -1
+    ls
+    git rm cruft1.txt
+    ls
+    git status
+    mv cruft2.txt
+    rm cruft2.txt
+    ls
+    git status
+    git rm cruft2.txt
+    git status
+    open .
+    git status
+    git add -u .
+    git status
+    git commit -m "Cleaned up most of my cruft"
+    ls -l
+    git rm --cached cruft6.txt
+    git status
+    ls
+    git commit -m "Cleaned up the rest of my cruft"
+    ls
+    git status
+    vi .gitignore
+    git status
+    ls
+    git add .gitignore
+    git commit -m "Added a gitignore"
+    cat .git
+    cat .gitignore
+    mkdir target
+    ls -l ~ > target/junk.listing
+    git status
+    mkdir build
+    ls > build/Monkey.class
+    ll ~ > console.log
+    ls
+    ls -l
+    git status
+    vi .gitignore
+    git status
+    git add .gitignore
+    git commit -m "Improved my gitignore"
+    git status
+    tree
+    mkdir -p src/main/resources
+    ll  > src/main/resources/listing.log
+    git status
+    vi src/main/resources/.gitignore
+    git status
+    git status -y
+    git status -u
+    tree
+    git add .
+    git commit -m "Added a second .gitignore"
+    ls
+    ls -l
+    rm console.log
+    rm cruft6.txt
+    rm -rf build
+    rm -rf target
+    ls -l
+    cat .gitignore
+    git lol
+    tree -L 1 .git
+    tree .git/objects
+    tree .git/objects | less
+    ls
+    rm -rf src
+    git status
+    git add -u .
+    git commit -m "more cleanup"
+    git status
+    ls
+    generaterandomfiles 5 file txt
+    mkdir files
+    git status
+    ls
+    git add .
+    git commit -m "Files to move"
+    git log --stat -1
+    git mv file1.txt files/
+    tree
+    git status
+    mv file2.txt files/
+    git status
+    git rm file2.txt
+    git status
+    git add files/file2.txt
+    git status
+    open .
+    git status
+    git add -A .
+    git status
+    git commit -m "Moved files"
+    git log --stat -1
+    git log --stat -1 -M
+    ls -l ~ > listing.txt
+    cat listing.txt
+    git add .
+    git commit -m "Longer file"
+    vi listing.txt
+    git status
+    git add -A .
+    git status
+    git commit -m "Moved AND CHANGED a file"
+    git log --stat -m -2
+    git log --stat - -2
+    git log --stat -M -2
+    git log --stat -M -1
+    git log --stat -1 -M76
+    git log --stat -1 -M74
+    vi files/listing.txt
+    git add .
+    git commit -m "Moved after changing"
+    git log --stat
+    git log --stat -- files/listing.txt
+    git log --stat -M -- files/listing.txt
+    git log --stat -M --follow -- files/listing.txt
+    git log --stat -M80 --follow -- files/listing.txt
+    git lol
+    git commit --amend
+    git lol
+    git status
+    export PS1="$"
+    export PS1="$ "
+    tr.git
+    cd scratch/newproject
+    tr.git
+    cd scratch
+    export PS1="$ "
+    cd newproject
+    ls
+    while :\ndo\nclear\ngit lol\nsleep 1\ndone
+    cat ~/scripts/git-loglive
+    git loglive
+    cat ~/scripts/git-loglive
+    while :\ndo\nclear\ngit lol\nsleep 1\ndone
+    git loglive
+    git branch
+    tree .git/refs
+    cat .git/refs/heads/master
+    cat .git/HEAD
+    git branch feature
+    tree .git/refs
+    git branch
+    git status
+    ls
+    vi raven.txt
+    git add .
+    git status
+    git commit -m "Nameless here"
+    cat raven.txt
+    git checkout feature
+    git branch
+    git status
+    cat .git/HEAD
+    cat raven.txt
+    vi raven.txt
+    git status
+    git add .
+    git commit -m "Quaint and curious"
+    git lol -10
+    git checkout master
+    cat raven.txt
+    git branch
+    git diff feature
+    git merge feature -m "Merged feature branch"
+    cat raven.txt
+    git branch -d feature
+    git branch feature 2e8c
+    git branch -d feature
+    git branch feature 2e8c
+    git branch -d feature
+    vi raven.txt
+    git add .
+    git commit -m "Rusltling curtains"
+    git commit --amend
+    git branch feature2 60d533e
+    git checkout feature2
+    vi raven.txt
+    ls
+    vi tolkien.txt
+    git status
+    git add .
+    git commit -m "Set up for conflict"
+    git lol -10
+    git checkout master
+    git merge feature2
+    git status
+    vi raven.txt
+    git status
+    cat raven.txt
+    git status
+    git add raven.txt
+    git status
+    git commit
     git branch -d feature2
     git branch feature3
     git branch
