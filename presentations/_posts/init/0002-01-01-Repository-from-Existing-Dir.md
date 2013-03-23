@@ -11,7 +11,7 @@ categories: ['slidecontent']
 
 	# Add all the code
 	$ git add .
-	$ git commit -m”Initial import” 
+	$ git commit -m ”Initial import” 
 
 {% include hydeslides/notes-open.html %}
 
