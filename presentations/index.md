@@ -6,5 +6,5 @@ categories: ['presentations']
 showinnav: true
 ---
 
-{% assign selectedcategory = site.categories.presentations %}
+{% assign selectedcategory = site.categories.presentationtoplevelpages %}
 {% include categorycontents %}
