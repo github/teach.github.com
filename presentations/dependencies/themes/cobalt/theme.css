@@ -63,6 +63,9 @@ code, em {
 }
 */
 /* No HydeSlides layouts defined yet */
+.blackout .reveal .state-background {
+  background: none; }
+
 .reveal .brand {
   background: url(branding/github_logo_social_coding.png) no-repeat center;
   background-size: contain;
@@ -179,16 +182,17 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 0 0;
+  margin: 0.5em 0 0 0;
   line-height: 0.9em;
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
 .reveal h1 {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 3em;
+  margin: auto auto 0.5em auto;
   letter-spacing: -.05em;
   color: #eeeeee;
-  text-shadow: 2px 2px 3px #2b2c25, -1px 2px 0 #e1e1e1, 0 3px 0 #333333, 0 2px 0 #e1e1e1; }
+  text-shadow: 2px 2px 3px #2b2c25; }
 
 .reveal h2 {
   font-size: 1.8em;
@@ -199,7 +203,7 @@ body {
 
 .reveal h3 {
   font-size: 1.2em;
-  color: #333333;
+  color: #1aafec;
   font-weight: normal; }
 
 /*********************************************
@@ -214,7 +218,7 @@ body {
   -o-transition: color 0.15s ease;
   transition: color 0.15s ease; }
 
-.reveal a:not(.image):hover {
+.reveal a:not(.image):hover, .pseudoLink {
   color: #eeeeee;
   text-shadow: none;
   border: none; }

@@ -1,3 +1,9 @@
+.blackout .reveal .state-background {
+  background: none;
+}
+
+
+
 .reveal .brand{
 	background: url(branding/github_logo_social_coding.png) no-repeat center;
 	background-size: contain;
@@ -5,8 +11,6 @@
 	width: 98%;
 	margin: auto auto 1em auto;
 }
-
-
 
 .reveal .git{
 	background: url(branding/git-logo-black.png) no-repeat center;
