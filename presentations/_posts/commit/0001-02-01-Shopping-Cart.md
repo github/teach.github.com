@@ -5,12 +5,10 @@ tags: ['commit']
 categories: ['slidecontent']
 ---
 
+* Put things in _(stage)_
+* Take things out _(unstage)_
+* Purchase at register _(commit)_
 
-<div class="sticky">
-	<span><i class="icon-shopping-cart"> </i></span>
-
-	commit concept
-</div>
 
 {% include hydeslides/notes-open.html %}
 Shopping Cart
