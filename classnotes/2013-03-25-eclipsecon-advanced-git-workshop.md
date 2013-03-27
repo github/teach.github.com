@@ -1,4 +1,3 @@
-
 ---
 layout: bare
 title: EclipseCon Advanced Git Workshop
