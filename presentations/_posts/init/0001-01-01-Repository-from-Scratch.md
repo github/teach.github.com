@@ -10,10 +10,11 @@ categories: ['slidecontent']
 	$ cd newproject
 	# ...start coding
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 
 Creating a new repository is a simple as typing the git init command.
 
 Hand in a project directory name, and you're ready to begin.
 
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

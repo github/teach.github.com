@@ -1,3 +1,4 @@
+
 ---
 chapter: Setup
 layout: slide
@@ -10,8 +11,9 @@ Test the Install. Check your Version
 	$ git --version
 
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 
 Git __binaries__ are on your `$path`
 
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

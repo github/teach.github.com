@@ -10,13 +10,14 @@ categories: ['slidecontent']
 
 	
 
-<!--
-	#List remote branches
-	git branch -r
+{% capture notes %}
+# List remote branches
+git branch -r
 
-	#List all branches
-	git branch -a
+# List all branches
+git branch -a
 
-	#List upstream branches
-	git ls-remote origin
--->
+# List upstream branches
+git ls-remote origin
+{% endcapture %}
+{% include hydeslides/notes %}

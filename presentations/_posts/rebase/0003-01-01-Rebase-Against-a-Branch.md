@@ -9,7 +9,7 @@ categories: ['slidecontent']
 	git rebase <branch>
 
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 __Retrieve upstream changes__, 
 
 __relocate__ your local changes to the end
@@ -23,4 +23,5 @@ The same as
 
 	git checkout <featurebranch>
 	git rebase master
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

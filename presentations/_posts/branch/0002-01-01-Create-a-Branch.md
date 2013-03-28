@@ -11,7 +11,7 @@ categories: ['slidecontent']
 	git checkout -b <branchname> <ref>
 
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 git branch <BRANCHNAME> HEAD
 
 HEAD is assumed when REF left off
@@ -24,4 +24,6 @@ Branches cost a mere 20 bytes
 Branch from the master branch
 Merge from the topic branch
 Destroy the topic branch
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}
+

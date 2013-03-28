@@ -9,6 +9,7 @@ categories: ['slidecontent']
 	<img class="diagram" src="assets/diagrams/git-file-states.png">
 </div>
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 (Diagram: Removing Files)
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

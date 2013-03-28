@@ -11,7 +11,7 @@ categories: ['slidecontent']
 
 
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 	# Added (A)
 	# Copied (C)
 	# Deleted (D)
@@ -23,4 +23,5 @@ categories: ['slidecontent']
 	# Pairing Broken (B)
 	# Only show changes in modified files
 	git diff --diff-filter=M
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

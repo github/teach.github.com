@@ -11,10 +11,11 @@ categories: ['slidecontent']
 <img class="diagram" src="assets/diagrams/git-diff.png">
 
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 
 Recall how changes can be in staging and working tree?
 
 `git diff` provides support for evaluating these differences
 
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

@@ -14,10 +14,11 @@ categories: ['slidecontent']
 	$ git reset --hard <REF>
 
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 Reset modifies index, staging, and/or working dir
 
 --mixed as default when no option flag passed
 
 --hard is heavy handed, modifying index and working dir
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

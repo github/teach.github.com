@@ -12,10 +12,10 @@ categories: ['slidecontent']
 	commit concept
 </div>
 
-{% include hydeslides/notes-open.html %}
-Shopping Cart
-
+{% capture notes %}
+# Shopping Cart
 * put things in
 * take things out 
 * purchase at register
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}
