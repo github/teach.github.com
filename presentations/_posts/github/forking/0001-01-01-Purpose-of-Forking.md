@@ -1,6 +1,5 @@
 ---
-chapter: 'GitHub'
-cover: false
+chapter: Forking
 layout: slide
 tags: ['github/forking']
 ---
