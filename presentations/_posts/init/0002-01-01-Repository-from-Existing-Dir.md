@@ -13,7 +13,7 @@ categories: ['slidecontent']
 	$ git add .
 	$ git commit -m ”Initial import” 
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 
 If you already have an existing repository:
 
@@ -21,4 +21,5 @@ If you already have an existing repository:
 * type git init
 *  Add all files
 
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

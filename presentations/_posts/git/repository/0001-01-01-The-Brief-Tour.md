@@ -6,7 +6,7 @@ categories: ['slidecontent']
 ---
 
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 
 The .git folder contains the entire repository, file structure, directory tree, and commit history.
 
@@ -17,4 +17,5 @@ The items we're interested in for starters:
 * logs
 * objects
 
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

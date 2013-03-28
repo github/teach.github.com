@@ -16,7 +16,7 @@ categories: ['slidecontent']
 	git config --global core.autocrlf true
 
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 Warn, but allow line ending conversion to proceed (the default)
 git config --global core.safecrlf warn
 
@@ -24,4 +24,5 @@ Do not allow line ending conversion to proceed
 git config --global core.safecrlf true
 
 http://help.github.com/dealing-with-lineending
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

@@ -12,9 +12,10 @@ categories: ['slidecontent']
 	git push --tags
 	
 
-{% include hydeslides/notes-open.html %}	
+{% capture notes %}	
 Tags do fetch by default
 Tags don't push by default
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}
 
 ￼￼￼

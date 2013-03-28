@@ -7,7 +7,8 @@ categories: ['slidecontent']
 
 	git push <remote>
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 * Send code to an upstream server
 * Update remote branches
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

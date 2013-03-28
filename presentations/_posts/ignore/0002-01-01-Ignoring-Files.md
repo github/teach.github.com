@@ -15,6 +15,7 @@ Create a `.gitignore` in project root
 	output/
 	!special.log
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 glob patterns, one per line
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

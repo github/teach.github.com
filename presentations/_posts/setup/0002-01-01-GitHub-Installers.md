@@ -13,7 +13,3 @@ categories: ['slidecontent']
 	<a href="http://mac.github.com">mac.github.com</a>
 	<a href="http://mac.github.com">windows.github.com</a>
 </div>
-
-{% include hydeslides/notes-open.html %}
-
-{% include hydeslides/notes-close.html %}
