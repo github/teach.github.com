@@ -10,6 +10,7 @@ categories: ['slidecontent']
 	<img class="diagram fragment" src="assets/diagrams/git-merge-fastforward-02.png">
 </div>
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 (diagram: conflicting merge)
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

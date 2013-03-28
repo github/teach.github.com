@@ -10,9 +10,10 @@ categories: ['slidecontent']
 	git fetch <remote>
 
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 * Retrieve upstream objects
 * Update remote branch
 * Merge changes into local branch
 * Commit the merge to the local branch
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

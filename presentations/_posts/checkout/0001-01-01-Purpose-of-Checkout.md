@@ -9,11 +9,9 @@ tags: ['checkout']
 * Changing Branches
 
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 Used for changing branches, inspecting past commits
 
 Permits restoring working directory changes to prior commit
-
-
-
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}

@@ -14,10 +14,11 @@ categories: ['slidecontent']
 	# Control the output format
 	git log --format=raw
 
-{% include hydeslides/notes-open.html %}
-	# Control the output format
-	git log --format=email
+{% capture notes %}
+# Control the output format
+git log --format=email
 
-	# Control the output format
-	git log --format=format:<pattern>
-{% include hydeslides/notes-close.html %}
+# Control the output format
+git log --format=format:<pattern>
+{% endcapture %}
+{% include hydeslides/notes %}

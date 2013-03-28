@@ -9,8 +9,9 @@ categories: ['slidecontent']
 	git status
 	git commit -m "Helpful message"
 
-{% include hydeslides/notes-open.html %}
+{% capture notes %}
 Leave off -m to edit commit message in vi
 
 Cleared out the entire message? Commit will abort
-{% include hydeslides/notes-close.html %}
+{% endcapture %}
+{% include hydeslides/notes %}
