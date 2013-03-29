@@ -34,8 +34,8 @@ Topics covered include:
     * cherry
         * compares patch-id, not the hashes
         * commits not upstream are prefixed by a symbol
-        * Minus says not upstream
-        * Plus symbol says it is upstream
+        * Minus (-) indicates equivalent change upstream
+        * Plus (+) indicates change exclusive to HEAD
         * `git cherry <UPSTREAM> <HEAD>`
         * `git cherry feature_subtraction master`
     * cherry-pick
