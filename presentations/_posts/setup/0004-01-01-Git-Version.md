@@ -1,4 +1,3 @@
-
 ---
 chapter: Setup
 layout: slide

@@ -1,0 +1,31 @@
+/* Zero Indexed OLs for full geekery */
+ol.zero-indexed {
+  counter-reset: item -1;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none; }
+
+ol.zero-indexed li {
+  text-align: left; }
+
+ol.zero-indexed li:before {
+  content: counter(item) ". ";
+  counter-increment: item; }
+
+/* Line-height fixes to prevent g's from being clipped */
+.reveal h1 {
+  line-height: 1.2em; }
+
+.reveal h2 {
+  line-height: 1.2em; }
+
+.reveal .roll {
+  line-height: 1.4em; }
+
+/* Keep the account signup link on the sticky on large monitors */
+.reveal .sticky {
+  font-size: 0.9em; }
+
+/* Keep roll links in line */
+.reveal a.roll {
+  margin-top: -4px; }
