@@ -6,8 +6,8 @@ tags: ['tag']
 categories: ['slidecontent']
 ---
 
-	# Tag HEAD
-	git tag <TAGNAME> -m<message>
+	# Annotated Tag with HEAD
+	git tag <TAGNAME> -a -m<message>
 
 	# Tag an existing ref
 	git tag <TAGNAME> <REF>

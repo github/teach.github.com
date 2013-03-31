@@ -9,7 +9,9 @@ tags: ['diff']
 
 <img class="diagram" src="assets/diagrams/git-diff-staged.png">
 
-<!--
-Diagram three stage thinking
-(Staging -- Repo)
--->
+{% capture notes %}
+
+Staged to commited changes
+
+{% endcapture %}
+{% include hydeslides/notes %}

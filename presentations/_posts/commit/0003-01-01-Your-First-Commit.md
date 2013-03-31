@@ -2,7 +2,6 @@
 chapter: Commit
 layout: slide
 tags: ['commit']
-categories: ['slidecontent']
 ---
 
 	git add <filename>

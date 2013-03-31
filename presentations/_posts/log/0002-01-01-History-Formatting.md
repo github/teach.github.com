@@ -2,7 +2,6 @@
 chapter: Log
 layout: slide
 tags: ['log']
-categories: ['slidecontent']
 ---
 
 	# Control the output format

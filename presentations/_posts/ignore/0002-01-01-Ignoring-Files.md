@@ -5,15 +5,14 @@ tags: ['ignore']
 categories: ['slidecontent']
 ---
 
-Create a `.gitignore` in project root
+* Create a `.gitignore` in project root
+* Add patterns:
 
+	`*.log`
 
+	`output/`
 
-	*.log
-	*.tmp
-	target
-	output/
-	!special.log
+	`!special.log`
 
 {% capture notes %}
 glob patterns, one per line
