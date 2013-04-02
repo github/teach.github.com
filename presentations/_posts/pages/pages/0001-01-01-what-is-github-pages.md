@@ -7,8 +7,10 @@ tags:
   - "pages/pages"
 ---
 
-## What is GitHub Pages?
+## What is "GitHub Pages"?
 
 * Free, reliable static site hosting
-* Fully contained within git repository and integrated with GitHub
+* Fully contained within a Git repository
+* Complete history of site versions and changes
+* Integrated with GitHub
 * Perfect for documentation and [microsites](http://en.wikipedia.org/wiki/Microsite)
