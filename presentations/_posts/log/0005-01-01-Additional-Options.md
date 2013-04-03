@@ -5,7 +5,7 @@ tags: ['log']
 ---
 
 	# Search for string match _in_ patch
-	git log -S=<StringInPatch>
+	git log -S <StringInPatch>
 
 	# Listing files of patch
 	git log --stat 
