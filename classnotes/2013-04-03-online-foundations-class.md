@@ -3,13 +3,13 @@ layout: bare
 title: Online Foundations Class
 description: Online Foundations Class Class Notes
 tags: [notes,private,online]
-path: classnotes/2013-03-29-online-foundations-class.md
-eventdate: 2013-03-29
+path: classnotes/2013-04-03-online-foundations-class.md
+eventdate: 2013-04-03
 ---
 
 ## Teachers
 * Peter Bell ([Twitter](http://twitter.com/peterbell), [GitHub](https://github.com/peterbell))
-* Brent Beer ([Twitter](http://twitter.com/thejordanmcc), [GitHub](https://github.com/jordanmccullough))
+* Jordan McCullough ([Twitter](http://twitter.com/thejordanmcc), [GitHub](https://github.com/jordanmccullough))
 
 ## Resources
 * [Open Source Git Ignore Templates](https://github.com/github/gitignore)
