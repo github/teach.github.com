@@ -3,9 +3,9 @@
 layout: bare
 title: Private Git Class
 description: Private Git Class Class Notes
-tags: [notes,notes,class,workshop]
-path: classnotes/2014-04-01-private-git-class.md
-eventdate: 2014-04-01
+tags: [notes,class,workshop]
+path: classnotes/2013-04-01-private-git-class.md
+eventdate: 2013-04-01
 ---
 
 ## Teachers
@@ -55,326 +55,535 @@ eventdate: 2014-04-01
 * [Course Slides](http://teach.github.com/articles/course-slides/)
 * [Post-event Git and GitHub questions](https://github.com/githubtraining/feedback/)
 * [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
+* [Git Reset Demystified](http://git-scm.com/2011/07/11/reset.html)
+* [Always Accept Changes Per File on Merge](http://stackoverflow.com/questions/928646/how-do-i-tell-git-to-always-select-my-local-version-for-conflicted-merges-on-a-s)
 
-## Command History
+## Command History Day 1
 
-    2013-04-01 09:35:13 git --version
-    2013-04-01 09:39:39 git config --global user.name
-    2013-04-01 09:39:58 git config --global user.name "Brent Beer"
-    2013-04-01 09:40:04 git config --global user.name
-    2013-04-01 09:40:10 git config --global user.name "Brent Beer2"
-    2013-04-01 09:40:11 git config --global user.name
-    2013-04-01 09:40:19 git config --global user.name "Brent Beer"
-    2013-04-01 09:40:40 git config --global user.email
-    2013-04-01 09:41:01 git config --global user.email "brentbeer@github.com"
-    2013-04-01 09:44:51 git config --global color.ui auto
-    2013-04-01 09:45:24 git config --global core.autocrlf input
-    2013-04-01 09:45:33 git config --global --list
-    2013-04-01 09:49:00 git init newproject
-    2013-04-01 09:49:28 cd newproject/
-    2013-04-01 09:49:42 ls 
-    2013-04-01 09:49:44 ls -a
-    2013-04-01 09:50:32 ls .git/
-    2013-04-01 09:51:11 git config --local --list
-    2013-04-01 09:51:28 cat .git/config 
-    2013-04-01 09:52:06 git config --list
-    2013-04-01 09:52:33 git config --system user.name "GitHub Teacher"
-    2013-04-01 09:52:34 git config --list
-    2013-04-01 09:53:06 git config --local
-    2013-04-01 09:53:09 git config --local --list
-    2013-04-01 09:54:32 git config --system --unset user.name "GitHub Teacher"
-    2013-04-01 09:54:37 git config --list
-    2013-04-01 09:56:22 git status
-    2013-04-01 09:57:20 touch first.txt
-    2013-04-01 09:57:28 git status
-    2013-04-01 09:58:13 vim first.txt 
-    2013-04-01 09:59:03 git status
-    2013-04-01 09:59:32 git add first.txt
-    2013-04-01 09:59:39 git status
-    2013-04-01 09:59:42 git status
-    2013-04-01 10:02:00 git commit -m"first commit"
-    2013-04-01 10:06:15 git status
-    2013-04-01 10:09:38 vim first.txt 
-    2013-04-01 10:10:03 git status
-    2013-04-01 10:11:00 git add first.txt
-    2013-04-01 10:11:03 git status
-    2013-04-01 10:11:10 git status
-    2013-04-01 10:12:00 git commit -m"changed the last line, to be like previous"
-    2013-04-01 10:13:03 vim first.txt 
-    2013-04-01 10:13:26 git status
-    2013-04-01 10:13:48 git diff
-    2013-04-01 10:15:36 git help diff
-    2013-04-01 10:15:50 git diff -U5
-    2013-04-01 10:17:44 git status
-    2013-04-01 10:17:51 git add first.txt
-    2013-04-01 10:17:52 git status
-    2013-04-01 10:17:57 git diff
-    2013-04-01 10:18:20 git diff --staged
-    2013-04-01 10:19:51 git status
-    2013-04-01 10:20:04 vim first.txt 
-    2013-04-01 10:20:39 git status
-    2013-04-01 10:21:17 git diff
-    2013-04-01 10:22:35 git diff --cached
-    2013-04-01 10:24:20 git diff --staged
-    2013-04-01 10:25:18 git diff HEAD
-    2013-04-01 10:25:54 git status
-    2013-04-01 10:25:58 vim first
-    2013-04-01 10:26:01 vim first.txt 
-    2013-04-01 10:26:12 git diff HEAD
-    2013-04-01 10:27:40 git status
-    2013-04-01 10:27:52 git diff --staged
-    2013-04-01 10:28:05 git commit -m"specified it as last line"
-    2013-04-01 10:28:13 git status
-    2013-04-01 10:28:28 git diff
-    2013-04-01 10:28:48 git diff HEAD
-    2013-04-01 10:29:06 git add first.txt
-    2013-04-01 10:29:08 git status
-    2013-04-01 10:29:18 git commit -m "middle line for more diffing"
-    2013-04-01 10:29:22 git status
-    2013-04-01 10:31:49 git log
-    2013-04-01 10:33:12 git log --format=full
-    2013-04-01 10:34:09 git log --format=email
-    2013-04-01 10:34:33 git log --format=email
-    2013-04-01 10:34:45 git log --format=fuller
-    2013-04-01 10:37:15 git log --format=fuller -4000
-    2013-04-01 10:38:02 git log --format=fuller -1
-    2013-04-01 10:38:07 git log  -1
-    2013-04-01 10:38:19 git log  -1 --patch
-    2013-04-01 10:38:52 git log  -2 --patch
-    2013-04-01 10:41:05 git show d759abe
-    2013-04-01 10:41:19 git log -3 -p
-    2013-04-01 10:41:31 git log -3 --stat
-    2013-04-01 10:41:56 git log --stat
-    2013-04-01 10:43:19 git log -1 -p --color-words
-    2013-04-01 10:43:55 git log -1 -p --word-diff
-    2013-04-01 10:44:11 git log -2 -p --word-diff
-    2013-04-01 10:46:06 git log -S=middle
-    2013-04-01 10:46:10 git log -S="middle"
-    2013-04-01 10:46:20 git log -1 -p
-    2013-04-01 10:46:27 git log -S="third"
-    2013-04-01 10:46:31 git log -G="third"
-    2013-04-01 10:46:47 git log -S="third" -p
-    2013-04-01 10:46:54 git log -S="This is the middle line."
-    2013-04-01 10:46:57 git log -S="This is the middle line." -p
-    2013-04-01 10:47:05 git help log
-    2013-04-01 10:47:41 git log -G="This is the middle line." -p
-    2013-04-01 10:48:09 git log -S "middle"
-    2013-04-01 10:48:36 git log -S "first"
-    2013-04-01 10:48:38 git log -S "first" -p
-    2013-04-01 10:49:37 git log -G "middle" -p
-    2013-04-01 10:49:43 git log -G "first" -p
-    2013-04-01 10:49:48 git log
-    2013-04-01 10:49:55 git log 509a5a
-    2013-04-01 10:50:00 git show 509a5a
-    2013-04-01 10:50:11 git log -G "3rd"
-    2013-04-01 10:50:55 git help log
-    2013-04-01 10:53:03 git log -p
-    2013-04-01 10:53:08 git log -p -1
-    2013-04-01 10:54:17 vim first.txt 
-    2013-04-01 10:54:36 git help add
-    2013-04-01 10:55:14 git status
-    2013-04-01 10:55:16 git diff
-    2013-04-01 10:55:36 git diff --color-words
-    2013-04-01 10:56:04 git diff --word-diff
-    2013-04-01 10:56:12 git diff
-    2013-04-01 10:56:43 git checkout first.txt
-    2013-04-01 10:56:44 git status
-    2013-04-01 11:00:05 git help gitattributes
-    2013-04-01 11:20:35 vim second.txt
-    2013-04-01 11:21:02 git status
-    2013-04-01 11:21:24 git add second.txt
-    2013-04-01 11:21:27 git status
-    2013-04-01 11:21:42 git commit -m "preparing for a deletion"
-    2013-04-01 11:21:47 ls
-    2013-04-01 11:21:48 ls
-    2013-04-01 11:21:59 git status
-    2013-04-01 11:22:21 git rm second.txt
-    2013-04-01 11:22:58 git status
-    2013-04-01 11:23:07 git diff --staged
-    2013-04-01 11:23:36 git status
-    2013-04-01 11:24:21 git reset HEAD second.txt
-    2013-04-01 11:24:24 git status
-    2013-04-01 11:24:42 git checkout -- second.txt
-    2013-04-01 11:25:04 git status
-    2013-04-01 11:25:06 ls
-    2013-04-01 11:25:15 rm second.txt 
-    2013-04-01 11:25:17 git status
-    2013-04-01 11:27:40 git help add
-    2013-04-01 11:28:01 git help add
-    2013-04-01 11:28:31 git add -u 
-    2013-04-01 11:28:34 git status
-    2013-04-01 11:28:56 git commit -m "this file was worthless"
-    2013-04-01 11:28:59 ls
-    2013-04-01 11:31:05 chmod 755 first.txt 
-    2013-04-01 11:31:07 git status
-    2013-04-01 11:31:10 git diff
-    2013-04-01 11:31:19 git checkout 
-    2013-04-01 11:31:23 git checkout first.txt
-    2013-04-01 11:31:25 ls
-    2013-04-01 11:31:26 git status
-    2013-04-01 11:33:31 ls
-    2013-04-01 11:34:04 vim development.log
-    2013-04-01 11:34:33 git status
-    2013-04-01 11:34:39 git add development.log
-    2013-04-01 11:34:54 git commit -m "setup for moving"
-    2013-04-01 11:34:57 git status
-    2013-04-01 11:34:59 ls
-    2013-04-01 11:35:08 mkdir build
-    2013-04-01 11:35:28 mv development.log build/
-    2013-04-01 11:35:31 git status
-    2013-04-01 11:35:33 git status -u
-    2013-04-01 11:36:02 mkdir test1`
-    2013-04-01 11:36:07 mkdir test1
-    2013-04-01 11:36:08 mkdir test2
-    2013-04-01 11:36:09 mkdir test3
-    2013-04-01 11:36:10 git status
-    2013-04-01 11:36:14 ls -p
-    2013-04-01 11:36:45 git status
-    2013-04-01 11:36:49 git status -u
-    2013-04-01 11:38:06 git add -A .
-    2013-04-01 11:38:08 git status
-    2013-04-01 11:38:37 git commit -m"logs belong in the build directory"
-    2013-04-01 11:39:54 ls -la /Users/brntbeer/
-    2013-04-01 11:40:10 ls -la /Users/brntbeer/ > home_dir_listing.txt
-    2013-04-01 11:40:30 git status
-    2013-04-01 11:40:44 git add .
-    2013-04-01 11:40:46 git status
-    2013-04-01 11:40:59 git commit -m "home dir listing added for similarity example"
-    2013-04-01 11:41:30 git status
-    2013-04-01 11:44:20 git mv home_dir_listing.txt build/
-    2013-04-01 11:44:22 git status
-    2013-04-01 11:44:29 vim build/home_dir_listing.txt 
-    2013-04-01 11:46:05 git status
-    2013-04-01 11:46:29 git add build/
-    2013-04-01 11:46:31 git status
-    2013-04-01 11:46:54 git add -A --  build/ 
-    2013-04-01 11:46:56 git status
-    2013-04-01 11:47:13 git reset HEAD build/home_dir_listing.txt
-    2013-04-01 11:47:23 git status
-    2013-04-01 11:47:45 rm build/home_dir_listing.txt 
-    2013-04-01 11:47:53 git reset HEAD home_dir_listing.txt
-    2013-04-01 11:47:55 git status
-    2013-04-01 11:48:01 git checkout -- home_dir_listing.txt
-    2013-04-01 11:48:03 git status
-    2013-04-01 11:48:14 git mv home_dir_listing.txt build/
-    2013-04-01 11:48:20 vim build/
-    2013-04-01 11:49:06 git status
-    2013-04-01 11:49:14 git add -A build/home_dir_listing.txt
-    2013-04-01 11:49:16 git status
-    2013-04-01 11:49:37 git commit -m "moved home_dir to build, and made changes"
-    2013-04-01 11:50:08 git log -M40 -1
-    2013-04-01 11:50:11 git log -M40 -1 -p
-    2013-04-01 11:50:15 git log -M40 -1 --stat
-    2013-04-01 11:50:54 mv build/home_dir_listing.txt .
-    2013-04-01 11:50:56 ls
-    2013-04-01 11:50:58 git status
-    2013-04-01 11:51:08 vim home
-    2013-04-01 11:51:41 git status
-    2013-04-01 11:51:49 git add -A .
-    2013-04-01 11:51:51 git status
-    2013-04-01 11:51:55 git diff --staged
-    2013-04-01 11:52:10 git diff --staged -M60
-    2013-04-01 11:54:52 git status
-    2013-04-01 11:54:58 git commit -m "moved back to higher level"
-    2013-04-01 11:55:19 git log -1 -M98
-    2013-04-01 11:55:22 git log -1 -M98 --stat
-    2013-04-01 11:55:47 git log -1 -M60 --stat
-    2013-04-01 11:59:32 git help diff
-    2013-04-01 12:00:40 git log -1 -M60
-    2013-04-01 12:00:42 git log -1 -M60 -p
-    2013-04-01 12:02:04 git help diff
-    2013-04-01 12:03:52 git log -C -C
-    2013-04-01 12:03:56 git log -C -C --stat
-    2013-04-01 12:11:54 git branch
-    2013-04-01 12:18:59 git branch feature1
-    2013-04-01 12:19:02 git status
-    2013-04-01 12:19:09 git branch
-    2013-04-01 12:20:05 git checkout feature1
-    2013-04-01 12:20:12 git branch
-    2013-04-01 12:20:18 ls
-    2013-04-01 12:20:23 git log -1
-    2013-04-01 12:20:26 git log
-    2013-04-01 12:20:37 git show HEAD
-    2013-04-01 12:20:58 git branch
-    2013-04-01 12:21:09 ls
-    2013-04-01 12:21:20 vim test-feature1.cpp
-    2013-04-01 12:21:52 git status
-    2013-04-01 12:22:07 git add test-feature1.cpp
-    2013-04-01 12:22:09 git status
-    2013-04-01 12:22:18 git commit -m 'begin test file for branching purposes'
-    2013-04-01 12:22:21 git status
-    2013-04-01 12:22:39 git checkout master
-    2013-04-01 12:22:44 git checkout -
-    2013-04-01 12:22:45 git checkout -
-    2013-04-01 12:22:46 git checkout -
-    2013-04-01 12:23:10 git checkout -
-    2013-04-01 12:23:15 ls
-    2013-04-01 12:23:45 git diff master..feature1
-    2013-04-01 12:23:59 git diff master...feature1
-    2013-04-01 12:24:02 git log master..feature1
-    2013-04-01 12:24:05 git log master..feature1
-    2013-04-01 12:24:17 git log master..feature1 -p
-    2013-04-01 12:24:23 git log master..feature1 --stat
-    2013-04-01 12:24:39 git branch
-    2013-04-01 12:24:44 git branch feature3
-    2013-04-01 12:24:46 git branch feature1000
-    2013-04-01 12:24:49 git branch feature14
-    2013-04-01 12:24:53 git branch testbranch
-    2013-04-01 12:24:55 git branch brentbeer
-    2013-04-01 12:24:58 git branch deleteme
-    2013-04-01 12:24:59 git branch
-    2013-04-01 12:25:26 cat .git/refs/heads/brentbeer 
-    2013-04-01 12:25:34 cat .git/refs/heads/feature1
-    2013-04-01 12:25:50 cat .git/refs/heads/master
-    2013-04-01 12:26:08 git log -2 --format=raw
-    2013-04-01 12:26:59 git branch
-    2013-04-01 12:27:09 ls .git/refs/
-    2013-04-01 12:27:12 ls .git
-    2013-04-01 12:27:31 cat .git/HEAD
-    2013-04-01 12:27:44 git checkout feature1
-    2013-04-01 12:27:45 cat .git/HEAD
-    2013-04-01 12:28:00 cat .git/refs/heads/feature1
-    2013-04-01 12:28:04 git log -1 --oneline
-    2013-04-01 12:28:23 git branch -f testbranch
-    2013-04-01 12:28:27 git branch -d testbranch
-    2013-04-01 12:28:36 git branch -d deleteme
-    2013-04-01 12:28:40 git branch
-    2013-04-01 12:29:47 git checkout feature3 
-    2013-04-01 12:30:18 generaterandomchanges 5 test txt
-    2013-04-01 12:30:26 git checkout master
-    2013-04-01 12:30:32 git branch -d feature3 
-    2013-04-01 12:31:44 git log master...feature3 --stat
-    2013-04-01 12:31:51 git branch -d feature3 
-    2013-04-01 12:32:07 git branch -D feature3
-    2013-04-01 12:32:32 git checkout feature1
-    2013-04-01 12:32:42 git branch testbranching
-    2013-04-01 12:32:48 git checkout testbranching
-    2013-04-01 12:32:59 git log -1 --oneline
-    2013-04-01 12:33:17 generaterandomchanges 1 readme md
-    2013-04-01 12:33:22 git log --oneline
-    2013-04-01 12:33:27 git log --oneline --decorate
-    2013-04-01 12:34:11 git branch -d feature1
-    2013-04-01 12:34:13 git log --oneline --decorate
-    2013-04-01 12:37:18 git log --oneline --decorate --graph --all
-    2013-04-01 12:37:24 git checkout master
-    2013-04-01 12:37:37 generaterandomchanges 1 master txt
-    2013-04-01 12:37:40 git log --oneline --decorate --graph --all
-    2013-04-01 12:39:48 git checkout testbranching
-    2013-04-01 12:40:01 git branch keep-branch
-    2013-04-01 12:40:04 git checkout master
-    2013-04-01 12:40:06 git log --oneline --decorate --graph --all
-    2013-04-01 12:40:23 git branch -d testbranching 
-    2013-04-01 12:40:28 git branch -D testbranching 
-    2013-04-01 12:40:29 git log --oneline --decorate --graph --all
-    2013-04-01 12:40:42 git branch longago 6d555b8
-    2013-04-01 12:40:44 git log --oneline --decorate --graph --all
-    2013-04-01 12:44:05 git checkout aa92177
-    2013-04-01 12:44:31 git log --oneline --decorate --graph --all
-    2013-04-01 12:45:30 generaterandomchanges 1 nobranch txt
-    2013-04-01 12:45:49 git log --oneline --decorate --graph --all
-    2013-04-01 12:47:06 git checkout 8d54ea4
-    2013-04-01 12:47:22 git log --oneline --decorate --graph --all
-    2013-04-01 12:47:36 git branch 
-    2013-04-01 12:48:00 generaterandomchanges 5 test txt
-    2013-04-01 12:48:02 git log --oneline --decorate --graph --all
+     git --version
+     git config --global user.name
+     git config --global user.name "Brent Beer"
+     git config --global user.name
+     git config --global user.name "Brent Beer2"
+     git config --global user.name
+     git config --global user.name "Brent Beer"
+     git config --global user.email
+     git config --global user.email "brentbeer@github.com"
+     git config --global color.ui auto
+     git config --global core.autocrlf input
+     git config --global --list
+     git init newproject
+     cd newproject/
+     ls 
+     ls -a
+     ls .git/
+     git config --local --list
+     cat .git/config 
+     git config --list
+     git config --system user.name "GitHub Teacher"
+     git config --list
+     git config --local
+     git config --local --list
+     git config --system --unset user.name "GitHub Teacher"
+     git config --list
+     git status
+     touch first.txt
+     git status
+     vim first.txt 
+     git status
+     git add first.txt
+     git status
+     git status
+     git commit -m"first commit"
+     git status
+     vim first.txt 
+     git status
+     git add first.txt
+     git status
+     git status
+     git commit -m"changed the last line, to be like previous"
+     vim first.txt 
+     git status
+     git diff
+     git help diff
+     git diff -U5
+     git status
+     git add first.txt
+     git status
+     git diff
+     git diff --staged
+     git status
+     vim first.txt 
+     git status
+     git diff
+     git diff --cached
+     git diff --staged
+     git diff HEAD
+     git status
+     vim first
+     vim first.txt 
+     git diff HEAD
+     git status
+     git diff --staged
+     git commit -m"specified it as last line"
+     git status
+     git diff
+     git diff HEAD
+     git add first.txt
+     git status
+     git commit -m "middle line for more diffing"
+     git status
+     git log
+     git log --format=full
+     git log --format=email
+     git log --format=email
+     git log --format=fuller
+     git log --format=fuller -4000
+     git log --format=fuller -1
+     git log  -1
+     git log  -1 --patch
+     git log  -2 --patch
+     git show d759abe
+     git log -3 -p
+     git log -3 --stat
+     git log --stat
+     git log -1 -p --color-words
+     git log -1 -p --word-diff
+     git log -2 -p --word-diff
+     git log -S=middle
+     git log -S="middle"
+     git log -1 -p
+     git log -S="third"
+     git log -G="third"
+     git log -S="third" -p
+     git log -S="This is the middle line."
+     git log -S="This is the middle line." -p
+     git help log
+     git log -G="This is the middle line." -p
+     git log -S "middle"
+     git log -S "first"
+     git log -S "first" -p
+     git log -G "middle" -p
+     git log -G "first" -p
+     git log
+     git log 509a5a
+     git show 509a5a
+     git log -G "3rd"
+     git help log
+     git log -p
+     git log -p -1
+     vim first.txt 
+     git help add
+     git status
+     git diff
+     git diff --color-words
+     git diff --word-diff
+     git diff
+     git checkout first.txt
+     git status
+     git help gitattributes
+     vim second.txt
+     git status
+     git add second.txt
+     git status
+     git commit -m "preparing for a deletion"
+     ls
+     ls
+     git status
+     git rm second.txt
+     git status
+     git diff --staged
+     git status
+     git reset HEAD second.txt
+     git status
+     git checkout -- second.txt
+     git status
+     ls
+     rm second.txt 
+     git status
+     git help add
+     git help add
+     git add -u 
+     git status
+     git commit -m "this file was worthless"
+     ls
+     chmod 755 first.txt 
+     git status
+     git diff
+     git checkout 
+     git checkout first.txt
+     ls
+     git status
+     ls
+     vim development.log
+     git status
+     git add development.log
+     git commit -m "setup for moving"
+     git status
+     ls
+     mkdir build
+     mv development.log build/
+     git status
+     git status -u
+     mkdir test1`
+     mkdir test1
+     mkdir test2
+     mkdir test3
+     git status
+     ls -p
+     git status
+     git status -u
+     git add -A .
+     git status
+     git commit -m"logs belong in the build directory"
+     ls -la /Users/brntbeer/
+     ls -la /Users/brntbeer/ > home_dir_listing.txt
+     git status
+     git add .
+     git status
+     git commit -m "home dir listing added for similarity example"
+     git status
+     git mv home_dir_listing.txt build/
+     git status
+     vim build/home_dir_listing.txt 
+     git status
+     git add build/
+     git status
+     git add -A --  build/ 
+     git status
+     git reset HEAD build/home_dir_listing.txt
+     git status
+     rm build/home_dir_listing.txt 
+     git reset HEAD home_dir_listing.txt
+     git status
+     git checkout -- home_dir_listing.txt
+     git status
+     git mv home_dir_listing.txt build/
+     vim build/
+     git status
+     git add -A build/home_dir_listing.txt
+     git status
+     git commit -m "moved home_dir to build, and made changes"
+     git log -M40 -1
+     git log -M40 -1 -p
+     git log -M40 -1 --stat
+     mv build/home_dir_listing.txt .
+     ls
+     git status
+     vim home
+     git status
+     git add -A .
+     git status
+     git diff --staged
+     git diff --staged -M60
+     git status
+     git commit -m "moved back to higher level"
+     git log -1 -M98
+     git log -1 -M98 --stat
+     git log -1 -M60 --stat
+     git help diff
+     git log -1 -M60
+     git log -1 -M60 -p
+     git help diff
+     git log -C -C
+     git log -C -C --stat
+     git branch
+     git branch feature1
+     git status
+     git branch
+     git checkout feature1
+     git branch
+     ls
+     git log -1
+     git log
+     git show HEAD
+     git branch
+     ls
+     vim test-feature1.cpp
+     git status
+     git add test-feature1.cpp
+     git status
+     git commit -m 'begin test file for branching purposes'
+     git status
+     git checkout master
+     git checkout -
+     git checkout -
+     git checkout -
+     git checkout -
+     ls
+     git diff master..feature1
+     git diff master...feature1
+     git log master..feature1
+     git log master..feature1
+     git log master..feature1 -p
+     git log master..feature1 --stat
+     git branch
+     git branch feature3
+     git branch feature1000
+     git branch feature14
+     git branch testbranch
+     git branch brentbeer
+     git branch deleteme
+     git branch
+     cat .git/refs/heads/brentbeer 
+     cat .git/refs/heads/feature1
+     cat .git/refs/heads/master
+     git log -2 --format=raw
+     git branch
+     ls .git/refs/
+     ls .git
+     cat .git/HEAD
+     git checkout feature1
+     cat .git/HEAD
+     cat .git/refs/heads/feature1
+     git log -1 --oneline
+     git branch -f testbranch
+     git branch -d testbranch
+     git branch -d deleteme
+     git branch
+     git checkout feature3 
+     generaterandomchanges 5 test txt
+     git checkout master
+     git branch -d feature3 
+     git log master...feature3 --stat
+     git branch -d feature3 
+     git branch -D feature3
+     git checkout feature1
+     git branch testbranching
+     git checkout testbranching
+     git log -1 --oneline
+     generaterandomchanges 1 readme md
+     git log --oneline
+     git log --oneline --decorate
+     git branch -d feature1
+     git log --oneline --decorate
+     git log --oneline --decorate --graph --all
+     git checkout master
+     generaterandomchanges 1 master txt
+     git log --oneline --decorate --graph --all
+     git checkout testbranching
+     git branch keep-branch
+     git checkout master
+     git log --oneline --decorate --graph --all
+     git branch -d testbranching 
+     git branch -D testbranching 
+     git log --oneline --decorate --graph --all
+     git branch longago 6d555b8
+     git log --oneline --decorate --graph --all
+     git checkout aa92177
+     git log --oneline --decorate --graph --all
+     generaterandomchanges 1 nobranch txt
+     git log --oneline --decorate --graph --all
+     git checkout 8d54ea4
+     git log --oneline --decorate --graph --all
+     git branch 
+     generaterandomchanges 5 test txt
+     git log --oneline --decorate --graph --all
 
+# Command History Day 2
+
+    git log
+    git branch
+    git log --oneline --graph --all --decorate
+    git branch feature-test
+    git checkout feature-test
+    vim build/development.log 
+    git diff
+    git add .
+    git status
+    git diff --staged
+    git commit -m "added some new user data for log to test merging"
+    git status
+    generaterandomchanges 1 feature-test m
+    git checkout master
+    git diff master..feature-test
+    git log master..feature-test
+    git log master..feature-test -p
+    git log master..feature-test --stat
+    git log --oneline --graph --all --decorate
+    git merge feature-test
+    git log --oneline --graph --all --decorate
+    git branch -d feature-test
+    git branch feature-recursive-merge-branch
+    git checkout feature-recursive-merge-branch 
+    ls
+    vim second.txt
+    git status
+    git add second.txt
+    git commit -m 
+    git commit -m "added second.txt for recursive merge"
+    git checkout master
+    generaterandomchanges 3 master-only-recurisve txt
+    git log --oneline --graph --all --decorate
+    git diff master..feature-recursive-merge-branch 
+    git diff master...feature-recursive-merge-branch 
+    git merge feature-recursive-merge-branch 
+    git branch -d feature-recursive-merge-branch 
+    git branch merge-conflict-prep
+    git checkout merge-conflict-prep 
+    vim first.txt 
+    git add first.txt
+    git commit -m "added word into last line to cause conflict with master"
+    git status
+    git checkout master
+    vim first.txt 
+    git commit -m "removed last line"
+    git add first.txt
+    git commit -m "removed last line"
+    git merge merge-conflict-prep
+    git status
+    vim first.txt 
+    git status
+    git add first.txt
+    git commit
+    git status
+    git branch -d merge-conflict-prep
+    git log --oneline --graph --all --decorate
+    git branch reset-soft
+    git checkout reset-soft 
+    generaterandomchanges 5 reset-soft h
+    git log --oneline --graph --all --decorate
+    git reset --soft HEAD~2
+    git status
+    git commit -m "resetted the past two commits to staging area and combined them as 1 commit"
+    git log --oneline --graph --all --decorate
+    generaterandomchanges 3 reset-mixed-or-default m
+    git log --oneline --graph --all --decorate -10
+    git reset HEAD~2
+    git status
+    vim reset-mixed-or-default2.m 
+    git status
+    git commit -am "mixed reset put things in staging area and i continued edits"
+    git add .
+    git commit -m "mixed reset put things in staging area and i continued edits"
+    git log --oneline --graph --all --decorate -10
+    git checkout master
+    git branch reset-hard-lose-it-all
+    git checkout reset-hard-lose-it-all 
+    generaterandomchanges 5 reset-hard txt
+    git log --oneline --graph --all --decorate -10
+    git log --oneline --graph --all --decorate -20
+    git checkout reset-soft
+    git reset --hard master
+    git checkout reset-hard-lose-it-all 
+    git log --oneline --graph --all --decorate -20
+    git branch -d reset-soft
+    git status
+    git log --oneline --graph --all --decorate -20
+    git reset --hard HEAD~2
+    git status
+    git log --oneline --graph --all --decorate -10
+    git checkout master
+    generaterandomchanges 3 master-reset-demo txt
+    git status
+    ls
+    git log --oneline --graph --all --decorate -10
+    git merge reset-hard-lose-it-all 
+    git status
+    git log --oneline --graph --all --decorate -10
+    git log --oneline
+    git reset --hard HEAD ~2
+    git reset --hard HEAD~2
+    git log --oneline --graph --all --decorate -10
+    git log --oneline
+    git status
+    git remote add origin https://github.com/brntbeer/newproject.git
+    git push -u origin master
+    git branch test-pr
+    git checkout test-pr
+    generaterandomchanges 4 test txt
+    git push -u origin test-pr
+    git fetch
+    git status
+    git checkout master
+    git status
+    git merge origin/master
+    git status
+    git log --oneline --graph --all --decorate -10
+    git branch -d test-pr
+    git fetch
+    git prune origin
+    git prune remote
+    git origin prune
+    git remote prune
+    git remote prune origin
+    git log --oneline --graph --all --decorate -10
+    cd ..
+    cd base_repo/
+    ls
+    rm private_api_module/
+    git remote -v
+    git remote rm origin
+    git remote add origin https://github.com/githubteacher/base_repo.git
+    git status
+    ls
+    rm -rf private_api_module/
+    rm -rf public_api_module/
+    git status
+    git log
+    git reset --hard 45e8bed8973aeea88d26
+    git status
+    ls
+    git status
+    git push -u origin master
+    cd ..
+    ls
+    mkdir private_api_module/
+    mkdir public_api_module/
+    cd private_api_module/
+    git log
+    git reset --hard 86572875ff6
+    git status
+    git remote rm origin
+    git remote add origin https://github.com/githubteacher/private_api_module.git
+    git push -u origin master
+    cd ..
+    cd public_api_module/
+    git log
+    git remote rm origin
+    git reset --hard 4da28276
+    git status
+    git remote add origin https://github.com/githubteacher/public_api_module.git
+    git push -u origin master
+    generaterandomchanges 5 public-api m
+    cd ../private_api_module/
+    generaterandomchanges 5 private-api h
+    git status
+    cd ../base_repo/
+    git submodule add https://github.com/githubteacher/public_api_module.git
+    git submodule add https://github.com/githubteacher/private_api_module.git
+    git status
+    git commit -m "initialized submodules"
+    cd private_api_module/
+    git log
+    cd ..
+    cd public_api_module/
+    git log --oneline
+    cd ..
+    cd ../private_api_module/
+    cd ../base_repo/
+    ls
+    git status
+    git push origin master
+    cd ../public_api_module/
+    git status
+    git push origin master
+    cd ..
+    cd private_api_module/
+    git push origin master
+    cd ..
+    cd base_repo/
+    git fetch
+    cd private_api_module/
+    git fetch
+    git status
+    git merge origin/master
+    git status
+    git log
+    git push origin master
+    cd ..
+    ls
+    git status
+    git commit -am "updated submodule from grabbing it manually"
+    git status
+    git push origin master
