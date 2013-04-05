@@ -1,9 +1,8 @@
-
 ---
 layout: bare
 title: Private Git Class
 description: Private Git Class Class Notes
-tags: [notes,class,workshop]
+tags: [notes, class, workshop]
 path: classnotes/2013-04-01-private-git-class.md
 eventdate: 2013-04-01
 ---
