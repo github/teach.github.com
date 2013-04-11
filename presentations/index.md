@@ -17,7 +17,7 @@ showinnav: true
 
 <section>
 <p>
-<a href="/presentations/github-first-look.html">Git Foundations</a></br>
+<a href="/presentations/github-first-look.html">GitHub First Look</a></br>
   <em>Beginning look at using GitHub, a collaborative development platform</em>
 </p>
 </section>
@@ -31,7 +31,7 @@ showinnav: true
 
 <section>
 <p>
-<a href="/presentations/git-for-publishing.html">Git Foundations</a></br>
+<a href="/presentations/git-for-publishing.html">Git And GitHub For Publishers</a></br>
   <em>Presentation for publishers, writers, and editors looking to use Git and GitHub as a collaboration system</em>
 </p>
 </section>
