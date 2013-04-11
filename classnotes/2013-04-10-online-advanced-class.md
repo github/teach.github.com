@@ -59,7 +59,7 @@ eventdate: 2013-04-10
 ## Command Line History
 
 ### Day 1
- ~/Dropbox/code/github/
+
      git status
      git init cgi
      cd cgi/
@@ -468,7 +468,6 @@ eventdate: 2013-04-10
 
 ### Day 2
 
- ~/Dropbox/code/github/
      ls
      git status
      git init simple
