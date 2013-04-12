@@ -4,7 +4,7 @@ layout: slide
 tags: ['cherry-pick']
 ---
 
-* Aggregate commits in ad-hoc manner
+* Aggregate commits ad hoc
 * Selectively use commits from WIP<sup>*</sup>
 
 <small>Work in Progress</small>
