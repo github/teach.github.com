@@ -1,7 +1,7 @@
 ---
 chapter: Filter-Branch
 layout: slide
-tags: ['filter-branch']
+tags: ['advanced/filter-branch']
 ---
 
 	# Filesystem

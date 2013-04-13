@@ -1,7 +1,7 @@
 ---
 chapter: Remote Workflows
 layout: slide
-tags: ['remote']
+tags: ['advanced/remote']
 ---
 
 * Cleaning up remote branches - Jordan

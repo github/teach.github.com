@@ -1,7 +1,7 @@
 ---
 chapter: Hot Tips
 layout: slide
-tags: ['hot-tips']
+tags: ['advanced/hot-tips']
 ---
 
 Making Sense of Commist Hash

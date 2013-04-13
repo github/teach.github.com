@@ -1,7 +1,7 @@
 ---
 chapter: Collaboration
 layout: slide
-tags: ['collaboration']
+tags: ['advanced/collaboration']
 ---
 
 Read+Write Access

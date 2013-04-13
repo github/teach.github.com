@@ -1,7 +1,7 @@
 ---
 chapter: Bisect
 layout: slide
-tags: ['bisect']
+tags: ['advanced/bisect']
 ---
 
 	# Begin process

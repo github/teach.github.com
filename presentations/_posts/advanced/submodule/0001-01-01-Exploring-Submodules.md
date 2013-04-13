@@ -1,7 +1,7 @@
 ---
 chapter: Submodule
 layout: slide
-tags: ['submodule']
+tags: ['advanced/submodule']
 ---
 
 * Commit addition, show objects involved

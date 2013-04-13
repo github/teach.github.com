@@ -1,7 +1,7 @@
 ---
 chapter: Cherry-Pick
 layout: slide
-tags: ['cherry-pick']
+tags: ['advanced/cherry-pick']
 ---
 
 * Aggregate commits ad hoc

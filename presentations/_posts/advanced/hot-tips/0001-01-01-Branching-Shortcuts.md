@@ -1,7 +1,7 @@
 ---
 chapter: Hot Tips
 layout: slide
-tags: ['hot-tips']
+tags: ['advanced/hot-tips']
 ---
 
     # Branches Merged with HEAD

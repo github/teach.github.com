@@ -1,7 +1,7 @@
 ---
 chapter: The GitHub Way
 layout: slide
-tags: ['github-way']
+tags: ['advanced/github-way']
 ---
 
 * Master is deployable

@@ -1,7 +1,7 @@
 ---
 chapter: Customizing
 layout: slide
-tags: ['customizing']
+tags: ['advanced/customizing']
 ---
 
 	# Always rebase HEAD 

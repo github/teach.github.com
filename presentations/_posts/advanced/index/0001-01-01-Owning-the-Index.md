@@ -1,7 +1,7 @@
 ---
 chapter: Git's Index
 layout: slide
-tags: ['index']
+tags: ['advanced/index']
 ---
 
 TBD

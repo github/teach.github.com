@@ -1,7 +1,7 @@
 ---
 chapter: Notes
 layout: slide
-tags: ['notes']
+tags: ['advanced/notes']
 ---
 
     # Author a note with default editor

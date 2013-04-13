@@ -1,7 +1,7 @@
 ---
 chapter: Notes
 layout: slide
-tags: ['notes']
+tags: ['advanced/notes']
 ---
 
     # Namespacing (multiple notes per "ref")

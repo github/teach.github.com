@@ -1,7 +1,7 @@
 ---
 chapter: Notes
 layout: slide
-tags: ['notes']
+tags: ['advanced/notes']
 ---
 
 * Does not affect commit history

@@ -1,7 +1,7 @@
 ---
 chapter: Searching
 layout: slide
-tags: ['searching']
+tags: ['advanced/searching']
 ---
 
     git blame <filename>
