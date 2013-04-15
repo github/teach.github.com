@@ -99,7 +99,7 @@ code, em {
   background: #fffab4;
   box-shadow: 1px 1px 0.09em #232322, 0px -1px 0.15em #e1e1e1, inset 0 0 3em #e5cd62;
   border-radius: 5em 10em 0.25em 1.5em/0.25em 0.25em 1em 0.25em;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   padding: 1em 1em 1em 1em;
   background: #fefcea;
@@ -233,6 +233,9 @@ body {
 .reveal section img {
   padding: 0px;
   background: #eeeeee;
+  padding: .25em;
+  margin: -0.25em auto auto -0.25em;
+  border-radius: .25em;
   /*-webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
   -ms-transition: all .2s linear;
