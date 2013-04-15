@@ -5,16 +5,18 @@ tags: ['ignore']
 categories: ['slidecontent']
 ---
 
-* Create a `.gitignore` in project root
-* Add patterns:
+	# Anything ending ".log"
+	*.log
 
-	`*.log`
+	# Directories with specific name
+	archives/
 
-	`output/`
+	# Directory-name patterns
+	log*/
 
-	`!special.log`
 
 {% capture notes %}
-glob patterns, one per line
+* Glob patterns, one per line
+* Ignores only apply to `dir`s with file content
 {% endcapture %}
 {% include hydeslides/notes %}
