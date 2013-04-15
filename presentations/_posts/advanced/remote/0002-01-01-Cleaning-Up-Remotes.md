@@ -4,9 +4,15 @@ layout: slide
 tags: ['advanced/remote']
 ---
 
-* Cleaning up remote branches - Jordan
-    * `git push <remote> :<branch>` to delete remote
-    * `git remote show <remotename>`
-    * `git fetch --prune <remote>` or `git push --prune <remote> <branch>`
-    * Delete without prune: 
-        * `git push :branchname`
+# Delete a remote branch with a refspec
+git push <remote> :<branch>
+
+# Review remote tracking
+git remote show <remotename>
+
+# Tidy remote (local) tracking branches
+git remote prune
+git fetch --prune
+
+# Delete remote branches not local
+git push --prune
