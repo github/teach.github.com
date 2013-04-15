@@ -24,6 +24,13 @@ showinnav: true
 
 <section>
 <p>
+<a href="/presentations/github-pages.html">GitHub Pages</a></br>
+  <em>Thorough coverage of what GitHub pages are and how to get started using them</em>
+</p>
+</section>
+
+<section>
+<p>
 <a href="/presentations/github-api.html">GitHub API</a></br>
   <em>A review of GitHub's RESTful JSON-speaking API for interacting with repositories and teams</em>
 </p>
