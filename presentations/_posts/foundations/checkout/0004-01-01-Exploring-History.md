@@ -4,16 +4,12 @@ layout: slide
 tags: ['checkout']
 ---
 
-	$ git checkout -- <file>
-
-	$ git checkout <branch>
-
-	$ git checkout <REF>
+	$ git checkout <rev>
 
 
 {% capture notes %}
 
-* The power of simple branch toggling
+* Explore history (detached HEAD)
 
 {% endcapture %}
 {% include hydeslides/notes %}
