@@ -4,8 +4,8 @@ layout: slide
 tags: ['advanced/github-way']
 ---
 
-`master` branch is deployable
-and never directly commited upon
+Merging _always_ occurs with pull requests
+from a _topic_ branch of a fork or same repo
 
 {% capture notes %}
 * Involving team

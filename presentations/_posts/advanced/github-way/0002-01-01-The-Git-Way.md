@@ -4,8 +4,9 @@ layout: slide
 tags: ['advanced/github-way']
 ---
 
-`master` branch is deployable
-and never directly commited upon
+Collaboration happens on _topic_ branches
+amongst _many_ team members
+
 
 {% capture notes %}
 * Involving team

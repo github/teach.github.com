@@ -4,12 +4,12 @@ layout: slide
 tags: ['advanced/collaboration']
 ---
 
-Read+Write Access
+Read-Only Access
 
-* Clone repo
+* Fork repo
+* Clone fork
 * Create branch
 * Begin work
-
 
 
 
