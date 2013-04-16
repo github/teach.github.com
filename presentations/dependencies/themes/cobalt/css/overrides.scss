@@ -1,0 +1,44 @@
+/* Override to resolve Font-Awesome and RevealJS styling on icon- */
+
+
+.slide{
+	background-color: none;
+}
+
+i[class^="icon-"]{
+	font-family: FontAwesome;
+	font-style: normal;
+}
+
+/* Background Watermark */
+body::before{
+	content: "";
+  -webkit-mask-box-image: url(../branding/hydeslides.png) 100% 100% 0 0;
+  background: $bright-mnch;
+  position: absolute;
+  opacity: .05;
+  height: 100%;
+  width: 90%;
+  margin-top: 5%;
+}
+
+/* Authorship/Info footer*/
+body::after{
+	content: $config-attribution;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 5000;
+	height: 1em;
+	width: 100%;
+	text-align: center;
+	color: $mid-mnch;
+	font-size: .3em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	opacity: .4;
+}
+
+code, em{
+	color: $mid-mnch;
+}

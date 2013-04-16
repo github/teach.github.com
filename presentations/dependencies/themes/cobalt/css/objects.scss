@@ -1,0 +1,40 @@
+.brand{
+	background: url(../branding/hydeslides.png) no-repeat center;
+	background-size: contain;
+	height: 6em;
+	width: 98%;
+	opacity: .85;
+	margin: auto auto 1em auto;
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	transition: background 2s;
+}
+
+/*Chapter Identifier Headers for Sub-Sections*/
+.reveal .chapter-banner{
+	font-family: $font-title;
+}
+
+
+/*Stage Building Diagrams*/
+.diagram-group{
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;
+	background: $bright-color;
+	box-shadow: 10px 0 0 0 $bright-mnch, -10px 0 0 0 $bright-mnch, 0 0 30px $mid-mnch;
+	border-radius: .5em;
+	overflow: hidden;
+}
+	.reveal section .fragment.diagram{
+		background: $bright-color;
+		max-height: 100%;
+	}
+	.reveal section .fragment.diagram:nth-child(n+2){
+		display: none;
+	}
+	.reveal section .fragment.diagram.visible:nth-child(n+2){
+		display: block;
+		top: 0;
+		position: absolute;
+	}

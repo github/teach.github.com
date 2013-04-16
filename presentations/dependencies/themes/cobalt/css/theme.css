@@ -1,0 +1,364 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
+/* Overrides, Design, Theme */
+/*Colors*/
+/*Sticky*/
+/*Alternate*/
+/* Override to resolve Font-Awesome and RevealJS styling on icon- */
+.slide {
+  background-color: none; }
+
+i[class^="icon-"] {
+  font-family: FontAwesome;
+  font-style: normal; }
+
+/* Background Watermark */
+body::before {
+  content: "";
+  -webkit-mask-box-image: url(../branding/hydeslides.png) 100% 100% 0 0;
+  background: #eeeeee;
+  position: absolute;
+  opacity: .05;
+  height: 100%;
+  width: 90%;
+  margin-top: 5%; }
+
+/* Authorship/Info footer*/
+body::after {
+  content: "HydeSlides by Jordan McCullough";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 5000;
+  height: 1em;
+  width: 100%;
+  text-align: center;
+  color: #b9c5d4;
+  font-size: .3em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  opacity: .4; }
+
+code, em {
+  color: #b9c5d4; }
+
+/*
+@import url(http://fonts.googleapis.com/css?family=Tienne:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+@import url(http://fonts.googleapis.com/css?family=Montserrat|Lusitana);
+*/
+.strike-out {
+  text-decoration: line-through;
+  color: #f10000; }
+
+.good {
+  color: #009e0f; }
+
+.warn {
+  color: #f27800; }
+
+.danger {
+  color: #f10000; }
+
+.reveal .sticky {
+  color: #2b2c25;
+  font-family: "Coming Soon";
+  background: #fffab4;
+  box-shadow: 1px 1px 0.09em #2b2c25, 0px -1px 0.15em #a4a59a, inset 0 0 3em #e5cd62;
+  border-radius: 5em 10em .25em 1.5em / 0.25em 0.25em 1em .25em;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1em 1em 1em 1em;
+  background: #fefcea;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fffab4 0%, #fff799 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fffab4), color-stop(100%, #fff799));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fffab4 0%, #fff799 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fffab4 0%, #fff799 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fffab4 0%, #fff799 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fffab4 0%, #fff799 100%);
+  /* W3C */
+  -webkit-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  transform: rotate(-3deg); }
+
+.reveal .sticky i[class^="icon-"] {
+  font-size: 5em;
+  display: block;
+  line-height: 1.2em; }
+
+.reveal .sticky h1 {
+  font-size: 2.2em;
+  font-weight: 600;
+  text-shadow: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0; }
+
+.reveal .sticky h2 {
+  font-size: 1.3em;
+  text-shadow: none; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  font-family: "Roboto", serif;
+  font-size: 38px;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  color: #b9c5d4;
+  background: #2b2c25;
+  background: #505f6b;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #505f6b 12%, #303841 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(12%, #505f6b), color-stop(100%, #303841));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #505f6b 12%, #303841 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #505f6b 12%, #303841 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #505f6b 12%, #303841 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #505f6b 12%, #303841 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#505f6b', endColorstr='#303841',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+::selection {
+  color: #eeeeee;
+  background: #1aafec;
+  text-shadow: none; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 3em;
+  letter-spacing: -.05em;
+  color: #eeeeee;
+  text-shadow: 2px 2px 3px #2b2c25, -1px 2px 0 #2b2c25, 0 3px 0 #b9c5d4, 0 2px 0 #eeeeee;
+  text-align: center; }
+
+h2 {
+  font-size: 1.8em;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #1aafec;
+  text-shadow: 0 2px 3px #2b2c25;
+  margin: auto auto .5em auto; }
+
+h3 {
+  font-size: 1.2em;
+  color: #eeeeee;
+  font-weight: normal; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+a:not(.image) {
+  color: #eeeeee;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  -ms-transition: color .15s ease;
+  -o-transition: color .15s ease;
+  transition: color .15s ease; }
+
+a:not(.image):hover {
+  color: #eeeeee;
+  text-shadow: none;
+  border: none; }
+
+.roll span:after {
+  color: #fff;
+  background: #1aafec; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 0 8px #eeeeee, 0 0 0 9px #2b2c25;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear; }
+
+a:hover img {
+  background: #a4a59a;
+  border-color: #a4a59a;
+  box-shadow: 0 0 20px #2b2c25; }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.controls div.navigate-left,
+.controls div.navigate-left.enabled {
+  border-right-color: #2b2c25; }
+
+.controls div.navigate-right,
+.controls div.navigate-right.enabled {
+  border-left-color: #2b2c25; }
+
+.controls div.navigate-up,
+.controls div.navigate-up.enabled {
+  border-bottom-color: #2b2c25; }
+
+.controls div.navigate-down,
+.controls div.navigate-down.enabled {
+  border-top-color: #2b2c25; }
+
+.controls div.navigate-left.enabled:hover {
+  border-right-color: #2b2c25; }
+
+.controls div.navigate-right.enabled:hover {
+  border-left-color: #2b2c25; }
+
+.controls div.navigate-up.enabled:hover {
+  border-bottom-color: #2b2c25; }
+
+.controls div.navigate-down.enabled:hover {
+  border-top-color: #2b2c25; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.progress {
+  background: #2b2c25; }
+
+.progress span {
+  background: #b9c5d4;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+.brand {
+  background: url(../branding/hydeslides.png) no-repeat center;
+  background-size: contain;
+  height: 6em;
+  width: 98%;
+  opacity: .85;
+  margin: auto auto 1em auto;
+  -webkit-transition: background 2s;
+  -moz-transition: background 2s;
+  transition: background 2s; }
+
+/*Chapter Identifier Headers for Sub-Sections*/
+.reveal .chapter-banner {
+  font-family: "Montserrat Alternates", sans-serif; }
+
+/*Stage Building Diagrams*/
+.diagram-group {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  background: #1aafec;
+  box-shadow: 10px 0 0 0 #eeeeee, -10px 0 0 0 #eeeeee, 0 0 30px #b9c5d4;
+  border-radius: .5em;
+  overflow: hidden; }
+
+.reveal section .fragment.diagram {
+  background: #1aafec;
+  max-height: 100%; }
+
+.reveal section .fragment.diagram:nth-child(n+2) {
+  display: none; }
+
+.reveal section .fragment.diagram.visible:nth-child(n+2) {
+  display: block;
+  top: 0;
+  position: absolute; }
+
+@-webkit-keyframes zoom-in {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0, 0); }
+
+  to {
+    opacity: 100;
+    -webkit-transform: scale(1, 1); } }
+
+@-webkit-keyframes slide-down {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0, -300px); }
+
+  to {
+    opacity: 100; } }
+
+@-webkit-keyframes slide-up {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0, 300px); }
+
+  to {
+    opacity: 100; } }
+
+@-webkit-keyframes slide-right {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(-300px, 0); }
+
+  to {
+    opacity: 100; } }
+
+@-webkit-keyframes slide-left {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(300px, 0); }
+
+  to {
+    opacity: 100; } }
+
+@-webkit-keyframes deflate {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(3, 3); }
+
+  to {
+    opacity: 100; } }
+
+.future > .zoom-in, .past > .zoom-in, .fragment > .zoom-in,
+.future > .slide-down, .past > .slide-down, .fragment > .slide-down,
+.future > .slide-up, .past > .slide-up, .fragment > .slide-up,
+.future > .slide-right, .past > .slide-right, .fragment > .slide-right,
+.future > .slide-left, .past > .slide-left, .fragment > .slide-left,
+.future > .deflate, .past > .deflate, .fragment > .deflate {
+  -webkit-animation: none; }
+
+/* Zoom-In */
+.reveal .present > .zoom-in, .reveal .present .fragment.visible .zoom-in {
+  -webkit-animation: zoom-in 1s; }
+
+/* Slide-Down */
+.reveal .present > .slide-down, .reveal .present .fragment.visible .slide-down {
+  -webkit-animation: slide-down 1s; }
+
+/* Slide-Up */
+.reveal .present > .slide-up, .reveal .present .fragment.visible .slide-up {
+  -webkit-animation: slide-up 1s; }
+
+/* Slide-Right */
+.reveal .present > .slide-right, .reveal .present .fragment.visible .slide-right {
+  -webkit-animation: slide-right 1s; }
+
+/* Slide-Left */
+.reveal .present > .slide-left, .reveal .present .fragment.visible .slide-left {
+  -webkit-animation: slide-left 1s; }
+
+/* Defalte */
+.reveal .present > .deflate, .reveal .present .fragment.visible .deflate {
+  -webkit-animation: deflate 1s; }

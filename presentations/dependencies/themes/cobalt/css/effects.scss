@@ -1,0 +1,96 @@
+@-webkit-keyframes zoom-in{
+  from {
+  	opacity: 0;
+    -webkit-transform: scale(0,0);
+  }
+  to {
+    opacity: 100;
+    -webkit-transform: scale(1,1);
+  }
+}
+
+@-webkit-keyframes slide-down{
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0, -300px);
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+@-webkit-keyframes slide-up{
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0, 300px);
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+@-webkit-keyframes slide-right{
+  from {
+    opacity: 0;
+    -webkit-transform: translate(-300px, 0);
+  }
+  to {
+    opacity: 100;
+  }
+}
+@-webkit-keyframes slide-left{
+  from {
+    opacity: 0;
+    -webkit-transform: translate(300px, 0);
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+@-webkit-keyframes deflate{
+  from {
+    opacity: 0;
+    -webkit-transform: scale(3,3);
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+
+
+.future > .zoom-in, .past > .zoom-in, .fragment > .zoom-in,
+.future > .slide-down, .past > .slide-down, .fragment > .slide-down,
+.future > .slide-up, .past > .slide-up, .fragment > .slide-up,
+.future > .slide-right, .past > .slide-right, .fragment > .slide-right,
+.future > .slide-left, .past > .slide-left, .fragment > .slide-left,
+.future > .deflate, .past > .deflate, .fragment > .deflate
+{
+	-webkit-animation: none;
+}
+
+/* Zoom-In */
+.reveal .present > .zoom-in, .reveal .present .fragment.visible .zoom-in{
+	-webkit-animation: zoom-in 1s;
+}
+/* Slide-Down */
+.reveal .present > .slide-down, .reveal .present .fragment.visible .slide-down{
+  -webkit-animation: slide-down 1s;
+}
+/* Slide-Up */
+.reveal .present > .slide-up, .reveal .present .fragment.visible .slide-up{
+  -webkit-animation: slide-up 1s;
+}
+/* Slide-Right */
+.reveal .present > .slide-right, .reveal .present .fragment.visible .slide-right{
+  -webkit-animation: slide-right 1s;
+}
+/* Slide-Left */
+.reveal .present > .slide-left, .reveal .present .fragment.visible .slide-left{
+  -webkit-animation: slide-left 1s;
+}
+/* Defalte */
+.reveal .present > .deflate, .reveal .present .fragment.visible .deflate{
+  -webkit-animation: deflate 1s;
+}
