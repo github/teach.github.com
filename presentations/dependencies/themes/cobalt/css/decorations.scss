@@ -1,3 +1,25 @@
+.blackout .reveal .state-background {
+  background: none;
+}
+
+
+
+.reveal .brand{
+	background: url(../branding/github_logo_social_coding.png) no-repeat center;
+	background-size: contain;
+	height: 6em;
+	width: 98%;
+	margin: auto auto 1em auto;
+}
+
+.reveal .git{
+	background: url(../branding/git-logo-black.png) no-repeat center;
+	background-size: contain;
+	height: 6em;
+	width: 98%;
+	margin: auto auto 1em auto;
+}
+
 .strike-out{
 	text-decoration: line-through;
 	color: $color-danger;
@@ -16,10 +38,10 @@
 	color: $dark-mnch;
 	font-family: $font-handwriting;
 	background: $sticky-bright;
-	box-shadow: 1px 1px .09em $dark-mnch, 0px -1px .15em $light-mnch, inset 0 0 3em $sticky-medium;
+	box-shadow: 1px 1px .09em $mnch-dark, 0px -1px .15em $mnch-light, inset 0 0 3em $sticky-medium;
 	border-radius: 5em 10em .25em 1.5em / 0.25em 0.25em 1em .25em;
 
-	width: 50%;
+	width: 80%;
 	margin: 0 auto;
 	padding: 1em 1em 1em 1em;
 
@@ -36,6 +58,9 @@
 	-moz-transform:rotate(-3deg);
 	transform:rotate(-3deg);
 }
+	.reveal .sticky a{
+		color: $dark-mnch !important;
+	}
 	.reveal .sticky i[class^="icon-"]{
 		font-size: 5em;
 		display: block;
