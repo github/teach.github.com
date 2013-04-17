@@ -20,9 +20,4 @@ categories: ['slidecontent']
 
         <h1>Hello World!</h1>
 
-* But wait! We need to tell Jekyll to use our spiffy new layout. Let's add the following to the top of `index.html`:
-
-       ---
-       layout: page
-       ---
 
