@@ -18,7 +18,7 @@ i[class^="icon-"] {
 /* Background Watermark */
 body::before {
   content: "";
-  -webkit-mask-box-image: url(backgrounds/blacktocat-2.png) 100% 100% 0 0;
+  -webkit-mask-box-image: url(../backgrounds/blacktocat-2.png) 100% 100% 0 0;
   background: #2b2c25;
   position: absolute;
   opacity: .13;
@@ -98,7 +98,7 @@ code, em {
   font-family: "Coming Soon";
   background: #fffab4;
   box-shadow: 1px 1px 0.09em #232322, 0px -1px 0.15em #e1e1e1, inset 0 0 3em #e5cd62;
-  border-radius: 5em 10em 0.25em 1.5em/0.25em 0.25em 1em 0.25em;
+  border-radius: 5em 10em .25em 1.5em / 0.25em 0.25em 1em .25em;
   width: 80%;
   margin: 0 auto;
   padding: 1em 1em 1em 1em;
@@ -182,14 +182,14 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0.5em 0 0 0;
+  margin: .5em 0 0 0;
   line-height: 0.9em;
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
 .reveal h1 {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 3em;
-  margin: auto auto 0.5em auto;
+  margin: auto auto .5em auto;
   letter-spacing: -.05em;
   color: #eeeeee;
   text-shadow: 2px 2px 3px #2b2c25; }
@@ -199,7 +199,7 @@ body {
   font-family: "Montserrat Alternates", sans-serif;
   color: #1aafec;
   text-shadow: 0 2px 3px #2b2c25;
-  margin: auto auto 0.5em auto; }
+  margin: auto auto .5em auto; }
 
 .reveal h3 {
   font-size: 1.2em;
@@ -212,11 +212,11 @@ body {
 .reveal a:not(.image) {
   color: #eeeeee;
   text-decoration: none;
-  -webkit-transition: color 0.15s ease;
-  -moz-transition: color 0.15s ease;
-  -ms-transition: color 0.15s ease;
-  -o-transition: color 0.15s ease;
-  transition: color 0.15s ease; }
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  -ms-transition: color .15s ease;
+  -o-transition: color .15s ease;
+  transition: color .15s ease; }
 
 .reveal a:not(.image):hover, .pseudoLink {
   color: #eeeeee;
@@ -234,7 +234,7 @@ body {
   padding: 0px;
   background: #eeeeee;
   padding: .25em;
-  margin: -0.25em auto auto -0.25em;
+  margin: -.25em auto auto -.25em;
   border-radius: .25em;
   /*-webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
@@ -296,7 +296,7 @@ body {
 .reveal .chapter-banner {
   font-family: "Montserrat Alternates", sans-serif;
   color: #b9c5d4;
-  margin: 0 auto 0.5em auto; }
+  margin: 0 auto .5em auto; }
 
 .reveal .chapter-banner::before {
   content: '\2014';
