@@ -1,3 +1,4 @@
+<!---RevealJS--->
 <script src="dependencies/revealjs/lib/js/head.min.js"></script>
 <script src="dependencies/revealjs/js/reveal.min.js"></script>
 <script>

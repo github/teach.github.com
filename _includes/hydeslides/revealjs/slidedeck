@@ -7,16 +7,16 @@
 					<!--Chapter Auto-Injection-->
 					{% if forloop.first %}
 						{% if section.cover != false %}
-							{% include hydeslides/slide-open-chapter.html %}
+							{% include hydeslides/revealjs/slide-open-chapter %}
 								<h1>{{ section.chapter }}</h1>
-							{% include hydeslides/slide-close.html %}
+							{% include hydeslides/revealjs/slide-close %}
 						{% endif %}
 					{% endif %}
 
-					{% include hydeslides/slide-open.html %}
+					{% include hydeslides/revealjs/slide-open %}
 						<h2 {% if section.heading == false %}class="hidden"{% endif %}>{{ section.title }}</h2>
 						{{ section.content }}
-					{% include hydeslides/slide-close.html %}
+					{% include hydeslides/revealjs/slide-close %}
 				{% endfor %}
 			</section>
 		{% endfor %}
