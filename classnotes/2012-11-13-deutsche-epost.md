@@ -7,7 +7,7 @@ path: classnotes/2012-11-13-deutsche-epost.md
 eventdate: 2012-11-13
 ---
 
-on 2012-11-13
+Held on November 13, 2012
 
 ## Instructors
 * Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))

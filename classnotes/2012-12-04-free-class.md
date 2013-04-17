@@ -15,7 +15,8 @@ eventdate: 2012-12-04
 
 ## Notes
 
-* [Complete free class outline](https://github.com/brntbeer/Lesson-Plans/blob/master/git-and-github/history-and-collaboration.md)
+* [Webcast • History and Collaboration with Git and GitHub](http://www.youtube.com/watch?v=IHjXQGYGAiw)
+* [Complete free class outline](https://github.com/kevinclark/Lesson-Plans/blob/master/git-and-github/history-and-collaboration.md)
 
 ## Command History
 

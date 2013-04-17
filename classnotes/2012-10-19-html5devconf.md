@@ -7,36 +7,36 @@ path: classnotes/2012-10-19-html5devconf.md
 eventdate: 2012-10-19
 ---
 
-on 2012-10-17
+Held on October 17, 2012
 
 Taught by:
 
-* Matthew McCullough
-* Brent Beer
+* Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
+* Brent Beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brntbeer))
 * Jeff Pemberton
 * Zachary Kaplan
 
 ## Suggested Books, Articles
 * ProGit: http://git-scm.com/book
-* Getting started with Version Control: http://teach.github.com/articles/lesson-new-to-version-control/
-* Git Workflows: https://github.com/zkessin/dvcs-workflows
-* Cheat Sheets: http://teach.github.com/articles/git-cheatsheets/
+* [Getting started with Version Control](http://teach.github.com/articles/lesson-new-to-version-control/)
+* [Git Workflows](https://github.com/zkessin/dvcs-workflows)
+* [Cheat Sheets](http://teach.github.com/articles/git-cheatsheets/)
 
 ## Course Materials, Links
-* Training Materials: http://teach.github.com
-* Slides: http://teach.github.com/articles/course-slides/
-* Post-event Git and GitHub questions: https://github.com/githubtraining/feedback/
-* Free Office Hours Sessions: http://training.github.com/web/free-classes/
+* [Training Materials](http://teach.github.com) 
+* [Slides](http://teach.github.com/articles/course-slides/)
+* [Post-event Git and GitHub questions](https://github.com/githubtraining/feedback/)
+* [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
 ## Server Side Git Receive Hooks for Hosting Pushes
-* Heroku slugs (git protocol)
-    * https://devcenter.heroku.com/articles/git
+* Heroku slugs (git protocol) 
+    * [Deploying with Git](https://devcenter.heroku.com/articles/git) (Requires heroku account and login)
 * Server side hook for publishing
-    * http://net.tutsplus.com/tutorials/other/the-perfect-workflow-with-git-github-and-ssh/
-    * http://stackoverflow.com/questions/279169/deploy-a-project-using-git-push
+    * [The Perfect Workflow, with Git, GitHub, and SSH](http://net.tutsplus.com/tutorials/other/the-perfect-workflow-with-git-github-and-ssh/)
+    * [Deploy a project using Git push](http://stackoverflow.com/questions/279169/deploy-a-project-using-git-push)
 * Service hooks on GitHub repos
-    * https://help.github.com/articles/post-receive-hooks
-    * https://github.com/blog/964-all-of-the-hooks
+    * [Post-Receive Hooks](https://help.github.com/articles/post-receive-hooks)
+    * [All of the Hooks](https://github.com/blog/964-all-of-the-hooks)
 
 ## Objectives
 We're going to learn to:

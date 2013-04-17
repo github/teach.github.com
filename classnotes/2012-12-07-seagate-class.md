@@ -7,7 +7,7 @@ path: classnotes/2012-12-07-seagate-class.md
 eventdate: 2012-12-03
 ---
 
-on 2012-12-07
+Held on December 3, 2012
 
 Taught by:
 

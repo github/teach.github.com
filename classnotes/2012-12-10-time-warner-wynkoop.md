@@ -7,7 +7,7 @@ path: classnotes/2012-12-10-time-warner-wynkoop.md
 eventdate: 2012-12-10
 ---
 
-on 2012-12-10
+Held on December 10, 2012
 
 Taught by:
 
@@ -70,8 +70,7 @@ Taught by:
 * [SHA-1 Hash Collisions](http://git-scm.com/book/ch6-1.html#A-SHORT-NOTE-ABOUT-SHA-1)
 * [NPD Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 * [More Git Cheatsheets](http://teach.github.com/articles/git-cheatsheets/)
-
-https://github.com/githubtraining/feedback/issues
+* [GitHub Training Feedback](https://github.com/githubtraining/feedback/issues)
 
 ## Class Outline
 

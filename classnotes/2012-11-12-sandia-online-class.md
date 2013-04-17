@@ -7,11 +7,9 @@ path: classnotes/2012-11-12-sandia-online-class.md
 eventdate: 2012-11-12
 ---
 
-on 2012-11-12
+Held on November 12, 2012
 
-Taught by:
-
-* Tim Berglund ([Twitter](http://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
+* Taught by Tim Berglund ([Twitter](http://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
 
 ## Installation
 * Git Installation

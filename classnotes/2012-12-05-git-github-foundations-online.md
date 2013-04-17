@@ -7,7 +7,7 @@ path: classnotes/2012-12-05-git-github-foundations-online.md
 eventdate: 2012-12-05
 ---
 
-on 2012-12-05 through 2012-12-06
+Held on December 5 & 6, 2012
 
 Teachers:
 
