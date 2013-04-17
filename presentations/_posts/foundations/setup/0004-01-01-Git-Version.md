@@ -15,4 +15,4 @@ Test the Install. Check your Version
 Git __binaries__ are on your `$path`
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

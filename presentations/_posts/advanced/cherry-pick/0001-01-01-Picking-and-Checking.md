@@ -16,6 +16,6 @@ tags: ['advanced/cherry-pick']
 	* `-` Merged to Upstream
 	* `+` Only in HEAD
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
 
     

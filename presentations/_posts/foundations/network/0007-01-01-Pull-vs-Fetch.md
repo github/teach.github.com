@@ -16,4 +16,4 @@ categories: ['slidecontent']
 * Merge changes into local branch
 * Commit the merge to the local branch
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

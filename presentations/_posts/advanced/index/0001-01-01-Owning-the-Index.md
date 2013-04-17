@@ -11,4 +11,4 @@ TBD
 * `add -u` staging deleted files
 * `add -p` interactive patch for hunks
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

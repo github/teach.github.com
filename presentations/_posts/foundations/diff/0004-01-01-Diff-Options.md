@@ -23,4 +23,4 @@ tags: ['diff']
 	# Only show changes in modified files
 	git diff --diff-filter=M
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

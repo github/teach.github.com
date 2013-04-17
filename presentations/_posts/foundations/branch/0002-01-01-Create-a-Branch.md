@@ -25,5 +25,5 @@ Branch from the master branch
 Merge from the topic branch
 Destroy the topic branch
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
 

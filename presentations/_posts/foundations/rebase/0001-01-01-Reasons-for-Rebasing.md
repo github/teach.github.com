@@ -16,4 +16,4 @@ Rebase __reorders__ the chosen commits __before__ your branch work
 
 simulates team members __taking turns__ working (one person at a time)
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

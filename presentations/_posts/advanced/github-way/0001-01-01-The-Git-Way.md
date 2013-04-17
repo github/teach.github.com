@@ -14,6 +14,6 @@ and never directly commited upon
 	* PR merge
 	* PR resolution
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
 
 	

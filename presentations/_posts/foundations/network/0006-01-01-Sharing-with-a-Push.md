@@ -11,4 +11,4 @@ categories: ['slidecontent']
 * Send code to an upstream server
 * Update remote branches
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

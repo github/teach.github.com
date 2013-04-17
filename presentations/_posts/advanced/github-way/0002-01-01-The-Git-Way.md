@@ -15,6 +15,6 @@ amongst _many_ team members
 	* PR merge
 	* PR resolution
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
 
 	

@@ -22,4 +22,4 @@ If you already have an existing repository:
 *  Add all files
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

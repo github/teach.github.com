@@ -20,4 +20,4 @@ git log --format=email
 # Control the output format
 git log --format=format:<pattern>
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

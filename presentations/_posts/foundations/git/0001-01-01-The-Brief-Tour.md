@@ -17,4 +17,4 @@ The items we're interested in for starters:
 * objects
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

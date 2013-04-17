@@ -12,4 +12,4 @@ categories: ['slidecontent']
 {% capture notes %}
 (Diagram: Removing Files)
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

@@ -17,4 +17,4 @@ categories: ['slidecontent']
 {% capture notes %}
 glob patterns, one per line
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

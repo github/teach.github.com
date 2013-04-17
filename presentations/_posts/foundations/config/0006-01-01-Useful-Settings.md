@@ -24,4 +24,4 @@ git config --global core.safecrlf true
 
 http://help.github.com/dealing-with-lineending
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

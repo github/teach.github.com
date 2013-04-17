@@ -16,4 +16,4 @@ categories: ['slidecontent']
 * Now that we've mastered the basics, let's take a look at some of Jekyll's advanced functionality
 {% endcapture %}
 
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

@@ -17,4 +17,4 @@ categories: ['slidecontent']
 Tell a corny inception joke about GitHub Pages and Jekyll being used to write this presentation about GitHub Pages and Jekyll.
 {% endcapture %}
 
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
