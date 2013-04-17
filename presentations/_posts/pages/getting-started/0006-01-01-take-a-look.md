@@ -7,5 +7,5 @@ tags:
 categories: ['slidecontent']
 ---
 
-1. Navigate to <br /> <span style="font-size: 0.9em;"">`http://[username].github.com/simple-site`</span>
+1. Navigate to <br /> <span style="font-size: 0.9em;"">`http://[username].github.io/simple-site`</span>
 2. You are viewing the contents of your `index.html` file
