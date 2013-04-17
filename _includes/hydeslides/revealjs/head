@@ -17,8 +17,6 @@
 <![endif]-->
 
 <!--Core RevealJS and FontAwesome-->
-<<<<<<< HEAD:_includes/hydeslides/head.html
-<link rel="stylesheet" href="dependencies/themes/core/core.css">
 
 <!--GitHub Style-->
 {% if page.theme %}
