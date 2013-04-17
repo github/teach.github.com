@@ -28,4 +28,4 @@ Read-Only Access
 * Push
 	* `git rebase -i` to Tidy
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

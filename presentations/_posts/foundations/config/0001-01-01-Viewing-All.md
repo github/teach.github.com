@@ -11,4 +11,4 @@ tags: ['config']
 list all config values
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

@@ -12,4 +12,4 @@ tags: ['advanced/customizing']
 * `always` for local and remote branches
 * `true` for local branches only
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

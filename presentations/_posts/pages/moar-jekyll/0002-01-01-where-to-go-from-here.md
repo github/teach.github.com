@@ -19,4 +19,4 @@ categories: ['slidecontent']
 * Some corny joke about earning extra credit
 {% endcapture %}
 
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

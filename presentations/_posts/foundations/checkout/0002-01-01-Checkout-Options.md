@@ -16,4 +16,4 @@ tags: ['checkout']
 * The power of simple branch toggling
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

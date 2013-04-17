@@ -13,4 +13,4 @@ categories: ['slidecontent']
 * Create as many as you like
 * Default is `origin` (if you’ve cloned)
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

@@ -15,5 +15,5 @@ Using Ref Ranges
 
 {% capture notes %}
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
 

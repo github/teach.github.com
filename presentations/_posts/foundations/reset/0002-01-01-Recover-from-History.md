@@ -21,4 +21,4 @@ Reset modifies index, staging, and/or working dir
 
 --hard is heavy handed, modifying index and working dir
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
