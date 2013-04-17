@@ -12,4 +12,4 @@ tags: ['advanced/remote']
 	# Name Spacing Branches for Push
 	git config --add remote.origin.push ↴
 		'+refs/heads/<branch-name>: ↴
-			refs/heads/<name-space><branch-name>
+			refs/heads/<name-space>/<branch-name>
