@@ -13,4 +13,4 @@ Leave off -m to edit commit message in vi
 
 Cleared out the entire message? Commit will abort
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

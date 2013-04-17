@@ -20,4 +20,4 @@ categories: ['slidecontent']
 Noting "100%" on commit output
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

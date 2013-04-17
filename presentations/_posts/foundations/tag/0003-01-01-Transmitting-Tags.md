@@ -16,6 +16,6 @@ categories: ['slidecontent']
 Tags do fetch by default
 Tags don't push by default
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
 
 ￼￼￼

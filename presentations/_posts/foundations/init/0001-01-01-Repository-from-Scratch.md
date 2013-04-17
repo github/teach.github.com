@@ -17,4 +17,4 @@ Creating a new repository is a simple as typing the git init command.
 Hand in a project directory name, and you're ready to begin.
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

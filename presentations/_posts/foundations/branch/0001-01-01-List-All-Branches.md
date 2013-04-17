@@ -20,4 +20,4 @@ git branch -a
 # List upstream branches
 git ls-remote origin
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

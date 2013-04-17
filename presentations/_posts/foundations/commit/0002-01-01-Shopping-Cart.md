@@ -15,4 +15,4 @@ tags: ['commit']
 * take things out 
 * purchase at register
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

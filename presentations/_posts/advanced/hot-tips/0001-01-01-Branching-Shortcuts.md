@@ -24,5 +24,5 @@ tags: ['advanced/hot-tips']
     * `git show-branch`
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
 

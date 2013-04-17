@@ -14,6 +14,6 @@ from a _topic_ branch of a fork or same repo
 	* PR merge
 	* PR resolution
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
 
 	

@@ -13,4 +13,4 @@ categories: ['slidecontent']
 {% capture notes %}
 (diagram: conflicting merge)
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
