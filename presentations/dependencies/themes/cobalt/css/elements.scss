@@ -1,0 +1,168 @@
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  font-family: $font-content;
+  font-size: 38px;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  color: $mid-mnch;
+  background:  $background-solid;
+
+  background: #505f6b; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #505f6b 12%, #303841 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(12%,#505f6b), color-stop(100%,#303841)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #505f6b 12%,#303841 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #505f6b 12%,#303841 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #505f6b 12%,#303841 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center, #505f6b 12%,#303841 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#505f6b', endColorstr='#303841',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+::selection {
+  color: $bright-mnch;
+  background: $bright-color;
+  text-shadow: none;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: .5em 0 0 0;
+  line-height: 0.9em;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.reveal h1 {
+  font-family: $font-title;
+  font-size: 3em;
+  margin: auto auto .5em auto;
+  letter-spacing: -.05em;
+  color: $bright-mnch;
+  text-shadow: 2px 2px 3px $dark-mnch;
+}
+
+
+.reveal h2{
+  font-size: 1.8em;
+  font-family: $font-title;
+  color: $bright-color;
+  text-shadow: 0 2px 3px $dark-mnch;
+  margin: auto auto .5em auto;
+}
+
+.reveal h3{
+  font-size: 1.2em;
+  color: $bright-color;
+  font-weight: normal;
+}
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a:not(.image) {
+  color: $bright-mnch;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  -ms-transition: color .15s ease;
+  -o-transition: color .15s ease;
+  transition: color .15s ease;
+}
+
+.reveal a:not(.image):hover, .pseudoLink {
+  color: $bright-mnch;
+  text-shadow: none;
+  border: none;
+}
+
+.reveal .roll span:after {
+  color: #fff;
+  background: $bright-color;
+}
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  padding: 0px;
+  background: $bright-mnch;
+  
+  padding: .25em;
+  margin: -.25em auto auto -.25em;
+
+  border-radius: .25em;
+
+  /*-webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;*/
+}
+
+.reveal a:hover img {
+  background: $mnch-light;
+  border-color: $color-bright;
+  box-shadow: 0 0 20px $mnch-medium;
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: $mid-mnch;
+}
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: $mid-mnch;
+}
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: $mid-mnch;
+}
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: $mid-mnch;
+}
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: $light-mnch;
+}
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: $light-mnch;
+}
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: $light-mnch;
+}
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: $light-mnch;
+}
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: $dark-mnch;
+}
+
+.reveal .progress span {
+  background: $mid-mnch;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}

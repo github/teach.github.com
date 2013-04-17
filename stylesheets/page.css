@@ -16,8 +16,27 @@ body {
   line-height: 1.231; }
 
 header {
-  font-size: 24px; }
+  font-size: 24px;
+  height: 30px; }
 
+.logo {
+  position: relative;
+  float: left;
+  height: 25px;
+  width: 169px;
+  padding: 0; }
+  .logo a {
+    display: block;
+    height: 25px;
+    width: 169px;
+    background: url("../images/github-teach-logo-1x.png") no-repeat top left;
+    background-size: 169px 25px;
+    text-indent: -999px; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .logo a {
+    background: url("../images/github-teach-logo-2x.png") no-repeat;
+    background-size: 169px 25px; } }
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block; }
 
@@ -49,7 +68,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #cccccc;
   margin: 1em 0;
   padding: 0; }
 
@@ -66,7 +85,7 @@ mark {
 
 pre, code, kbd, samp {
   font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
+  _font-family: "courier new", monospace;
   font-size: 1em; }
 
 pre {
@@ -265,7 +284,7 @@ p code {
 
 pre code {
   padding: 5px 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   display: block; }
 
 header {
@@ -283,7 +302,7 @@ a:hover {
   text-decoration: underline; }
 
 a:visited {
-  color: #4183C4 !important; }
+  color: #4183c4 !important; }
 
 p {
   padding: 12px 25px;
@@ -306,7 +325,7 @@ blockquote {
 
 h1, h2 {
   color: #333;
-  text-shadow: 0 1px 1px #FFF;
+  text-shadow: 0 1px 1px white;
   font-weight: bold;
   padding: 12px 25px;
   margin: 0;
@@ -317,7 +336,7 @@ h1, h2 {
   background-image: -moz-linear-gradient(top, #fefefe, #f3f3f3);
   background-image: -o-linear-gradient(top, #fefefe, #f3f3f3);
   background-image: linear-gradient(top, #fefefe, #f3f3f3);
-  border: 1px solid #DDD;
+  border: 1px solid #dddddd;
   border-right: none;
   border-left: none;
   box-shadow: inset 0 1px 0 white, inset 0 0 3px rgba(255, 255, 255, 0.7), 0 1px 0 rgba(0, 0, 0, 0.02); }
@@ -338,7 +357,7 @@ h2 {
   padding: 0;
   overflow: hidden;
   clear: both;
-  border: 1px solid #DDD;
+  border: 1px solid #dddddd;
   border-bottom-color: #D0D0D0;
   border-radius: 3px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06); }
@@ -346,7 +365,7 @@ h2 {
     width: 70%;
     box-shadow: inset -1px 0 0 0 #dddddd; }
     #content-wrapper .left h2 {
-      border-right: 1px solid #DDD;
+      border-right: 1px solid #dddddd;
       padding: 2px 25px 12px 25px; }
   #content-wrapper .right {
     width: 30%; }
@@ -374,7 +393,7 @@ h2 {
   background-image: -moz-linear-gradient(top, #f2f2f2, #e5e5e5);
   background-image: -o-linear-gradient(top, #f2f2f2, #e5e5e5);
   background-image: linear-gradient(top, #f2f2f2, #e5e5e5);
-  border: 1px solid #DDD;
+  border: 1px solid #dddddd;
   border-right: none;
   border-left: none;
   box-shadow: inset 0 1px 0 white, inset 0 0 3px rgba(255, 255, 255, 0.7), 0 1px 0 rgba(0, 0, 0, 0.02); }
@@ -390,7 +409,7 @@ h2 {
   color: #D2D2D2;
   font-weight: normal;
   font-size: 20px;
-  text-shadow: 0 1px 1px #FFF;
+  text-shadow: 0 1px 1px white;
   padding: 0 8px 0 0; }
 
 a.mini-button {
@@ -399,10 +418,10 @@ a.mini-button {
   background-image: -moz-linear-gradient(top, #fefefe, #f3f3f3);
   background-image: -o-linear-gradient(top, #fefefe, #f3f3f3);
   background-image: linear-gradient(top, #fefefe, #f3f3f3);
-  border: 1px solid #DDD;
+  border: 1px solid #dddddd;
   border-bottom-color: #D0D0D0;
   border-radius: 3px;
-  color: #333 !important;
+  color: #333333 !important;
   font-size: 13px;
   font-weight: bold;
   padding: 0 10px 6px 10px;

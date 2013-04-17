@@ -23,7 +23,41 @@ body {
 
 header {
   font-size: 24px;
+  height: 30px;
 }
+
+.logo {
+  position: relative;
+  float: left;
+  height: 25px;
+  width: 169px;
+  padding: 0;
+
+  a {
+    display: block;
+    height: 25px;
+    width: 169px;
+    background: url('../images/github-teach-logo-1x.png') no-repeat top left;
+    background-size: 169px 25px;
+    text-indent: -999px;
+  }
+}
+
+//Hir Res logo for retina
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .logo a {
+    background: url('../images/github-teach-logo-2x.png') no-repeat;
+    background-size: 169px 25px;
+  }
+}
+
+
 
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
   display: block;
