@@ -31,6 +31,5 @@ Then:
 
 ``` bash
 script/bootstrap
-bin/rake build
-bin/rake server
+script/server
 ```
