@@ -1,6 +1,6 @@
 ---
 theme: cobalt
-layout: hydeslides
+layout: hydeslides-revealjs
 title: GitHub Pages, Jekyll, and You!
 chapters:
   - intro
