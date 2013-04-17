@@ -24,8 +24,16 @@ showinnav: true
 
 <section>
 <p>
+<a href="/presentations/git-advanced.html">Git Advanced</a></br>
+  <em>Advanced Git techniques for the experienced Git user</em>
+</p>
+</section>
+
+
+<section>
+<p>
 <a href="/presentations/github-api.html">GitHub API</a></br>
-  <em>A review of GitHub's RESTful JSON-speaking API for interacting with repositories and teams</em>
+  <em>A review of GitHub&#39;s RESTful JSON-speaking API for interacting with repositories and teams</em>
 </p>
 </section>
 
