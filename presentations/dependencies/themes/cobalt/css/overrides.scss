@@ -12,7 +12,7 @@ i[class^="icon-"]{
 /* Background Watermark */
 body::before{
 	content: "";
-  -webkit-mask-box-image: url(backgrounds/blacktocat-2.png) 100% 100% 0 0;
+  -webkit-mask-box-image: url(../backgrounds/blacktocat-2.png) 100% 100% 0 0;
   background: $dark-mnch;
   position: absolute;
   opacity: .13;
