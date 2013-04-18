@@ -14,14 +14,12 @@ eventdate: 2013-04-17
 
 ## Resources
 
----
-
 ## Installation
 * Git Installation
     * [The Git-SCM Web Site (All Platforms)](http://git-scm.com)
     * [The GitHub for Windows Client and Command Line](http://windows.github.com)
     * [The GitHub for Mac Client](http://mac.github.com)
-    * 
+    
 * Minimum is 1.7.ANYTHING, but can have issues with HTTPS credential prompting.
 * Best is 1.8.0 or higher
 
