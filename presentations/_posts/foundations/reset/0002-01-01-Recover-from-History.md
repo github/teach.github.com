@@ -17,8 +17,8 @@ categories: ['slidecontent']
 {% capture notes %}
 Reset modifies index, staging, and/or working dir
 
---mixed as default when no option flag passed
-
---hard is heavy handed, modifying index and working dir
+* `--soft` affects only the _index_
+* `--mixed` is default when no option flag passed
+* `--hard` clears index and working directory
 {% endcapture %}
 {% include hydeslides/core/notes %}

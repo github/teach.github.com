@@ -7,9 +7,7 @@ categories: ['slidecontent']
 
 	$ git config --global core.excludesfile "~/.gitignore"
 
-	$ vim ~/.gitignore
 
-	# Operating system and editor temp files
-	# Generally redundant over project .gitignores
+	# Common operating system and editor temp files
 	thumbs.db
 	.DS_Store

@@ -5,15 +5,18 @@ tags: ['network']
 categories: ['slidecontent']
 ---
 
-	git pull <remote>
+	git pull <remote> <branch>
 
-	git fetch <remote>
+	git fetch <remote> <branch>
 
 
 {% capture notes %}
-* Retrieve upstream objects
-* Update remote branch
-* Merge changes into local branch
-* Commit the merge to the local branch
+* `git pull`
+	* Retrieve upstream objects
+	* Update remote branch
+	* Merge changes into branch (HEAD)
+	* Commit the merge to the local branch
+* `git fetch`
+	* Only retrieves upstream objects
 {% endcapture %}
 {% include hydeslides/core/notes %}

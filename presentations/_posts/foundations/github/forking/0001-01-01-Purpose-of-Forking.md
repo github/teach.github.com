@@ -4,6 +4,6 @@ layout: slide
 tags: ['github/forking']
 ---
 
-* Provides a copy of a repository
-* Supports read+write access
-* Allows easy contribution
+* Entire history of original repository
+* Facilitates easy contribution
+* Encourages individual exploration 
