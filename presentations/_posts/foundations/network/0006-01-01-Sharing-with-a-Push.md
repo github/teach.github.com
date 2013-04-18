@@ -5,10 +5,11 @@ tags: ['network']
 categories: ['slidecontent']
 ---
 
-	git push <remote>
+	git push <remote> <branch>
 
 {% capture notes %}
 * Send code to an upstream server
 * Update remote branches
+* Set upstream on push with `-u`
 {% endcapture %}
 {% include hydeslides/core/notes %}

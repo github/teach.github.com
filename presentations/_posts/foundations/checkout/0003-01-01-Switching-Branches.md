@@ -4,16 +4,14 @@ layout: slide
 tags: ['checkout']
 ---
 
-	$ git checkout -- <file>
+    $ git checkout <branch-name>
 
-	$ git checkout <branch>
-
-	$ git checkout <REF>
 
 
 {% capture notes %}
 
-* The power of simple branch toggling
+* Change branches
+* Switch to commit to different HEAD
 
 {% endcapture %}
 {% include hydeslides/core/notes %}

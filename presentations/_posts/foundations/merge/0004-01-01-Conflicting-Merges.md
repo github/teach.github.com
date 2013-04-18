@@ -8,4 +8,4 @@ categories: ['slidecontent']
 Resolve the conflicting file(s)
 
 		git add <file>
-		git rebase --continue
+		git commit -m"<merge-commit-message>"
