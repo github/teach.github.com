@@ -14,4 +14,4 @@ tags: ['diff']
 Working copy to commited changes
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

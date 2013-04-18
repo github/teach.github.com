@@ -23,3 +23,6 @@ categories: ['slidecontent']
 
 	# Merge & keep the latest stash
 	git stash apply
+
+	# Drop all stashes
+	git stash clear

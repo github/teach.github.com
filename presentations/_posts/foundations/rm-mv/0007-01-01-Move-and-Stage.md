@@ -18,4 +18,4 @@ categories: ['slidecontent']
 	* Hash will be differ
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

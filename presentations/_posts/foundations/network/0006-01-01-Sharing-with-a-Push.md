@@ -12,4 +12,4 @@ categories: ['slidecontent']
 * Update remote branches
 * Set upstream on push with `-u`
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

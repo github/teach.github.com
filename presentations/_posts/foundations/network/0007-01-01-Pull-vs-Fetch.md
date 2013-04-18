@@ -19,4 +19,4 @@ categories: ['slidecontent']
 * `git fetch`
 	* Only retrieves upstream objects
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

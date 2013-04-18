@@ -24,4 +24,4 @@ The same as
 	git checkout <featurebranch>
 	git rebase master
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

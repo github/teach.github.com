@@ -12,4 +12,4 @@ tags: ['checkout']
 * Discard working-copy file changes
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

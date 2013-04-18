@@ -14,4 +14,4 @@ tags: ['checkout']
 * Used for changing branches, inspecting past commits
 * Permits restoring working directory changes to prior commit
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

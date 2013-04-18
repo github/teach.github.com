@@ -21,4 +21,4 @@ Reset modifies index, staging, and/or working dir
 * `--mixed` is default when no option flag passed
 * `--hard` clears index and working directory
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

@@ -16,4 +16,4 @@ categories: ['slidecontent']
 Removes (deletes!) the file, stages deletion
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

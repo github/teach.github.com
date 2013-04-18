@@ -1,0 +1,61 @@
+/* Override to resolve Font-Awesome and RevealJS styling on icon- */
+i[class^="icon-"]{
+	font-family: FontAwesome;
+	font-style: normal;
+}
+
+/*Default RevealJS scales images too large for GitHub theme*/
+.reveal img, .reveal iframe{
+	max-height: 77%;
+}
+
+/* Background Watermark */
+body::before{
+	content: "";
+  -webkit-mask-box-image: url(../backgrounds/blacktocat-2.png) 100% 100% 0 0;
+  background: $dark-mnch;
+  position: absolute;
+  opacity: .13;
+  height: 130%;
+  width: 120%;
+  left: 5%;
+  top: 5%;
+}
+
+/* Authorship/Info footer*/
+body::after{
+	content: $config-attribution;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 5000;
+	height: 1em;
+	width: 100%;
+	text-align: center;
+	color: $mnch-light;
+	font-size: .3em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	opacity: .4;
+}
+
+code, em{
+	color: $mnch-bright;
+}
+
+/* Optional RevealJS Override for Hyphenation (where supported) */
+/*
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+	-webkit-hyphens: none;
+	   -moz-hyphens: none;
+	        hyphens: none;
+
+	word-break: none;
+	word-break: none;
+}
+*/

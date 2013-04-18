@@ -20,4 +20,4 @@ categories: ['slidecontent']
 	* (superset of -M)
 	* git log --stat -C
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
