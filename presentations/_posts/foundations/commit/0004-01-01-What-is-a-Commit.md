@@ -12,4 +12,4 @@ tags: ['commit']
 * `.git` is the _entire_ repository
 * `/objects` contains all commits, blob, trees
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

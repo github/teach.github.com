@@ -12,4 +12,4 @@ tags: ['checkout']
 * Explore history (detached HEAD)
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

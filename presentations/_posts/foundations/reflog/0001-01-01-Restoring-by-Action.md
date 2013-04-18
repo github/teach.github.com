@@ -15,4 +15,4 @@ categories: ['slidecontent']
 	* rebase
 	* reset
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

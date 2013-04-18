@@ -11,4 +11,4 @@ categories: ['slidecontent']
 {% capture notes %}
 * Use empty .gitignore for scaffolding `dir`s
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

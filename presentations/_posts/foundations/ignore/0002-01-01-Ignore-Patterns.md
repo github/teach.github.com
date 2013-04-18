@@ -19,4 +19,4 @@ categories: ['slidecontent']
 * Glob patterns, one per line
 * Ignores only apply to `dir`s with file content
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}

@@ -14,4 +14,4 @@ tags: ['checkout']
 * Switch to commit to different HEAD
 
 {% endcapture %}
-{% include hydeslides/notes %}
+{% include hydeslides/core/notes %}
