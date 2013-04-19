@@ -8,10 +8,10 @@ eventdate: 2012-09-11
 
 ## Delivered at
 * San Francisco JUG
-      * Yelp Offices
-    * 2012-09-11
+    * Yelp Offices
+    * November 9, 2012
     * <http://www.sfjava.org>
-    * Delivered by Matthew McCullough
+    * Delivered by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
 
 ## Presentation Outlines
 * [Guts of Git Course](http://teach.github.com/articles/git-guts-course/)

@@ -6,12 +6,12 @@ tags: [notes, event]
 eventdate: 2012-06-13
 ---
 
-## Delivered at
-* GeekOut Conference
-    * Tallinn, Estonia
-    * 2012-06-14
-    * <http://geekout.ee>
-    * Delivered by Matthew McCullough
+## Delivered at GeekOut Conference
+
+* Tallinn, Estonia
+* June 14, 2012
+* <http://geekout.ee>
+* Delivered by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
     
 ## Presentation Outlines
 * [Guts of Git Course](http://teach.github.com/articles/git-guts-course/)

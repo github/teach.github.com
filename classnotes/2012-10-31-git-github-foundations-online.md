@@ -7,12 +7,10 @@ path: classnotes/2012-10-31-git-github-foundations-online.md
 eventdate: 2012-10-31
 ---
 
-on 2012-10-31 through 2012-11-01
-
-Taught by:
+Held on October 31, 2012 through November 1, 2012
 
 * Led by Tim Berglund ([Twitter](http://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
-* Supported by (Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
+* Supported by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
 * Supported by Brent Beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brntbeer))
 
 ## Resources

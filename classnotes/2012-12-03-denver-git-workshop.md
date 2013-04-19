@@ -7,7 +7,7 @@ path: classnotes/2012-12-03-denver-git-workshop.md
 eventdate: 2012-12-03
 ---
 
-on 2012-12-03
+Held on December 3, 2012
 
 Taught by:
 

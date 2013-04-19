@@ -7,7 +7,7 @@ path: classnotes/2012-11-02-nfjs-git-workshop1.md
 eventdate: 2012-11-02
 ---
 
-Held on 2012-11-02 and 2012-11-03 and taught by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
+Held on November 2 & 3, 2012 and taught by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
 
 ## Advanced Git Notes
 * [ghi gem](https://github.com/stephencelis/ghi)

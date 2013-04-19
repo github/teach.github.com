@@ -7,7 +7,7 @@ path: classnotes/2012-11-27-rich-web-experience-git-workshop.md
 eventdate: 2012-11-27
 ---
 
-on 2012-11-27
+Held on November 27, 2012
 
 Taught by:
 

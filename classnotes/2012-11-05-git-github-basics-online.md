@@ -7,11 +7,9 @@ path: classnotes/2012-11-05-git-github-basics-online.md
 eventdate: 2012-11-05
 ---
 
-on 2012-11-05
+Held on November 5, 2012
 
-Taught by:
-
-* Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
+* Taught by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
 * Supported by Brent Beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brntbeer))
 
 <iframe width="480" height="360" src="http://www.youtube-nocookie.com/embed/pIGYELKPeog?rel=0" frameborder="0" allowfullscreen></iframe>

@@ -7,8 +7,7 @@ path: classnotes/2012-11-30-richweb-10-git-tips.md
 eventdate: 2012-11-30
 ---
 
-
-* Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
+Held on November 30, 2012 and presented by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
 
 ## Command Line History
 
