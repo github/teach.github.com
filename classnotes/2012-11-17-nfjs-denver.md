@@ -7,6 +7,8 @@ path: classnotes/2012-11-17-nfjs-denver.md
 eventdate: 2012-11-17
 ---
 
+Held on November 17, 2012
+
 ## CLI History
 
     git --version

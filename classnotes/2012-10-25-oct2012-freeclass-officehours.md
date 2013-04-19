@@ -7,25 +7,25 @@ path: classnotes/2012-10-25-oct2012-freeclass-officehours.md
 eventdate: 2012-10-25
 ---
 
-on 2012-10-25
+Held on October 25, 2012
 
 * Led by Tim Berglund ([Twitter](http://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
-* Supported by (Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
+* Supported by Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
 * Supported by Brent Beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brntbeer))
 
 ## Resources
 
-* [http://kb.perforce.com/article/1417/git-p4](http://kb.perforce.com/article/1417/git-p4)
-* [https://github.com/github/gitignore](https://github.com/github/gitignore)
-* [http://teach.github.com/articles/book-authoring-using-git-and-github/](http://teach.github.com/articles/book-authoring-using-git-and-github/)
-* [https://help.github.com/articles/post-receive-hooks](https://help.github.com/articles/post-receive-hooks)
-* [http://training.github.com/resources/videos/](http://training.github.com/resources/videos/)
-* [http://carl-topham.com/theblog/post/using-git-media-temple/](http://carl-topham.com/theblog/post/using-git-media-temple/)
-* [https://github.com/githubtraining/feedback/issues?state=open](https://github.com/githubtraining/feedback/issues?state=open)
-* [https://github.com/blog/1227-commit-status-api](https://github.com/blog/1227-commit-status-api)
-* [http://teach.github.com/articles/lesson-git-credential-cache/](http://teach.github.com/articles/lesson-git-credential-cache/)
-* [http://teach.github.com/articles/github-issues-cheatsheet/](http://teach.github.com/articles/github-issues-cheatsheet/)
-* [https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin)
+* [Git-P4 with Perforce](http://answers.perforce.com/articles/KB_Article/Git-P4)
+* [.gitignore](https://github.com/github/gitignore)
+* [Book Authoring Using Git and GitHub](http://teach.github.com/articles/book-authoring-using-git-and-github/)
+* [Post-Receive Hooks](https://help.github.com/articles/post-receive-hooks)
+* [Git Videos](http://training.github.com/resources/videos/)
+* [Using git with media temple](http://carl-topham.com/theblog/post/using-git-media-temple/)
+* [GitHub Training Feedback](https://github.com/githubtraining/feedback/issues?state=open)
+* [Commit Status API](https://github.com/blog/1227-commit-status-api)
+* [Git Credential Cache](http://teach.github.com/articles/lesson-git-credential-cache/)
+* [GitHub Issues Quick Reference](http://teach.github.com/articles/github-issues-cheatsheet/)
+* [Git Plugin - Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin)
 
 ## Installation
 * Git Installation
@@ -35,27 +35,26 @@ on 2012-10-25
 * Best is 1.7.10 or higher
 
 ## Suggested Books, Articles
-* ProGit: [http://git-scm.com/book](http://git-scm.com/book)
-* Getting started with Version Control: [http://teach.github.com/articles/lesson-new-to-version-control/](http://teach.github.com/articles/lesson-new-to-version-control/)
-* Git Workflows: [https://github.com/zkessin/dvcs-workflows](https://github.com/zkessin/dvcs-workflows)
-* Cheat Sheets: [http://teach.github.com/articles/git-cheatsheets/](http://teach.github.com/articles/git-cheatsheets/)
+* [Free ProGit Book](http://git-scm.com/book)
+* [Getting started with Version Control](http://teach.github.com/articles/lesson-new-to-version-control/)
+* [Git Workflows](https://github.com/zkessin/dvcs-workflows)
+* [Cheat Sheets](http://teach.github.com/articles/git-cheatsheets/)
 
 ## Course Materials, Links
-* Training Materials: [http://teach.github.com](http://teach.github.com)
-* Slides: [http://teach.github.com/articles/course-slides/](http://teach.github.com/articles/course-slides/)
-* Post-event Git and GitHub questions: [https://github.com/githubtraining/feedback/](https://github.com/githubtraining/feedback/)
-* Free Office Hours Sessions: [http://training.github.com/web/free-classes/](http://training.github.com/web/free-classes/)
+* [Training Materials](http://teach.github.com)
+* [Course Slides](http://teach.github.com/articles/course-slides/)
+* [Post-event Git and GitHub questions](https://github.com/githubtraining/feedback/)
+* [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
 ## Server Side Git Receive Hooks for Hosting Pushes
 * Heroku slugs (git protocol) 
-    * [https://devcenter.heroku.com/articles/git](https://devcenter.heroku.com/articles/git) (Requires heroku account and login)
+    * [Deploying with Git](https://devcenter.heroku.com/articles/git) (Requires heroku account and login)
 * Server side hook for publishing
-    * [http://net.tutsplus.com/tutorials/other/the-perfect-workflow-with-git-github-and-ssh/](http://net.tutsplus.com/tutorials/other/the-perfect-workflow-with-git-github-and-ssh/)
-    * [http://stackoverflow.com/questions/279169/deploy-a-project-using-git-push](http://stackoverflow.com/questions/279169/deploy-a-project-using-git-push)
+    * [The Perfect Workflow, with Git, GitHub, and SSH](http://net.tutsplus.com/tutorials/other/the-perfect-workflow-with-git-github-and-ssh/)
+    * [Deploy a project using Git push](http://stackoverflow.com/questions/279169/deploy-a-project-using-git-push)
 * Service hooks on GitHub repos
-    * [https://help.github.com/articles/post-receive-hooks](https://help.github.com/articles/post-receive-hooks)
-    * [https://github.com/blog/964-all-of-the-hooks](https://github.com/blog/964-all-of-the-hooks)
-
+    * [Post-Receive Hooks](https://help.github.com/articles/post-receive-hooks)
+    * [All of the Hooks](https://github.com/blog/964-all-of-the-hooks)
 
 ## Git Free Class History
 

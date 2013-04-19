@@ -7,9 +7,7 @@ path: classnotes/2012-11-15-git-github-foundations-online.md
 eventdate: 2012-11-15
 ---
 
-on 2012-11-15 through 2012-11-16
-
-Taught by:
+Held on November 15 & 16, 2012
 
 * Led by Tim Berglund ([Twitter](http://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
 * Supported by Brent Beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brntbeer))
