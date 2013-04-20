@@ -10,6 +10,9 @@ eventdate: 2013-04-19
 ## Event Links
 * [Spaceship, Space Apps GitHub Workshop Annoucement](http://spaceship.fi/content/git-github-training-confirmed)
 * [Spaceship Agenda](http://spaceship.fi/agenda)
+* [NASA Code](http://code.nasa.gov/project/)
+* [Conway's Game of GitHub Contributions](http://gitlife.mrmikea.com)
+* [Space Apps Challenge](http://spaceappschallenge.org)
 
 ## Event 1: Hands on Git and GitHub Workshop
 > Friday, April 19, 17:00-18:00  
@@ -71,10 +74,20 @@ eventdate: 2013-04-19
 * [Post-event Git and GitHub questions](https://github.com/githubtraining/feedback/)
 * [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
-# Chat Transcript
-
-    FORTHCOMING
-
-# Command Line History Day Two
-
-    FORTHCOMING
+# Objectives
+* GitHub
+    * Create an account
+* Git
+    * Install from http://git-scm.com
+* Create a Repo
+    * Locally
+    * On the Web
+* GUI options
+    * Platform independent
+    * Mac
+    * Windows
+* Branching
+* Merging
+* Forks
+* Pull Requests
+* Success!
