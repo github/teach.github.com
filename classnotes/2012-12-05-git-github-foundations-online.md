@@ -74,29 +74,178 @@ This code was found by:
 * [Post-event Git and GitHub questions](https://github.com/githubtraining/feedback/)
 * [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
+## Q&A Transcript
 
-## Day 1 Q&A Transcript
-    Q: Matthew, so why the first push didn't work when your crendential cache is on?
-    A: He had a different set of credentials cached! whoops.
-    Q: will blame -C give us weird answers for very common lines such as "int i;" or "#include "attr.h""?
-    A: If we tune the -C with an integer like "-C9" or "-C80" we can fine tune to watch for those copies a bit harder or softer
-    Q: How can I see what branches are available?  git status shows current branch, how do I know what other branches there are?
-    A: great question! a way to see this would be: `git branch`. if you want to see all branches (even remotes that your repository knows about) you can use: `git branch -a` to see all of them.
-    Q: So it's possible to have multiple remote repo locations per local repo? Not sure if that's the right terminology..
-    A: Perfect terminology. I have some projects that actually have 3 remote repos. Depending if i have a "fork" of a repository (fork's are something we'll chat on later for sure), i could have two origins that even live on github: origin for my fork, and the project my fork came from. Lastly, if i want to update to heroku.com, i can set a remote to there as well. This should all become more and more clear as we interact with github more often! Let me know if you want me to continue to clerify.
-    Q: If you accidently commit a sensitive file is there a way to remove both file and history to ensure it can't be brought back?
-    A: This can be a tricky situation! **If we havn't pushed to our remote** we can reset this commit. If in this situation we added the passwords/sensative information in our last commit, we can use `git reset`. With git reset, we can actually say "ok ok, undo those commits and pretend they never happened" and we actually undo those commits from history. The command to actually do this (with the previous commit) is: `git reset --hard HEAD^`. The "HEAD^" part just says "the most recent commit". we can scoot back a number of commits with the "HEAD~4" where 4 is the number of commits to jump back. Let me know if i can specify this further, but we'll definitely be touching on this in this class!
-    Q: Is there a CLI for pull requests?
-    A: You can then "hub pull-request" on a branch
-    A: The one I use is "hub"
-    Q: So what if you cherry pick in a change will git recognize the history in blame
-    A: Yep, cherry-pick will result in the same thing.
-    Q: Can you please confirm that "origin" means destination on the server?
-    A: Yep! It's essentially just a keyword or bookmark for a specific url. We can confirm this with: `git remote -v`  and see that it's really a shorthand for the url to github.com
-    Q: Is forking on the cli preferred?
-    A: all about preferences! I personally use github.com, matthew uses a hub gem to do his forking and pull request. Details about which can be found here: https://github.com/defunkt/hub
+### Day 1
 
-## Day 1 Command History
+**Why didn't the first push work when your credential cache was on?**  
+He had a different set of credentials cached! whoops.
+
+**Will `blame -C` give us weird answers for very common lines such as 
+`int i;` or `#include "attr.h"`?**  
+If we tune the `-C` with an integer like `-C9` or `-C80` we can fine 
+tune to watch for those copies a bit harder or softer.
+
+**How can I see what branches are available?  `git status` shows 
+current branch, how do I know what other branches there are?**  
+Great question! A way to see this would be: `git branch`. If you want 
+to see all branches (even remotes that your repository knows about) 
+you can use: `git branch -a` to see all of them.
+
+**So it's possible to have multiple remote repo locations per local repo? 
+Not sure if that's the right terminology.**  
+Perfect terminology. I have some projects that actually have three remote 
+repos. Depending on if I have a "fork" of a repository (fork's are something 
+we'll chat on later for sure), I could have two origins that even live on 
+GitHub: origin for my fork, and the project my fork came from. Lastly, if 
+I want to update to heroku.com, I can set a remote to there as well. This 
+should all become more and more clear as we interact with GitHub more 
+often! Let me know if you want me to continue to clarify.
+
+**If you accidentally commit a sensitive file is there a way to remove both 
+file and history to ensure it can't be brought back?**  
+This can be a tricky situation! **If we haven't pushed to our remote** we can 
+reset this commit. If in this situation we added the passwords/sensitive 
+information in our last commit, we can use `git reset`. With git reset, 
+we can actually say "ok ok, undo those commits and pretend they never 
+happened" and we actually undo those commits from history. The command to 
+actually do this (with the previous commit) is: `git reset --hard HEAD^`. 
+The `HEAD^` part just says "the most recent commit". We can scoot back a 
+number of commits with the `HEAD~4` where 4 is the number of commits to 
+jump back. Let me know if I can specify this further, but we'll definitely 
+be touching on this in this class!
+
+**Is there a CLI for pull requests?**  
+You can install a gem then "hub pull-request" on a branch. 
+The one I use is "hub".
+
+**If you cherry pick in a change will Git recognize the history in blame?**  
+Yep, cherry-pick will result in the same thing.
+
+**Can you please confirm that "origin" means destination on the server?**  
+Yep! It's essentially just a keyword or bookmark for a specific URL. We can 
+confirm this with: `git remote -v` and see that it's really a shorthand for 
+the URL to github.com
+
+**Is forking on the CLI preferred?**  
+It's all about preferences! I personally use github.com, Matthew uses 
+a hub gem to do his forking and pull requests. Details about which can 
+be found here: https://github.com/defunkt/hub
+
+### Day 2
+
+**Why would you want this? I get a "clean" graph, but doesn't it confuse 
+the 'history'?**  
+Essentially it can just allow a cleaner history. This can be useful when 
+we want to undo some commits. As Matthew is showing with that graph, we 
+can easily undo commits and understand the order at which things have 
+come into the repo.
+
+**Do you have any recommendation or best practice in terms of when to use 
+merge and when to use rebase?**  
+It really depends on what you're looking for: Clean history with the 
+ability to more easily go back to a safer point... or see where 
+commits/branches were merged into a branch (like master). 
+Each has pros and cons and is basically up to you =)
+
+**For those planning to use  Git in a corporate environment (non-public 
+repos with 24/7  connectivity), how best would one use the combination 
+of branching _and_ cloning to support parallel development, integration, and 
+software release?  In other words, is there a better model other than 
+having a single canonical (archive) repo and individual "sandbox" repos?**  
+Personally, I've just had my own separate branches depending on what I'm 
+working on, and send those pull requests into the same repo. Pretend 
+for just a moment that our "contention" repository is private and we're all 
+on a software team. As I create some feature, I'd call it 
+"brentbeer-feature134" and create some changes. I could then send a pull 
+request from "githubtrainer/master" from "githubtrainer/brentbeer-feature134". 
+And we have an internal pull request from branch-to-branch within the same 
+[private] repo. Hope that makes sense!
+
+**Can you show us an example of a merge conflict, and the best practice 
+for resolving it?**  
+A reminder that when the pull-request is not automatically mergeable, 
+there's an (i) that can show you how to merge it locally and update it!
+
+**Can "remote" be seen as the place where "staging" (from yesterday) 
+happens, in the most recent picture that was shown**  
+It's more of a local "browser" cache from the upstream.
+
+**Does rebasing mitigate the contention problem or just make for a 
+simpler graph?**   
+Hopefully it allows you to save yourself later if a problem were to arrive. 
+It's easier to reset and fix a problem after a rebase was done. 
+It also makes for a nice, easy-to-follow graph.
+
+**Is the ability to automatically merge strictly checking if a merge is a 
+fast forward, or if it's not a fast forward is a test merge performed 
+somewhere?**  
+Nope. The reason it doesn't merge is because of the conflict Matthew just 
+demonstrated. The fast-forward vs non-fast-forward has no effect on if a 
+pull request can be automatically merged from the interface. Because of 
+multiple "merge strategies", github.com will act like the command line will.
+
+**Does "cannot be automatically merged" necessarily imply conflict?**  
+Yep, it does.
+
+**Your previous revert example was a surgical removal of that 
+point, rather than reverting TO that point**  
+Revert is simply a reversal of a previous commit. If we noticed an entire 
+commit was wrong, we could create a new commit to completely reverse it 
+and record that we reversed it.
+
+**We all make mistakes. Can you show us some ways to undo blunders 
+(git force notwithstanding!) ... or perhaps suggest some exercises 
+to avoid future problems?**  
+`git revert`! It's a super great way to undo some commits while 
+maintaining that you've actually undone it. Reset removes it from history.
+
+**How would we do the pull request from our command line?**  
+You can view the https://github.com/defunkt/hub repo if you would like 
+to read more about it.
+
+**For development / integration / deployment, branches seem to be an 
+obvious architecture. Could you speak to other possibilities you find 
+yourself using, such as separate repositories?**  
+Branches are absolutely great for forming your different changes/features/etc 
+in a project in a structured way. Separate repositories can actually be 
+used inside of a current repository, these are often called "submodules" 
+and are quite a tricky subject!
+
+**Is it true that a rebase never resolves conflicts?**  
+The idea, to me, is that rebase may save you from some 
+contention down the line, but it won't solve the conflicts for you.
+
+**How can I remove a remote named 'official' after setting it with a 
+bad or the wrong URL?**  
+`git remote remove official`
+
+**What is the tool for merging?**  
+It's just called "mergetool". You can look at this command with: 
+`git help mergetool`
+
+**So this provides a cleaner commit history but doesn't reduce 
+contentions, right? I still get "tip of your current branch is behind" 
+when trying to push.**  
+It really adds the ability to mitigate contentions if they happened. 
+If there had been a bad commit that we merged in instead of rebasing it 
+may be harder to reset.
+
+**Can we view this on GitHub itself?**  
+Absolutely! https://github.com/githubtrainer/contention/network 
+shows these commits from different authors.
+
+**How can we see the graph?**  
+We can fire up "gitk &" as well to view locally.
+
+**Is there a git hook to refuse these merges on main repo?**  
+This Stack Overflow link may tie you to more of what you're wanting: 
+http://stackoverflow.com/questions/5488442/pre-receive-hook-on-server-side-that-refuse-any-push-to-master-which-has-any-non
+
+
+## Command History
+
+### Day 1
 
     git --version
     mkdir githubfoundations
@@ -188,49 +337,7 @@ This code was found by:
     git push
 
 
-## Day 2 Q&A Transcript
-    Q: why would you want this?  i get a "clean" graph, but doesn't it confuse the 'history'
-    A: essentially it can just allow a cleaner history. this can be useful when we want to undo some commits. as matthew is showing with that graph, we can easily undo commits and understand the order at which things have come into the repo.
-    Q: So, do you have any recommendation or best practice in terms of when to use merge and when to use rebase
-    A: Just really depends on what you're looking for: clean history with the ability to more easily go back to a safer point…or see where commits/branches were merged into a branch (like master). Each has pros and cons and is basically up to you =)
-    Q: For those planning to use  GIT in a corporate environment (non-public repos with 24/7  connectivity),   how best would one use the combination of Branching AND Cloning to support parallel development, integraton, and software release?  In other words, is there a better model other than having a single Cannonical (archive) repo and individual "sandbox" repos? 
-    A: Personally, i've just had my own separate branches depending on what im working on, and send those pull requests into the same repo. If we pretend for just a moment that our "contention" repository is private and we're all on a software team… as i create some feature, i'd call it "brentbeer-feature134" and create some changes. I could then send a pull request from "githubtrainer/master" from "githubtrainer/brentbeer-feature134". and we have an internal pull request from branch-to-branch within the same [private] repo. Hope that makes sense!
-    Q: Can you show us an example of a merge conflict, and the best practice for resolving it?
-    A: A reminder that when the pull-request is not automatically mergable, there's an (i) that can show you how to merge it locally and update it!
-    Q: Can "remote" be seen as the place where "staging" (from yesterday) happens, in the most recent picture that was shown
-    A: It's more of a local "browser" cache from the upstream
-    Q: does [rebasing] mitigate the contention problem or just make for a simpler graph?
-    A: Hopefully allows you to save yourself later if a problem were to arrive. it's easier to reset and fix a problem after a rebase was done….It also makes for a nice easy to follow graph.
-    Q: is the ability to automatically merge strictly checking if a merge is a fast forward, or if it's not a fast forward is a test merge performed somewhere?
-    Q: i.e., does "cannot be automatically merge" necessarily imply conflict?
-    A: Nope. The reason it doesn't merge is because of the conflict Matthew just demonstrated. the Fast-Forward vs non-fast-forward has no effect on if a pull request can be automatically merged from the interface. Because of multiple "merge strategies", github.com will act like the command line will.
-    A: Yep, it does.
-    Q: I thought your previous revert example was a surgical removal of that point, rather than reverting TO that point...
-    A: Revert is simply a reversal of a previous commit. So if we noticed an entire commit was wrong, we could create a new commit to completely reverse it and record that we reversed it
-    Q: we all make mistakes. Can you show us some ways to undo blunders (git force notwithstanding!) ... or perhaps suggest some exercises to avoid future problems?
-    A: git revert! It's a super great way to undo some commits while maintaining that you've actaully undone it. Reset removes it from history.
-    Q: how would we do the pull request from our command line?
-    A: also, https://github.com/defunkt/hub if you want to read more about it.
-    Q: for development / integration / deployment, branches seem to be an obvious architecture. Could you speak to other possibilities you find yourself using, such as separate repositories?
-    A: Branches are absolutely great for forming your different changes/features/etc in a project in a structured way. Separate repositories can actually be used inside of a current repository, these are often called "submodules" and are quite a tricket subject!
-    Q: to be clear, is it true that a rebase never resolves confllicts?
-    A: The idea, to me, is that rebase may save you from some contention down the line, but it won't solve the conflicts for you.
-    Q: how to remove 'official' after giving bad URL?
-    A: git remote remove official
-    Q: what is the tool [for merging]?
-    A: just called "mergetool". you can look at this command with: `git help mergetool`
-    Q: So this provides a cleaner commit history... but doesn't reduce contentions, right?  I still get "tip of your current branch is behind" when trying to push.
-    A: it really adds the ability to mitigate contentions if they happened. If there had been a bad commit that we merged in instead of rebasing…it may be harder to reset.
-    Q: can we view this on git hub itself?
-    A: Absolutely! https://github.com/githubtrainer/contention/network shows these commits from different authors.
-    Q: how can we see the graph ?
-    A: we can fire up "gitk &" as well to view locally.
-    Q: is there a git hook to refuse these merges on main repo
-    A: This stack overflow link may tie you to more of what you're wanting: http://stackoverflow.com/questions/5488442/pre-receive-hook-on-server-side-that-refuse-any-push-to-master-which-has-any-non
-
-
-
-## Day 2 Command History
+### Day 2
 
     git help log
     cd -
