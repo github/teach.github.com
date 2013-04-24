@@ -4,15 +4,30 @@ layout: slide
 tags: ['advanced/collaboration']
 ---
 
-Read-Only Access
+<table width="100%">
+	<tr>
+		<th>Read+Write</th>
+		<th>Read-Only</th>
+	</tr>
+	<tr>
+		<td>
+			<li>Clone
+			<li>Branch
+			<li>Commit
+			<li>Push
+		</td>
 
-* Fork repo
-* Clone fork
-* Create branch
-* Begin work
+		<td>
+			<li>Fork
+			<li>Clone
+			<li>Branch
+			<li>Commit<sup>*</sup>
+			<li>Push
+		</td>
+	</tr>
+</table>
 
-
-
+<small>*Retrieving, rebasing, and confirming integration with original resource</small>
 
 
 {% capture notes %}

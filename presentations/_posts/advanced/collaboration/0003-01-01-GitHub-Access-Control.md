@@ -4,8 +4,6 @@ layout: slide
 tags: ['advanced/collaboration']
 ---
 
-GitHub Repository Management
+Manage read and write access with 
 
-* Collaborators
-* Organizations
-* Teams
+_collaborators_, _organizations_, and _teams_
