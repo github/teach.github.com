@@ -1,6 +1,3 @@
-2013-04-17-online-foundations-class.md
-
-
 ---
 layout: bare
 title: Online Foundations Class
