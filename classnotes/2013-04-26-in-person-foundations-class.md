@@ -23,7 +23,6 @@ eventdate: 2013-04-26
 * Best is 1.8.0 or higher
 
 * Microsoft Visual Studio 2012
-    * Visual Studio Tools for Git
     * [Visual Studio 2012 Update 2](http://www.microsoft.com/en-us/download/details.aspx?id=38188)
     * [Visual Studio Tools for Git](http://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c)
     * [Getting Started with Git in Visual Studio](http://blogs.msdn.com/b/visualstudioalm/archive/2013/01/30/getting-started-with-git-in-visual-studio-and-team-foundation-service.aspx)
