@@ -169,7 +169,206 @@ eventdate: 2013-04-25
     TBD
 
 ## Command Line History - Day Two
-    TBD
+
+    git branch
+    git branch matthewfeature1
+    git checkout matthewfeature1 
+    git branch
+    vim firstreduxredux.txt
+    git commit -a -m "A small change on the feature branch"
+    git checkout master
+    git checkout matthewfeature1 
+    cp firstreduxredux.txt second.txt
+    git status
+    git add .
+    git commit -m "A copy of a file"
+    git checkout master
+    git checkout matthewfeature1 
+    git checkout -
+    mkdir thousands
+    cd thousands
+    generaterandomfiles 9001 sample txt
+    git add .
+    git commit -m"Nine thousand and one"
+    cd ..
+    git checkout -
+    cd ..
+    ls
+    cd hgwstudentfromcli
+    clear
+    git log -1
+    pwd
+    git remote -v
+    git pull
+    git branch
+    git log -1
+    git branch matthewfeature1
+    git checkout matthewfeature1
+    vim matthewfeature1.txt
+    git add matthewfeature1.txt
+    git commit -m "Feature file"
+    git branch
+    pwd
+    clear
+    cd ..
+    cd hgwstudentfromcli
+    git graphlive 25
+    git graphlive 20
+    git branch -vvv
+    git push -u origin matthewfeature1 
+    cat .git/config
+    git pull
+    git branch -a
+    git branch
+    git remote add official https://github.com/githubteacher/hellogitworld.git
+    git fetch official
+    ls
+    git checkout master
+    git branch -vv
+    git merge official/master
+    git push 
+    git fetch official 
+    git merge official/master
+    git push
+    git branch -a
+    git checkout origin/feature_image
+    git checkout master
+    git diff origin/master official/master
+    git diff origin/master master
+    git diff offical/master master
+    git diff official/master master
+    git log official/master...master
+    git log official/master...master --oneline
+    gitk --all&
+    clear
+    git status
+    git remote -v
+    echo STUFF >> thegithubstudent.txt
+    git commit -a -m"Stuff"
+    git reset --hard origin/master
+    git reflog
+    git reset --hard e57cead
+    git reflog
+    git reset --hard bb35234
+    git log -1
+    git reset --hard e57cead
+    git log -1
+    git branch -r
+    git branch -r --no-merged
+    git branch -r --merged
+    git branch -r --no-merged
+    git merge origin/fbaddfiles -m "Merging in thing 1"
+    git branch -r --no-merged
+    git merge official/bisect
+    git status
+    cat pom.xml| more
+    vim pom.xml
+    git add pom.xml
+    git status
+    cat .gitignore
+    git mergetool -t opendiff
+    git status
+    git commit 
+    git status
+    echo ran my tests
+    git reflog
+    git reset --hard e57cead
+    git log -2
+    git merge --abort
+    git reflog
+    git reset --hard 5af1e7a
+    clear
+    echo CHANGE >> conflict.txt
+    git status
+    git clean -fd
+    echo CHANGE >> conflict2.txt
+    git status
+    git commit -a -m "Changes"
+    git commit --amend -m"Changes that make it all better"
+    echo CHANGES2 >> other.txt
+    git add .
+    git commit --amend -m"Changes that make it all better"
+    git rm other.txt
+    git commit --amend -m"Changes that make it all better"
+    git checkout HEAD~1 -- other.txt
+    git add other.txt
+    git commit --amend -m"Changes that make it all better"
+    git tag
+    git tag JASON_GOOD_POINT
+    git tag JASON_GOOD_POINT2 5af1e7a
+    git rev-parse JASON_GOOD_POINT2
+    git rev-parse origin/master
+    git tag
+    git tag -a JASON_WITH_COMMENT
+    git tag
+    git show JASON_GOOD_POINT
+    git show JASON_WITH_COMMENT 
+    git tag -s JASON_WITH_SIGN
+    git config user.name
+    git config --global user.name "Matthew McCullough"
+    git tag -s JASON_WITH_SIGN
+    git config user.email
+    git checkout master
+    git reset --hard origin/master
+    gitk --all &
+    git show e59e39b655de
+    git cherry-pick e59e39b655de
+    git log --format=raw -1
+    git reset --hard HEAD~1
+    git cherry-pick -x e59e39b655de
+    git log --format=raw -1
+    git help revert
+    git help reset
+    git status
+    git reset --hard origin/master
+    vim other.txt
+    vim other2.txt
+    git add .
+    git stash
+    git status
+    git stash --list
+    git stash list
+    git stash pop
+    git add other
+    git add other.txt
+    git stash
+    git stash pop
+    git stash
+    vim other.txt
+    git commit -a -m"End"
+    git stash pop
+    cat other.txt
+    git help stash
+    git stash clear
+    git status
+    git stash -- other.txt
+    git stash -p
+    git stash list
+    git stash apply stash@{1}
+    git graphlive 4
+    git reset --hard origin/master
+    git branch featurerebase
+    git stash clear
+    git tag -d JASON_*
+    git tag -d JASON_GOOD_POINT 
+    git tag -d JASON_GOOD_POINT2 
+    git tag -d JASON_WITH_COMMENT 
+    clear
+    generaterandomchanges 3 bugfixonmaster txt
+    git graphlive 10
+    git checkout featurerebase 
+    generaterandomchanges 3 featurework txt
+    gitk --all
+    git rebase master
+    git checkout master
+    git merge featurerebase 
+    cd ..
+    ls
+    clear
+    svn co https://github.com/githubstudent/hellogitworld.git/trunk
+    clear
+    git svn clone https://github.com/githubstudent/hellogitworld.git/trunk trunk2
+
 
 ## Chat History - Day Two
     TBD
