@@ -57,7 +57,113 @@ eventdate: 2013-04-25
 * [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
 ## Command Line History - Day One
-    TBD
+
+    git --version
+    git config user.name
+    git config user.email
+    git config --global user.name "Matthew J. McCullough"
+    git config user.name
+    pwd
+    git init project1
+    open .
+    cd project1
+    git status
+    cd ..
+    git status
+    cd project1
+    clear
+    vim first.txt
+    git status
+    git add .
+    git status
+    git commit -m "My first commit"
+    git status
+    ls
+    clear
+    vim first.txt
+    git status
+    git add first.txt
+    git status
+    git reset HEAD first.txt
+    cat first.txt
+    git add -p
+    git status
+    git commit -m "Fix part one"
+    git add .
+    git commit -m "Fix part two"
+    git status
+    clear
+    git log
+    git show 32f3ca
+    git status
+    vim first.txt
+    git diff
+    git add .
+    git diff
+    git status
+    git reset HEAD first.txt
+    git diff
+    git diff --color-words
+    git add -p 
+    git status
+    git diff 
+    git diff --staged
+    git diff HEAD
+    git diff --staged
+    git diff 
+    git diff HEAD
+    git commit -m "Part of the changes"
+    git commit -a -m "The rest of the changes"
+    git status
+    clear
+    git log
+    git log --stat
+    git log --patch
+    git log --patch --color-words
+    git log --format=raw
+    clear
+    git log -1
+    git log -3
+    git log -3 --oneline
+    clear
+    git graphlive 20
+    cd project1
+    git graphlive 20
+    which -a git-graphlive
+    cat /Users/mccm06/.dotfiles/scripts/git-graphlive
+    clear
+    ls
+    git status
+    git add -A .
+    git status
+    git commit -m "Renamed it"
+    git status
+    git add -A .
+    git status
+    git commit -m "Changes with rename"
+    clear
+    git reset --hard
+    cd ..
+    git clone https://github.com/githubstudent/hellogitworld.git hgwstudentfromcli
+    ls
+    cd hgwstudentfromcli
+    git log
+    pwd
+    git log -1
+    clear
+    ls
+    vim matthewfirstcontrib.txt
+    git add .
+    git commit -m"Change from CLI"
+    git push 
+    gitk
+    git gui
+    clear
+    git branch
+    git branch -r
+    git pull
+    cat matthewfirstcontrib.txt
+    head matthewfirstcontrib.txt
 
 ## Chat History - Day One
     TBD
