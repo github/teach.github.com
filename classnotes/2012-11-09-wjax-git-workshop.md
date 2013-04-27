@@ -386,4 +386,4 @@ https://githubtraining.campfirenow.com/d8903
     
     rerere = reuse recorded resolution
     
-    git svn clone --stdlayout http://ambientideas.unfuddle.com/svn/ambie… hgwsub
+    git svn clone --stdlayout http://ambientideas.unfuddle.com/svn/ambientideas_sample11-svnscm/trunk hgwsub

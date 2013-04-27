@@ -556,7 +556,7 @@ Teachers:
     Matt Y.             Thanks, Jeff, see you tomorrow.
     Alejandro G.        bye Jeff
                         thx
-    matthewmccullough   https://github.com/githubteacher/hellogitworld/...
+    matthewmccullough   https://github.com/githubteacher/hellogitworld
     Matt Y.             So, Pull Requests can be made betweens forks of a repo OR within the same repo.
     Matt Y.             Branches are used often in git because they're so lightweight and make it easy using GitHub
                         in particular to review changes collaboratively.
@@ -711,17 +711,17 @@ Teachers:
 
 ## Day Two Chat
 
-    matthewmccullough   Class notes are ready at: http://teach.github.com/classnotes/2013-02-26-g...
+    matthewmccullough   Class notes are ready at: http://teach.github.com/classnotes/2013-02-26-git-github-foundations-online.html
     And will be expanded after class today.
     matthewmccullough   Morning Matt Yoho! Glad to have you here again helping us.
     Matt Y. Good morning!
-    matthewmccullough   Class notes are all ready: http://teach.github.com/classnotes/2013-02-26-g...
+    matthewmccullough   Class notes are all ready: http://teach.github.com/classnotes/2013-02-26-git-github-foundations-online.html
     More will be added at the end of class today, but that's the canonical link.
     Jim A.  on a pull request- what if there are conflicts?
     Matt Y. Jim: If there are conflicts on a pull request, they will have to be resolved manually locally first, then have the merge commit that resolves them pushed up to the Pull Request branch.
     Matt Y. The PR will then apply cleanly and can be closed through the GitHub UI. But in practice those conflicts are relatively infrequent.
     Jim A.  thx
-    matthewmccullough   Class notes are ready: http://teach.github.com/classnotes/2013-02-26-g...
+    matthewmccullough   Class notes are ready: http://teach.github.com/classnotes/2013-02-26-git-github-foundations-online.html
     AL  Had to go into .git/config and change http to https to reset password to use HTTPS to push? Any ideas why?
     Bill    Thanks.
     Rajesh P.   Hello
@@ -731,7 +731,7 @@ Teachers:
     Justin C.   Will there be any information about deployment?
     matthewmccullough   http://training.github.com/web/git-foundations/
     Ilya    were any notes emailed yesterday? i haven't received anything
-    Matt Y. Course notes for yesterday and today: http://teach.github.com/classnotes/2013-02-26-g...
+    Matt Y. Course notes for yesterday and today: http://teach.github.com/classnotes/2013-02-26-git-github-foundations-online.html
     Ilya    thank you
     Matt Y. Np!
     Daniel K.   Do you have a transcription of yesterday's chat?
@@ -1031,13 +1031,13 @@ Teachers:
     Dan how about both? :)
     Daniel K.   I meant, can you "svn checkout" from any git repo, or only from a GitHub repo?
     Bill    Thank you for all the hard work in preparing and delivering this class. Very much appreciated.
-    Matt Y. Cheri: Here's a helpful article on SVN => git conversion https://help.github.com/articles/importing-from...
+    Matt Y. Cheri: Here's a helpful article on SVN => git conversion https://help.github.com/articles/importing-from-subversion
     Bill: On behalf of Matthew, thank you, and thanks for participating.
     Nazila N.   Thank you very much to both of you.
     Jim A.  thx guys!
     Wouter K.   Thanks, great info! See you for the advanced class.
     Matt Y. Daniel: Oh, my mistake. Yes, that's a GitHub feature. It may be replicated elsewhere but isn't standard.
-    matthewmccullough   http://teach.github.com/classnotes/2013-02-26-g...
+    matthewmccullough   http://teach.github.com/classnotes/2013-02-26-git-github-foundations-online.html
     Richard S.  much thanks. Matthew and Matt!
     Justin C.   Thanks!
     Matt Y. Thanks everyone, enjoy your day!

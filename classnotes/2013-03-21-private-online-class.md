@@ -925,7 +925,7 @@ eventdate: 2013-03-21
 	;)
 	Jennifer D.	:)
 	Adam B.	thanks jennifer d
-	Jens J.	for Jeff B.: nice answer: http://stackoverflow.com/questions/9392365/how-...
+	Jens J.	for Jeff B.: nice answer: http://stackoverflow.com/questions/9392365/handle-a-sha-1-collision-on-a-blob
 	Jeff B.	to Jens: thanks
 	tlberglund	git log --patch
 	9:20 AM
@@ -1045,7 +1045,7 @@ eventdate: 2013-03-21
 	Lambert M.	has entered the room
 	Tony H.	yesterday there was a link to the presentation materials. could you show us that link again?
 	Jennifer D.	Jennifer S .. I think they said towards the end of today
-	tlberglund	http://teach.github.com/presentations/git-found...
+	tlberglund	http://teach.github.com/presentations/git-foundations.html
 	Vivek P.	has entered the room
 	Jennifer S.	yes, got it, thanks,
 	8:05 AM
@@ -1093,7 +1093,7 @@ eventdate: 2013-03-21
 	8:15 AM
 	aspires	Chuck S. Git comes with color configuration out of the box.
 	I don't know if that what Tim has right now, but it appears so.
-	http://git-scm.com/book/en/Customizing-Git-Git-... for more info
+	http://git-scm.com/book/en/Customizing-Git-Git-Configuration#Colors-in-Git for more info
 	Vivek P.	can you repeat that again
 	Jens J.	i was just keeping quiet
 	tlberglund	Jens: :)
@@ -1204,7 +1204,7 @@ eventdate: 2013-03-21
 	ssh-keygen -f ~/.ssh/github-class
 	Christopher S.	why not move the file?
 	tlberglund	cat ~/.ssh/github-class.pub
-	Jennifer D.	the guide if you are lost .. https://help.github.com/articles/generating-ssh...
+	Jennifer D.	the guide if you are lost .. https://help.github.com/articles/generating-ssh-keys
 	aspires	github.com/settings/ssh
 	9:45 AM
 	Ann R.	has entered the room

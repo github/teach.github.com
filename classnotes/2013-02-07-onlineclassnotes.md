@@ -584,7 +584,7 @@ Teachers:
     nothing added to commit but untracked files present (use "git add" to track)
     how do we make it ignore "hidden" files
     Tim B.  i_yahoo: Ooooh, the hated .DS_Store! I'll bring this up out loud.
-    Edgar W.    http://superuser.com/questions/272465/using-mul... -- note on how to configure separate ssh keys for "work" (Yahoo!) and non-work (github.com) keys
+    Edgar W.    http://superuser.com/questions/272465/using-multiple-ssh-public-keys -- note on how to configure separate ssh keys for "work" (Yahoo!) and non-work (github.com) keys
     Just for the record
     vishvesh    how to list modified and stage files in project?
     Tim B.  Edgar: Thanks! Was gonna ask you to post that question in https://github.com/githubtraining/feedback/issues, so we could get a decent answer written up for posterity.
@@ -609,7 +609,7 @@ Teachers:
     wanlin p.   what's that gui
     9:30 AM
     Tim B.  wanlin: GitHub for Mac (https://mac.github.com)
-    Greg, Ollie: Some merge/diff tool config here: http://teach.github.com/articles/lesson-git-mer...
+    Greg, Ollie: Some merge/diff tool config here: http://teach.github.com/articles/lesson-git-merge-tool/
     Greg    Ollie - yeah, "git difftool" works instead of "git diff"
     Ollie R.    thanks!
     this is a refresher course for me, but I'm already getting some great new info. I love the technical explanations of what's under the hood, and that add -p is a great tip
@@ -772,9 +772,9 @@ Teachers:
     11:00 AM
     Chiru   can we have the notes/presentation?
     Tim B.  https://github.com/github/trainingteam/issues
-    matthewmccullough   http://teach.github.com/presentations/git-found...
+    matthewmccullough   http://teach.github.com/presentations/git-foundations.html
     Hang S. thank you very much, Matthew and Tim!
-    matthewmccullough   Slides: http://teach.github.com/presentations/git-found...
+    matthewmccullough   Slides: http://teach.github.com/presentations/git-foundations.html
     Edgar W.    Let's you have a separate ssh key for github.com while your Yahoo! ssh key is the default (id_rsa).
     Chiru   thanks guys!
     gully   thanks Edgar
@@ -838,7 +838,7 @@ Teachers:
     tlberglund  wanlin: It looked like "git push -u origin master"
     wanlin: But first, you need "git remote add origin <your github repo url>"
     wanlin p.   I also couldn't get the slides from the link you provided
-    tlberglund  wanlin: http://teach.github.com/presentations/git-found...
+    tlberglund  wanlin: http://teach.github.com/presentations/git-foundations.html
     wanlin p.   thanks
     tlberglund  wanlin: If I type your name as wanline, please forgive me. I keep adding the E, then backspacing. At some point I will forget to backspace. :)
     8:25 AM

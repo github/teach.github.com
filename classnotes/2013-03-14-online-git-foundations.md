@@ -374,7 +374,7 @@ Teachers:
                         https://code.google.com/p/msysgit/downloads/list, let me know
                         be sure to go to https://github.com/signup/free and signup for tomorrow for some 
                         work over the network!
-    matthewmccullough   http://teach.github.com/presentations/git-found...
+    matthewmccullough   http://teach.github.com/presentations/git-foundations.html
     Michael A.          I'm on Windows (sadly), and downloaded from the GitHub installation 
                         instructions. Version 1.8.1.msysgit.1.
     brntbeer            perfect. let me know if you have any other windows questions michael and i'll do 
@@ -390,7 +390,7 @@ Teachers:
                         `git config user.name "YOUR NAME" ` sets it to whatever is in the quotes there
     HariDara            Yes, that is our enterprise install.
     Srividhya A.        Michael Alderete: I'm also on Windows in SFDC netowrk and was able to dowload 
-                        Git 1.8.1 from this link:https://code.google.com/p/msysgit/download... 
+                        Git 1.8.1 from this link:http://code.google.com/p/msysgit/downloads/list 
                         :Git-1.8.1.2-preview20130201.exe
     brntbeer            gotcha. We will get to using remotes more-so tomorrow, but for the sake of the 
                         class we will be using github.com as our remote. The interfaces and 
@@ -436,7 +436,7 @@ Teachers:
                         else elses projects or machines. Later we'll be interacting with an upstream 
                         repo (github.com for the sake of this class)
                         Hi michael! just a happy little note from git there. take a look at 
-                        http://teach.github.com/presentations/git-found... to get an idea of what 
+                        http://teach.github.com/presentations/git-foundations.html#/4/ to get an idea of what 
                         config we generally like setting
     HariDara            What does "6 insertions" mean?
     brntbeer            what we generally like setting for windows machines i mean. this makes line 
@@ -629,7 +629,8 @@ Teachers:
                         you. I'll be looking into it though! love the feedback
                         Michael Alderete: you could try setting the core.editor and that may help you 
                         out here by setting something like instructed here: 
-                        http://stackoverflow.com/questions/10564/how-ca... for making a given window 
+                        http://stackoverflow.com/questions/10564/setup-editor-to-work-with-git-on-windows 
+						for making a given window 
     Michael A.          I wonder if it's not also related to the auto-update feature of GitHub for 
                         Windows? I ran through the whole installation a few weeks ago, and thought I 
                         was good-to-go. But maybe a component got updated, and now doesn't pass the 
@@ -722,7 +723,7 @@ Teachers:
     HariDara            np
     Alicia              Never mind, found it under "public activity" on other users
     brntbeer            Alicia: definitely. works with usernames: 
-                        https://github.com/github/Akavache/commits/mast... for example
+                        https://github.com/github/Akavache/commits?author=xpaulbettsx for example
     brntbeer            Kshama Thacker: Not sure i follow. the reset is going to move us to a previous 
                         version of the project. so if you reset to a point where an ignore wasnt 
                         created, then it wont exist there to be read
@@ -738,7 +739,7 @@ Teachers:
     brntbeer            yep!
     Henry Q.            can't see what you are typing?
     Henry Q.            thanks
-    brntbeer            http://teach.github.com/presentations/git-found... is the slide he's on
+    brntbeer            http://teach.github.com/presentations/git-foundations.html#/8 is the slide he's on
     matthewmccullough   https://github.com/githubtraining/hellogitworld
     brntbeer            Before typing this "clone" command, ensure you're in some sort of scratch 
                         directory, not within the `newproject` file
@@ -773,7 +774,7 @@ Teachers:
                         want to make to that repository
     brntbeer            "ive made some changes to this project on my Fork that i dont have commit access 
                         to, would you please accept these?"
-    matthewmccullough   https://github.com/githubteacher/hellogitworld/...
+    matthewmccullough   https://github.com/githubteacher/hellogitworld/
     brntbeer            Amy: be sure when sending that pull request that we change the "base repo" 
                         dropdown to be "githubteacher"
                         Just got a notification of your pullrequest over to the githubtraining repo :)
@@ -785,7 +786,7 @@ Teachers:
     brntbeer            Amy: awesome. glad to hear (and see!) that you got this fixed
                         Vivek: definitely. you can see at the bottom of your pull-request that there's a 
                         "notification" icon saying that you're watching the thread
-    matthewmccullough   http://teach.github.com/classnotes/2013-03-14-o...
+    matthewmccullough   http://teach.github.com/classnotes/2013-03-14-online-git-foundations.html
     Amy                 update to git version 1.8.1.5 now. Thanks Brian!
     brntbeer            poll window up in go-to-training
                         Thanks for the amazing questions guys! Enjoyed the teaching so far! looking 
@@ -1120,7 +1121,7 @@ Teachers:
     Kshama T.           I see
     Brian S.            so we can have multiple remotes, but only one that will be used by default if i 
                         just say "git push", right?
-    matthewmccullough   https://github.com/githubteacher/hellogitworld/...
+    matthewmccullough   https://github.com/githubteacher/hellogitworld
     Kshama T.           I still can't find my branch on github
     Brian S.            sure
     brntbeer            Henry: i noticed you pushed to master, did you create your featurebranch and 
@@ -1384,7 +1385,7 @@ Teachers:
     HariDara            ok, back up. I had to disconnect my vpn :)
     brntbeer            woot!~ awesome
                         if you're following along, we're on 
-                        http://teach.github.com/presentations/git-found... and 
+                        http://teach.github.com/presentations/git-foundations.html and 
                         with a whole new slide theme that just got updated =)
     Brian S.            so if i do git log on master after fast forward merge, i see each commit from 
                         the branch?
@@ -1430,7 +1431,7 @@ Teachers:
                         them, then we can look at the changes, decide if we want it, and if we dont, we 
                         could tyoe `git merge --abort`
                         Brian St.Clair: it can create a commit. thats when there isnt a FF merge
-                        like shown here: http://teach.github.com/presentations/git-found...
+                        like shown here: http://teach.github.com/presentations/git-foundations.html
                         there's changes on both branches from the point of the split
                         so to pull things together we cant just show things fast forward
     Kshama T.           does reflog/reset work only cumulatively?
@@ -1569,7 +1570,7 @@ Teachers:
     brntbeer            Rejoin foundation online classes at for free at training@github.com
     Brian S.            Thank you guys!
     Oleg                Thank you both - great class!
-    brntbeer            Kshama Thacker: http://teach.github.com/classnotes/2013-03-14-o...
+    brntbeer            Kshama Thacker: http://teach.github.com/classnotes/2013-03-14-online-git-foundations.html
     Joe H.              Yep, very helpful, thanks.
     brntbeer            thank you guys! a real pleasure to teach
     Alicia              re: branching...when would you do a rebase?
