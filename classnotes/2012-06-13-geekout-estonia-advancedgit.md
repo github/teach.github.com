@@ -20,7 +20,7 @@ eventdate: 2012-06-13
     
 ## Chat Transcript
 
-    Juri H. (possible) Mercurial analog of cherry-pick: http://mercurial.selenic.com/wiki/Transpla…
+    Juri H. (possible) Mercurial analog of cherry-pick: http://mercurial.selenic.com/wiki/TransplantExtension
 
     arhan   So the -x is no use if the cherry-picked commit hash is only in the commit message and not in the metadata? no automated way to track the trail?
     Toomas R.   I understood that -x was to show us more info
@@ -48,11 +48,11 @@ eventdate: 2012-06-13
     Toomas R.   squash - http://et.wikipedia.org/wiki/Squash
     arhan   View paste 
     for mercurial:
-    http://mercurial.selenic.com/wiki/Collapse…
+    http://mercurial.selenic.com/wiki/CollapseExtension
     and http://mercurial.selenic.com/wiki/RebaseExtension
     matthewmccullough   http://git-scm.com/2011/07/11/reset.html
     grd http://www.wikivs.com/wiki/Git_vs_Mercurial
-    matthewmccullough   https://github.com/matthewmccullough/filte…
+    matthewmccullough   https://github.com/matthewmccullough/filter-branch-sample
     View paste 
     https://github.com/matthewmccullough/filter-branch-sample
     Toomas R.   I guess I missed how he got rid of the ISO file, filtered out that directory/file?
@@ -74,16 +74,16 @@ eventdate: 2012-06-13
     https://gist.github.com/2732679
     http://hg-git.github.com/
     Neeme P.    http://www.git-tower.com/
-    matthewmccullough   https://github.com/matthewmccullough/git-w…
+    matthewmccullough   https://github.com/github/teach.github.com
     Juri T. https://github.com/offbytwo/git-hg ? git client -> hg server
-    Neeme P.    http://stackoverflow.com/questions/883452/…
+    Neeme P.    http://stackoverflow.com/questions/883452/git-interoperability-with-a-mercurial-repository
     Ervin   View paste 
     https://github.com/grosser/git-autobisect
     git-autobisect.sh your_unit_test_here
     matthewmccullough   sparse checkout
     git clone --depth
     matthewmccullough   graph depth
-    Michael H.  If you haven't seen it: http://tom.preston-werner.com/2009/05/19/t… nice read
+    Michael H.  If you haven't seen it: http://tom.preston-werner.com/2009/05/19/the-git-parable.html nice read
     matthewmccullough   git log --author --not --since
     matthewmccullough   caret spec for branch paths
     matthewmccullough   git show HEAD~5^2~5

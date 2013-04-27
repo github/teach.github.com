@@ -625,7 +625,7 @@ eventdate: 2013-03-18
 	Larry K.	has entered the room
 	Jeff O.	awesome! stripping ASCII 19 is an annoyance for me in Linux
 	8:25 PM
-	ben	If you want a longer read on line endings, here's the full story: https://help.github.com/articles/dealing-with-l...
+	ben	If you want a longer read on line endings, here's the full story: https://help.github.com/articles/dealing-with-line-endings
 	ares	git config --global core.autocrlf input
 	Jeff O.	can git be told to strip 'smart quotes' and other Microsoft chars?
 	ben	There's a way to do that, but it's not easy. :)
@@ -635,7 +635,7 @@ eventdate: 2013-03-18
 	ben	What tim said. Did that help?
 	8:30 PM
 	Jeff H.	has entered the room
-	ben	Jeff O: here's the feature you'd use (clean and smudge filters). http://git-scm.com/book/ch7-2.html#Keyword-Expa...
+	ben	Jeff O: here's the feature you'd use (clean and smudge filters). http://git-scm.com/book/en/Customizing-Git-Git-Attributes#Keyword-Expansion
 	Jeff O.	thanks!
 	ben	It's not easy to set up, and it's even harder to share with the whole team, but it *is* possible.
 	Good luck!
@@ -647,7 +647,7 @@ eventdate: 2013-03-18
 	beckie	has entered the room
 	Jeff O.	what is the "[master <hexadecimal>]" message on commit?
 	8:45 PM
-	tlberglund	http://teach.github.com/presentations/git-found...
+	tlberglund	http://teach.github.com/presentations/git-foundations.html#/7
 	ben	NO TRAVELING TO THE FUTURE
 	Jeff O.	ben: if you do, add THEN commit
 	srinivas	has entered the room
@@ -716,7 +716,7 @@ eventdate: 2013-03-18
 	Jeff O.	this .gitignore will be very useful for keeping our package builds out of the repo
 	ben	Yeah, it makes it so your "git status" only shows stuff you care about.
 	10:15 PM
-	Jeff H.	extra info:(local ignore) http://stackoverflow.com/questions/1753070/git-...
+	Jeff H.	extra info:(local ignore) http://stackoverflow.com/questions/1753070/git-ignore-files-only-locally
 	ben	Yeah, .gitignore lives alongside your source files. If you want to ignore stuff *only on your machine*, use info/exclude.
 	10:20 PM
 	wcpan	has left the room

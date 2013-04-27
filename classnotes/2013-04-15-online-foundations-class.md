@@ -61,7 +61,7 @@ eventdate: 2013-04-15
     Jason L.    can we also get a copy of the slides?
     aroben  <---- This is Adam Roben. Hi everyone!
     Jennifer V. This is Jenny Vu. Hi everyone
-    matthewmccullough   http://teach.github.com/presentations/git-found...
+    matthewmccullough   http://teach.github.com/presentations/git-foundations.html
     Jason L.    anyone else from lego? :)
     Ander   Hi Matthew, I was unable to run the yum command when I tried to pull down the dependencies. are we covering this?
     aroben  what command, Ander? maybe I can help you.
@@ -119,7 +119,7 @@ eventdate: 2013-04-15
     $ git config --list
     user.name=Rich Razon
     user.email=rrazony@yahoo.com
-    aroben  Wout: you can find the slides here if you want to look at what you missed: http://teach.github.com/presentations/git-found...
+    aroben  Wout: you can find the slides here if you want to look at what you missed: http://teach.github.com/presentations/git-foundations.html
     Rich R. Should I see more than that?
     aroben  Rich: That looks great!
     aroben  Rich: nope, you should only see settings that you've set. Matthew has a lot of settings from previous classes and work. It's expected you'll only see those two.
@@ -474,7 +474,7 @@ eventdate: 2013-04-15
     Kevin K.    forked via webui. ok thanks, had someone stop in cube. thanks.
     matthewmccullough   @githubstudent
     Angie B.    how to get this page?
-    matthewmccullough   https://github.com/githubstudent/hellogitworld/...
+    matthewmccullough   https://github.com/githubstudent/hellogitworld/pulls
     Jason L.    Whats the best practice here for cloning? Should it be cloned for every task for instance? IE Im adding a new feature should I clone, then fixing a bug from the origin/master should I clone again?
     aroben  Jason: generally you'll only clone each repository once
     you'll create a fork of the repository on github.com
@@ -576,7 +576,7 @@ eventdate: 2013-04-15
 # Chat Room History Day Two
 
 
-    matthewmccullough   http://teach.github.com/classnotes/2013-04-15-o...
+    matthewmccullough   http://teach.github.com/classnotes/2013-04-15-online-foundations-class.html
     matthewmccullough   View paste 
     http://teach.github.com/classnotes/2013-04-15-online-foundations-class.html
     Jason L.    Is there good apis for controlling this or files that can be edited for this? We have hundreds of developers that we will have to maintain across different 50sh different repos.
@@ -603,7 +603,7 @@ eventdate: 2013-04-15
     git push -u origin bugfix-matthewm
     Max K.  Hi, I'm completely stuck: I think I did not set up a password. how do I set up a password for Git for Windows?
     aroben  Max: what error are you seeing?
-    Raymund R.  https://github.com/githubteachingorg/testrepo1/... ?
+    Raymund R.  https://github.com/githubteachingorg/testrepo1/ ?
     aroben  if Git asks you for a password you should use the one from your GitHub account
     Raymund: yep!
     matthewmccullough   https://github.com/githubteachingorg/testrepo1
@@ -667,7 +667,7 @@ eventdate: 2013-04-15
     Jonathan K. Could you please repost the transcript/notes url?
     Steven F.   git clone --recurse-submodules
     will bring down all code
-    Kevin K.    http://teach.github.com/classnotes/2013-04-15-o...
+    Kevin K.    http://teach.github.com/classnotes/2013-04-15-online-foundations-class.html
     Jonathan K. thanks!
     Steven F.   if you want the latest code in the submodulkes you will need to do
     git submodule foreach git pull origin master
@@ -684,7 +684,7 @@ eventdate: 2013-04-15
     Raymund R.  ok
     i asked because the webui suggested #1 after i merged
     aroben  Raymund: yes, after merging a branch there's really no need to keep it around, so the web UI suggests you delete it just so you don't have a bunch of old branches sticking around forever
-    matthewmccullough   Hey all! Just a reminder once again in case any of you have to leave early that all notes are up at: http://teach.github.com/classnotes/2013-04-15-o...
+    matthewmccullough   Hey all! Just a reminder once again in case any of you have to leave early that all notes are up at: http://teach.github.com/classnotes/2013-04-15-online-foundations-class.html
     I will append to that URL today, but that's the one and only URL for class
     with CLI history, slides, and chat room notes
     Jason L.    Does it matter which branch you have selected when you fork?
@@ -851,7 +851,7 @@ eventdate: 2013-04-15
     aroben  which means other people may have fetched or cloned them down to their own machine
     and so rebasing at this point is generally a bad idea
     aroben  Raj: you can use "git revert" to revert that 5th commit
-    matthewmccullough   http://teach.github.com/classnotes/2013-04-15-o...
+    matthewmccullough   http://teach.github.com/classnotes/2013-04-15-online-foundations-class.html
     View paste 
     http://teach.github.com/classnotes/2013-04-15-online-foundations-class.html
     aroben  it's possible you'll run into the same kind of conflict you saw when we were merging, but it shouldn't cause any other issues
