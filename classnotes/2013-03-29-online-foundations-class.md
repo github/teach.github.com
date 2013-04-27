@@ -61,7 +61,7 @@ eventdate: 2013-03-29
     8:00 AM
     brntbeer    Hi everyone! If anyone has any questions they want to bring up in the chatroom, let me know!
     PHANIDHAR K.    has entered the room
-    brntbeer    http://teach.github.com/presentations/git-found... for anyone wanting to follow along
+    brntbeer    http://teach.github.com/presentations/git-foundations.html for anyone wanting to follow along
     https://github.com/signup/free
     matthewmccullough   http://mac.github.com
     GUI Only
@@ -195,7 +195,7 @@ eventdate: 2013-03-29
     brntbeer    We clicked fork on the teacher's project, which created a copy to our username that we can edit. made the edit, and then clicked "pull request" to propose this change back to the teacher
     Jeff Clark: one at a time, certainly
     10:35 AM
-    matthewmccullough   https://github.com/githubteacher/hellogitworld/...
+    matthewmccullough   https://github.com/githubteacher/hellogitworld/pulls
     Jeff C. Now - but our forks are now obsolete?
     10:40 AM
     brntbeer    Jeff Clark: we'll definitely be showing how to keep your fork up to date! this may happen tomorrow or here in the next 20 minutes. but easily doable
@@ -244,11 +244,11 @@ eventdate: 2013-03-29
     11:00 AM
     brntbeer    Old Town Creative: we'll be showing more branching tomorrow for sure.
     Tom W.  my repository was private, but I wanted to make it public
-    matthewmccullough   https://help.github.com/articles/remove-sensiti...
+    matthewmccullough   https://help.github.com/articles/remove-sensitive-data
     Tom W.  great! thanks for that link
     Lia L.  has left the room
     Jeff    What was the slides link?
-    brntbeer    http://teach.github.com/presentations/git-found...
+    brntbeer    http://teach.github.com/presentations/git-foundations.html
 
 ## Day Two Chat
 
@@ -295,11 +295,11 @@ eventdate: 2013-03-29
     brntbeer    and what is your username on github?
     nwj nwj
     https://github.com/nwj
-    matthewmccullough   https://github.com/githubteacher/hellogitworld/...
+    matthewmccullough   https://github.com/githubteacher/hellogitworld/pulls
     8:25 AM
     matthewmccullough   git config --unset --global credential.helper
     Ken D.  in git --help I can't find graphlive
-    matthewmccullough   https://github.com/matthewmccullough/scripts/bl...
+    matthewmccullough   https://github.com/matthewmccullough/scripts/
     Ken D.  ty
     brntbeer    the graphlive is somethign we just use for demonstrative purposes. it'll be running live on the side there for a while so i hope when running it it doesnt trip people up for today =)
     nwj unset the credential
@@ -322,7 +322,7 @@ eventdate: 2013-03-29
     brntbeer    nwj: awesome. now we just have to set a different remote url
     8:35 AM
     brntbeer    nwj: type `git remote set-url origin git@github.com:githubteacher/hellogitworld.git`
-    matthewmccullough   https://github.com/githubteacher/hellogitworld/...
+    matthewmccullough   https://github.com/githubteacher/hellogitworld/pulls
     brntbeer    and verify this works by doing a "git remote -v" again
     nwj kk just pushed up
     thanks
@@ -355,7 +355,7 @@ eventdate: 2013-03-29
     Old T.  ok, it seems if you did have one user per branch then fetch is of limited value?
     8:50 AM
     Old T.  I would just pull on master to get copy of current and I have the local copy of my branch already to work offline.?
-    matthewmccullough   https://github.com/githubteacher/hellogitworld/...
+    matthewmccullough   https://github.com/githubteacher/hellogitworld/pulls
     8:55 AM
     brntbeer    Old T.: possibly, but as a social standpoint, you can see where your friends are working on, so you could coordinate when things are going into master for example
     Old T.: doing a pull updates everything locally, right
@@ -392,9 +392,9 @@ eventdate: 2013-03-29
     Evan    Thanks
     9:25 AM
     brntbeer    and, furthermore, on your PR, if you had a commit with a message that said "closes #ISSUENUMBER" it could close taht issue once the merge into master happened
-    as shown in https://github.com/blog/1439-closing-issues-acr...
+    as shown in https://github.com/blog/1439-closing-issues-across-repositories
     Evan    Spiffy - thank you!
-    brntbeer    and https://github.com/blog/1386-closing-issues-via...
+    brntbeer    and https://github.com/blog/1386-closing-issues-via-commit-messages
     so, across projects, or within the same project
     merits more online material to bring preference to those workflow things =)
     Evan    A bit off topic: what's that terminal with the split panes?

@@ -168,7 +168,7 @@ eventdate: 2013-04-25
 ## Chat History - Day One
 
     Jason S.    Good morning everyone. I'm Jason, you heard me a few minutes ago once I finally figured out the GoToTraining Client :). I will be handling any of the questions here in the room and popping in via audio from time to time.
-    matthewmccullough   http://teach.github.com/presentations/git-found...
+    matthewmccullough   http://teach.github.com/presentations/git-foundations.html
     Jason S.    Feel free to ask any questions as we go along and I'll do my best to answer.
     Alex K. git version 1.7.12.1
     John Z. 1.7.9.5
@@ -266,7 +266,7 @@ eventdate: 2013-04-25
     I am good now :)
     Joe W.  same, thanks
     Jason S.    Perfect
-    matthewmccullough   https://github.com/githubteacher/hellogitworld/...
+    matthewmccullough   https://github.com/githubteacher/hellogitworld/pulls
     Jason S.    A GitHub-specific tip: After a pull request is merged, it *cannot* be reopened with additional commits. A new pull request would be necessary to add additional changes.
     Another GitHub-specific tip: GitHub displays GitHub user names where possible, and it does so via the e-mail address. When you signed up for GitHub, you provided an e-mail address. If you specified the same address when running "git config user.email your@email.address", GitHub will display your GitHub username, linked, instead of your real name.
     Ted But you can add additional commit to pull requests for consideration (tuning), right?
@@ -296,7 +296,7 @@ eventdate: 2013-04-25
     You will probably need to use Ctrl-c to abort it and retry.
     Heath C.    at work keep getting taken away sorry
     Nick B. any good options for a gui in linux?
-    Jason S.    http://stackoverflow.com/questions/1516720/git-... has a number of answers for a number of environments.
+    Jason S.    http://stackoverflow.com/questions/1516720/git-gui-client-for-linux has a number of answers for a number of environments.
     matthewmccullough   teach.github.com/presentations/git-foundations.html
 
 ## Command Line History - Day Two
@@ -502,17 +502,17 @@ eventdate: 2013-04-25
 
 ## Chat History - Day Two
 
-    Class notes are started at: http://teach.github.com/classnotes/2013-04-25-o...
+    Class notes are started at: http://teach.github.com/classnotes/2013-04-25-online-foundations-class.html
     Updates being pushed at break and at the end of class.
     Doing some formatting to the console output
     matthewmccullough   That URL is the critical one to copy and save after class.
-    matthewmccullough   Just was saying that class notes are started at http://teach.github.com/classnotes/2013-04-25-o...
+    matthewmccullough   Just was saying that class notes are started at http://teach.github.com/classnotes/2013-04-25-online-foundations-class.html
     Ted Hi Matthew & Jason, I have specific questions which are probably better asked today... If you don't have time for them, can I send you email after class or is there another way to request help?
     John Z. Thanks
     matthewmccullough   Ted: Fire away in class and we'll do as much as possible there.
     matthewmccullough   And then, for after class, that Q&A URL on screen
     matthewmccullough   or the office hours sessions are perfect for big ones
-    matthewmccullough   http://teach.github.com/classnotes/2013-04-25-o...
+    matthewmccullough   http://teach.github.com/classnotes/2013-04-25-online-foundations-class.html
     Ted Matthew, your bottom-left autohistory window isn't updating btw.
     jasonsalaz  He'll get it going when this point wraps up :).
     jasonsalaz  Reminder: This is the project1 repository that we started with yesterday. Not the hellogitworld that we forked.
@@ -609,7 +609,7 @@ eventdate: 2013-04-25
     A    trunk/src/test/java/com/ambientideas
     A    trunk/src/test/java/com/ambientideas/AppTest.java
     Checked out revision 69.
-    matthewmccullough   http://teach.github.com/classnotes/2013-04-25-o...
+    matthewmccullough   http://teach.github.com/classnotes/2013-04-25-online-foundations-class.html
     Alex K. Thanks!
     Ted YOu guys were great. Thanks a ton!
     John Z. Thanks
@@ -635,9 +635,8 @@ eventdate: 2013-04-25
     matthewmccullough   http://teach.github.com is the top level
     John Z. We're a small team and just give everyone write access, but it would be nice to use GitHub and pull requests to do code reviews
     matthewmccullough   (all CC-By licensed)
-    http://teach.github.com/articles/git-advanced-c...
-    http://teach.github.com/articles/git-advanced-c...
-    http://teach.github.com/presentations/git-advan...
+    http://teach.github.com/articles/git-advanced-course-v2/
+    http://teach.github.com/presentations/git-advanced.html
     jasonsalaz  John, the answer differs heavily from company to company, team to team. I have seen a number of occasions where there is one master, gatekeeper-controlled repository, and all developers either have their own forks, or a fork made to another organization (when using GitHub specifically).
     We, at GitHub, all use the same repository, and do all the work on branches we create.
     Pushing the branch instantly allows other individuals to pull (or fetch) as needed and help out.

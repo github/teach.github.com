@@ -786,17 +786,17 @@ Teachers:
     any specific thing to do to get help ?
     himanshu    thanks
     Aveek M.    is it possible to get the diff in such a way as to know its a diff between a tab and 4 spaces? So I want to know which line in the diff is 4 spaces and which one is a tab. Helpful during code review :-)
-    John B. balac: good question. first, check out: http://www.kernel.org/pub/software/scm/git/docs...
+    John B. balac: good question. first, check out: https://www.kernel.org/pub/software/scm/git/docs/git-diff.html
     balac: I'm not exactly sure why you don't have help installed... what OS are you on?
     Nicolas S.  Aveek: absolutely! I just don't remember exactly how you do that, give me a second :)
     balac   View paste 
     rhel  5.4 (Tikanga)
     9:00 PM
     Jack C. oh yeah LOG!
-    Nicolas S.  Aveek: http://stackoverflow.com/questions/5574195/make...
+    Nicolas S.  Aveek: http://stackoverflow.com/questions/5574195/make-git-highlight-tab-characters-in-a-diff
     that has a very comprehensive answer :)
     John B. balac: seems that you don't have the man pages installed
-    http://stackoverflow.com/questions/14250505/ins...
+    http://stackoverflow.com/questions/14250505/installing-git-documentation-packages-on-rhel-5
     Aveek M.    thx!
     John B. ^ that has some info on installing the man pages for your operating system
     balac   thx.. will check it out later.
@@ -1272,7 +1272,7 @@ Teachers:
     Jack C. bye~
     tlberglund  Jignesh: That would be a great question for the feedback repo! Let me get you that URL.
     Nicolas S.  Jignesh: you can add the repo you forked from as a second remote
-    tlberglund  https://github.com/githubtraining/feedback/issu...
+    tlberglund  https://github.com/githubtraining/feedback/issues
     Nicolas S.  …or, Tim can handle that :)
     tlberglund  Heh.
     Well, Nicolas was giving you the answer. You add, in this case, https://github.com/githubtrainer/poetry.git as a second remote. Maybe call it "upstream" or something.
