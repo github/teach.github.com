@@ -73,7 +73,7 @@ eventdate: 2013-04-03
     Jamund F.	has entered the room
     Jamund F.	What was the URL to the slides?
     9:40 AM
-    brntbeer	http://teach.github.com/presentations/git-found... is roughly where we're at now Jamund Ferguson
+    brntbeer	http://teach.github.com/presentations/git-foundations.html is roughly where we're at now Jamund Ferguson
     Jamund F.	Thanks
     brntbeer	np!
     Ravid T.	for commit messages, basically, why instead of what right?
@@ -152,7 +152,7 @@ eventdate: 2013-04-03
     brntbeer	right, if you havent saved yet. absolutely
     Gabriela Z.	has entered the room
     brntbeer	yeah, be right there james
-    the graphlive command is at https://github.com/matthewmccullough/scripts/bl...
+    the graphlive command is at https://github.com/matthewmccullough/scripts/
     James	Thx dude
     Kristin M.	Thank you so much!
     10:30 AM
@@ -266,7 +266,7 @@ eventdate: 2013-04-03
     brntbeer	Jamund Ferguson: i can track down the conference organizer during lunch for that.
     11:30 AM
     Jamund F.	it's cool. my friendly neighbor is sharing :)
-    matthewmccullough	https://help.github.com/articles/set-up-git#pas...
+    matthewmccullough	https://help.github.com/articles/set-up-git#password-caching
     Ravid T.	dumb question, git vs github? Git = local version control system, GitHub = public Online version control system?
     brntbeer	Ravid Te: not a dumb question! Git itself is the tool that you're interacting with on your laptop, as well as the underlying technology that drive github.com. github.com is simply a better interface to interacting with more git repositories
     Ravid T.	cool, thanks for the clarifcation
@@ -286,7 +286,7 @@ eventdate: 2013-04-03
     The requested URL returned error: 403 while accessing https://github.com/derickj2004/project1.git/info/refs
 
     fatal: HTTP request failed
-    brntbeer	John Grandy: Paul betts has some good instructions here: https://github.com/blog/1104-credential-caching...
+    brntbeer	John Grandy: Paul betts has some good instructions here: https://github.com/blog/1104-credential-caching-for-wrist-friendly-git-usage
     we can go over that during lunch if you'd like as well
     Derick Johnson: can you type "git remote -v" for me?
     Derick J.	View paste 
@@ -301,7 +301,7 @@ eventdate: 2013-04-03
     never asks for username
     brntbeer	mind if i come over? you're right in front of me right?
     John G.	i was emailing Paul about this last night , but it actually caches within github for windows -- isn't there a way to cache credentials to universally available to all git clients including the command line , e.g. in the windows credential store ?
-    brntbeer	Derick Johnson: also, take a look at https://help.github.com/articles/generating-ssh..., this is essentially what we'll be following
+    brntbeer	Derick Johnson: also, take a look at https://help.github.com/articles/generating-ssh-keys, this is essentially what we'll be following
     Derick J.	ok cool
     Thanks!
     brntbeer	ah, interesting John Grandy one second while i look into that
@@ -414,7 +414,7 @@ eventdate: 2013-04-03
     matthewmccullough	https://github.com/githubteacher/hellogitworld/...
     12:50 PM
     12:55 PM
-    matthewmccullough	https://github.com/githubtraining/feedback/issu...
+    matthewmccullough	https://github.com/githubtraining/feedback/issues
     1:00 PM
     2:00 PM
     matthewmccullough	https://github.com/githubteacher/hellogitworld/...
