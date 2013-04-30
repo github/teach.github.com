@@ -14,7 +14,10 @@
 					{% endif %}
 
 					{% include hydeslides/revealjs/slide-open %}
-						<h2 {% if section.heading == false %}class="hidden"{% endif %}>{{ section.title }}</h2>
+						<hgroup>
+							<h1 {% if section.heading == false %}class="hidden"{% endif %}>{{ section.chapter }}</h1>
+							<h2 {% if section.heading == false %}class="hidden"{% endif %}>{{ section.title }}</h2>
+						</hgroup>
 						{{ section.content }}
 					{% include hydeslides/revealjs/slide-close %}
 				{% endfor %}
