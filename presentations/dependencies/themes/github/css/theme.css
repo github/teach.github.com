@@ -109,6 +109,9 @@ h2 {
   display: block;
   clear: both; }
 
+.cover h1 {
+  font-size: 4em !important; }
+
 /* Sticky Notes */
 .sticky {
   color: #333333;
