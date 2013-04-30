@@ -1,0 +1,83 @@
+/* Branding & Logos */
+
+.brand {
+  background: url(../branding/github-black.png) no-repeat center;
+  background-size: contain;
+  height: 6em;
+  width: 98%;
+  margin: auto auto 1em auto; 
+}
+
+.git {
+  background: url(../branding/git-logo-black.png) no-repeat center;
+  background-size: contain;
+  height: 6em;
+  width: 98%;
+  margin: auto auto 1em auto;
+}
+
+/* Special */
+.hidden{
+  visibility: hidden;
+  display: block !important;
+  height: 0;
+  width: 0;
+}
+
+
+/* Sticky Notes */
+.sticky{
+  color: $brand-darkGrey;
+  padding: 2em 1em 2em 1em !important;
+}
+.sticky::before{
+  content: "";
+  position: absolute;
+  top: 1em;
+  display: block;
+  height: 100%;
+  width: 100%;
+  -webkit-mask-box-image: url(../backgrounds/bubble.png);
+  background: $sticky-medium;
+}
+  .sticky i[class^="icon-"]{
+    font-size: 5em;
+    display: block;
+    line-height: 1.2em;
+  }
+  .sticky h1{
+    font-size: 2.2em;
+    font-weight: 600;
+    text-shadow: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding:0;
+  }
+  .sticky h2{
+    font-size: 1.3em;
+    text-shadow: none;
+  }
+
+
+
+
+/*Stage Building Diagrams*/
+.diagram-group{
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  /*box-shadow: 10px 0 0 0 $mnch-bright, -10px 0 0 0 $mnch-bright, 0 0 30px $mnch-medium;*/
+  border-radius: .5em;
+  overflow: hidden;
+}
+  .reveal section .fragment.diagram{
+    position: absolute;
+  }
+  .reveal section .fragment.diagram:nth-child(n+2){
+    display: none;
+  }
+  .reveal section .fragment.diagram.visible:nth-child(n+2){
+    display: block;
+    top: 0;
+    position: absolute;
+  }

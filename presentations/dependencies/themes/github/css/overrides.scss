@@ -1,0 +1,87 @@
+/* Override to resolve Font-Awesome and RevealJS styling on icon- */
+i[class^="icon-"]{
+	font-family: FontAwesome;
+	font-style: normal;
+}
+
+html, body{
+	background: #ffffff;
+}
+html, body, .reveal{
+	font-family: "Helvetica Neue", Helvetica;
+	font-size: 22px;
+}
+
+::selection {
+  color: #ffffff;
+  background: $brand-orange;
+  text-shadow: none;
+}
+
+/* Background Watermark */
+body::before{
+	content: "";
+  -webkit-mask-box-image: url(../backgrounds/blacktocat-2.png) 100% 100% 0 0;
+  background: $brand-linkBlue;
+  position: absolute;
+  opacity: .08;
+  height: 130%;
+  width: 120%;
+  left: 5%;
+  top: 5%;
+}
+
+/* Authorship/Info footer*/
+body::after{
+	content: $config-attribution;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 5000;
+	height: 1em;
+	width: 100%;
+	text-align: center;
+	font-size: .3em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	opacity: .4;
+}
+
+a{
+	color: $brand-linkBlue;
+	text-decoration: none;
+	line-height: auto !important;
+	overflow: visible !important;
+	vertical-align: baseline !important;
+}
+
+hgroup{
+	margin: auto auto 1em auto !important;
+}
+
+pre code{
+	font-family: $codeFont;
+	color: $brand-green !important;
+	border-radius: .25em;
+	font-size: 1.5em !important;
+	padding: 1.5em .5em !important;
+}
+
+.reveal h1{
+	font-family: "Apex New";
+	font-weight: bold;
+	color: $brand-darkGrey;
+	font-size: 1.5em;
+	display: inline;
+}
+	.reveal .cover h1{
+		display: block;
+		font-size: 3.5em;
+	}
+.reveal h2{
+	font-family: "Apex New";
+	font-weight: book;
+	color: $brand-darkGrey;
+	font-size: 1.5em;
+	display: inline;
+}

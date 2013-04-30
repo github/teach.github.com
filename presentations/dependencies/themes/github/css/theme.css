@@ -1,0 +1,154 @@
+/* Overrides, Design, Theme */
+/*Sticky*/
+/* Override to resolve Font-Awesome and RevealJS styling on icon- */
+i[class^="icon-"] {
+  font-family: FontAwesome;
+  font-style: normal; }
+
+html, body {
+  background: #ffffff; }
+
+html, body, .reveal {
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 22px; }
+
+::selection {
+  color: #ffffff;
+  background: #ff9933;
+  text-shadow: none; }
+
+/* Background Watermark */
+body::before {
+  content: "";
+  -webkit-mask-box-image: url(../backgrounds/blacktocat-2.png) 100% 100% 0 0;
+  background: #4183c4;
+  position: absolute;
+  opacity: .08;
+  height: 130%;
+  width: 120%;
+  left: 5%;
+  top: 5%; }
+
+/* Authorship/Info footer*/
+body::after {
+  content: "Official GitHub training curriculum v4.1.0";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 5000;
+  height: 1em;
+  width: 100%;
+  text-align: center;
+  font-size: .3em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  opacity: .4; }
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+  line-height: auto !important;
+  overflow: visible !important;
+  vertical-align: baseline !important; }
+
+hgroup {
+  margin: auto auto 1em auto !important; }
+
+pre code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  color: #6cc644 !important;
+  border-radius: .25em;
+  font-size: 1.5em !important;
+  padding: 1.5em 0.5em !important; }
+
+.reveal h1 {
+  font-family: "Apex New";
+  font-weight: bold;
+  color: #333333;
+  font-size: 1.5em;
+  display: inline; }
+
+.reveal .cover h1 {
+  display: block;
+  font-size: 3.5em; }
+
+.reveal h2 {
+  font-family: "Apex New";
+  font-weight: book;
+  color: #333333;
+  font-size: 1.5em;
+  display: inline; }
+
+/* Branding & Logos */
+.brand {
+  background: url(../branding/github-black.png) no-repeat center;
+  background-size: contain;
+  height: 6em;
+  width: 98%;
+  margin: auto auto 1em auto; }
+
+.git {
+  background: url(../branding/git-logo-black.png) no-repeat center;
+  background-size: contain;
+  height: 6em;
+  width: 98%;
+  margin: auto auto 1em auto; }
+
+/* Special */
+.hidden {
+  visibility: hidden;
+  display: block !important;
+  height: 0;
+  width: 0; }
+
+/* Sticky Notes */
+.sticky {
+  color: #333333;
+  padding: 2em 1em 2em 1em !important; }
+
+.sticky::before {
+  content: "";
+  position: absolute;
+  top: 1em;
+  display: block;
+  height: 100%;
+  width: 100%;
+  -webkit-mask-box-image: url(../backgrounds/bubble.png);
+  background: #e5cd62; }
+
+.sticky i[class^="icon-"] {
+  font-size: 5em;
+  display: block;
+  line-height: 1.2em; }
+
+.sticky h1 {
+  font-size: 2.2em;
+  font-weight: 600;
+  text-shadow: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0; }
+
+.sticky h2 {
+  font-size: 1.3em;
+  text-shadow: none; }
+
+/*Stage Building Diagrams*/
+.diagram-group {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  /*box-shadow: 10px 0 0 0 $mnch-bright, -10px 0 0 0 $mnch-bright, 0 0 30px $mnch-medium;*/
+  border-radius: .5em;
+  overflow: hidden; }
+
+.reveal section .fragment.diagram {
+  position: absolute; }
+
+.reveal section .fragment.diagram:nth-child(n+2) {
+  display: none; }
+
+.reveal section .fragment.diagram.visible:nth-child(n+2) {
+  display: block;
+  top: 0;
+  position: absolute; }
