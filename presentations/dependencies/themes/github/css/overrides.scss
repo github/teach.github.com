@@ -62,26 +62,30 @@ hgroup{
 pre code{
 	font-family: $codeFont;
 	color: $brand-green !important;
+	box-shadow: 0 0 0 3px $brand-lightGrey;
 	border-radius: .25em;
 	font-size: 1.5em !important;
-	padding: 1.5em .5em !important;
+	padding: 1em 1em !important;
+	line-height: 1.5em !important;
 }
 
-.reveal h1{
-	font-family: "Apex New";
-	font-weight: bold;
-	color: $brand-darkGrey;
-	font-size: 1.5em;
-	display: inline;
+h1{
+	font-family: "Apex New" !important;
+	font-weight: bold !important;
+	color: $brand-darkGrey !important;
+	font-size: 1.5em !important;
+	display: inline !important;
+	line-height: 2em !important;
 }
 	.reveal .cover h1{
 		display: block;
 		font-size: 3.5em;
 	}
-.reveal h2{
-	font-family: "Apex New";
-	font-weight: book;
-	color: $brand-darkGrey;
-	font-size: 1.5em;
-	display: inline;
+h2{
+	font-family: "Apex New" !important;
+	font-weight: book !important;
+	color: $brand-darkGrey !important;
+	font-size: 1.5em !important;
+	display: inline !important;
+	margin-bottom: 1em !important;
 }

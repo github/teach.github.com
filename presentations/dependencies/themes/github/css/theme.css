@@ -57,27 +57,31 @@ hgroup {
 pre code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   color: #6cc644 !important;
+  box-shadow: 0 0 0 3px #999999;
   border-radius: .25em;
   font-size: 1.5em !important;
-  padding: 1.5em 0.5em !important; }
+  padding: 1em 1em !important;
+  line-height: 1.5em !important; }
 
-.reveal h1 {
-  font-family: "Apex New";
-  font-weight: bold;
-  color: #333333;
-  font-size: 1.5em;
-  display: inline; }
+h1 {
+  font-family: "Apex New" !important;
+  font-weight: bold !important;
+  color: #333333 !important;
+  font-size: 1.5em !important;
+  display: inline !important;
+  line-height: 2em !important; }
 
 .reveal .cover h1 {
   display: block;
   font-size: 3.5em; }
 
-.reveal h2 {
-  font-family: "Apex New";
-  font-weight: book;
-  color: #333333;
-  font-size: 1.5em;
-  display: inline; }
+h2 {
+  font-family: "Apex New" !important;
+  font-weight: book !important;
+  color: #333333 !important;
+  font-size: 1.5em !important;
+  display: inline !important;
+  margin-bottom: 1em !important; }
 
 /* Branding & Logos */
 .brand {
@@ -100,6 +104,10 @@ pre code {
   display: block !important;
   height: 0;
   width: 0; }
+
+.clear-all {
+  display: block;
+  clear: both; }
 
 /* Sticky Notes */
 .sticky {
