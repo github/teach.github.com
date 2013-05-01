@@ -72,7 +72,7 @@ pre code {
   line-height: 1.5em !important; }
 
 h1 {
-  font-family: "Apex New" !important;
+  font-family: "Apex New", "Helvetica Neue", Helvetica !important;
   font-weight: bold !important;
   color: #333333 !important;
   font-size: 1.5em !important;
@@ -84,7 +84,7 @@ h1 {
   font-size: 3.5em; }
 
 h2 {
-  font-family: "Apex New" !important;
+  font-family: "Apex New", "Helvetica Neue", Helvetica !important;
   font-weight: book !important;
   color: #333333 !important;
   font-size: 1.5em !important;

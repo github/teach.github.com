@@ -1,3 +1,5 @@
+$font-default: "Helvetica Neue", Helvetica;
+
 /* Override to resolve Font-Awesome and RevealJS styling on icon- */
 i[class^="icon-"]{
 	font-family: FontAwesome;
@@ -8,7 +10,7 @@ html, body{
 	background: #ffffff;
 }
 html, body, .reveal{
-	font-family: "Helvetica Neue", Helvetica;
+	font-family: $font-default;
 	font-size: 22px;
 	line-height: 1.35em;
 }
@@ -79,7 +81,7 @@ pre code{
 }
 
 h1{
-	font-family: "Apex New" !important;
+	font-family: "Apex New", $font-default !important;
 	font-weight: bold !important;
 	color: $brand-darkGrey !important;
 	font-size: 1.5em !important;
@@ -91,7 +93,7 @@ h1{
 		font-size: 3.5em;
 	}
 h2{
-	font-family: "Apex New" !important;
+	font-family: "Apex New", $font-default !important;
 	font-weight: book !important;
 	color: $brand-darkGrey !important;
 	font-size: 1.5em !important;
