@@ -166,9 +166,13 @@ h2 {
   position: absolute; }
 
 .reveal section .fragment.diagram:nth-child(n+2) {
-  display: none; }
+  left: -50px;
+  transition: all 700ms;
+  opacity: 0; }
 
 .reveal section .fragment.diagram.visible:nth-child(n+2) {
+  left: 0px;
   display: block;
+  opacity: 1;
   top: 0;
   position: absolute; }
