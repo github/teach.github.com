@@ -29,16 +29,16 @@ header {
 .logo {
   position: relative;
   float: left;
-  height: 25px;
-  width: 169px;
+  height: 33px;
+  width: 214px;
   padding: 0;
 
   a {
     display: block;
-    height: 25px;
-    width: 169px;
+    height: 33px;
+    width: 214px;
     background: url('../images/github-teach-logo-1x.png') no-repeat top left;
-    background-size: 169px 25px;
+    background-size: 214px 33px;
     text-indent: -999px;
   }
 }
@@ -53,7 +53,7 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
   .logo a {
     background: url('../images/github-teach-logo-2x.png') no-repeat;
-    background-size: 169px 25px;
+    background-size: 214px 33px;
   }
 }
 
