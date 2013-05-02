@@ -1,6 +1,7 @@
 ---
 chapter: Why Git?
 layout: slide
+title: How do I get started?
 tags: ['why-git-vcs']
 ---
 
