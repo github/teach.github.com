@@ -12,6 +12,19 @@ html, body, .reveal {
   font-size: 22px;
   line-height: 1.35em; }
 
+.reveal .roll span:after {
+  content: none; }
+
+.reveal .roll:hover span {
+  background: #333333;
+  border-radius: .25em;
+  color: #ffffff;
+  box-shadow: 0 0 0 2px #333333;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none; }
+
 ::selection {
   color: #ffffff;
   background: #ff9933;
@@ -90,6 +103,9 @@ h2 {
   font-size: 1.5em !important;
   display: inline !important;
   margin-bottom: 1em !important; }
+
+h3 {
+  line-height: 1.5em !important; }
 
 /* Branding & Logos */
 .brand {
