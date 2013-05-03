@@ -3,15 +3,6 @@ layout: bare
 title: Online Foundations Class
 description: Online Foundations Class Class Notes
 tags: [notes,private,online]
-path: classnotes/2013-05-03-online-foundations-class.md
-eventdate: 2013-05-03
----
-
----
-layout: bare
-title: Online Foundations Class
-description: Online Foundations Class Class Notes
-tags: [notes,private,online]
 path: classnotes/2013-04-25-online-foundations-class.md
 eventdate: 2013-04-25
 ---
