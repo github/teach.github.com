@@ -11,7 +11,7 @@
 		{% for section in site.tags[ch] reversed %}
 			
 			{% if forloop.first %}
-				{% if section.cover != false %}
+				{% if section.cover == false %}{% else %}
 					<div class="step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-scale="2" data-rotate="{{ coverRotate }}" id="{{ section.chapter | downcase | replace:" ","-" }}">
 						<h1>{{ section.chapter }}</h1>
 					</div>
