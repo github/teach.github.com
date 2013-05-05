@@ -2,4 +2,11 @@
 
 set -e
 
+echo "bundle installin'"
 bundle install --local --binstubs --path vendor/gems "$@"
+
+echo "cloning into submodules"
+git submodule init
+git submodule update
+
+echo "boom. run script/server to get started."
