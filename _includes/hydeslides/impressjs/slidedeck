@@ -24,7 +24,9 @@
 			{% endif %}
 
 			<div class="step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-z="{{ zIndex }}" id="{{ section.title | downcase | replace:" ","-" }}">
+				{% if section.cover == false %}{% else %}
 				<h2>{{ section.title }}</h2>
+				{% endif %}
 				{{ section.content }}
 			</div>
 
