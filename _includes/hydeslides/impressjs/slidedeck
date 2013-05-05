@@ -16,7 +16,7 @@
 
 			{% if forloop.first %}
 				{% if section.cover != false %}
-					<div class="step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-scale="2" data-rotate="{{ coverRotate }}">
+					<div class="step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-scale="2" data-rotate="{{ coverRotate }}" id="{{ section.chapter | downcase | replace:" ","-" }}">
 						<h1>{{ section.chapter }}</h1>
 					</div>
 					{% capture yPos %}
@@ -32,7 +32,7 @@
 				{% endif %}
 			{% endif %}
 
-			<div class="step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-z="{{ zIndex }}">
+			<div class="step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-z="{{ zIndex }}" id="{{ section.title | downcase | replace:" ","-" }}">
 				<h2>{{ section.title }}</h2>
 				{{ section.content }}
 			</div>
