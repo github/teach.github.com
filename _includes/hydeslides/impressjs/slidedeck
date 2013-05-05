@@ -1,19 +1,15 @@
 <div id="impress">
-	{% assign xPos = 0 %}
 
+	{% assign xPos = 0 %}
 	{% assign coverRotate = 90 %}
 
-	
-
-
 	{% for ch in page.chapters %}
-		{% assign yPos = 0 %}
 
+		{% assign yPos = 0 %}
 		{% assign zIndex = 0 %}
 
 		{% for section in site.tags[ch] reversed %}
 			
-
 			{% if forloop.first %}
 				{% if section.cover != false %}
 					<div class="step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-scale="2" data-rotate="{{ coverRotate }}" id="{{ section.chapter | downcase | replace:" ","-" }}">
@@ -30,6 +26,7 @@
 					{% endcomment %}
 
 				{% endif %}
+
 			{% endif %}
 
 			<div class="step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-z="{{ zIndex }}" id="{{ section.title | downcase | replace:" ","-" }}">
@@ -44,10 +41,12 @@
 			{% capture yPos %}
 				{{ yPos | plus: 1000 }}
 			{% endcapture %}
+
 		{% endfor %}
 
 		{% capture xPos %}
 			{{ xPos | plus: 2000 }}
 		{% endcapture %}
+		
 	{% endfor %}
 </div>
