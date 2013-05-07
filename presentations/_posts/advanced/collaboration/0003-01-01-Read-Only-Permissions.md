@@ -1,34 +1,16 @@
 ---
 chapter: Collaboration
+title: Read-Only Permissions
 layout: slide
 tags: ['advanced/collaboration']
 ---
 
-<table width="100%">
-	<tr>
-		<th>Read+Write</th>
-		<th>Read-Only</th>
-	</tr>
-	<tr>
-		<td>
-			<li>Clone
-			<li>Branch
-			<li>Commit
-			<li>Push
-		</td>
+_Indirectly_ contribute with...
 
-		<td>
-			<li>Fork
-			<li>Clone
-			<li>Branch
-			<li>Commit<sup>*</sup>
-			<li>Push
-		</td>
-	</tr>
-</table>
-
-<small>*Retrieving, rebasing, and confirming integration with original resource</small>
-
+* Fork
+* Clone
+* Branch
+* Pull Request
 
 {% capture notes %}
 * Feature branches
