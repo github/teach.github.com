@@ -258,4 +258,23 @@ eventdate: 2013-05-08
 
 ## Chat History
 
-    TBD
+    matthewmccullough   git config --global core.editor "THINGGOESHERE"
+    matthewmccullough   http://teach.github.com/presentations/git-found...
+    johndbritton    git config --global color.ui true
+    matthewmccullough   git rev-parse HEAD
+    Jonas   I'm stuck in the log (Windows PowerShell) - is there a command to leave it?
+    (sitting on wooden bench in the front)
+    Gunnar B.   q, or :q
+    (maybe)
+    Jonas   ok, something solved it. Thanks
+    Jonas   yes, "q" did the trick
+    Gunnar B.   git diff --staged does not show up the fact that file has been renamed. Any suggestions out there what went wrong?
+    matthewmccullough   https://github.com/githubteacher/hellogitworld
+    matthewmccullough   git remote add githubteacher https://github.com/githubteacher/hellogitworld.git
+    matthewmccullough   git log --graph --abbrev-commit --all --pretty=oneline --decorate
+    matthewmccullough   git clone https://github.com/githubteacher/hellogitworld.git hgwunified
+    matthewmccullough   https://github.com/githubteacher/hellogitworld
+    matthewmccullough   git clone https://github.com/githubteacher/hellogitworld.git hgwunified
+    Gunnar B.   Worth noting: Matthew's gitconfig file @ github:
+    https://github.com/matthewmccullough/dotfiles/b...
+    Erika   Thank you Mathew and John, this was a great session!
