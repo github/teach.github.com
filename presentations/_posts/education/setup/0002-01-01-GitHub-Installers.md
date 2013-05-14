@@ -8,8 +8,7 @@ categories: ['slidecontent']
 
 <div class="sticky">
 	<span><i class="icon-cloud-download"> </i></span>
-	Git is easy to install.
+	Git is easy to install on Windows too.
 
-	<a href="http://mac.github.com">mac.github.com</a>
 	<a href="http://mac.github.com">windows.github.com</a>
 </div>

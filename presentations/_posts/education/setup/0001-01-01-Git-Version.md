@@ -5,7 +5,7 @@ tags: ['education/setup']
 categories: ['slidecontent']
 ---
 
-Test the Install. Check your Version
+Check your Version if it is already installed
 
     $ git --version
 
