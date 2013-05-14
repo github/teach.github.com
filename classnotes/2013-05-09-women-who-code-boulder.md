@@ -1,9 +1,8 @@
-
 ---
 layout: bare
 title: Women Who Code Boulder
 description: Women Who Code Boulder Class Notes
-tags: [notes]
+tags: [notes, meetup]
 path: classnotes/2013-05-09-women-who-code-boulder.md
 eventdate: 2013-05-09
 ---
