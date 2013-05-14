@@ -9,7 +9,7 @@ categories: ['slidecontent']
     git branch <branchname>
     git checkout <branchname>
 
-    #Create & Checkout branch
+    # Create & Checkout branch
     git checkout -b <branchname>
 
 
