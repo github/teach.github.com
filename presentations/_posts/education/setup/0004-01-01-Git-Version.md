@@ -7,7 +7,7 @@ categories: ['slidecontent']
 
 Test the Install. Check your Version
 
-	$ git --version
+    $ git --version
 
 
 {% capture notes %}

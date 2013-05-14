@@ -5,11 +5,12 @@ tags: ['education/branch']
 categories: ['slidecontent']
 ---
 
-	git branch <branchname>
-	git checkout <branchname>
+    # Create a branch and then switch to it
+    git branch <branchname>
+    git checkout <branchname>
 
-	#Create & Checkout branch
-	git checkout -b <branchname>
+    #Create & Checkout branch
+    git checkout -b <branchname>
 
 
 {% capture notes %}

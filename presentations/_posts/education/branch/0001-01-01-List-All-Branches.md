@@ -5,8 +5,8 @@ tags: ['education/branch']
 categories: ['slidecontent']
 ---
 
-	#List (Local) Branches
-	git branch
+    #List (Local) Branches
+    git branch
 
 {% capture notes %}
 # List remote branches
