@@ -2683,3 +2683,100 @@ Interactively rebase and edit on the desired commit
 * ..
 * ...
 * Parents on merges (order matters, multiples are possible)
+
+----------------------------
+
+# Reusable outline fragments
+
+* Common Branching Strategies
+* Branching Models
+* Applying Branching Strategies
+  * `git branch --contains <ref>
+  * `git branch --merged`
+  * `git branch --no-merged`
+  * github way, master is deployable
+  * freature branching only with descriptive nmae
+  * pushing only, PRs only
+  * WIP branch
+  * readme branch
+  * more than one contributor on a feature branch
+* Branch Pull Options
+  * `git branch -d`
+  * `git branch -D`
+  * `git push <remote> :<branch>` to delete remote
+* Reusing Small Pieces of Code
+  * cherry-pick
+  * cherry
+  * how comparison of patch-id works
+* Inserting Commits Into Existing History
+  *
+* Building Custom Commands via Aliases
+  * git config <scope> alias.<name> <command>
+* Undoing and Re-doing Almost Anything
+  * `git reflog`
+* Minimizing Repetitive Conflict Resolution
+  * `git config --global rerere.enabled true`
+* Log History Searches
+  * `log --grep=<pattern>` commit message search
+* Advanced Interactive Rebase
+  * `-r` reword
+  * `-f` fixup
+  * re-ordering
+  * deleting
+  * --autosquash -i
+    * `fixup! <pattern>`
+    * `squash! <pattern>`
+    * Subject must match, line break between message body
+* Commit Data Structure Internals
+  * diagram of commit-->tree-->blob
+  * `ls-tree`
+  * `cat-file`
+  * `ls-files`
+  * zlib inflate, deflate
+* Refspecs
+
+Enabling Git users to effectively migrate repositories from other formats.
+Facilitate history modification of Git repositories.
+Establish time-tested branching and merging strategies.
+Enhance knowledge of Git tools to simplify history.
+Search Git history with ease and precision.
+Move to and reuse code on other branches via commits and tags.
+Understand Git’s tagging and GPG signing process.
+
+* Rebase
+  * --continue
+  * --skip
+  * --abort
+* Rerere
+  * rerere.enabled true
+* Branches
+  * branch --merged
+  * branch --no-merge
+  * Delete without prune: push :branchname
+  * `branch -m <oldbranch> <newbranch>`
+* Remote (stuff)
+  * `git remote show <remotename>`
+  * `remote prune` (Mention push --prune, pull --prune)
+  * git config push.default simple
+  * git config push.default matching
+  * git push --prune <remote>
+* Tricks to Proficiency
+  * Staging
+    * `add -A` staging everything changes that's been tracked
+    * `add -u` staging deleted files
+    * `add -p` interactive patch for hunks
+  * Merging
+    * `checkout --ours <file>` (local variation)
+    * `checkout --theirs <file>` (incoming variation)
+  * Relocating Work
+    * branch <feature>
+    * reset <wrongbranch>^^^
+    * checkout <feature>
+    * commit or code here
+    * OR
+    * stash, checkout <feature>, stash pop
+* Searching code in Git
+  * `git grep -F "yourstringhere` searches string in code
+  * `git grep -p` for showing patches
+* Tagging more in-depth?
+*  Merging
