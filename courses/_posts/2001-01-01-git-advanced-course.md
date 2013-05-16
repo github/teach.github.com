@@ -5,7 +5,7 @@ description: An advanced Git workshop outline and course plan.
 path: courses/_posts/2001-01-01-git-advanced-course.md
 ---
 
-## Objectives v1
+# Objectives v1
 
 * Interactive rebasing with both the traditional squash, reword and edit, in addition to the new fixup and autosquash.
 * Understanding the modes of `git reset` and how it affects, preserves, or destructs the history, index, and working directory.
@@ -51,7 +51,7 @@ path: courses/_posts/2001-01-01-git-advanced-course.md
 * GUI that allows for graph manipulation
 * How to have multiple signers on a given commit
 
-## Objectives v2
+# Objectives v2
 
 Once you've spent some time getting to know Git and GitHub, you'll be interested in finding that next level of productivity with these two tools. This class provides precisely that _next level_ of Git and GitHub education. This class is tuned for maximum benefit to students such as yourself that have spent several months in hands-on use of these tools.
 
@@ -103,9 +103,76 @@ Tags are a great way to mark a point in time for events such as an official rele
 
 The bisect feature of Git is a powerful tool that can be used to search for a regression. It is best paired with a strong unit test suite for complete automated execution, but can also be used in support of a manual search for a difficult-to-automatedly-detect problem, such as a subtle shift in an image. We'll explore this feature using a repository that has a latent defect that is easily found using `bisect run`.
 
+---------------------------------------------------
+
+# Objectives v3 (User Group)
+
+User groups and private companies are the most frequent places welcoming an _Advanced Git_ flavored talk. Such a talk can serve as a starting point for building out a event outline.
+
+## Outline
+* Interactive Rebasing
+    * Traditional squash, reword and edit
+    * [Fixup](http://technosorcery.net/blog/2010/02/07/fun-with-the-upcoming-1-7-release-of-git-rebase---interactive---autosquash/)
+    * [Autosquash](http://technosorcery.net/blog/2010/02/07/fun-with-the-upcoming-1-7-release-of-git-rebase---interactive---autosquash/)
+* Controlling pull and push behavior with advanced configuration options.
+    * [`insteadOf`](http://blog.mraw.org/2011/05/24/Git_tip_of_the_day_insteadOf/)
+    * `git config autosetuprebase always`
+    * Changing the refspec directly
+    * The `+` in the refspec forces the pull or push to overwrite
+* Minimizing repetitive merge efforts with `rerere`.
+   * `git config rerere.enabled true`
+   * [Rerere article](http://git-scm.com/2010/03/08/rerere.html)
+   * [Rerere man page](http://git-scm.com/docs/git-rerere)
+* Relocating chunks of work with `rebase onto`
+    * Switches branches before rebasing
+    * Think about moving the "string of beads" onto another endpoint
+    * [Rebase man page](http://git-scm.com/docs/git-rebase)
+* Git best practices
+    * Frequent Branching
+    * [Git Flow (too complex)](https://github.com/nvie/gitflow)
+    * [GitHub Flow (just right)](http://scottchacon.com/2011/08/31/github-flow.html)
+* Searching through history with string, combination, and pickaxe approaches.
+    * `git log -S "STRING"`
+    * `git log -G "REGEX"`
+    * [Git log man page](http://git-scm.com/docs/git-log)
+* Finding the original author of methods in refactored and relocated code.
+    * `git blame -C <FILENAME>`
+    * [Git blame man page](http://git-scm.com/docs/git-blame)
+* Ways to manage long-term projects
+    * [Pull Request merges into branches other than master, same repo](https://github.com/blog/967-github-secrets)
+    * [Feature toggles](http://martinfowler.com/bliki/FeatureToggle.html)
+* How GitHub uses Pull Requests
+    * [How we use Pull Requests to Build GitHub](https://github.com/blog/1124-how-we-use-pull-requests-to-build-github)
+    * [How to Use Pull Requests](https://help.github.com/articles/using-pull-requests)
+* Patch and Diffs
+    * `.patch` and `.diff` added to end of commit and Pull Request URLs
+    * https://github.com/githubtraining/hellogitworld/commit/32c273781bab599b955ce7c59d92c39bedf35db0.diff
+    * https://github.com/githubtraining/hellogitworld/commit/32c273781bab599b955ce7c59d92c39bedf35db0.patch
+* [Ignoring whitespace](https://github.com/blog/967-github-secrets)
+    * Add `?w=1` to the URL
+    * Example with whitespace [on](https://github.com/githubtraining/hellogitworld/commit/32c273781bab599b955ce7c59d92c39bedf35db0) and [off](https://github.com/githubtraining/hellogitworld/commit/32c273781bab599b955ce7c59d92c39bedf35db0?w=1)
+* [Cross Repository issue links](https://github.com/blog/967-github-secrets)
+    * Format: `user/repository#number`
+    * [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/)
+* GitHub Keyboard Shortcuts
+    * Open github.com and type `?`
+    * `w` (branch navigator)
+    * `t` (file navigator)
+    * `s` (search)
+    * `m` (markdown cheat sheet)
+    * `c` (create issue)
+* Using the Hub command line tool
+    * [Hub Source](https://github.com/defunkt/hub)
+    * [Hub About Page](http://defunkt.io/hub/)
+* Administratively shaping history with `git filter-branch`
+    * At milestones or after a Subversion import, or when bad data creeps in.
+    * [Examples on how to use filter-branch](https://github.com/githubtraining/git-workshop/tree/master/examples/filter-branch)
+    * GitHub Help [article on filter-branch](https://help.github.com/articles/remove-sensitive-data)
+* Adding Git notes and their effective namespace use.
+    * [Git Notes how-to](http://git-scm.com/2010/08/25/notes.html)
 
 
-## Resources
+# Resources
 * Cheat Sheets: http://teach.github.com/articles/git-cheatsheets/
 * Visual Merge Tools: http://www.youtube.com/watch?v=xfh13LcgqIU&feature=plcp
 * Git & GitHub Public Videos: http://www.youtube.com/github
@@ -113,10 +180,13 @@ The bisect feature of Git is a powerful tool that can be used to search for a re
 * Slide PDF 1: http://githubtraining.s3.amazonaws.com/github-git-training-slides.pdf
 * Slide PDF 2: http://githubtraining.s3.amazonaws.com/github-git-training-slides-advanced.pdf
 * Open Source Git Ignores: https://github.com/github/gitignore
+* [Matthew's gitconfig](https://github.com/matthewmccullough/dotfiles/blob/master/gitconfig)
+* [Vintage User Group Git Advanced Slides](https://speakerdeck.com/u/matthewmccullough/p/using-git-and-github-effectively-at-emerge-interactive)
+
 
 ----------------------------
 
-## Timing
+# Timing
 
 * 08:40am Setup and Test Projector
 * 08:50am Student Introductions
@@ -128,7 +198,7 @@ The bisect feature of Git is a powerful tool that can be used to search for a re
 * 04:00pm Conclude Training
 * 04:05pm Student Q&A
 
-## Topics
+# Topics
 
 ### Git Stash
 ### Tags
