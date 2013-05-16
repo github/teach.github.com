@@ -1,3 +1,14 @@
+---
+layout: barewithrelated
+title: GitHub Chatops Course Script
+description: Transcript of a silent presentation about GitHub ChatOps
+path: courses/_posts/2001-01-01-github-chatops-presentation.md
+tags: [outline, course]
+---
+
+# GitHub Chatops
+A silent text-only presentation and demo.
+
 ```
 T: Hi DOSUG!
 M: Hi DOSUG!
