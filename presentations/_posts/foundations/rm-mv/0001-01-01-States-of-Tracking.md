@@ -12,7 +12,6 @@ categories: ['slidecontent']
 	<img class="diagram fragment" src="assets/diagrams/tracking-04.png">
 	<img class="diagram fragment" src="assets/diagrams/tracking-05.png">
 	<img class="diagram fragment" src="assets/diagrams/tracking-06.png">
-	<img class="diagram fragment" src="assets/diagrams/tracking-07.png">
 </div>
 
 {% capture notes %}
