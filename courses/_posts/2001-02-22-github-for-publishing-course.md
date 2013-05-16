@@ -2,7 +2,7 @@
 layout: barewithrelated
 title: GitHub workshop for Publishers and Authors
 description: A GitHub class for document-focused contributors
-path: courses/_posts/2001-01-01-publishing-github-workshop.md
+path: courses/_posts/2001-01-01-github-for-publishing-course.md
 tags: [outline, course]
 ---
 
