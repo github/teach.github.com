@@ -5,4 +5,4 @@ tags: ['stash']
 categories: ['slidecontent']
 ---
 
-	$ git branch <branchname> stash@{0}
+	$ git branch <branchname> <stash-name>
