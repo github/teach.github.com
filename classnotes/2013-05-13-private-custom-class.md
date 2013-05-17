@@ -7,6 +7,9 @@ path: classnotes/2013-05-13-private-custom-class.md
 eventdate: 2013-05-13
 ---
 
+## Event Date
+May 13 - 15, 2013
+
 ## Teachers
 * Tim Berglund ([Twitter](http://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
 * Jordan McCullough ([Twitter](http://twitter.com/thejordanmcc), [GitHub](https://github.com/jordanmccullough))
