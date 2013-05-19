@@ -12,7 +12,7 @@
 			
 			{% if forloop.first %}
 				{% if section.cover == false %}{% else %}
-					<div class="step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-scale="2" data-rotate="{{ coverRotate }}" id="{{ section.chapter | downcase | replace:" ","-" }}">
+					<div class="slide step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-scale="2" data-rotate="{{ coverRotate }}" id="{{ section.chapter | downcase | replace:" ","-" }}">
 						<h1>{{ section.chapter }}</h1>
 					</div>
 					{% capture yPos %}
@@ -23,7 +23,7 @@
 
 			{% endif %}
 
-			<div class="step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-z="{{ zIndex }}" id="{{ section.title | downcase | replace:" ","-" }}">
+			<div class="slide step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-z="{{ zIndex }}" id="{{ section.title | downcase | replace:" ","-" }}">
 				{% if section.cover == false %}{% else %}
 				<h2>{{ section.title }}</h2>
 				{% endif %}
