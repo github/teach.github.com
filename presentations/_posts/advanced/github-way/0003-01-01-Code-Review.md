@@ -5,7 +5,7 @@ tags: ['advanced/github-way']
 ---
 
 Merging _always_ occurs with pull requests
-from a _topic_ branch of a fork or same repo
+from a _topic_ branch or forked repo
 
 {% capture notes %}
 * Involving team
