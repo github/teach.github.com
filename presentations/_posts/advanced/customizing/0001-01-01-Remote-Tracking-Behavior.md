@@ -4,5 +4,10 @@ layout: slide
 tags: ['advanced/customizing']
 ---
 
-	git config push.default simple
-	git config push.default matching
+Push _only_ current HEAD ref to upstream
+
+	git config <scope> push.default simple
+
+Push _all_ refs that have a configured upstream
+
+	git config <scope> push.default matching

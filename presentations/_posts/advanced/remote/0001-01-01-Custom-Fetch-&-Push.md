@@ -13,3 +13,11 @@ tags: ['advanced/remote']
 	git config --add remote.origin.push ↴
 		'+refs/heads/<branch-name>: ↴
 			refs/heads/<name-space>/<branch-name>
+
+{% capture notes %}
+* `git config push.default simple`
+	* Only HEAD branch with upstream
+* `git config push.default matching`
+	* All branches with upstreams
+{% endcapture %}
+{% include hydeslides/core/notes %}

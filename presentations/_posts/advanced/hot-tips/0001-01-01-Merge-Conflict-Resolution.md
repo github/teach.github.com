@@ -6,11 +6,11 @@ tags: ['advanced/hot-tips']
 
 	# Use HEAD as conflict resolution reference
 	# (local file)
-	checkout --ours <file>`
+	git checkout --ours <file>`
 
 	# Use upstream as conflict resolution reference
 	# (incoming file)
-	checkout --theirs <file>` 
+	git checkout --theirs <file>` 
  
 
  

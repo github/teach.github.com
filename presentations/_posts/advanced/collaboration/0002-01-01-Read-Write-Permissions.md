@@ -1,18 +1,16 @@
 ---
 chapter: Collaboration
+title: Read+Write Permissions
 layout: slide
 tags: ['advanced/collaboration']
 ---
 
-Read+Write Access
+_Directly_ contribute with...
 
-* Clone repo
-* Create branch
-* Begin work
-
-
-
-
+* Branch
+* Push
+* Pull Request
+* Merge
 
 
 {% capture notes %}

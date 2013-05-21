@@ -1,19 +1,16 @@
 ---
 chapter: Collaboration
+title: Read-Only Permissions
 layout: slide
 tags: ['advanced/collaboration']
 ---
 
-Read-Only Access
+_Indirectly_ contribute with...
 
-* Fork repo
-* Clone fork
-* Create branch
-* Begin work
-
-
-
-
+* Fork
+* Clone
+* Branch
+* Pull Request
 
 {% capture notes %}
 * Feature branches
