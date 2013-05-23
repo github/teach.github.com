@@ -344,3 +344,279 @@ eventdate: 2013-05-21
     git stash --include-untracked
     git status
     git stash pop
+    
+### Day 2
+
+    git status
+    git stash
+    git status
+    git stash pop
+    git status
+    git stash save --include-untracked "Storing all new work to the side"
+    git stash list
+    git status
+    git stash pop
+    rm hello-world.txt
+    git status
+    git checkout -- README
+    git checkout -- index.html
+    git status
+    git branch
+    git log -1
+    git branch feature1
+    git branch
+    git graphlive
+    git graphlive 30
+    git checkout feature1
+    vi app.js
+    git s
+    git diff
+    git add app.js
+    git status
+    git commit -m'Fix JS syntax error, tidy code line breaks'
+    git status
+    git checkout master
+    git branch prototype 2x9a7df
+    git branch prototype 2c9a7df
+    git branch
+    git branch feature2 master
+    git checkout feature2
+    generaterandomchanges 2 feature2 txt
+    git status
+    git checkout feature1
+    git branch
+    git checkout master
+    git branch -d feature2
+    git branch -D feature2
+    git branch -d prototype
+    git branch -m feature1 app-js-fixes
+    git branch
+    git merge app-js-fixes 
+    cat app.js
+    git branch
+    git branch -d app-js-fixes 
+    tree .git/refs/heads
+    git branch prototype 65367d
+    tree .git/refs/heads
+    cat .git/refs/heads/prototype
+    cat .git/refs/heads/master
+    touch extra.md
+    git s
+    git add .
+    git commit -m'Extra new file'
+    cat .git/refs/heads/master
+    git branch -d prototype 
+    git branch home-page-improvements
+    vi README
+    git status
+    git add .
+    git commit -m'Update readme for event info'
+    git checkout home-page-improvements 
+    vi index.html
+    git status
+    git s
+    git add .
+    git diff --staged
+    git commit -m'Add event date range to home page sub title'
+    git status
+    git checkout master
+    git merge home-page-improvements 
+    git status
+    git branch
+    git branch -d home-page-improvements 
+    git remote add origin https://github.com/githubteacher/jordan.git
+    git status
+    git remote -v
+    git push -u origin master
+    git branch 
+    git branch -a
+    git fetch origin
+    git status
+    git pull origin
+    git graphlive 30
+    git branch
+    vi css/general-layout.css 
+    git status
+    git branch
+    git checkout -b stylesheet-updates
+    git status
+    git add .
+    git status
+    git commit -m'Add header styling'
+    git status
+    git checkout master
+    git checkout -b cleanup-effort
+    git rm sample1.txt
+    git rm README
+    git status
+    rm -rf logs
+    git status
+    git add -u logs/
+    git  status
+    git reset HEAD README
+    git status
+    git commit -m'Remove log files and ignores'
+    git status
+    git add -u
+    git status
+    git commit -m'Remove README, no longer needed'
+    git status
+    git push --all origin
+    git status
+    git branch -v
+    git branch -vv
+    git push -u origin cleanup-effort 
+    git push -u origin stylesheet-updates 
+    git branch -vv
+    git fetch
+    git pull
+    cd ..
+    pwd
+    mkdir student
+    cd student
+    git clone https://github.com/githubstudent/jordan.git
+    pwd
+    cd jordan
+    pwd
+    git config user.name "GitHub Student"
+    git config --list --local
+    git branch
+    git checkout -b finish-home-page
+    git status
+    vi index.html
+    git status
+    git add .
+    git commit -m'Finish body description of home page'
+    git branch -a
+    git remote -v
+    git push -u origin finish-home-page 
+    git branch
+    vi index.html
+    git status
+    git add .
+    git commit -m'Add presenter name to page body'
+    git branch -vv
+    git push
+    git remote -v
+    git log --oneline -5
+    git log --oneline -5 --all
+    git remote add teacher https://github.com/githubteacher/jordan.git
+    git remote -v
+    git branch
+    git status
+    git checkout master
+    git branch
+    git status
+    git remote -v
+    pwd
+    cd ..
+    cd student
+    cd jordan
+    git graphlive 30
+    git branch
+    git pull teacher master
+    git branch -vv
+    git push
+    git status
+    git branch -vv
+    cd ..
+    pwd
+    cd ..
+    mkdir student-write
+    cd student-write
+    git clone https://github.com/githubteacher/jordan.git
+    cd jordan
+    pwd
+    git branch
+    git checkout -b major-changes
+    git mv index.html home.html
+    git status
+    git commit -m'Renaming home page'
+    git status
+    git branch -a
+    git push -u origin major-changes
+    cd ..
+    pwd
+    cd ..
+    cd jordan
+    git branch -vv
+    git pull
+    git lol
+    git checkout master
+    git pull
+    git status
+    git branch -a
+    generaterandomchanges 5 random txt
+    git log --oneline -10
+    git graphlive 30
+    pwd
+    cd ../../
+    cd jordan
+    git graphlive 40
+    git graphlive 25
+    git reset --soft f2a47d0
+    git status
+    git commit -m'Add all five random at once!'
+    git log --stat -1
+    generaterandomchanges 3 mixed md
+    git reset --mixed a8f3911
+    git status
+    rm mixed3.md
+    git status
+    git add .
+    git status
+    git commit -m'Add two mixed file examples'
+    git log --stat -1
+    generaterandomchanges 7 hard txt
+    git reset --hard da3fb3e
+    git reflog
+    git reflog -15
+    git reset --hard 4f669e4
+    git reflog -15
+    git reset --hard HEAD@{1}
+    git reflog -15
+    git branch hard-file-examples HEAD@{3}
+    generaterandomchanges 5 main-code html
+    git checkout hard-file-examples 
+    git branch
+    git rebase master
+    git branch
+    git rebase -i 46c53fb
+    git checkout master
+    git branch
+    git branch -d cleanup-effort 
+    git branch problems
+    vi index.html
+    vi home.html
+    git add .
+    git commit -m'Silly change in Master, Conflicts ensue!'
+    git checkout problems 
+    vi home.html
+    git status
+    git add .
+    git commit -m'Changing title again, to cause conflict'
+    git checkout master
+    git merge problems
+    git status
+    vi home.html
+    git status
+    git add .
+    git status
+    git commit -m'Merge, fixing up page header title'
+    cat home.html
+    git log --format=raw -1
+    git branch -a
+    git branch -d problems 
+    git branch
+    git branch -d hard-file-examples 
+    git branch -D hard-file-examples 
+    git status
+    git branch 
+    git branch -D stylesheet-updates 
+    git branch -a
+    git fetch origin
+    git branch -a
+    git fetch
+    git branch -a
+    git fetch --prune
+    git branch -a
