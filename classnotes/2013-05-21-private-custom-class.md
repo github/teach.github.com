@@ -21,9 +21,6 @@ eventdate: 2013-05-21
 * Minimum is 1.7.ANYTHING, but can have issues with HTTPS credential prompting.
 * Best is 1.8.0 or higher
 
-* Eclipse & Git
-    * [Git for Eclipse](http://eclipse.github.com)
-
 ## Suggested Books, Articles
 * [Free ProGit Book](http://git-scm.com/book)
 * [Getting started with Version Control](http://teach.github.com/articles/lesson-new-to-version-control/)
@@ -49,15 +46,6 @@ eventdate: 2013-05-21
     * Search commit messages by regular expression
     * Returns log for any commits with matching commit message
     * `git log --grep="regex-pattern-or-string"`
-
-*  Git Stash
-    * Temporary store of uncommited changes
-    * Store file modifications, restore clean working directory
-        * `git stash <"Optional Message">`
-    * Retrieve last stashed modifications
-        * `git stash pop`
-    * Review stashes 
-        * `git stash list`
 
 * Git Revert
     * Undo a prior commit's patches
