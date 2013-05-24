@@ -24,9 +24,9 @@
 			{% endif %}
 
 			<div class="slide step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-z="{{ zIndex }}" id="{{ section.title | downcase | replace:" ","-" }}">
-				{% if section.cover == false %}{% else %}
-				<h2>{{ section.title }}</h2>
-				{% endif %}
+				<h1 {% if section.heading == false %}class="hidden"{% endif %}>{{ section.chapter }}</h1>
+				<h2 {% if section.heading == false %}class="hidden"{% endif %}>{{ section.title }}</h2>
+				<div class="clear-all"></div>	
 				{{ section.content }}
 			</div>
 
