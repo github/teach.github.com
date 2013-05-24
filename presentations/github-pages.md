@@ -16,4 +16,3 @@ chapters:
 categories:
   - presentations
 ---
-

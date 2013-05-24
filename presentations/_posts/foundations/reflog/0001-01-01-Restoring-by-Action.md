@@ -14,5 +14,7 @@ categories: ['slidecontent']
 	* commit
 	* rebase
 	* reset
+
+* `git reflog expire --expire=now --all`
 {% endcapture %}
 {% include hydeslides/core/notes %}

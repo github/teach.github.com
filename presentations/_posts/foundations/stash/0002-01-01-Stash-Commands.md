@@ -7,22 +7,10 @@ categories: ['slidecontent']
 ---
 
 	# Stash your pending changes
-	git stash
+	git stash save <"Optional Message">
+
+	# Stash including untracked files
+	git stash save --include-untracked
 
 	# List your stashes
 	git stash list
-
-	# Merge & delete the latest stash
-	git stash pop
-
-	# Merge & delete a stash
-	git stash pop <name>
-
-	# Remove a stash
-	git stash drop <name>
-
-	# Merge & keep the latest stash
-	git stash apply
-
-	# Drop all stashes
-	git stash clear
