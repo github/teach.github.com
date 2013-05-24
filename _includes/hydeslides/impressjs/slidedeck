@@ -13,7 +13,7 @@
 			{% if forloop.first %}
 				{% if section.cover == false %}{% else %}
 					<div class="slide step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-scale="2" data-rotate="{{ coverRotate }}" id="{{ section.chapter | downcase | replace:" ","-" }}">
-						<h1>{{ section.chapter }}</h1>
+						<h1 class="cover-title">{{ section.chapter }}</h1>
 					</div>
 					{% capture yPos %}
 						{{ yPos | plus: 4000 }}
