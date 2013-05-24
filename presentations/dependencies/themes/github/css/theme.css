@@ -12,6 +12,10 @@ html, body, .reveal {
   font-size: 22px;
   line-height: 1.35em; }
 
+img {
+  height: auto !important;
+  width: 100% !important; }
+
 .reveal .roll span:after {
   content: none; }
 
@@ -75,14 +79,19 @@ a.roll {
 hgroup {
   margin: auto auto 1em auto !important; }
 
-pre code {
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
-  color: #6cc644 !important;
+pre {
   box-shadow: 0 0 0 3px #999999;
   border-radius: .25em;
-  font-size: 1.5em !important;
+  /*font-size: 1.5em !important;*/ }
+
+pre code {
+  display: block;
+  background: #333333;
   padding: 1em 1em !important;
-  line-height: 1.5em !important; }
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  color: #6cc644 !important;
+  line-height: 1.5em !important;
+  word-wrap: break-word; }
 
 h1 {
   font-family: "Apex New", "Helvetica Neue", Helvetica !important;
@@ -90,9 +99,10 @@ h1 {
   color: #333333 !important;
   font-size: 1.5em !important;
   display: inline !important;
-  line-height: 2em !important; }
+  line-height: 2em !important;
+  text-align: center; }
 
-.reveal .cover h1 {
+.cover h1 {
   display: block;
   font-size: 3.5em; }
 
@@ -102,7 +112,8 @@ h2 {
   color: #333333 !important;
   font-size: 1.5em !important;
   display: inline !important;
-  margin-bottom: 1em !important; }
+  margin-bottom: 1em !important;
+  text-align: center; }
 
 h3 {
   line-height: 1.5em !important; }
@@ -136,8 +147,13 @@ h3 {
 .cover h1 {
   font-size: 4em !important; }
 
+/* Cover Slide */
+.cover-title {
+  display: block !important;
+  font-size: 4em !important; }
+
 /* Sticky Notes */
-.reveal .sticky {
+.sticky {
   font-size: 1.25em !important;
   background: #fffab4;
   box-shadow: 1px 1px 0.09em #232322, 0px -1px 0.15em #e1e1e1, inset 0 0 3em #e5cd62;
@@ -192,3 +208,14 @@ h3 {
   opacity: 1;
   top: 0;
   position: absolute; }
+
+.slide {
+  background: none;
+  border: none;
+  box-shadow: none;
+  height: auto;
+  height: auto; }
+
+.notes {
+  visibility: hidden;
+  height: 0; }

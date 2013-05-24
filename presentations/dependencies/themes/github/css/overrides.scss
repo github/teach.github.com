@@ -15,6 +15,12 @@ html, body, .reveal{
 	line-height: 1.35em;
 }
 
+img{
+	height: auto !important;
+	width: 100% !important;
+
+}
+
 .reveal .roll span:after{
 	content: none;
 }
@@ -85,14 +91,20 @@ hgroup{
 	margin: auto auto 1em auto !important;
 }
 
-pre code{
-	font-family: $codeFont;
-	color: $brand-green !important;
+
+pre{
 	box-shadow: 0 0 0 3px $brand-lightGrey;
 	border-radius: .25em;
-	font-size: 1.5em !important;
+	/*font-size: 1.5em !important;*/
+}
+pre code{
+	display: block;
+	background: $brand-darkGrey;
 	padding: 1em 1em !important;
+	font-family: $codeFont;
+	color: $brand-green !important;
 	line-height: 1.5em !important;
+	word-wrap: break-word;
 }
 
 h1{
@@ -102,8 +114,9 @@ h1{
 	font-size: 1.5em !important;
 	display: inline !important;
 	line-height: 2em !important;
+	text-align: center;
 }
-	.reveal .cover h1{
+	.cover h1{
 		display: block;
 		font-size: 3.5em;
 	}
@@ -114,6 +127,7 @@ h2{
 	font-size: 1.5em !important;
 	display: inline !important;
 	margin-bottom: 1em !important;
+	text-align: center;
 }
 
 h3{
