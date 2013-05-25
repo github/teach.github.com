@@ -11,5 +11,5 @@ categories: ['slidecontent']
 	Git is easy to install.
 
 	<a href="http://mac.github.com">mac.github.com</a>
-	<a href="http://mac.github.com">windows.github.com</a>
+	<a href="http://windows.github.com">windows.github.com</a>
 </div>

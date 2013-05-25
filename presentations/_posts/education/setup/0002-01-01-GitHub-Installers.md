@@ -10,5 +10,5 @@ categories: ['slidecontent']
 	<span><i class="icon-cloud-download"> </i></span>
 	Git is easy to install on Windows too.
 
-	<a href="http://mac.github.com">windows.github.com</a>
+	<a href="http://windows.github.com">windows.github.com</a>
 </div>
