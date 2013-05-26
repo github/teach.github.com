@@ -36,11 +36,6 @@ Pressing S will launch the slide deck What's Next with presenter notes (if any a
 
 One idiosyncrasy of the core RevealJS behavior is browser focus must be on the main slide deck window when navigating slides.
 
-	
-## To Do
-* [ ] Download Google Fonts for offline slide use
-* [ ] Simplify layouts.scss styles
-
 ## Theming
 
 /dependencies 
