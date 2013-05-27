@@ -28,12 +28,14 @@ with Matthew McCullough
 # Core Resources
 
 Slides at:
-* http://teach.github.com/presentations/git-foundations.html
-* http://teach.github.com/presentations/git-advanced.html
+
+* [Git Foundations](http://teach.github.com/presentations/git-foundations.html)
+* [Git Advanced](http://teach.github.com/presentations/git-advanced.html)
 
 Videos at:
-* http://youtube.com/github
-* http://www.youtube.com/playlist?list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL
+
+* [All GitHub YouTube Videos](http://youtube.com/github)
+* [GitHub YouTube Training Series](http://www.youtube.com/playlist?list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL)
 
 Proxy server:
 
