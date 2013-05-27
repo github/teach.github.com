@@ -10,6 +10,6 @@ tags: ['advanced/submodule']
 git submodule update --init --recursive
 git fetch --recurse-submodules=yes
 git clone --recurse-submodules
-git push --recurse-submodules=check|on-demand
+git push --recurse-submodules=check
 {% endcapture %}
 {% include hydeslides/core/notes %}

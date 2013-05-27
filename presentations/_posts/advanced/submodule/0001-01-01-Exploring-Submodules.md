@@ -4,6 +4,6 @@ layout: slide
 tags: ['advanced/submodule']
 ---
 
-* Repository tracking repository
+* Super Repo tracking Subordinate Repo
 * Version control commit point
 * Compononentize Dependencies
