@@ -1,4 +1,4 @@
-<div class="reveal">
+<div class="reveal" id="reveal">
 	<div class="slides">
 		{% for ch in page.chapters %}
 			<!--Nest all chapter's content. Chapters traverse left-right; Sections slide up-down-->
