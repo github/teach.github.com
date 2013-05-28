@@ -1,39 +1,32 @@
 <div id="impress">
-	{% assign xPos = 0 %}
 
+	{% assign xPos = 0 %}
 	{% assign coverRotate = 90 %}
 
-	
-
-
 	{% for ch in page.chapters %}
-		{% assign yPos = 0 %}
 
+		{% assign yPos = 0 %}
 		{% assign zIndex = 0 %}
 
 		{% for section in site.tags[ch] reversed %}
 			
-
 			{% if forloop.first %}
-				{% if section.cover != false %}
-					<div class="step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-scale="2" data-rotate="{{ coverRotate }}">
-						<h1>{{ section.chapter }}</h1>
+				{% if section.cover == false %}{% else %}
+					<div class="slide step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-scale="2" data-rotate="{{ coverRotate }}" id="{{ section.chapter | downcase | replace:" ","-" }}">
+						<h1 class="cover-title">{{ section.chapter }}</h1>
 					</div>
 					{% capture yPos %}
 						{{ yPos | plus: 4000 }}
 					{% endcapture %}
 
-					{% comment %}
-					{% capture coverRotate %}
-						{{ coverRotate | plus: 180}}
-					{% endcapture %}
-					{% endcomment %}
-
 				{% endif %}
+
 			{% endif %}
 
-			<div class="step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-z="{{ zIndex }}">
-				<h2>{{ section.title }}</h2>
+			<div class="slide step" data-x="{{ xPos }}" data-y="{{ yPos }}" data-z="{{ zIndex }}" id="{{ section.title | downcase | replace:" ","-" }}">
+				<h1 {% if section.heading == false %}class="hidden"{% endif %}>{{ section.chapter }}</h1>
+				<h2 {% if section.heading == false %}class="hidden"{% endif %}>{{ section.title }}</h2>
+				<div class="clear-all"></div>	
 				{{ section.content }}
 			</div>
 
@@ -44,10 +37,12 @@
 			{% capture yPos %}
 				{{ yPos | plus: 1000 }}
 			{% endcapture %}
+
 		{% endfor %}
 
 		{% capture xPos %}
 			{{ xPos | plus: 2000 }}
 		{% endcapture %}
+
 	{% endfor %}
 </div>

@@ -33,15 +33,20 @@
   font-size: 4em !important;
 }
 
+/* Cover Slide */
+.cover-title{
+  display: block !important;
+  font-size: 4em !important;
+}
 
 /* Sticky Notes */
-.reveal .sticky {
+.sticky {
   font-size: 1.25em !important;
   background: #fffab4;
   box-shadow: 1px 1px 0.09em #232322, 0px -1px 0.15em #e1e1e1, inset 0 0 3em #e5cd62;
   border-radius: 5em 10em .25em 1.5em / 0.25em 0.25em 1em .25em;
   width: 60%;
-  margin: 0 auto;
+  margin: 0 auto !important;
   padding: 1em 1em 1em 1em;
   background: #fefcea;
   /* Old browsers */
@@ -60,12 +65,16 @@
   -webkit-transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
   -moz-transform: rotate(-3deg);
-  transform: rotate(-3deg); }
+  transform: rotate(-3deg); 
+  text-align: center;
+}
 
   .sticky i[class^="icon-"] {
-  font-size: 5em;
-  display: block;
-  line-height: 1.2em; }
+    color: #000;
+    font-size: 5em;
+    display: block;
+    line-height: 1.2em;
+  }
 
 
 
