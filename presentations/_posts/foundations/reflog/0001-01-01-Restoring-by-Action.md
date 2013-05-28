@@ -15,7 +15,7 @@ categories: ['slidecontent']
 	* rebase
 	* reset
 
-* `gitk --all `git reflog | cut -c1-7``
+* `gitk --all `git reflog | awk '{print $1}'``
 * `git log --pretty=oneline --abbrev-commit --graph --decorate `git reflog | cut -c1-7``
 
 * `git reflog expire --expire=now --all`
