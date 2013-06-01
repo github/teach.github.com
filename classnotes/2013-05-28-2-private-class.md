@@ -55,10 +55,6 @@ eventdate: 2013-05-28
 ### Day 1
 
     git --version
-    git config --global user.name "GitHub Teacher"
-    git config --global user.name
-    git config --global user.email "training@github.com"
-    git --version
     git config --global user.name
     git config --global user.name "Daffy Duck"
     git config --global user.name
