@@ -26,3 +26,4 @@
 </script>
 
 <script src="dependencies/plugins/launcher/launcher.js"></script>
+<script src="dependencies/plugins/help/help.js"></script>
