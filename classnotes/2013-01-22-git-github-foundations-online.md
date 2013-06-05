@@ -33,7 +33,7 @@ Teachers:
 * [Jenkins Git Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin)
 * [Open Source Git Ignores](https://github.com/github/gitignore)
 * [Ship of Theseus - Related to Similarity Index](http://en.wikipedia.org/wiki/Ship_of_Theseus)
-* [git-p4 Perforce Script](http://kb.perforce.com/article/1417/git-p4)
+* [git-p4 Perforce Script](http://answers.perforce.com/articles/KB_Article/Git-P4)
 * [Unix watch command](http://en.wikipedia.org/wiki/Watch_(Unix\))
 * [SHA-1 Hash Collisions](http://git-scm.com/book/ch6-1.html#A-SHORT-NOTE-ABOUT-SHA-1)
 * [NPD Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
