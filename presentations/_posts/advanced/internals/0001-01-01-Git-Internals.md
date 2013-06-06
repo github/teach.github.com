@@ -13,4 +13,4 @@ tags: ['advanced/internals']
 * `ls-files`
 * zlib inflate, deflate
 * `git rev-parse <branch/tag>` ref from a human-readable name (tag)
-* `git name-rev <rev>` ref in human-readalble from a ref
+* `git name-rev <rev>` ref in human-readable from a ref
