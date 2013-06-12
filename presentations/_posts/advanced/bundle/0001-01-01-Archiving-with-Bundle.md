@@ -8,7 +8,7 @@ Aggregate commits and objects
 
 	git bundle <filename> <rev>
 
-Tag the last archive snapshop
+Tag the last archive snapshot
 
 	git tag --force LAST_ARCHIVE <rev>
 
