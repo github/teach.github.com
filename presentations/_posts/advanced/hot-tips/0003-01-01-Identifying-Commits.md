@@ -4,7 +4,7 @@ layout: slide
 tags: ['advanced/hot-tips']
 ---
 
-Making Sense of Commist Hash
+Making Sense of Commit Hash
 
 	# List "friendly name" for commit
 	git name-rev <ref>
