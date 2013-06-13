@@ -295,6 +295,69 @@ eventdate: 2013-06-07
     git rebase --continue
 
 
-## Chat History
+## Chat History, Day 1
 
-    T
+    jakedouglas To use Notepad as your default editor with git: https://github.com/github/GitPad
+    matthewmccullough   git config --global core.editor "mate -w"
+    https://github.com/githubstudent/newproject
+    git clone https://github.com/githubstudent/newproject.git
+    git clone https://github.com/githubstudent/newproject.git
+    matthewmccullough   http://teach.github.com/presentations
+    matthewmccullough   https://github.com/signup/free
+    https://github.com/signup/free
+    https://github.com/githubstudent/newproject
+    matthewmccullough   https://github.com/githubteacher/hellogitworld/
+    matthewmccullough   git show master~5:pom.xml
+    matthewmccullough   git cat-file -p ee791befa844ff420940305ca6435b5a27a44ece | subl
+    https://github.com/githubteacher/hellogitworld
+    matthewmccullough   git clone https://github.com/githubteacher/hellogitworld hgwteacher
+    Eric H. Please paste the last series of commands into this room, thanks.
+    matthewmccullough   https://github.com/githubteacher/hellogitworld/...
+    Eric H. ...starting with the git branch...
+    Andrew K.   View paste 
+    git branch akolvefeature
+    git checkout akolvefeature
+    git add 'akolve textdoc.txt'
+    git commit -m "akolve commit"
+    git push -u origin akolvefeature
+    Andrew K.   http://nvie.com/posts/a-successful-git-branchin...
+    Andrew K.   thank you!
+
+## Chat History, Day 2
+
+    Russ M. What was the name of that library?
+    jakedouglas libgit2. You can find the project here: https://github.com/libgit2/libgit2
+    matthewmccullough   https://github.com/githubteacher/hellogitworld/...
+    matthewmccullough   https://github.com/githubteacher/hellogitworld/...
+    Ron G.  pure junk
+    jakedouglas These resources are also available: http://mac.github.com/help.html http://windows.github.com/help.html
+    Mike R. Later today will there be time to cover use of git ssh keys and use of those keys to access other secure assets e.g. use my git hub ssh key to connect to a mysqladmin console
+    matthewmccullough   fetch = +refs/pull/*:refs/remotes/origin/pr/*
+    View paste 
+    fetch = +refs/pull/*:refs/remotes/origin/pr/*
+    Peter B.    not working for me - this is what I have
+    View paste (1 more line) 
+    [core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+        ignorecase = true
+        precomposeunicode = false
+    [remote "origin"]
+        url = https://github.com/githubteacher/hellogitworld.git
+        fetch = +refs/pull/*:refs/remotes/origin/pr/*
+    [branch "master"]
+        remote = origin
+        merge = refs/heads/master
+    [branch "pBranch"]
+        remote = origin
+    ...
+    jakedouglas Peter B.: looks like you replaced the original line. it should have been added after the original once. so there should be two lines with "fetch = something"
+    Peter B.    working now - I needed fetch first
+    seems to work with just the one line
+    jakedouglas it'll stop fetching regular branches - i think you'll need to add it back
+    matthewmccullough   https://github.com/githubteacher/hellogitworld
+    matthewmccullough   https://github.com/githubteacher/hellogitworld
+    matthewmccullough   http://nvie.com/posts/a-successful-git-branchin...
+    matthewmccullough   https://github.com/nvie/gitflow
