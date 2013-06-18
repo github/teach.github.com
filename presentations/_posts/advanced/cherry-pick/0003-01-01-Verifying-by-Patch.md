@@ -10,7 +10,7 @@ tags: ['advanced/cherry-pick']
 
 {% capture notes %}
 * Cherry uses `patch-id`, SHA1 of patch diff
-	* `-` Merged to Upstream
+	* `-` Applied to Upstream
 	* `+` Only in HEAD
 {% endcapture %}
 {% include hydeslides/core/notes %}
