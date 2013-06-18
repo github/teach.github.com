@@ -2,16 +2,16 @@
 
 ---
 layout: bare
-title: QCon NYC 2013 Advanced Git
-description: QCon NYC 2013 Advanced Git Class Notes
+title: QCon NYC 2013 Git Foundations
+description: QCon NYC 2013 Git Foundations Class Notes
 tags: [notes, conference, workshop]
-path: classnotes/2013-06-10-qcon-nyc-2013-advanced-git.md
+path: classnotes/2013-06-10-qcon-nyc-2013-git-foundations.md
 eventdate: 2013-06-10
 ---
 
 ## Teachers
-* Tim Berglund ([Twitter](http://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
 * Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
+* Tim Berglund ([Twitter](http://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
 
 ## Resources
 * [Open Source Git Ignore Templates](https://github.com/github/gitignore)
