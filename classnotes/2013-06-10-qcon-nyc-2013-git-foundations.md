@@ -1,8 +1,6 @@
-# Get Good at Git and GitHub
-
 ---
 layout: bare
-title: QCon NYC 2013 Git Foundations
+title: QCon NYC 2013 Git Foundations (Get Good at Git & GitHub)
 description: QCon NYC 2013 Git Foundations Class Notes
 tags: [notes, conference, workshop]
 path: classnotes/2013-06-10-qcon-nyc-2013-git-foundations.md
