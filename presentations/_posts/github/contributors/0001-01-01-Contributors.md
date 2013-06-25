@@ -5,7 +5,12 @@ title: ''
 tags: ['github/contributors']
 ---
 
-* Read+Write on a single repo
-* Manually add each contributor
-* Common for one-off projects
+* Read+Write Access
+* Common for One-Off Projects
+
+
+{% capture notes %}
 * Tedious for common-across users
+{% endcapture %}
+{% include hydeslides/core/notes %}
+
