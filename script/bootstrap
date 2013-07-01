@@ -1,12 +1,15 @@
 #!/bin/sh
 
 set -e
+export CC=gcc
 
-echo "bundle installin'"
-bundle install --local --binstubs --path vendor/gems "$@"
+echo "==> Installing gem dependencies…"
+bundle check --path vendor/gems 2>&1 > /dev/null || {
+  bundle install --binstubs bin --path vendor/gems
+}
 
-echo "cloning into submodules"
+echo "==> Cloning into submodules"
 git submodule init
 git submodule update
 
-echo "boom. run script/server to get started."
+echo "Boom. run script/server to get started."
