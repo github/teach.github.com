@@ -1,4 +1,4 @@
-  ---
+---
 layout: bare
 title: GitHub Foundations Online Open Enrollment
 description: GitHub Foundations Online
