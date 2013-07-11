@@ -11,6 +11,45 @@ eventdate: 2013-07-10
 * Jordan McCullough ([Twitter](http://twitter.com/thejordanmcc), [GitHub](https://github.com/jordanmccullough))
 * Matthew McCullough ([Twitter](http://twitter.com/matthewmccull), [GitHub](https://github.com/matthewmccullough))
 
+## Resources
+
+* [Open Source Git Ignore Templates](https://github.com/github/gitignore)
+* [GitHub Guides YouTube Channel](http:/youtube.com/githubguides)
+* [GitHub Training Feedback and Follow-up Questions](https://github.com/githubtraining/feedback/issues?state=open)
+* [GitHub Commit Status API for Continuous Integration](https://github.com/blog/1227-commit-status-api)
+* [Git Credential Cache for HTTP](http://teach.github.com/articles/lesson-git-credential-cache/)
+* [GitHub Issues Cheatsheet](http://teach.github.com/articles/github-issues-cheatsheet/)
+* [Open Source Git Ignores](https://github.com/github/gitignore)
+* [git-p4 Perforce Script](http://answers.perforce.com/articles/KB_Article/Git-P4)
+* [Unix watch command](http://en.wikipedia.org/wiki/Watch_(Unix\))
+* [SHA-1 Hash Collisions](http://git-scm.com/book/ch6-1.html#A-SHORT-NOTE-ABOUT-SHA-1)
+* [NPD Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
+* [More Git Cheatsheets](http://teach.github.com/articles/git-cheatsheets/)
+* [Merge Tool - Araxis](http://blog.ianbattersby.com/2012/08/04/git-mergetool-with-araxis-on-mac-os-x/)
+* [Configure Merge and Diff Tools](http://teach.github.com/presentations/git-foundations.html#/20/3)
+
+## Installation
+
+* Git Installation
+    * [The GitHub for Mac Client and Command Line](http://mac.github.com)
+    * [The GitHub for Windows Client and Command Line](http://windows.github.com)
+* Minimum is 1.7.ANYTHING, but can have issues with HTTPS credential prompting.
+* Best is 1.8.0 or higher
+
+## Suggested Books, Articles
+
+* [Free ProGit Book](http://git-scm.com/book)
+* [Getting started with Version Control](http://teach.github.com/articles/lesson-new-to-version-control/)
+* [The GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html)
+* [DVCS Workflows Book](https://github.com/zkessin/dvcs-workflows)
+* [Git Cheat Sheets](http://teach.github.com/articles/git-cheatsheets/)
+* [Git Workflow Links](https://pinboard.in/u:matthew.mccullough/t:git+workflow)
+
+## Course Materials, Links
+
+* [Git Teaching Materials](http://teach.github.com)
+* [Course Slides](http://teach.github.com/presentations/git-foundations.html)
+* [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
 ## CLI
 
@@ -332,6 +371,7 @@ eventdate: 2013-07-10
     git reset --hard 12e6c95
   
 ### Day 2
+
     git config user.name "GitHub Teacher"
     git config --local user.email "training@github.com"
     git config --list --local
