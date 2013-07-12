@@ -1,10 +1,10 @@
 ---
 layout: bare
-title: EJUG Git Presentation
-description: EJUG Git Presentation Class Notes
+title: STLJUG Get Up and Running with GitHub
+description: STLJUG classnotes
 tags: [notes, jug, public]
-path: classnotes/2013-05-21-ejug-git-presentation.md
-eventdate: 2013-05-21
+path: classnotes/2013-07-11-stljug-github-intro.md
+eventdate: 2013-07-11
 ---
 
 ## Teachers
