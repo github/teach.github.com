@@ -2,7 +2,7 @@
 
 permalink: /articles/:title
 pygments: true
-exclude: ['Rakefile', 'config.rb', 'README.md']
+exclude: ['Rakefile', 'config.rb', 'README.md','gems']
 markdown: rdiscount
 
 # configuration required for some pages
