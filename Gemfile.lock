@@ -57,6 +57,6 @@ DEPENDENCIES
   RedCloth
   anemone
   compass
-  jekyll
+  jekyll (> 1.0)
   rake (~> 10.0)
   rdiscount
