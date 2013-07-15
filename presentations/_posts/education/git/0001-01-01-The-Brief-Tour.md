@@ -4,9 +4,9 @@ layout: slide
 tags: ['education/git']
 ---
 
+ One folder. The entire repository.
 
 {% capture notes %}
-
 The .git folder contains the entire repository, file structure, directory tree, and commit history.
 
 The items we're interested in for starters:
@@ -15,6 +15,5 @@ The items we're interested in for starters:
 * index
 * logs
 * objects
-
 {% endcapture %}
 {% include hydeslides/core/notes %}
