@@ -130,14 +130,14 @@ The question of the types of merging are a skill
 * How are your changes going to be seen by others?
 * What about reverse merges from master into features?
 * Cherry pick with and without metadata.
-* Author and commiter field differences (when do they get set?)
+* Author and committer field differences (when do they get set?)
 
 ## Access Control
 
 Git doesn't directly implement access control, but layers above it provide a recognizable yet different ACL methodology.
 
 * Direct commit (contributor) access to the repository
-* Forks (arms length access with an approval)
+* Forks (arm's length access with an approval)
 
 ## Tips and Tricks
 

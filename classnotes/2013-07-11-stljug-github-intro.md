@@ -8,7 +8,7 @@ eventdate: 2013-07-11
 ---
 
 ## Teachers
-* Brent beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brntbeer))
+* Brent Beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brntbeer))
 
 ## Resources
 
@@ -53,7 +53,7 @@ eventdate: 2013-07-11
 
 ## Outline
 * Outline slide:
-  * Project we worked on locally. Lets share this with the world.
+  * Project we worked on locally. Let's share this with the world.
     * Intro commands for local
         * git init
         * git add
@@ -73,9 +73,9 @@ eventdate: 2013-07-11
 * add / commit
 * push (http!)
 
-* Ok, now we have it up there. let's talk about what this opens up for us now
+* OK, now we have it up there. Let's talk about what this opens up for us now
   * people can discover our things
-  * we can point people to a URL (always be accessable)
+  * we can point people to a URL (always be accessible)
   * URLs are human readable and permanent. We love stable URLs. It is how the web works.
 
 * We should probably also make things easy to get up and running.
@@ -83,7 +83,7 @@ eventdate: 2013-07-11
     * How the Windows client shows it even before you clone the repo by using the API
     * How it shows up in the web UI, rendered
   * CONTRIBUTING.md
-    * How this affects the UI during a pull request?
+    * How does this affect the UI during a pull request?
     * Show a repo that has one of these wired in with the hyperlink showing during the PR process
   * LICENSE.md
 
@@ -91,26 +91,26 @@ eventdate: 2013-07-11
 ### Project on GitHub I want to contribute to
 There's lots of projects out there. Some of them have sadly not been getting
 much love lately. There's a few ways we can get to work with these projects: 
-we can either attempt to revive them by filing an issue for something thats missing
+We can either attempt to revive them by filing an issue for something that's missing
 or we can ship code.
 
 * Go to ratpack/ratpack
-* fork then clone
-  * what is a fork? why?
-* look at logs with log / diff?
-  * possibly just look at this stuff on the UI
-* branch (because why not)
-* push you branch to your fork
-* send pull request (there's about 5 ways, which is best?)
-  * look at pulse page, find out who's best to maybe /cc?
-  * maybe cc someone who's not the top contributor
-* have a conversation with the maintainer if applicible
-  * show my doorkeeper conversations
+* Fork then clone
+  * What is a fork? Why?
+* Look at logs with log / diff?
+  * Possibly just look at this stuff on the UI
+* Branch (because why not)
+* Push your branch to your fork
+* Send pull request (there's about five ways, which is best?)
+  * Look at pulse page, find out who's best to maybe /CC?
+  * Maybe CC someone who's not the top contributor
+* Have a conversation with the maintainer if applicable
+  * Show my doorkeeper conversations
   * https://github.com/applicake/doorkeeper-provider-app/pull/7
-* update your fork
+* Update your fork
 
 
-One thing we should fix is documentation. Point people to some docs? i dunno
+One thing we should fix is documentation. Point people to some docs? I dunno.
 
 * Does it have a README/LICENSE/CONTRIBUTING like we listed above?
 * Is it missing tests?
@@ -119,10 +119,10 @@ One thing we should fix is documentation. Point people to some docs? i dunno
 ### Extras
 * Issues
 * Milestones
-* In line comments
+* Inline comments
 * Things that should go into your project (contributing.md, license.md)
 * GFM
-* explore
+* Explore
 
 ## Command Line History
 
