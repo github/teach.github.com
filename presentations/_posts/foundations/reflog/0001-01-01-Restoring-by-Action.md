@@ -15,8 +15,8 @@ categories: ['slidecontent']
 	* rebase
 	* reset
 
-* `gitk --all `git reflog | awk '{print $1}'``
-* `git log --pretty=oneline --abbrev-commit --graph --decorate `git reflog | awk '{print $1}'``
+* `gitk --all 'git reflog | awk '{print $1}'`
+* `git log --pretty=oneline --abbrev-commit --graph --decorate "git reflog | awk '{print $1}'"`
 
 * `git reflog expire --expire=now --all`
 {% endcapture %}

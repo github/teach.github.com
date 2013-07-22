@@ -5,14 +5,14 @@ tags: ['branch']
 categories: ['slidecontent']
 ---
 
-	git branch <branchname> <ref>
+    git branch <branchname> <ref>
 
-	#Create & Checkout branch
-	git checkout -b <branchname> <ref>
+    #Create & Checkout branch
+    git checkout -b <branchname> <ref>
 
 
 {% capture notes %}
-git branch <BRANCHNAME> HEAD
+`git branch <BRANCHNAME> HEAD`
 
 HEAD is assumed when REF left off
 
