@@ -16,7 +16,7 @@ categories: ['slidecontent']
         </body>
         </html>
 
-* so now `index.html` should now just contain:
+* so now `index.html` should just contain:
 
         <h1>Hello World!</h1>
 
