@@ -2,6 +2,7 @@
 chapter: "Jekyll"
 cover: true
 layout: hydeside
+title: YAML Behavior
 tags:
   - "pages/jekyll"
 categories: ['slidecontent']

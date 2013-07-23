@@ -1,6 +1,7 @@
 ---
 chapter: GitHub
 layout: slide
+title: GitHub Hosted Repo
 tags: ['github/intro']
 ---
 
