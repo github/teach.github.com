@@ -10,5 +10,5 @@ categories: ['slidecontent']
 	<span><i class="icon-github"> </i></span>
 
 	GitHub Account
-	<a href="http://github.com/signup/free">http://github.com/signup/free</a>
+	<a href="https://github.com/signup/free">github.com/signup/free</a>
 </div>

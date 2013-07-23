@@ -1,6 +1,7 @@
 ---
 chapter: GitHub
 layout: slide
+title: Cloning From GitHub
 tags: ['github/intro']
 ---
 
