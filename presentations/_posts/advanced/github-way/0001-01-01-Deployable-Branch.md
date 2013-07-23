@@ -5,7 +5,7 @@ tags: ['advanced/github-way']
 ---
 
 `master` branch is deployable
-and never directly commited upon
+and never directly committed upon
 
 {% capture notes %}
 * Involving team

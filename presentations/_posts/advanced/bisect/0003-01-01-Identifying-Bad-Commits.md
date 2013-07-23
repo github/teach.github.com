@@ -7,7 +7,7 @@ tags: ['advanced/bisect']
 	# Begin process
 	git bisect start
 
-	# Denote known bad Commit
+	# Denote known bad commit
 	git bisect bad <rev>
 
 	# Flag good commit
