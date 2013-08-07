@@ -336,272 +336,272 @@ eventdate: 2013-07-25
 
 
 ## Chat History
-`bkummel`: Hi! I read somewhere that there will be a break during the session. At what time will that be?
-`tlberglund`: Around an hour and 20 minutes into the session.
-`tlberglund`: 10:20am my time. (Session starts at 9am my time.)
-`bkummel`: And ho many minutes?
-`bkummel`: I mean, what is the duration of the break?
-`tlberglund`: The break is about ten minutes long.
-`bkummel`: Ah. Should be enough to eat my pizza :-)
-`David Graham`: I'm here for any questions, so fire away!
-`bkummel`: I'm a Java (EE) dev
-`Peter`: I am a PHP developer
-`Mike Holczer`: c#
-`Max Goedjen`: iOS Engineer @ Scopely
-`Andrew W. Hill`: Verilog/C/C++/Flash/Perl
-`John`: hardware guy.
-`Nolan Lau`: sociologist
-`Petr Jirout`: Java and C++ developer
-`David Graham`: I'm a java/Ruby/CoffeeScript developer
-`Ben Snape`: I'm a Ruby dev (formerly Java)
-`Emmanuel Davis`: Java/C#/PHP
-`Vicki Weiner`: t-sql
-`Venkat Prasad`: C/C++
-`Andrew W. Hill`: woo woo
-`Andrew W. Hill`: my life has been destroyed by submodules in the past
-`Venkat Prasad`: 5
-`Max Goedjen`: 5
-`Mike Holczer`: 5
-`Vicki Weiner`: 5
-`Mel Gibson`: 4.3
-`Nolan Lau`: 4
-`Max Goedjen`: +1 andrew
-`David Graham`: I just learned about git yesterday.
-`Ben Snape`: 7-8
-`Peter`: I took the previous course, and have been using for 1 year.  5
-`John`: i told him it was going to happen.
-`Emmanuel Davis`: 7
-`bkummel`: 5.4938582
-`Andrew W. Hill`: +/- 10%
-`bkummel`: :-)
-`Andrew W. Hill`: hardware rule
-`bkummel`: branching strategies! Luckily already on the list!
-`Ben Snape`: changing history ie filter-branch
-`Peter`: I would be interested in if it is possible to use git with mysql
-`Peter`: versionaing schema
-`bkummel`: I'm particularly interested in using feature branches
-`Venkat Prasad`: More on submodules - TIA.
-`bkummel`: And how to prevent pollution from too many feature branches
-`Peter`: also interested in deployment strats - moving from dev to production
-`Max Goedjen`: any advantages to http auth over ssh unless you're on a network that restricts ssh traffic?
-`Ben Snape`: what is the -u  flag for? I use git push <remote> <branch>
-`David Graham`: Max: ssh keys are usually tough to maintain and keep track of.  we typically recommend https.
-`Max Goedjen`: David Graham: gotcha
-`Ben Snape`: oh yeah i see...that's useful because I usually push then set up my local branch to the upstream branch retrospectively
-`Ben Snape`: thanks
-`tlberglund`: https://github.com/githubteacher/git-advanced
-`Mike Holczer`: Ravi and I were tring to do this together in the conference room, we're going to drop off and log back from our desks
-`bkummel`: Our team is working onseveral features at the same time
-`Keith`: if master and your feature branch diverge how do you handle that
-`bkummel`: So over time, we get a lot of feature branches.
-`Ben Snape`: I usually rebase before merging and then do a descriptive merge (--no-ff merge)
-`Max Goedjen`: so we do this strategy for basically any feature/bug; is there an established naming convention that works well for dozens of feature/bug fix branches? we've been doing feature/added-new-things
-`bkummel`: Most colleagues use SourceTree and all those branches pollute the pull down lists
-`bkummel`: How to avoid that?
-`Keith`: i understand rebasing, but can you give an example? 
-`Max Goedjen`: we don't actually call it added-new-things, just an example
-`Max Goedjen`: :P
-`David Graham`: fix-issue-1234 is a good branch name
-`David Graham`: fix-dropdown-menu-items is good too
-`Max Goedjen`: yep, we usually do fix/mi-123
-`Max Goedjen`: thanks
-`Keith`: how about if you are using a dev, stage and prod servers?
-`David Graham`: we delete the branch after it's merged to master
-`David Graham`: we also have a script that deletes feature branches in bulk
-`bkummel`: ;-)
-`Mike Holczer`: I don't see that as pollution, it's good information
-`David Graham`: only if they've been merged, though
-`Max Goedjen`: David Graham: is that script public?
-`bkummel`: We have old ones
-`David Graham`: think it's just an internal script
-`Ben Snape`: David: once you've deleted a merged branch is it still possible to revert that branch down the line? (and even revert the revert later still?)
-`Mike Holczer`: the "branch" is just a pointer the commits remain
-`bkummel`: yes
-`bkummel`: :-D
-`David Graham`: Ben: Yes, you can revert the merge commit when the feature branch was merged into master
-`Ben Snape`: thanks guys :)
-`David Graham`: You don't need the feature branch after it's been merged.
-`bkummel`: makes sense
-`bkummel`: thanks!
-`Keith`: how about pushing local work to a stage server?
-`David Graham`: This is exactly how we use branches at GitHub.
-`David Graham`: Feature branches go into master which is deployed to production.
-`Ben Snape`: might be going slightly off-topic but I read that you guys push feature branches to prod, verify then merge into master? how do you verify that your feature works?
-`David Graham`: Keith: we `git push origin feature-branch-a`, then tell our robot to `/deploy reponame/feature-branch-a to staging`
-`David Graham`: So non-master branches can be deployed to staging or production.
-`David Graham`: Ben: We have a comprehensive test suite that runs on each build. Then we push the feature branch to production.
-`David Graham`: We let it sit in production for at least 15 minutes, watching error logs, and testing.  Then we merge to master.
-`Max Goedjen`: so you guys don't actually use develop? just feature branches?
-`David Graham`: Right, not really a fan of git flow.
-`David Graham`: Too complex.
-`Ben Snape`: excellent, thanks :) the benefits of CD! Do rollbacks happen much?
-`David Graham`: Just feature branches.
-`Max Goedjen`: don't disagree
-`David Graham`: Ben: rollbacks happen all the time
-`David Graham`: We just deploy reponame/master to production.
-`David Graham`: Since master is always shippable.
-`bkummel`: We use something like git flow; our client does only 4 releases a year
-`David Graham`: That branching diagram hurts my brain :).
-`bkummel`: And we have to doe hotfixes on versions that were released a long time ago
-`Ben Snape`: that's really interesting. Rolling back is seen as a bit of a failure of process where I work but we're trying to change that
-`bkummel`: Unfortunately, yes
-`bkummel`: it is
-`Max Goedjen`: how do tags fit into the way github uses branches? just tag on release?
-`David Graham`: Yeah, rollback to master after testing a feature branch in production is no big deal.
-`bkummel`: I see your point
-`David Graham`: Keep in mind, though, that our feature branches are *really* small.
-`bkummel`: Will keep it on my mind for future projects
-`bkummel`: thanks
-`David Graham`: We ship small changes many times per day.
-`Ben Snape`: I see, yeah I'm sure that helps
-`David Graham`: When we blog about a new feature, it's actually been in production for a long time.
-`David Graham`: We just flip a flag to make the feature public.
-`Ben Snape`: do you scale up the deployment of new features too?
-`Ben Snape`: so you don't bring the whole site down or something :)
-`Ben Snape`: thanks Tim I think that answers my question, very interesting!
-`David Graham`: Ben: Yes, we "dark ship" features to let caches fill up before going live.
-`Max Goedjen`: David Graham: do you guys tag at all? when a release happens?
-`David Graham`: and get a feel for performance before launching the feature
-`David Graham`: Max: We don't use tags for hosted software like github.com.  We use tags for software that ships to desktops like GitHub for Mac/Windows.
-`Max Goedjen`: do you guys use the same sort of strategy for your desktop software?
-`Ben Snape`: thanks David, I had no idea you released things internally - great idea though
-`Max Goedjen`: in general
-`David Graham`: There's not really a concept of a "release" for hosted web software.  Just constantly pushing branches into master.
-`tlberglund`: git config --global alias.lol "log --graph --oneline --all --decorate"
-`David Graham`: Max: Yeah, the branching and deployment process is the same for our desktop software.
-`David Graham`: We staff-ship changes to GitHub for Mac to test them internally first, just like we do with github.com.
-`Keith`: can you post that alias> 
-`Peter`: can we have git lg?
-`Max Goedjen`: Peter: https://coderwall.com/p/euwpig
-`tlberglund`: log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit  --all
-`Peter`: thanks
-`Mike Holczer`: what's the "291tree"?
-`Mike Holczer`: Is the blob always the full file contents?
-`Mike Holczer`:  I thought it was storing diffs?
-`bkummel`: What happens if I edit a commit on this level?
-`bkummel`: yes
-`bkummel`: Ok
-`Mike Holczer`: if you fixed all the hashes it would work though
-`bkummel`: Looking forward to that
-`bkummel`: That's basicly rewriting git, isn't it?
-`Keith`: can we move on? dont mean to be an ahole, but this does not seem to be practical information
-`bkummel`: ok by me
-`Keith`: thanks
-`Ben Snape`: can you use a regex in git log -S too? or only a string?
-`Ben Snape`: haha
-`Mike Holczer`: is that line based? So that a commit that edited another part of that line would be found
-`bkummel`: :-)
-`Ben Snape`: thanks
-`bkummel`: Great. It's 18:18 here. Time for pizza!
-`tlberglund`: bkummel: :boom:
-`tlberglund`: :pizza:
-`bkummel`: :-P
-`Peter`: can we add git diff tricks/tips to the agenda?
-`Peter`: learned --stat in foundations, but not too much more
-`Max Goedjen`: woooo xcode project merges
-`Peter`: the screen is lagging behind really badly for me
-`bkummel`: for me too
-`Peter`: I missed that whole last bit
-`Max Goedjen`: yeah seeing it on and off here too
-`Peter`: what was the command to 'continue the rebase'?
-`Peter`: thx
-`David Graham`: It's really difficult to coordinate that too.
-`David Graham`: Getting all forks updated simultaneously.
-`Peter`: so the 'no pity' commit is untouched?
-`Peter`: I like that  :)
-`Mike Holczer`: what will revert do about lines that have been changed between the commit being reverted and now
-`Keith`: can you use ours/theirs in an interactive rebase> 
-`Keith`: no worries thanks
-`David Graham`: I like using rebase while working on a branch locally while other people are merging to master.  I rebase all their changes into my branch and then `git push` up to github.com.
-`David Graham`: After pushing, though, I never rebase.
-`David Graham`: Since it changes history.
-`David Graham`: Venkat: If I understand question 2 correctly, you're looking for a feature called sparse checkouts.
-`David Graham`: You clone the entire repo, then configure it to only contain the one file or directory you really want.
-`David Graham`: http://blog.quilitz.de/2010/03/checkout-sub-directories-in-git-sparse-checkouts/
-`David Graham`: that's a good summary of the steps
-`David Graham`: Venkat: Can you elaborate on question 1? Not sure I understand what you're looking for there.
-`Ben Snape`: David: does that cause problems if you want to commit and push upstream? 
-`Ben Snape`: from that sparse checkout
-`David Graham`: Ben: I'm not sure.  I've never actually needed to use it.
-`Ben Snape`: Tim, is it possible to filter between a range of commits?
-`Venkat Prasad`: Question 1. How to clone an empty repo and later pull required dirs or files? if not is their any alternatives
-`David Graham`: Venkat: You would use a sparse checkout there too.
-`David Graham`: git really wants you to clone the entire repository, though, so it has all the history.
-`Peter`: git filter-branch --tree-filter 'rm -f <filenamepattern>' <branch>  could be used to remove a config file from a branch?
-`Venkat Prasad`: Ok. our repo is over 5g so couple my colleagues asking if there is an option to clone a required directory(dir size is 1g) to make changes.
-`Venkat Prasad`: yes
-`Venkat Prasad`: Ok thank-you. we also use p4 for few projects. same question from p4 users if there is path mappings. any ways, i got it.
-`Peter`: that was a good one!
-`Mike Holczer`: this is sounding like it is a solution to Venkat's question
-`Venkat Prasad`: Thanks Mike. Yes, sounds interesting.
-`Ben Snape`: submodules must be a pointer to a single commit right? We have problems with submodules when someone updates the pointer to a commit on a different branch which breaks some other dependency
-`Mike Holczer`: is pulling while in the parent repo going to always update the submodules to their respective origin/head?
-`Ben Snape`: specifically we use it with vagrant and a puppet submodule (which has branches for various OS's)
-`Max Goedjen`: can you go into what is needed when cloning a project with submodules? it seems like that's where it starts getting nasty. `submodule update --init --recursive` and all that
-`Venkat Prasad`: Q1 Is there any way we can make read -only submodules? Q2 making read-only submodules can we avoid commits on main repo?
-`Max Goedjen`:  /any other common submodule pitfalls
-`Ben Snape`: thanks Tim! we use a CI build to defend against it and tag a successful build
-`Ben Snape`: is that better than 'git submodule update'?
-`Ben Snape`: :)
-`tlberglund`: https://github.com/githubteacher/git-advanced
-`tlberglund`: https://github.com/githubteacher/git-advanced.git
-`Max Goedjen`: push directly to your repo, not our fork, right?
-`tlberglund`: git config branch.master.rebase true
-`tlberglund`: git config --global branch.autosetuprebase always
-`Mike Holczer`: i get Cannot pull with rebase: You have unstaged changes.
-`Mike Holczer`: ya, I'm in idiot
-`Max Goedjen`: tlberglund: why setup new branches to track instead of using git config --global branch.master.rebase true
-`Max Goedjen`: ?
-`Max Goedjen`: I think I've done it before and it works
-`Max Goedjen`: ahhh because it's just master, got it
-`Mike Holczer`: can anyone create their own refspec namespace?
-`David Graham`: Thanks everyone!  Great questions.
-`Mike Holczer`: do those refspec namespace get pushed to origin?
-`Max Goedjen`: kinda touching on earlier, is there any way to make all of my existing clones use rebase besides running that config command on every one of them?
-`Peter`: thank you
-`bkummel`: Thank YOU!
-`Vicki Weiner`: Thank you
-`Venkat Prasad`: thank-you
-`Mike Holczer`: what were you going to suggest for "Reusing Small Pieces of Code"?
-`tlberglund`: git checkout --patch <commit> -- filename
-`Mike Holczer`: ok
-`Ben Snape`: I was wondering a little more about how you deploy to production in terms of feature branches. What happens once you've verified a change, it's been pushed to master but a new feature is ready to be deployed - do you rebase off the new master? (with bots?)
-`Mike Holczer`: what were you slides built in?
-`David Graham`: Ben: we don't use rebase
-`tlberglund`: https://github.com/jordanmccullough/HydeSlides
-`Ben Snape`: sorry I think I worded it a little incorrectly
-`David Graham`: We say `git merge origin/master` into the feature branch
-`David Graham`: then deploy the feature branch to production
-`Ben Snape`: I was thinking more along the lines of a race condition when deploying features to production
-`David Graham`: our robot does that merge for us on deployment so we know production is always the most stable master plus one feature branch
-`bkummel`: And what text editor were you using?
-`tlberglund`: Sublime
-`tlberglund`: 2
-`bkummel`: Ok. Thanks
-`Peter`: Will we get the chat and notes emailed to us?
-`Ben Snape`: I see, okay thanks!
-`bkummel`: I saw you do a nifty thing adding a * to many lines
-`Peter`: super
-`bkummel`: Cool
-`bkummel`: Thanks again
-`Peter`: sublime is really a great tool
-`Peter`: any quick diff tips?
-`Max Goedjen`: kaleidescope is a pretty great diff tool, that's what i use for mergetool fwiw
-`Max Goedjen`: yeah kaleidescope does it for you, i think default on mac is filemerge?
-`Ben Snape`: what do you recommend instead of submodules? I suppose dependency management using binaries/rpms?
-`Peter`: thank you
-`Ben Snape`: Ruby + Scala
-`tlberglund`: [questions answered in audio channel]
-`Ben Snape`: and its all done inside vagrant and provisioned using puppet, it gets interesting
-`Ben Snape`: thanks :)
-`Max Goedjen`: how smart is rerere? 
-`Max Goedjen`: so xcode projects are xml-like
-`tlberglund`: Max: *Pretty smart
-`tlberglund`: *
-`Max Goedjen`: and usually i'm just deleting the merge markers
-`Max Goedjen`: thanks!
-`bkummel`: Thanks again!
-`Ben Snape`: thanks! :)
-`tlberglund`: Thank YOU!
-`tlberglund`: Have a great day. :smile:
-`Ben Snape`: you too
+* `bkummel`: Hi! I read somewhere that there will be a break during the session. At what time will that be?
+* `tlberglund`: Around an hour and 20 minutes into the session.
+* `tlberglund`: 10:20am my time. (Session starts at 9am my time.)
+* `bkummel`: And ho many minutes?
+* `bkummel`: I mean, what is the duration of the break?
+* `tlberglund`: The break is about ten minutes long.
+* `bkummel`: Ah. Should be enough to eat my pizza :-)
+* `David Graham`: I'm here for any questions, so fire away!
+* `bkummel`: I'm a Java (EE) dev
+* `Peter`: I am a PHP developer
+* `Mike Holczer`: c#
+* `Max Goedjen`: iOS Engineer @ Scopely
+* `Andrew W. Hill`: Verilog/C/C++/Flash/Perl
+* `John`: hardware guy.
+* `Nolan Lau`: sociologist
+* `Petr Jirout`: Java and C++ developer
+* `David Graham`: I'm a java/Ruby/CoffeeScript developer
+* `Ben Snape`: I'm a Ruby dev (formerly Java)
+* `Emmanuel Davis`: Java/C#/PHP
+* `Vicki Weiner`: t-sql
+* `Venkat Prasad`: C/C++
+* `Andrew W. Hill`: woo woo
+* `Andrew W. Hill`: my life has been destroyed by submodules in the past
+* `Venkat Prasad`: 5
+* `Max Goedjen`: 5
+* `Mike Holczer`: 5
+* `Vicki Weiner`: 5
+* `Mel Gibson`: 4.3
+* `Nolan Lau`: 4
+* `Max Goedjen`: +1 andrew
+* `David Graham`: I just learned about git yesterday.
+* `Ben Snape`: 7-8
+* `Peter`: I took the previous course, and have been using for 1 year.  5
+* `John`: i told him it was going to happen.
+* `Emmanuel Davis`: 7
+* `bkummel`: 5.4938582
+* `Andrew W. Hill`: +/- 10%
+* `bkummel`: :-)
+* `Andrew W. Hill`: hardware rule
+* `bkummel`: branching strategies! Luckily already on the list!
+* `Ben Snape`: changing history ie filter-branch
+* `Peter`: I would be interested in if it is possible to use git with mysql
+* `Peter`: versionaing schema
+* `bkummel`: I'm particularly interested in using feature branches
+* `Venkat Prasad`: More on submodules - TIA.
+* `bkummel`: And how to prevent pollution from too many feature branches
+* `Peter`: also interested in deployment strats - moving from dev to production
+* `Max Goedjen`: any advantages to http auth over ssh unless you're on a network that restricts ssh traffic?
+* `Ben Snape`: what is the -u  flag for? I use git push <remote> <branch>
+* `David Graham`: Max: ssh keys are usually tough to maintain and keep track of.  we typically recommend https.
+* `Max Goedjen`: David Graham: gotcha
+* `Ben Snape`: oh yeah i see...that's useful because I usually push then set up my local branch to the upstream branch retrospectively
+* `Ben Snape`: thanks
+* `tlberglund`: https://github.com/githubteacher/git-advanced
+* `Mike Holczer`: Ravi and I were tring to do this together in the conference room, we're going to drop off and log back from our desks
+* `bkummel`: Our team is working onseveral features at the same time
+* `Keith`: if master and your feature branch diverge how do you handle that
+* `bkummel`: So over time, we get a lot of feature branches.
+* `Ben Snape`: I usually rebase before merging and then do a descriptive merge (--no-ff merge)
+* `Max Goedjen`: so we do this strategy for basically any feature/bug; is there an established naming convention that works well for dozens of feature/bug fix branches? we've been doing feature/added-new-things
+* `bkummel`: Most colleagues use SourceTree and all those branches pollute the pull down lists
+* `bkummel`: How to avoid that?
+* `Keith`: i understand rebasing, but can you give an example? 
+* `Max Goedjen`: we don't actually call it added-new-things, just an example
+* `Max Goedjen`: :P
+* `David Graham`: fix-issue-1234 is a good branch name
+* `David Graham`: fix-dropdown-menu-items is good too
+* `Max Goedjen`: yep, we usually do fix/mi-123
+* `Max Goedjen`: thanks
+* `Keith`: how about if you are using a dev, stage and prod servers?
+* `David Graham`: we delete the branch after it's merged to master
+* `David Graham`: we also have a script that deletes feature branches in bulk
+* `bkummel`: ;-)
+* `Mike Holczer`: I don't see that as pollution, it's good information
+* `David Graham`: only if they've been merged, though
+* `Max Goedjen`: David Graham: is that script public?
+* `bkummel`: We have old ones
+* `David Graham`: think it's just an internal script
+* `Ben Snape`: David: once you've deleted a merged branch is it still possible to revert that branch down the line? (and even revert the revert later still?)
+* `Mike Holczer`: the "branch" is just a pointer the commits remain
+* `bkummel`: yes
+* `bkummel`: :-D
+* `David Graham`: Ben: Yes, you can revert the merge commit when the feature branch was merged into master
+* `Ben Snape`: thanks guys :)
+* `David Graham`: You don't need the feature branch after it's been merged.
+* `bkummel`: makes sense
+* `bkummel`: thanks!
+* `Keith`: how about pushing local work to a stage server?
+* `David Graham`: This is exactly how we use branches at GitHub.
+* `David Graham`: Feature branches go into master which is deployed to production.
+* `Ben Snape`: might be going slightly off-topic but I read that you guys push feature branches to prod, verify then merge into master? how do you verify that your feature works?
+* `David Graham`: Keith: we `git push origin feature-branch-a`, then tell our robot to `/deploy reponame/feature-branch-a to staging`
+* `David Graham`: So non-master branches can be deployed to staging or production.
+* `David Graham`: Ben: We have a comprehensive test suite that runs on each build. Then we push the feature branch to production.
+* `David Graham`: We let it sit in production for at least 15 minutes, watching error logs, and testing.  Then we merge to master.
+* `Max Goedjen`: so you guys don't actually use develop? just feature branches?
+* `David Graham`: Right, not really a fan of git flow.
+* `David Graham`: Too complex.
+* `Ben Snape`: excellent, thanks :) the benefits of CD! Do rollbacks happen much?
+* `David Graham`: Just feature branches.
+* `Max Goedjen`: don't disagree
+* `David Graham`: Ben: rollbacks happen all the time
+* `David Graham`: We just deploy reponame/master to production.
+* `David Graham`: Since master is always shippable.
+* `bkummel`: We use something like git flow; our client does only 4 releases a year
+* `David Graham`: That branching diagram hurts my brain :).
+* `bkummel`: And we have to doe hotfixes on versions that were released a long time ago
+* `Ben Snape`: that's really interesting. Rolling back is seen as a bit of a failure of process where I work but we're trying to change that
+* `bkummel`: Unfortunately, yes
+* `bkummel`: it is
+* `Max Goedjen`: how do tags fit into the way github uses branches? just tag on release?
+* `David Graham`: Yeah, rollback to master after testing a feature branch in production is no big deal.
+* `bkummel`: I see your point
+* `David Graham`: Keep in mind, though, that our feature branches are *really* small.
+* `bkummel`: Will keep it on my mind for future projects
+* `bkummel`: thanks
+* `David Graham`: We ship small changes many times per day.
+* `Ben Snape`: I see, yeah I'm sure that helps
+* `David Graham`: When we blog about a new feature, it's actually been in production for a long time.
+* `David Graham`: We just flip a flag to make the feature public.
+* `Ben Snape`: do you scale up the deployment of new features too?
+* `Ben Snape`: so you don't bring the whole site down or something :)
+* `Ben Snape`: thanks Tim I think that answers my question, very interesting!
+* `David Graham`: Ben: Yes, we "dark ship" features to let caches fill up before going live.
+* `Max Goedjen`: David Graham: do you guys tag at all? when a release happens?
+* `David Graham`: and get a feel for performance before launching the feature
+* `David Graham`: Max: We don't use tags for hosted software like github.com.  We use tags for software that ships to desktops like GitHub for Mac/Windows.
+* `Max Goedjen`: do you guys use the same sort of strategy for your desktop software?
+* `Ben Snape`: thanks David, I had no idea you released things internally - great idea though
+* `Max Goedjen`: in general
+* `David Graham`: There's not really a concept of a "release" for hosted web software.  Just constantly pushing branches into master.
+* `tlberglund`: git config --global alias.lol "log --graph --oneline --all --decorate"
+* `David Graham`: Max: Yeah, the branching and deployment process is the same for our desktop software.
+* `David Graham`: We staff-ship changes to GitHub for Mac to test them internally first, just like we do with github.com.
+* `Keith`: can you post that alias> 
+* `Peter`: can we have git lg?
+* `Max Goedjen`: Peter: https://coderwall.com/p/euwpig
+* `tlberglund`: log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit  --all
+* `Peter`: thanks
+* `Mike Holczer`: what's the "291tree"?
+* `Mike Holczer`: Is the blob always the full file contents?
+* `Mike Holczer`:  I thought it was storing diffs?
+* `bkummel`: What happens if I edit a commit on this level?
+* `bkummel`: yes
+* `bkummel`: Ok
+* `Mike Holczer`: if you fixed all the hashes it would work though
+* `bkummel`: Looking forward to that
+* `bkummel`: That's basicly rewriting git, isn't it?
+* `Keith`: can we move on? dont mean to be an ahole, but this does not seem to be practical information
+* `bkummel`: ok by me
+* `Keith`: thanks
+* `Ben Snape`: can you use a regex in git log -S too? or only a string?
+* `Ben Snape`: haha
+* `Mike Holczer`: is that line based? So that a commit that edited another part of that line would be found
+* `bkummel`: :-)
+* `Ben Snape`: thanks
+* `bkummel`: Great. It's 18:18 here. Time for pizza!
+* `tlberglund`: bkummel: :boom:
+* `tlberglund`: :pizza:
+* `bkummel`: :-P
+* `Peter`: can we add git diff tricks/tips to the agenda?
+* `Peter`: learned --stat in foundations, but not too much more
+* `Max Goedjen`: woooo xcode project merges
+* `Peter`: the screen is lagging behind really badly for me
+* `bkummel`: for me too
+* `Peter`: I missed that whole last bit
+* `Max Goedjen`: yeah seeing it on and off here too
+* `Peter`: what was the command to 'continue the rebase'?
+* `Peter`: thx
+* `David Graham`: It's really difficult to coordinate that too.
+* `David Graham`: Getting all forks updated simultaneously.
+* `Peter`: so the 'no pity' commit is untouched?
+* `Peter`: I like that  :)
+* `Mike Holczer`: what will revert do about lines that have been changed between the commit being reverted and now
+* `Keith`: can you use ours/theirs in an interactive rebase> 
+* `Keith`: no worries thanks
+* `David Graham`: I like using rebase while working on a branch locally while other people are merging to master.  I rebase all their changes into my branch and then `git push` up to github.com.
+* `David Graham`: After pushing, though, I never rebase.
+* `David Graham`: Since it changes history.
+* `David Graham`: Venkat: If I understand question 2 correctly, you're looking for a feature called sparse checkouts.
+* `David Graham`: You clone the entire repo, then configure it to only contain the one file or directory you really want.
+* `David Graham`: http://blog.quilitz.de/2010/03/checkout-sub-directories-in-git-sparse-checkouts/
+* `David Graham`: that's a good summary of the steps
+* `David Graham`: Venkat: Can you elaborate on question 1? Not sure I understand what you're looking for there.
+* `Ben Snape`: David: does that cause problems if you want to commit and push upstream? 
+* `Ben Snape`: from that sparse checkout
+* `David Graham`: Ben: I'm not sure.  I've never actually needed to use it.
+* `Ben Snape`: Tim, is it possible to filter between a range of commits?
+* `Venkat Prasad`: Question 1. How to clone an empty repo and later pull required dirs or files? if not is their any alternatives
+* `David Graham`: Venkat: You would use a sparse checkout there too.
+* `David Graham`: git really wants you to clone the entire repository, though, so it has all the history.
+* `Peter`: git filter-branch --tree-filter 'rm -f <filenamepattern>' <branch>  could be used to remove a config file from a branch?
+* `Venkat Prasad`: Ok. our repo is over 5g so couple my colleagues asking if there is an option to clone a required directory(dir size is 1g) to make changes.
+* `Venkat Prasad`: yes
+* `Venkat Prasad`: Ok thank-you. we also use p4 for few projects. same question from p4 users if there is path mappings. any ways, i got it.
+* `Peter`: that was a good one!
+* `Mike Holczer`: this is sounding like it is a solution to Venkat's question
+* `Venkat Prasad`: Thanks Mike. Yes, sounds interesting.
+* `Ben Snape`: submodules must be a pointer to a single commit right? We have problems with submodules when someone updates the pointer to a commit on a different branch which breaks some other dependency
+* `Mike Holczer`: is pulling while in the parent repo going to always update the submodules to their respective origin/head?
+* `Ben Snape`: specifically we use it with vagrant and a puppet submodule (which has branches for various OS's)
+* `Max Goedjen`: can you go into what is needed when cloning a project with submodules? it seems like that's where it starts getting nasty. `submodule update --init --recursive` and all that
+* `Venkat Prasad`: Q1 Is there any way we can make read -only submodules? Q2 making read-only submodules can we avoid commits on main repo?
+* `Max Goedjen`:  /any other common submodule pitfalls
+* `Ben Snape`: thanks Tim! we use a CI build to defend against it and tag a successful build
+* `Ben Snape`: is that better than 'git submodule update'?
+* `Ben Snape`: :)
+* `tlberglund`: https://github.com/githubteacher/git-advanced
+* `tlberglund`: https://github.com/githubteacher/git-advanced.git
+* `Max Goedjen`: push directly to your repo, not our fork, right?
+* `tlberglund`: git config branch.master.rebase true
+* `tlberglund`: git config --global branch.autosetuprebase always
+* `Mike Holczer`: i get Cannot pull with rebase: You have unstaged changes.
+* `Mike Holczer`: ya, I'm in idiot
+* `Max Goedjen`: tlberglund: why setup new branches to track instead of using git config --global branch.master.rebase true
+* `Max Goedjen`: ?
+* `Max Goedjen`: I think I've done it before and it works
+* `Max Goedjen`: ahhh because it's just master, got it
+* `Mike Holczer`: can anyone create their own refspec namespace?
+* `David Graham`: Thanks everyone!  Great questions.
+* `Mike Holczer`: do those refspec namespace get pushed to origin?
+* `Max Goedjen`: kinda touching on earlier, is there any way to make all of my existing clones use rebase besides running that config command on every one of them?
+* `Peter`: thank you
+* `bkummel`: Thank YOU!
+* `Vicki Weiner`: Thank you
+* `Venkat Prasad`: thank-you
+* `Mike Holczer`: what were you going to suggest for "Reusing Small Pieces of Code"?
+* `tlberglund`: git checkout --patch <commit> -- filename
+* `Mike Holczer`: ok
+* `Ben Snape`: I was wondering a little more about how you deploy to production in terms of feature branches. What happens once you've verified a change, it's been pushed to master but a new feature is ready to be deployed - do you rebase off the new master? (with bots?)
+* `Mike Holczer`: what were you slides built in?
+* `David Graham`: Ben: we don't use rebase
+* `tlberglund`: https://github.com/jordanmccullough/HydeSlides
+* `Ben Snape`: sorry I think I worded it a little incorrectly
+* `David Graham`: We say `git merge origin/master` into the feature branch
+* `David Graham`: then deploy the feature branch to production
+* `Ben Snape`: I was thinking more along the lines of a race condition when deploying features to production
+* `David Graham`: our robot does that merge for us on deployment so we know production is always the most stable master plus one feature branch
+* `bkummel`: And what text editor were you using?
+* `tlberglund`: Sublime
+* `tlberglund`: 2
+* `bkummel`: Ok. Thanks
+* `Peter`: Will we get the chat and notes emailed to us?
+* `Ben Snape`: I see, okay thanks!
+* `bkummel`: I saw you do a nifty thing adding a * to many lines
+* `Peter`: super
+* `bkummel`: Cool
+* `bkummel`: Thanks again
+* `Peter`: sublime is really a great tool
+* `Peter`: any quick diff tips?
+* `Max Goedjen`: kaleidescope is a pretty great diff tool, that's what i use for mergetool fwiw
+* `Max Goedjen`: yeah kaleidescope does it for you, i think default on mac is filemerge?
+* `Ben Snape`: what do you recommend instead of submodules? I suppose dependency management using binaries/rpms?
+* `Peter`: thank you
+* `Ben Snape`: Ruby + Scala
+* `tlberglund`: [questions answered in audio channel]
+* `Ben Snape`: and its all done inside vagrant and provisioned using puppet, it gets interesting
+* `Ben Snape`: thanks :)
+* `Max Goedjen`: how smart is rerere? 
+* `Max Goedjen`: so xcode projects are xml-like
+* `tlberglund`: Max: *Pretty smart
+* `tlberglund`: *
+* `Max Goedjen`: and usually i'm just deleting the merge markers
+* `Max Goedjen`: thanks!
+* `bkummel`: Thanks again!
+* `Ben Snape`: thanks! :)
+* `tlberglund`: Thank YOU!
+* `tlberglund`: Have a great day. :smile:
+* `Ben Snape`: you too
