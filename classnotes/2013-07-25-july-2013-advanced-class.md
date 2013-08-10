@@ -8,7 +8,7 @@ eventdate: 2013-07-25
 ---
 
 ## Teachers
-* Tim Berglund ([Twitter](http://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
+* Tim Berglund ([Twitter](https://twitter.com/tlberglund), [GitHub](https://github.com/tlberglund))
 
 ## Resources
 
@@ -28,8 +28,8 @@ eventdate: 2013-07-25
 * [Jenkins Git Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin)
 * [Open Source Git Ignores](https://github.com/github/gitignore)
 * [Ship of Theseus - Related to Similarity Index](http://en.wikipedia.org/wiki/Ship_of_Theseus)
-* [git-p4 Perforce Script](http://kb.perforce.com/article/1417/git-p4)
-* [Unix watch command](http://en.wikipedia.org/wiki/Watch_(Unix))
+* [Git-p4 Perforce Script](http://answers.perforce.com/articles/KB_Article/Git-P4)
+* [Unix watch command](http://en.wikipedia.org/wiki/Watch_(Unix\))
 * [SHA-1 Hash Collisions](http://git-scm.com/book/ch6-1.html#A-SHORT-NOTE-ABOUT-SHA-1)
 * [NPD Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 * [More Git Cheatsheets](http://teach.github.com/articles/git-cheatsheets/)
@@ -104,9 +104,9 @@ eventdate: 2013-07-25
     git ls
     git config alias.ls
     git lg
-  * export PS1="$ "
-  * tr.git
-  * cd scratch/repo
+    export PS1="$ "
+    tr.git
+    cd scratch/repo
     git config alias.lg
     git-loglive
     cat ~/scripts/git-loglive
@@ -186,7 +186,7 @@ eventdate: 2013-07-25
     cat README.md
     cat caesar/caesar.txt
     git rebase -i HEAD~4
-  * git help rebase
+    git help rebase
     git rebase --abort
     ll caesar
     ll raven
@@ -246,8 +246,8 @@ eventdate: 2013-07-25
     git add caesar
     git commit -m "Reverted Caesar"
     git lol
-  * git loglive
-  * git loglive -15
+    git loglive
+    git loglive -15
     cd ../repo
     ls
     tree
@@ -308,7 +308,7 @@ eventdate: 2013-07-25
     git fetch
     git lol
     cat .git/config
-  * git help checkout
+    git help checkout
     git diff -w
     git diff
     git config --global diff.tool p4merg2
@@ -316,7 +316,7 @@ eventdate: 2013-07-25
     git config --global difftool.prompt false
     git difftool
     history
-  * crashplan-stop
+    crashplan-stop
     git status
     vi caesar/caesar.txt
     git add .
