@@ -1,7 +1,7 @@
 ---
 layout: bare
 title: GitHub Foundations Private Class
-description: GitHub Foundations Online
+description: GitHub Foundations Private Class
 tags: [notes, event]
 path: classnotes/2013-08-09-foundations-private.md
 eventdate: 2013-08-09
@@ -51,8 +51,6 @@ eventdate: 2013-08-09
 * [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
 ## CLI
-
-### Day 1
 
     git --version
     git config --global user.name "GitHub Teacher"
