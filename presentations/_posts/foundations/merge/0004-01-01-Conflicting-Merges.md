@@ -4,8 +4,5 @@ layout: slide
 tags: ['merge']
 categories: ['slidecontent']
 ---
-
-Resolve the conflicting file(s)
-
-		git add <file>
-		git commit -m"<merge-commit-message>"
+	git add <conflicting-file>
+	git commit -m"<commit-message>"
