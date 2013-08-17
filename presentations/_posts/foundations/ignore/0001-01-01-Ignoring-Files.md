@@ -5,5 +5,5 @@ tags: ['ignore']
 categories: ['slidecontent']
 ---
 
-* Create a `.gitignore` in project root
-* Add patterns
+* Create a `.gitignore` file
+* Add patterns, one-per-line
