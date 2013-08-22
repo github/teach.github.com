@@ -256,8 +256,7 @@ eventdate: 2013-06-10
     matthewmccullough   git clone https://github.com/githubteacher/hellogitworld.git
     git clone https://github.com/githubteacher/hellogitworld.git
     https://github.com/githubteacher/hellogitworld
-    matthewmccullough   https://github.com/signup.free
-    https://github.com/signup/free
+    matthewmccullough   https://github.com/signup/free
     matthewmccullough   https://github.com/githubteacher/hellogitworld
     matthewmccullough   We have forked
     Added the remote for myfork
@@ -382,4 +381,4 @@ eventdate: 2013-06-10
     matthewmccullough   Commit hooks are the triggers
     matthewmccullough   http://github.com/matthewmccullough/scripts
     https://github.com/matthewmccullough/scripts/bl...
-    tlberglund  http://teach.github.com/classnotes/2013-06-10-q...
+    tlberglund  http://teach.github.com/classnotes/2013-06-10-qcon-nyc-2013-git-foundations.html
