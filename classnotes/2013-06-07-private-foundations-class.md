@@ -320,7 +320,7 @@ eventdate: 2013-06-07
     git add 'akolve textdoc.txt'
     git commit -m "akolve commit"
     git push -u origin akolvefeature
-    Andrew K.   http://nvie.com/posts/a-successful-git-branchin...
+    Andrew K.   http://nvie.com/posts/a-successful-git-branching-model/
     Andrew K.   thank you!
 
 ## Chat History, Day 2
@@ -359,5 +359,5 @@ eventdate: 2013-06-07
     jakedouglas it'll stop fetching regular branches - i think you'll need to add it back
     matthewmccullough   https://github.com/githubteacher/hellogitworld
     matthewmccullough   https://github.com/githubteacher/hellogitworld
-    matthewmccullough   http://nvie.com/posts/a-successful-git-branchin...
+    matthewmccullough   http://nvie.com/posts/a-successful-git-branching-model/
     matthewmccullough   https://github.com/nvie/gitflow

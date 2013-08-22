@@ -685,7 +685,7 @@ eventdate: 2013-03-18
 	9:25 PM
 	ben	Most graphical clients will do better, depending on the format.
 	BTW, if anybody wants examples of useful diffs, check this out:
-	https://github.com/matthewmccullough/dotfiles/b...
+	https://github.com/matthewmccullough/dotfiles/blob/master/gitconfig
 	9:30 PM
 	Jeff H.	View paste 
 	I have try diff binary file, you will get this message: Binary files a/convert and b/convert differ
