@@ -259,7 +259,7 @@ eventdate: 2013-05-08
 ## Chat History
 
     matthewmccullough   git config --global core.editor "THINGGOESHERE"
-    matthewmccullough   http://teach.github.com/presentations/git-found...
+    matthewmccullough   http://teach.github.com/presentations/git-foundations.html
     johndbritton    git config --global color.ui true
     matthewmccullough   git rev-parse HEAD
     Jonas   I'm stuck in the log (Windows PowerShell) - is there a command to leave it?
@@ -276,5 +276,5 @@ eventdate: 2013-05-08
     matthewmccullough   https://github.com/githubteacher/hellogitworld
     matthewmccullough   git clone https://github.com/githubteacher/hellogitworld.git hgwunified
     Gunnar B.   Worth noting: Matthew's gitconfig file @ github:
-    https://github.com/matthewmccullough/dotfiles/b...
+    https://github.com/matthewmccullough/dotfiles/blob/master/gitconfig
     Erika   Thank you Mathew and John, this was a great session!

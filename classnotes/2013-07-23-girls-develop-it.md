@@ -492,13 +492,13 @@ eventdate: 2013-07-23
 
 ## Chat History
 
-    Cori J.  Slides available at: http://teach.github.com/presentations/git-found...
+    Cori J.  Slides available at: http://teach.github.com/presentations/git-foundations.html
     brntbeer  Good morning!
-    brntbeer  for those of us just joined in recently, the slide presentations are at http://teach.github.com/presentations/git-found...
+    brntbeer  for those of us just joined in recently, the slide presentations are at http://teach.github.com/presentations/git-foundations.html
     and you can find some hints about how to mvoe through the slides with the '?' key, but generally the arrow keys to move through would be great
     brntbeer  Feel free to ask questions in here if anyone doesnt want to raise their hand or speak up in class. either way works!
     Maria P.  Sorry, what does it mean for files to be LF in the repo?
-    Lindsay E.  http://teach.github.com/presentations/git-found...
+    Lindsay E.  http://teach.github.com/presentations/git-foundations.html
     jesseplusplus  how did you get there lindsay?
     Lindsay E.  that was earlier in the history, pasted in by the teacher
     looks like the full history is not showing up for everyone :(
@@ -533,7 +533,7 @@ eventdate: 2013-07-23
     Cool, thanks : )
     jesseplusplus  right, which is why we did the '.'
     sure :)
-    brntbeer  https://github.com/matthewmccullough/dotfiles/b...
+    brntbeer  https://github.com/matthewmccullough/dotfiles/blob/master/gitconfig
     alex  git log --graph --decorate works but --all and --online aren't recognized commands on my windows console. Any ideas?
     alex  --oneline
     --oneline and --all aren't recognized
@@ -579,7 +579,7 @@ eventdate: 2013-07-23
     Dorrit G.  I was logged out of chat and I no longer have the history. I would like to have the link to Matthew McCullough's list of useful shortcuts to set up. Can you repost it?
     alex  ok that worked! thanks
     jesseplusplus  sure, 1 second
-    https://github.com/matthewmccullough/dotfiles/b...
+    https://github.com/matthewmccullough/dotfiles/blob/master/gitconfig
     Cori J.  View paste 
     I got the error message: There isn't anything to compare.
     We couldn't figure out how to compare these references, do they point to valid commits?
