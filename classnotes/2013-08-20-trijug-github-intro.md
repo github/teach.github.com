@@ -177,12 +177,10 @@ people and projects that interest us.
     git remote -v
     git push -u origin master
     git status
-    git push -u origin readme-fixup 
+    git push -u origin readme-fixup
     git push
     cd ../issues-burndown/
     git pull
     rackup
     git gui
-    history
-    history > ~/Desktop/trijug2013-history
 
