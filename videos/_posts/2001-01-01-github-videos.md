@@ -10,8 +10,7 @@ Several sources for videos about Git and GitHub are:
 [Git-SCM Official Site Videos  
 ![](/images/videos-git-scm-videos.jpg)](http://git-scm.com/videos)
 
-
-[Matthew's Git Videos via Delicious Bookmarks  
+[Matthew's Git Videos   
 ![](/images/videos-pinboard-git-videos.jpg)](https://pinboard.in/u:matthew.mccullough/t:git+video)
 
 [GitHub YouTube Channel  

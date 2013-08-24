@@ -113,11 +113,11 @@ Topics covered include:
 ## Pushing to and pulling from multiple destinations.
 Refspecs only allow for a wildcard as the last element, after a slash. It cannot be part of the name itself. For example, a disallowed pattern would be `+refs/heads/t*:refs/remotes/origin/t*` to pull all of TM's and TJ's branches. An allowed pattern would be `+refs/heads/tm/*:refs/remotes/origin/tm/*` to pull only TM's branches.
 
-Refspecs can be given on `push` to change the destination of a push on the remote side. Keep in mind that the pattern is still <source>:<dest>, but we're transmitting in the opposite direction than a pull or fetch.
+Refspecs can be given on `push` to change the destination of a push on the remote side. Keep in mind that the pattern is still `<source>:<dest>`, but we're transmitting in the opposite direction than a pull or fetch.
 
     git push origin master:refs/heads/tm/master
 
-Some types of objects don't sit under the `refs/heads` folder and thus don't get pulled by the default refspec created for a cloned repository. It is easy to fetch things that normally wouldn't get fetched ([but are displayed on GitHub](https://github.com/blog/707-git-notes-display))by specifying a refspec on the command line, but this can get tedious, time after time.
+Some types of objects don't sit under the `refs/heads` folder and thus don't get pulled by the default refspec created for a cloned repository. It is easy to fetch things that normally wouldn't get fetched ([but are displayed on GitHub](https://github.com/blog/707-git-notes-display)) by specifying a refspec on the command line, but this can get tedious, time after time.
 
     git push origin refs/notes/commits
 

@@ -1,5 +1,6 @@
 #!/bin/sh
 
-set -e
+script/update
 
-bundle exec jekyll --server --auto
+jekyll serve "$@"
+

@@ -31,7 +31,7 @@ eventdate: 2013-05-09
 * [git-p4 Perforce Script](http://answers.perforce.com/articles/KB_Article/Git-P4)
 * [Unix watch command](http://en.wikipedia.org/wiki/Watch_(Unix\))
 * [SHA-1 Hash Collisions](http://git-scm.com/book/ch6-1.html#A-SHORT-NOTE-ABOUT-SHA-1)
-* [NPD Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
+* [NDP Software Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 * [More Git Cheatsheets](http://teach.github.com/articles/git-cheatsheets/)
 
 ## Installation

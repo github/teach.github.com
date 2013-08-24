@@ -25,11 +25,11 @@ The majority of these materials will be in [Markdown](http://whatismarkdown.com)
 
 ## Developing
 
-To get started, please ensure you have a recent version of Ruby installed (we currently use 1.9.3-p327).
-
 Then:
 
 ``` bash
-script/bootstrap
+git clone https://github.com/github/teach.github.com
+cd teach.github.com
+script/setup
 script/server
 ```

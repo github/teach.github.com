@@ -1530,7 +1530,7 @@ eventdate: 2013-06-04
     jordanmccullough  It brings the remote branches, again, the ones stored locally, up to date. So yes, it always writes the retrieved content from the remote to the remote branches.
     This is a safe operation though....
     as this is not affecting your working local branches.
-    http://teach.github.com/presentations/git-found...
+    http://teach.github.com/presentations/git-foundations.html
     This might help connect that explanation with the visual.
     (down arrow keys to build out the diagram to see the different commands demonstrated)
     Steven O.  Too bad it wasn't named: Remote, Near, and Local. Then it would be more clear concerning different remotes.
@@ -1571,11 +1571,11 @@ eventdate: 2013-06-04
     John K.  What the url to get the slide at?
     jordanmccullough  For the Reset slides?
     John: Which slides? Here is the entire deck, if that's what you needed:
-    http://teach.github.com/presentations/git-found...
+    http://teach.github.com/presentations/git-foundations.html
     Elaine H.  when the bottom of his screen says (END)...how do you get out of that?
     jordanmccullough  Q
     Elaine H.  thx
-    jordanmccullough  http://teach.github.com/presentations/git-found...
+    jordanmccullough  http://teach.github.com/presentations/git-foundations.html
     http://github.com/githubtraining/feedback
     Andrew H.  Thanks guys!
     brntbeer  Thank you!

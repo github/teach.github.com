@@ -12,7 +12,7 @@ This document outlines the requirements for preparing your account and laptop pr
 1) Establish a GitHub.com Account
 ----------------------------------------------------------
 We'd like you to establish a GitHub account to facilitate hands-on practice of the network flow components of Git during class.  A free account can be established at the
-[GitHub Signup Page](http://github.com/signup/free). We'd also recommend you [take a look at our supported browsers](https://help.github.com/articles/supported-browsers) after you signup ensure the best experience.
+[GitHub Signup Page](https://github.com/signup/free). We also recommend that you [take a look at our supported browsers](https://help.github.com/articles/supported-browsers) after you signup to ensure the best experience.
 
 **Please keep your username and password close at hand. You'll use it several times during class.**
 
@@ -33,7 +33,7 @@ We request that you use [version 1.7.9](https://github.com/git/git/blob/master/D
 Download the installer from <https://windows.github.com>. This provides the Git Shell running latest version of Git and a Windows graphical user interface.
 
 ### For _Mac OS X_ Machines
-Download the installer from <https://mac.github.com>. This provides a Mac OS X  graphical user interface and optional setup of Git and GitHub command line utilties.
+Download the installer from <https://mac.github.com>. This provides a Mac OS X  graphical user interface and optional setup of Git and GitHub command line utilities.
 
 __Checking Git Installation__
 
