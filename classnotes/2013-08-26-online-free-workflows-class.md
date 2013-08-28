@@ -264,19 +264,7 @@ Could be driven by regulation. We've seen it constrained by governmental rules. 
 > This can be prevented with 'pull --rebase' but this does not look like the best workflow. Is there a better one?
 > A: That workflow actually works pretty well, I use it myself. Another good way is to do work on feature branches, and only merge them when they're done. That way you only get a single merge commit at the end, rather than a bunch of them as you go along.
 > "
-> "Q: http://www.timeanddate.com/library/abbreviations/timezones/na/mst.html... you only mentioned MST, but not the city, so for example, Phoenix, time right now is 8:47 AM MST.
-> A: I love daylight savings time. :P So sorry for the confusion; Matthew is in the Denver area, so he scheduled this based on the time there.
-> Q: did this webinar start an hour early? 
-> A: No, we started at 9am MST. Do you feel like you're missing something?
-> Q: okay, thx.. giving the city will help next time.
-> A: --unanswered--
-> Q: that helps, thanks. I still don't understand why MST and EST is supposed to be +3 hrs but you guys started at +2 hours.
-> A: I'm not sure I understand. MST is only 2 hours behind EST, so 9am in Denver is 11am in NYC.
-> Q: yes I""m at EST, 11:41 and Imissed the first 40 minutes because MST to EST time diff is 3 hours..
-> A: We'll post links to all the materials at the end of the webinar.
-> "
 > "Q: Yeah, when he made the pull request he specified base: master
-> A: --unanswered--
 > Q: The base is the master branch of the teacher's repo?
 > A: You mean the base for the merge? In this case, yes.
 > "
