@@ -158,7 +158,6 @@ eventdate: 2013-08-28
     git log --oneline
     open .
     git status
-    rm .DS_Store
     git status
     git add morefile.txt
     git status
