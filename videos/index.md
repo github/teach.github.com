@@ -1,7 +1,7 @@
 ---
 layout: categorycontents
 title: List of Videos
-description: Posts on videos for Git and GitHub classes.
+description: Posts on videos for GitHub and Git classes.
 categories: ['videos']
 showinnav: true
 ---

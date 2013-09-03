@@ -1,7 +1,7 @@
 ---
 layout: categorycontents
 title: List of Courses
-description: Posts on course materials for Git and GitHub classes.
+description: Posts on course materials for GitHub and Git classes.
 categories: ['courses']
 showinnav: true
 ---
