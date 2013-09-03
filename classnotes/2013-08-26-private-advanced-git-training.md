@@ -27,10 +27,9 @@ eventdate: 2013-08-26
 * [Git Credential Cache for HTTP](http://teach.github.com/articles/lesson-git-credential-cache/)
 * [GitHub Issues Cheatsheet](http://teach.github.com/articles/github-issues-cheatsheet/)
 * [Jenkins Git Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin)
-* [Open Source Git Ignores](https://github.com/github/gitignore)
 * [Ship of Theseus - Related to Similarity Index](http://en.wikipedia.org/wiki/Ship_of_Theseus)
 * [git-p4 Perforce Script](http://answers.perforce.com/articles/KB_Article/Git-P4)
-* [Unix watch command](http://en.wikipedia.org/wiki/Watch_(Unix))
+* [Unix watch command](http://en.wikipedia.org/wiki/Watch_(Unix\))
 * [SHA-1 Hash Collisions](http://git-scm.com/book/ch6-1.html#A-SHORT-NOTE-ABOUT-SHA-1)
 * [NPD Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 * [More Git Cheatsheets](http://teach.github.com/articles/git-cheatsheets/)
@@ -47,7 +46,6 @@ eventdate: 2013-08-26
 * [Getting started with Version Control](http://teach.github.com/articles/lesson-new-to-version-control/)
 * [The GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 * [DVCS Workflows Book](https://github.com/zkessin/dvcs-workflows)
-* [Git Cheat Sheets](http://teach.github.com/articles/git-cheatsheets/)
 * [Git Workflow Links](https://pinboard.in/u:matthew.mccullough/t:git+workflow)
 
 ## Course Materials, Links
