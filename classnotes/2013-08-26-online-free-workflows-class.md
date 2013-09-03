@@ -22,7 +22,7 @@ __Topic:__
 **All About Git Workflows**
 
 __Description:__  
-When working with Git and GitHub, a common question is “What is a good workflow?” Join us for an exploration of pros and cons with git-flow and the GitHub Flow, branching patterns and merging strategies, as well as the nuances of rebasing and version history. See real-world scenarios and live demos to help make informed decisions that might work well for your team.
+When working with Git and GitHub, a common question is, “What is a good workflow?” Join us for an exploration of the pros and cons with git-flow and the GitHub Flow, branching patterns and merging strategies, as well as the nuances of rebasing and version history. See real-world scenarios and live demos to help make informed decisions that might work well for your team.
 
 ## Slides
 
@@ -33,11 +33,11 @@ When working with Git and GitHub, a common question is “What is a good workflo
 * [Git Branching and Merging Strategies video by Mike Jansen](http://www.youtube.com/watch?v=to6tIdy5rNc)
 * [Power your Workflow with Git by Gallant Games](http://www.youtube.com/watch?v=GYnOwPl8yCE)
 * Kent Beck's "Software G Forces" talk
-    * http://www.youtube.com/watch?v=KIkUWG5ACFY
-    * https://vimeo.com/33530096
-    * https://www.usenix.org/conference/webapps11/software-g-forces-effects-acceleration
-    * http://learningagileandlean.wordpress.com/2012/10/03/a-software-g-forces-experiment/
-    * http://www.slideshare.net/KentBeck/software-g-forces
+    * [Software G Forces: The Effects of Acceleration](http://www.youtube.com/watch?v=KIkUWG5ACFY) on YouTube
+    * [Keynote: G-Forces by Kent Beck](https://vimeo.com/33530096) on Vimeo
+    * [Software G Forces: The Effects of Acceleration](https://www.usenix.org/conference/webapps11/software-g-forces-effects-acceleration) on Usenix 
+    * [A Software G-Forces Experiment](http://learningagileandlean.wordpress.com/2012/10/03/a-software-g-forces-experiment/)
+    * [Software G Forces - Slides](http://www.slideshare.net/KentBeck/software-g-forces)
 
 ## Number and Purpose of Branches
 
@@ -78,7 +78,7 @@ Could be driven by regulation. We've seen it constrained by governmental rules. 
 
 * [Git Project itself](http://git-scm.com/docs/gitworkflows.html) (named playgrounds)
 * [Linus' comment about rebasing](http://www.mail-archive.com/dri-devel@lists.sourceforge.net/msg39091.html)
-* [Matthew's Bookmarks on the topic](https://pinboard.in/u:matthew.mccullough/t:git+workflow)
+* [Matthew's bookmarks on the topic](https://pinboard.in/u:matthew.mccullough/t:git+workflow)
 
 ## Tools
 
@@ -88,14 +88,13 @@ Could be driven by regulation. We've seen it constrained by governmental rules. 
 
 ## Processes
 
-* http://documentup.com/skwp/git-workflows-book
-* https://www.kernel.org/pub/software/scm/git/docs/gitworkflows.html
-* https://github.com/diaspora/diaspora/wiki/Git-Workflow
-* https://sandofsky.com/blog/git-workflow.html
-* http://documentup.com/skwp/git-workflows-book
-* http://git-scm.com/book/en/Git-Branching-Branching-Workflows
-* http://datasift.github.io/gitflow/TheHubFlowTools.html
-* http://nvie.com/posts/a-successful-git-branching-model/
+* [gitworkflows Manual Page ](https://www.kernel.org/pub/software/scm/git/docs/gitworkflows.html)
+* [Git workflow by The Diaspora Project](https://wiki.diasporafoundation.org/Git_Workflow)
+* [Understanding the Git Workflow](https://sandofsky.com/blog/git-workflow.html)
+* [Git Workflows by Yan Pritzker](http://documentup.com/skwp/git-workflows-book)
+* [Git Branching - Branching Workflows](http://git-scm.com/book/en/Git-Branching-Branching-Workflows)
+* [HubFlow: The GitFlow Tools Adapted For GitHub](http://datasift.github.io/gitflow/TheHubFlowTools.html)
+* [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 
 ## Related Tactics
 
@@ -103,14 +102,14 @@ Could be driven by regulation. We've seen it constrained by governmental rules. 
 
 ## Documentation
 
-* http://git-scm.com/book/en/Git-Branching-Branching-Workflows
-* http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows
-* http://nvie.com/posts/a-successful-git-branching-model/
-* https://www.atlassian.com/git/workflows
+* [Git Branching - Branching Workflows](http://git-scm.com/book/en/Git-Branching-Branching-Workflows)
+* [Distributed Git - Distributed Workflows](http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows)
+* [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+* [Git Workflows](https://www.atlassian.com/git/workflows)
 
 ------------------------------------------------------------------
 
-# Office Hours on 2013-08-26
+# Office Hours on 26 August 2013
 * Matthew McCullough
 * Ben Straub
 
@@ -118,10 +117,10 @@ Could be driven by regulation. We've seen it constrained by governmental rules. 
 
 * Reuse
 * Git == submodules
-* Links svn externals to Git submodules
+* Links SVN externals to Git submodules
 * 1.8.x follows the master branch (branch tip) of the submodule
 * Git allows for pointing to top level project (repository)
-* Ben: Submodules can be tricky to use, but can be the right thing
+* Submodules can be tricky to use, but can be the right thing
 * Updates (update to a specific version), git pull --recurse-submodules
 * Getting them set up is a bit tricky
 * Made smoother with `git clone --recurse-submodules`
@@ -129,7 +128,7 @@ Could be driven by regulation. We've seen it constrained by governmental rules. 
 
 # Conflicts
 
-* Conflict marker <<<<
+* Conflict marker `<<<<`
 * Not smart enough to merge it for you (combine)
 * This is Git giving you a "block" from each "source"
 * Git is telling you to find markers and make the decisions of what to keep
@@ -149,7 +148,7 @@ Could be driven by regulation. We've seen it constrained by governmental rules. 
 
 # Small 2 Dev Team Code Sharing Pattern
 
-* Ben: Push to master == deployed to production automatically
+* Push to master == deployed to production automatically
 * Development or staging branch as "playground" not ready for production
 * Git should be your sync protocol
 * `git pull`
@@ -209,85 +208,72 @@ Could be driven by regulation. We've seen it constrained by governmental rules. 
 
 ## Chat Transcript
 
-> "Q: What is the maximum space that a user can use on the GitHub ?
-> A: There's no hard maximum, but if you're being abusive, we'll contact you to correct the situation.
-> "
-> 
-> "Q: What is the correct method to fix conflict without loosing any code in files ?
-> A: Unfortunately we're out of time. Tell you what: come to the office hours and ask,
-> Q: What commande ""rebase"" do exactely ?
-> A: That's a big topic. :)  This might help: http://git-scm.com/book/en/Git-Branching-Rebasing
-> "
-> 
-> "Q: What if two features were modified at the same time in the same place for what ever reason. Does the merge fail and prompt?
-> A: You would get a merge conflict, I think Mattehew will cover that situation soon
-> Q: will we be able to download this video or watch it after the live webinar?
-> A: YES! We'll provide links at the end.
-> Q: Great thanks, sorry I have my daughter here today. Going back and forth
-> A: No problem at all. :)
-> "
-> 
-> "Q: When a fork diverges from its original so far as to no longer make sense as a fork, is it possible and/or desirable to end that relationship?
-> A: AFAIK there's no way to break a fork relationship in the GitHub UI, but you can create a new repo, push to it, and delete the forked repo. That keeps all the code history, but none of the issues/pull requests.
-> Q: Thank you Matthew and Ben!
-> A: Thanks for coming!
-> "
-> 
-> "Q: ""Does that make sense?""  Yeah it does and it works :) thank you!
-> A: Great! Glad to help out.
-> Q: Thank you for the answer.
-> A: No problem! Keep 'em coming! :)
-> Q: Hi There
-> A: Hello!
-> Q: So when wouldn't it be a good idea to use ""pull --rebase"" ?
-> A: Well, it rewrites some of your history, so you have to be careful if that history has been shared with anyone else (i.e. if you've pushed the commits in question to the remote). This isn't very common for your workflow, though; ""pull --rebase"" is pretty safe.
-> Q: Yeah it does. Didn't know it worked like that. I'm trying it now :)!
-> Q: Thank you for the answers
-> A: So happy to be of service!
-> Q: Sorry I've got to go myself
-> Q: Still on the merge/rebase topic. How would a merge conflict messing up a pull-rebase ?
-> A: Unfortunately we're out of time. Tell you what: come to the office hours and ask,
-> Q: Yeah okay, so rebasing before pushing is safe but rebasing after pushing could be dangerous
-> A: Exactly. ""pull --rebase"" is pretty safe, but be careful with ""git rebase"".
-> Q: Okay, next one.
-> 
-> When pulling and a merge conflict occures we resolve the conflict the whole working directory is not clean but a lot if files are modified (work from co-workers). Is that logic and should we just commit the changes which will then show up in github as a merge-commit? That way it looks like I changes files i didn't
-> A: Yeah, that's pretty normal when you're in the middle of a merge. Git is comparing them to the last commit YOU made, but the working directory is full of the work OTHER people did. If you fix the conflict, make the merge commit, and open the merge commit in a history viewer, you'll see only the conflict resolution, because git can compare with both parents. Does that make sense?
-> Q: Thank you for the answers
-> A: No problem. Do some reading on rebase, that'll answer your last question. http://git-scm.com/book/en/Git-Branching-Rebasing Good luck!
-> Q: When using the most basic workflow on our 'development' branch: 
-> 
-> 'pull - work - commit - pull - push'
-> 
-> We get a lot of commit's named: ""Merge branch 'development' of github.com:User/Repo into development"" containing lots of modifications made by co-workers. 
-> 
-> This can be prevented with 'pull --rebase' but this does not look like the best workflow. Is there a better one?
-> A: That workflow actually works pretty well, I use it myself. Another good way is to do work on feature branches, and only merge them when they're done. That way you only get a single merge commit at the end, rather than a bunch of them as you go along.
-> "
-> "Q: Yeah, when he made the pull request he specified base: master
-> Q: The base is the master branch of the teacher's repo?
-> A: You mean the base for the merge? In this case, yes.
-> "
-> 
-> "Q: Which terminal is he using? that has branch names part of the title
-> A: I believe he's using a fancy ZSH prompt. Check out https://github.com/robbyrussell/oh-my-zsh
-> "
-> 
-> "Q: can you go over merging and rebasing  and when to use each
-> A: I believe that'll be covered later on. If not, feel free to come to the office hours, or check this out: http://teach.github.com/presentations/git-foundations.html#/13
-> "
-> 
-> 
-> "Q: ok as i am a 2nd year grad in Computer science ....what can i gain from this webinar
-> A: If you're going to be writing code, git and GitHub are pretty useful. When I was working on my master's degree, I kept all my homework on GitHub.
-> Q: but right now, Most of the time i write code in console... I think git is basically for projocet purpose where many programmer a writing code in a single file....am i correct?
-> A: It's definitely good for that use case, but it's also good for keeping a timeline of your work. Think of it as an ""undo"" feature that can go back to before your code even existed. Also, think of GitHub as a secure backup of your work, so if your computer dies in a fire, you won't lose anything.
-> "
-> 
-> "Q: everytime i merge, i get a conflict and i have a trash code lying inside something like <<<<<HEAD ..What is it?
-> A: Unfortunately we're out of time. Tell you what: come to the office hours and ask,
-> "
-> 
-> "Q: What exactly does Travis-CI check? How does it know it breaks my code?
-> A: Travis is a Continuous Integration service. It runs your automated tests for your project every time you make a change.
-> "
+*What is the maximum space that a user can use on the GitHub?*  
+
+There's no hard maximum, but if you're being abusive, we'll contact you to correct the situation.
+
+*What does the command* `rebase` *do exactly?*
+
+That's a big topic. :) This might help: http://git-scm.com/book/en/Git-Branching-Rebasing
+
+*What if two features were modified at the same time in the same place for whatever reason. Does the merge fail and prompt?*  
+
+You would get a merge conflict, I think Matthew will cover that situation soon.
+
+*Will we be able to download this video or watch it after the live webinar?*  
+
+YES! We'll provide links at the end.
+
+*When a fork diverges from its original so far as to no longer make sense as a fork, is it possible and/or desirable to end that relationship?*  
+
+As far as I know there's no way to break a fork relationship in the GitHub UI. But you can create a new repo, push to it, and delete the forked repo. That keeps all the code history, but none of the issues/pull requests.
+
+*When wouldn't it be a good idea to use* `pull --rebase`?  
+
+Well, it rewrites some of your history, so you have to be careful if that history has been shared with anyone else (i.e. if you've pushed the commits in question to the remote). This isn't very common for your workflow, though; `pull --rebase` is pretty safe.
+
+*So rebasing before pushing is safe but rebasing after pushing could be dangerous?*  
+
+Exactly. `pull --rebase` is pretty safe, but be careful with `git rebase`.
+
+*When pulling and a merge conflict occurs we resolve the conflict the whole working directory is not clean but a lot of files are modified (work from co-workers). Is that logical and should we just commit the changes which will then show up in GitHub as a merge-commit? That way it looks like I changed files I didn't.*  
+
+Yeah, that's pretty normal when you're in the middle of a merge. Git is comparing them to the last commit YOU made, but the working directory is full of the work OTHER people did. If you fix the conflict, make the merge commit, and open the merge commit in a history viewer, you'll see only the conflict resolution, because Git can compare with both parents. Does that make sense?
+
+For more reading on rebase that'll answer your last question, http://git-scm.com/book/en/Git-Branching-Rebasing Good luck!
+
+*When using the most basic workflow on our 'development' branch:*
+
+    pull - work - commit - pull - push
+
+*We get a lot of commit's named:* "Merge branch 'development' of github.com:User/Repo into development" *containing lots of modifications made by co-workers. This can be prevented with `pull --rebase` but this does not look like the best workflow. Is there a better one?*  
+
+That workflow actually works pretty well, I use it myself. Another good way is to do work on feature branches, and only merge them when they're done. That way you only get a single merge commit at the end, rather than a bunch of them as you go along.
+
+*When he made the pull request he specified base: master. Is the base the master branch of the teacher's repo?*
+
+You mean the base for the merge? In this case, yes.
+
+*Which terminal is he using where it shows branch names as part of the title?*  
+
+I believe he's using a fancy ZSH prompt. Check out https://github.com/robbyrussell/oh-my-zsh
+
+*Can you go over merging and rebasing and when to use each?*
+
+I believe that'll be covered later on. If not, feel free to come to the office hours, or check this out: http://teach.github.com/presentations/git-foundations.html#/13
+
+*I am a second year grad in Computer Science. What can I gain from this webinar?*
+
+If you're going to be writing code, Git and GitHub are pretty useful. When I was working on my master's degree, I kept all my homework on GitHub.
+
+*Right now, most of the time I write code in console. I think Git is basically for project purposes where many programmers are writing code in a single file. Am I correct?*
+
+It's definitely good for that use case, but it's also good for keeping a timeline of your work. Think of it as an "undo" feature that can go back to before your code even existed. Also, think of GitHub as a secure backup of your work, so if your computer dies in a fire, you won't lose anything.
+
+*What exactly does Travis-CI check? How does it know it breaks my code?*
+
+Travis is a Continuous Integration service. It runs your automated tests for your project every time you make a change.
+
+*Thank you Matthew and Ben!*
+
+Thanks for coming!
