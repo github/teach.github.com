@@ -1,7 +1,7 @@
 ---
 layout: categorycontents
 title: List of Use Cases
-description: Posts on use cases for Git and GitHub classes.
+description: Posts on use cases for GitHub and Git classes.
 categories: ['usecases']
 showinnav: true
 ---

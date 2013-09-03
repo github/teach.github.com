@@ -1,7 +1,7 @@
 ---
 layout: barewithrelated
-title: Git and GitHub in the Life Sciences
-description: Git and GitHub can be used for data, source code, and authoring collaboration in the Life Sciences area of work and research.
+title: GitHub and Git in the Life Sciences
+description: GitHub and Git can be used for data, source code, and authoring collaboration in the Life Sciences area of work and research.
 path: usecases/_posts/2013-03-03-git-and-github-in-life-sciences.md
 ---
 
@@ -22,7 +22,7 @@ path: usecases/_posts/2013-03-03-git-and-github-in-life-sciences.md
 * [GitHub crowdsource BGI data](https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki)
 * [GitHub ash dieback crowdsource data](https://github.com/ash-dieback-crowdsource/data)
 
-## Git and GitHub in Scholarly Communication
+## GitHub and Git in Scholarly Communication
 
 Titus Brown’s senior author papers & submissions contain links to a tagged software version on GitHub:
 

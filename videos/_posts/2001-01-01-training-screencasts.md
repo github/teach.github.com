@@ -1,7 +1,7 @@
 ---
 layout: barewithrelated
 title: Training Screencasts
-description: Screencasts that the Training team uses in teaching Git and GitHub.
+description: Screencasts that the Training team uses in teaching GitHub and Git.
 path: videos/_posts/2001-01-01-training-screencasts.md
 ---
 

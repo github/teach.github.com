@@ -1,7 +1,7 @@
 ---
 layout: categorycontents
 title: List of Presentations
-description: Posts on presentations for Git and GitHub classes.
+description: Posts on presentations for GitHub and Git classes.
 categories: ['presentations']
 showinnav: true
 ---
@@ -11,7 +11,7 @@ showinnav: true
 <section>
 <p>
 <a href="/presentations/git-foundations.html">Git Foundations</a></br>
-  <em>A thorough course on Git and GitHub used in GitHub:Training classrooms</em>
+  <em>A thorough course on GitHub and Git used in GitHub:Training classrooms</em>
 </p>
 </section>
 
@@ -46,8 +46,8 @@ showinnav: true
 
 <section>
 <p>
-<a href="/presentations/git-for-publishing.html">Git And GitHub For Publishers</a></br>
-  <em>Presentation for publishers, writers, and editors looking to use Git and GitHub as a collaboration system</em>
+<a href="/presentations/git-for-publishing.html">GitHub and Git For Publishers</a></br>
+  <em>Presentation for publishers, writers, and editors looking to use GitHub and Git as a collaboration system</em>
 </p>
 </section>
 

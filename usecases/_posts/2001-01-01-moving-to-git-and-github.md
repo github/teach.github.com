@@ -1,22 +1,22 @@
 ---
 layout: barewithrelated
-title: Moving to Git and GitHub
-description: A journey from a version control system such as Subversion to Git and GitHub and the challenges that are likely to present themselves along the way.
+title: Moving to GitHub and Git
+description: A journey from a version control system such as Subversion to GitHub and Git and the challenges that are likely to present themselves along the way.
 path: usecases/_posts/2001-01-01-moving-to-git-and-github.md
 ---
 
-Many companies ask why they should switch to Git and GitHub. The answer primarily lies in doing less repetitive work, and making your source code control efforts disappear into the background instead of be in the forefront of your workflow. Your [focus should be on your creative work](https://github.com/features/projects) and just incidentally have it versioned. As soon as your project is no longer a solo effort, you desire to have it support collaboration. In the space of version control, our users claim that no set of tools does that as well as Git and GitHub.
+Many companies ask why they should switch to GitHub and Git. The answer primarily lies in doing less repetitive work, and making your source code control efforts disappear into the background instead of be in the forefront of your workflow. Your [focus should be on your creative work](https://github.com/features/projects) and just incidentally have it versioned. As soon as your project is no longer a solo effort, you desire to have it support collaboration. In the space of version control, our users claim that no set of tools does that as well as GitHub and Git.
 
 These goals are explained in a highly creative way by GitHub's CEO in [The Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html).
 
 Additionally, a [growing constituency](https://github.com/blog/865-github-dominates-the-forges) of open source is hosted at GitHub. In June of 2011, GitHub had [more commits than SourceForge, Google Code, and CodePlex combined](http://readwrite.com/2011/06/02/github-has-passed-sourceforge).
 
-## What are Git and GitHub?
-A [set of videos](http://git-scm.com/videos) on the official Git site offer a basic C-Suite level review of the benefits of Git and GitHub.
+## What are GitHub and Git?
+A [set of videos](http://git-scm.com/videos) on the official Git site offer a basic C-Suite level review of the benefits of GitHub and Git.
 
 Additional, there is an [About Git](http://git-scm.com/about) set of pages that explain the same ideas in text and diagram form.
 
-## Testimonials about switching to Git and GitHub
+## Testimonials about switching to GitHub and Git
 
 * [Switching Our Corporate Version Control System to GitHub](http://redotheweb.com/2012/05/20/switching-our-corporate-version-control-system-to-github.html)
 * [Moving from SVN to Git in 1,000 easy steps](http://codeascraft.com/2011/12/02/moving-from-svn-to-git-in-1000-easy-steps/)
@@ -25,7 +25,7 @@ Additional, there is an [About Git](http://git-scm.com/about) set of pages that 
 * [Git, Top Eclipse Juno Feature #6](http://eclipsesource.com/blogs/2012/06/20/git-top-eclipse-juno-feature-6/)
 * [Eclipse • Migrating to Git](http://wiki.eclipse.org/Git/Migrating_to_Git)
 
-## Companies that use Git and GitHub
+## Companies that use GitHub and Git
 As listed on <https://github.com/> and <https://enterprise.github.com/>, the following organizations use GitHub:
 
 * The White House

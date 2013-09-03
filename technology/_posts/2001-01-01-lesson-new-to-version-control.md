@@ -15,7 +15,7 @@ We're glad you're considering learning Git. We also know, from having been in yo
 
 "What next?", you ask? We recommend looking at:
 
-* [A free online interactive Git and GitHub tutorial from CodeSchool](http://try.github.com)
+* [A free online interactive GitHub and Git tutorial from CodeSchool](http://try.github.com)
 * [An online in-depth tutorial from New Context](http://gitimmersion.com)
 * [Free GitHub classes](http://github.com/training/free)
 * [Git Going – A simple guide to integrating Git & GitHub to your workflow](http://daneden.github.com/github-workflow/)

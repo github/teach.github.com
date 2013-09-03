@@ -53,7 +53,7 @@ path: courses/_posts/2001-01-01-git-advanced-course.md
 
 # Objectives v2
 
-Once you've spent some time getting to know Git and GitHub, you'll be interested in finding that next level of productivity with these two tools. This class provides precisely that _next level_ of Git and GitHub education. This class is tuned for maximum benefit to students such as yourself that have spent several months in hands-on use of these tools.
+Once you've spent some time getting to know GitHub and Git, you'll be interested in finding that next level of productivity with these two tools. This class provides precisely that _next level_ of GitHub and Git education. This class is tuned for maximum benefit to students such as yourself that have spent several months in hands-on use of these tools.
 
 ## The `hub` gem
 
