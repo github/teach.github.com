@@ -1,11 +1,11 @@
 ---
 layout: barewithrelated
-title: Book Authoring Using Git and GitHub
-description: Formats, tips and techniques for using Git and GitHub as the version control and collaborative platform for writing short and long form books.
+title: Book Authoring Using GitHub and Git
+description: Formats, tips and techniques for using GitHub and Git as the version control and collaborative platform for writing short and long form books.
 path: usecases/_posts/2001-01-01-book-authoring-using-git-and-github.md
 ---
 
-Git and GitHub are not just for writing programming code. They can also be an effective tool for writing articles and books. Matthew McCullough has written a quick [guide to writing books in lightweight formats](https://github.com/matthewmccullough/bookauthoringhowto). This article will be folded into this Teaching repository over the coming months.
+GitHub and Git are not just for writing programming code. They can also be an effective tool for writing articles and books. Matthew McCullough has written a quick [guide to writing books in lightweight formats](https://github.com/matthewmccullough/bookauthoringhowto). This article will be folded into this Teaching repository over the coming months.
 
 # What is this?
 This is a repository of ideas, techniques, tools and tricks on how to write a technical book. It was started by [Matthew McCullough](http://github.com/matthewmccullough), and added to by [Phil Haack](http://github.com/haacked), [Dan Allen](http://github.com/mojavelinux), [Neal Ford](http://github.com/nealford), and [Nate Schutta](http://github.com/ntschutta), and all the committers you'll see in the repo history. I just didn't want to hoard any knowledge that would help inspire others to write a technical book.

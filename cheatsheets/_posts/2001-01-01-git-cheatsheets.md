@@ -1,12 +1,12 @@
 ---
 layout: barewithrelated
-title: Git and GitHub Cheat Sheets
-description: Cheat sheets and quick references for Git and GitHub commands.
+title: GitHub and Git Cheat Sheets
+description: Cheat sheets and quick references for GitHub and Git commands.
 path: cheatsheets/_posts/2001-01-01-git-cheatsheets.md
 tags: [reference, cheatsheet]
 ---
 
-Several sources for cheat sheets about Git and GitHub are as follows.
+Several sources for cheat sheets about GitHub and Git are as follows.
 
 * [Matthew's Git Cheatsheet Bookmarks](https://pinboard.in/u:matthew.mccullough/t:git+cheatsheet)
 * [NDP Software Git Visual Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)

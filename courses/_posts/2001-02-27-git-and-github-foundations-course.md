@@ -1,7 +1,7 @@
 ---
 layout: barewithrelated
-title: Git and GitHub Foundations Course
-description: A curriculum for our Git and GitHub Foundations Course
+title: GitHub and Git Foundations Course
+description: A curriculum for our GitHub and Git Foundations Course
 path: courses/_posts/2001-01-01-git-and-github-foundations-course.md
 tags: [outline, course]
 ---
@@ -247,7 +247,7 @@ tags: [outline, course]
 
 This is an outline for a comprehensive class that uses all modules in the `articles` folder.
 
-1. [Switching To Git and GitHub](/articles/moving-to-git-and-github/)
+1. [Switching To GitHub and Git](/articles/moving-to-git-and-github/)
 1. [History of Git](/articles/lesson-history-of-git/)
 1. [SSH Setup](/articles/lesson-ssh-setup/)
 1. [Setting Up Git](/articles/lesson-git-initial-setup/)

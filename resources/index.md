@@ -1,7 +1,7 @@
 ---
 layout: categorycontents
 title: List of Resources
-description: Posts on resources for Git and GitHub classes.
+description: Posts on resources for GitHub and Git classes.
 categories: ['resources']
 showinnav: true
 ---

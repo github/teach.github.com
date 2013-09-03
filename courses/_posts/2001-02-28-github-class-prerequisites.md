@@ -1,7 +1,7 @@
 ---
 layout: barewithrelated
-title: Git and GitHub Class Prerequisites
-description: Installation, setup, and configuration prior to attending a Git and GitHub workshop.
+title: GitHub and Git Class Prerequisites
+description: Installation, setup, and configuration prior to attending a GitHub and Git workshop.
 path: courses/_posts/2001-01-01-github-class-prerequisites.md
 tags: [email, reference, resource]
 ---
@@ -33,7 +33,7 @@ We request that you use [version 1.7.9](https://github.com/git/git/blob/master/D
 Download the installer from <https://windows.github.com>. This provides the Git Shell running latest version of Git and a Windows graphical user interface.
 
 ### For _Mac OS X_ Machines
-Download the installer from <https://mac.github.com>. This provides a Mac OS X  graphical user interface and optional setup of Git and GitHub command line utilities.
+Download the installer from <https://mac.github.com>. This provides a Mac OS X  graphical user interface and optional setup of GitHub and Git command line utilities.
 
 __Checking Git Installation__
 
@@ -64,4 +64,4 @@ Optionally, you can read several [free ProGit book](http://git-scm.com/book) cha
 
 4) Jot Down Some In-class Questions
 -----------------------------------------------------------------------------
-Jot down a few questions about Git and GitHub.  The class flows best for everyone when we put the materials in the context of your real-world applications of Git and GitHub.
+Jot down a few questions about GitHub and Git.  The class flows best for everyone when we put the materials in the context of your real-world applications of GitHub and Git.
