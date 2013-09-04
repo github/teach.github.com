@@ -1,10 +1,6 @@
 ---
-layout: categorycontents
-title: List of Videos
-description: Posts on videos for GitHub and Git classes.
-categories: ['videos']
-showinnav: true
+layout: redirect
+redirecturl: http://youtube.com/githubguides
+redirectdelay: 3000
+categories: none
 ---
-
-{% assign selectedcategory = site.categories.videos %}
-{% include categorycontents %}
