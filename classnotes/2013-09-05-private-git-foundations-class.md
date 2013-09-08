@@ -1,7 +1,7 @@
 ---
 layout: bare
 title: Private Advanced Git Training
-description: Private Advanced Git Training Class Notes
+description: Private Git Foundations Training Class Notes
 tags: [notes]
 path: classnotes/2013-09-05-private-git-foundations-class.md
 eventdate: 2013-09-05
