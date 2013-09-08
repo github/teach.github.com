@@ -19,7 +19,7 @@ eventdate: 2013-09-05
 * [Free Office Hours Sessions](http://training.github.com/web/free-classes/)
 
 ## Windows origin Remote Replacement Bug
-A question was asked about "detatching" a repository from, say, a GitHub.com repo and storing it on a GitHub Enterprise server.  We attempted for sake of variety to do this on Windows, but encountered some hiccups in the removal of the `origin` remote.
+A question was asked about "detaching" a repository from, say, a GitHub.com repo and storing it on a GitHub Enterprise server.  We attempted for sake of variety to do this on Windows, but encountered some hiccups in the removal of the `origin` remote.
 
 It turns out that after consultation with the GitHub for Windows team that this is a known bug in the msysGit distribution of Git. The `origin` remote cannot be removed, but it can be set to a new URL as Brent suggested.  The workaround is to use the `git remote set-url origin <newurl>` instead of removing and re-adding the remote.  There was some discussion around how this could potentially be fixed in the [upstream](https://github.com/msysgit/msysgit/issues) project in due course. For now, `set-url` is the solution. Thanks for the patience on this facet of class.
 
