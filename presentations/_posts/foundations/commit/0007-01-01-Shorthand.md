@@ -4,13 +4,13 @@ layout: slide
 tags: ['commit']
 ---
 
-Three Prior to Last Commit
+Three Prior to Last Commit using `HEAD`
 
-3ec81__~3__
+    HEAD~3
 
+or with a hash-based reference
 
-
-
+    3ec81~3
 
 {% capture notes %}
 
