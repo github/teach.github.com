@@ -11,7 +11,7 @@ html, body{
 }
 html, body, .reveal{
 	font-family: $font-default;
-	font-size: 22px;
+	font-size: 30px;
 	line-height: 1.35em;
 }
 
@@ -95,7 +95,7 @@ hgroup{
 pre{
 	box-shadow: 0 0 0 3px $brand-lightGrey;
 	border-radius: .25em;
-	/*font-size: 1.5em !important;*/
+	font-size: 1em !important;
 }
 pre code{
 	display: block;
