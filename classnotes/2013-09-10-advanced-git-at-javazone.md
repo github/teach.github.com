@@ -224,11 +224,11 @@ Interactive rebasing gives you the ability to shape your commit history prior to
 
 Rebase, at its core, is the transport of commits from one place in the graph to another. In this workflow example, we'll show how a feature or fix can atomically be transported on to another branch, isolated from potentially muddying earlier commits.
 
-Signed tags
+### Signed tags
 
 Tags are a great way to mark a point in time for events such as an official release, or bug fix. However, signed tags can also be merged as of the latest versions of Git, thus providing a means of preserving signed-code integrity, all the way through the merge and delivery process.
 
-Bisect
+### Bisect
 
 The bisect feature of Git is a powerful tool that can be used to search for a regression. It is best paired with a strong unit test suite for complete automated execution, but can also be used in support of a manual search for a difficult-to-automatedly-detect problem, such as a subtle shift in an image. We'll explore this feature using a repository that has a latent defect that is easily found using bisect run.
 
@@ -238,3 +238,196 @@ Audience Requirements:
 * A GitHub account
 * Approximately 6 months or more of hands-on Git experience
 * Required
+
+
+## Chat Room Notes
+
+Sample repo:  
+https://github.com/githubteacher/hellogitworld
+
+Git Notes overview:  
+http://progit.org/2010/08/25/notes.html
+
+Blobspec:
+
+    git show HEAD~1:README.txt  | mate
+
+File specification for checkout (retrieval):
+
+    git checkout HEAD~1 -- README.txt
+
+Matthew's dotfiles:  
+https://github.com/matthewmccullough/dotfiles
+
+Commit status API on GitHub:  
+https://github.com/blog/1227-commit-status-api
+
+## Command Line History
+
+    hub clone scripts
+    
+    git init project1
+    cd project1
+    hub create
+    
+    git clone https://github.com/balanced/balanced-dashboard
+    hub fork
+    
+    git config user.name
+    git config remote.origin.fetch
+    git ls-remote
+    
+    git clone https://github.com/githubteacher/example-basic
+    tree .git/refs
+    git ls-remote
+    git fetch origin refs/pull/1/head
+    git branch iwanttokeepthis FETCH_HEAD
+    
+    cd balanced-dashboard
+    cd example-basic
+    git checkout remotes/originpulls/1/merge
+    git diff
+    git merge remotes/originpulls/1/head
+    
+    git clone https://github.com/githubteacher/hellogitworld
+    cd hellogitworld
+    
+    z git_git
+    git branch -a
+    open .git
+    cd -
+    cd ../hellogitworld
+    cd refs/
+    git notes add
+    git tag GOODPOINT
+    cat .git/refs/tags/GOODPOINT
+    cat .git/refs/notes/commits
+    git cat-file -t 2bba6a5d39bf1a52d5bf2c6c23ebd9f5646f2c87
+    git cat-file -t 0d522fbd2e5edd4071c3c6f258e9dff033c778ae
+    git show 2bba6a5d39bf1a52d5bf2c6c23ebd9f5646f2c87
+    git log --pretty=raw -2
+    git log -1
+    git pushnotes origin
+    git config --list  | grep notes
+    git fetchnotes origin
+    vim .git/config
+    git notes --ref=testme add -m "Test note 2"
+    git notes --ref=jenkins add -m "Build succeeded at 2013-09-10 3:03 PM"
+    git help notes
+    git branch feature1
+    git commit -a -m"Hotfix on master"
+    git checkout feature1
+    git commit -a -m"Proposing blue"
+    vim README.txt
+    git commit -a
+    echo ran my unitest tests
+    git config rerere.enabled
+    git show
+    git add README.txt
+    git help rerere
+    git merge feature1
+    git checkout --ours README.txt
+    git checkout --theirs README.txt
+    head README.txt
+    echo PATHSPEC
+    git help checkout
+    git show HEAD~1:README.txt
+    git show HEAD~1:README.txt  | mate
+    git checkout HEAD~1 -- README.txt
+    git log
+    git mergetool
+    git help mergetool
+    git mergetool --tool-help
+    git merge feature1
+    git mergetool -t meld
+    git mergetool -t opendiff
+    git merge --abort
+    git diff master...feature1
+    git difftool master...feature1
+    git config --list | grep mergetool
+    mate ~/.gitconfig
+    git reset --hard HEAD~1
+    git checkout 6a3413e
+    cd ..
+    git reset --hard 8d80474
+    git reset --hard 6a3413e
+    git config --list | orphan
+    git branch throwaway
+    git checkout throwaway
+    generaterandomchanges 2 sample txt
+    git reset --hard master
+    git branch savethisplease bb80
+    git config --list | grep orphan
+    git orphanl
+    mate .git/config
+    git remote -v
+    cd hellogitworld-yourcolleagueinsanfrancisco
+    git rebase -i HEAD~2
+    git push -f
+    git reflog
+    git orphank
+    git cherry-pick bb8074d7053c3314e02f9cb9ab13fb14fef33a81
+    git push
+    git pull
+    git log -3
+    git reset --soft 8d80
+    git commit -m "Restoring to a working copy of code:
+    git commit -m "Restoring to a working copy of code"
+    git reset --soft HEAD~7
+    git commit -m "Get this working"
+    git checkout 78f4771
+    git clean -ndx
+    git clean -fdx
+    gradle build
+    git rev-parse HEAD
+    git reset --soft 78f4771957ffcd015caf609a1721f0fb8ba18cb6
+    git commit -m "Got this working"
+    git log -2
+    git reset 78f4771957ffcd015caf609a1721f0fb8ba18cb6
+    git reset --hard
+    git checkout savethisplease
+    git checkout -f savethisplease
+    git reset --hard savethisplease
+    git fetch
+    gitk --all
+    git log --oneline -9
+    git log --oneline -13
+    git checkout 1f4b39b
+    mvn test
+    git checkout bisect
+    git log --oneline -15
+    git bisect bad HEAD
+    git bisect start
+    git bisect bad
+    git bisect good 56cb315
+    git bisect run mvn test
+    git status
+    git bisect reset
+    git checkout maste
+    git checkout master
+    cd .git
+    cd refs
+    git tag REFERENCE
+    git cat-file -t bb8074d7053c3314e02f9cb9ab13fb14fef33a81
+    cat .git/refs/tags/REFERENCE
+    git show bb8074d7053c3314e02f9cb9ab13fb14fef33a81
+    git tag -a ANNOTATED
+    cat .git/refs/tags/ANNOTATED
+    git cat-file -t d4f4a3a780d18738100ab43defb4c3d26bee7d11
+    git log d4f4a3a780d18738100ab43defb4c3d26bee7d11
+    git log ANNOTATED 
+    git show d4f4a3a780d18738100ab43defb4c3d26bee7d11
+    git tag -s SIGNED
+    git show SIGNED
+    git tag -v SIGNED 
+    git reset --hard origin/master
+    generaterandomchanges 10 sample txt
+    git log --oneline
+    echo STUFF >> README.txt
+    git add .
+    git commit -m 'fixup! A random change of 10770'
+    git rebase -i --autosquash HEAD~9
+    git log --stat 0cd6ee5
+    git log --oneline -10
+    git rebase -i  HEAD~9
+    git config --list | grep commit
