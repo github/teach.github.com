@@ -1,6 +1,6 @@
 ---
 layout: bare
-title: Private Advanced Git Training
+title: Private Advanced Git Training at JavaZone
 description: Private Advanced Git Training Class Notes
 tags: [notes]
 path: classnotes/2013-09-10-advanced-git-at-javazone.md
@@ -59,9 +59,9 @@ eventdate: 2013-09-10
 
 # JavaZone Advanced Git & GitHub Workshop
 
-Tuesday 10 Sep.  
+Tuesday 10 September 2013  
 Timeslot: 13:30 - 17:30  
-Instructor: Mathew McCullough
+Instructor: Matthew McCullough
 
 ## Description:
 Advanced Git & GitHub Half-Day Workshop
@@ -70,7 +70,7 @@ Once you've spent some time getting to know Git and GitHub, you'll be interested
 
 ### The hub gem
 
-We'll begin with a look at the helpful hub command line tool (https://github.com/defunkt/hub) that can create, open, and browse repositories in addition to diffing arbitrary hashes and forking repos. CLI aficionados will enjoy the return to the console, doing what they thought was only possible in the web browser.
+We'll begin with a look at the helpful [hub command line tool](https://github.com/defunkt/hub) that can create, open, and browse repositories in addition to diffing arbitrary hashes and forking repos. CLI aficionados will enjoy the return to the console, doing what they thought was only possible in the web browser.
 
 ### Refspecs
 
@@ -78,13 +78,13 @@ All Git interactions, whether transparently or opaquely, leverage a domain speci
 
 ### Notes
 
-You know that Git stores blobs, trees, commits, and tags, but did you know it can also store a parallel stream of notes? These notes can be written and adjusted again and again, categorized by namespace, and even rendered in the GitHub user interface. Notes are supported by automation tools like Jenkins (http://jenkins-ci.org/) and its Git plugins (https://wiki.jenkins-ci.org/display/JENKINS/git-notes+Plugin), and can be a powerful supplement of build results and deployment metadata on to an existing commit history.
+You know that Git stores blobs, trees, commits, and tags, but did you know it can also store a parallel stream of notes? These notes can be written and adjusted again and again, categorized by namespace, and even rendered in the GitHub user interface. Notes are supported by automation tools like [Jenkins](http://jenkins-ci.org/) and [its Git plugins](https://wiki.jenkins-ci.org/display/JENKINS/git-notes+Plugin), and can be a powerful supplement of build results and deployment metadata on to an existing commit history.
 
 ### ReReRe
 
 Git provides the power of being able to reset-away a less than pleasant merge. But what about all that investment in the merge conflicts that you solved? The rerere option switch and command provides a means of preserving your merge conflict resolutions, even for discarded merges. These can be reused across branches; for example, in the scenario of delivering a common fix to more than one branch.
 
-Git provides the power of being able to reset-away a less than plesant merge. But what about all that investment in the merge conflicts that you solved? The rerere option switch and command provides a means of preserving your merge conflict resolutions, even for discarded merges. These can be reused across branches; for example, in the scenario of delivering a common fix to more than one branch.
+Git provides the power of being able to reset-away a less than pleasant merge. But what about all that investment in the merge conflicts that you solved? The rerere option switch and command provides a means of preserving your merge conflict resolutions, even for discarded merges. These can be reused across branches; for example, in the scenario of delivering a common fix to more than one branch.
 
 The `rerere` command (and configuration option) which stands for "reuse recorded resolution" memorizes the two sides of a conflict and can re-use your resolution next time the same conflict is seen.
 
@@ -189,7 +189,7 @@ The most surprising fact is that the rerere cache is not machine-portable in the
 
 ### Pull requests from the command line
 
-Pull Requests are thought of as a web-based feature of GitHub. However, they are fully accessible, fetch able, and create-able from the command line.
+Pull Requests are thought of as a web-based feature of GitHub. However, they are fully accessible, fetchable, and createable from the command line.
 
 
 ### Conflict Resolution
@@ -206,15 +206,15 @@ Pull Requests are thought of as a web-based feature of GitHub. However, they are
 
 ### External merge and diff tools
 
-Merging and diffing with the command line can be effective. But, when an ocean of <<<<< symbols is overwhelming, switch to using Git's integration with any visual diff and merge tool. We'll cover how to configure, invoke, and leverage Open Diff and Araxis and talk about how this can extent to Beyond Compare, VimDiff, P4Merge and other similar tools.
+Merging and diffing with the command line can be effective. But, when an ocean of `<<<<<` symbols is overwhelming, switch to using Git's integration with any visual diff and merge tool. We'll cover how to configure, invoke, and leverage Open Diff and Araxis and talk about how this can extent to Beyond Compare, VimDiff, P4Merge and other similar tools.
 
 ### The Reflog
 
-Git's ability to re-write history may seem scary at first. But once you know that the reflog (http://git-scm.com/docs/git-reflog.html) has a rolling 90 day history of your destructive and creative actions, you'll feel more at ease to use Git's advanced features.
+Git's ability to re-write history may seem scary at first. But once you know that [the reflog](http://git-scm.com/docs/git-reflog.html) has a rolling 90 day history of your destructive and creative actions, you'll feel more at ease to use Git's advanced features.
 
 ### Three reset modes
 
-The reset command (http://git-scm.com/docs/git-reset.html) is one of Git's real mysteries. What's the difference between soft, hard, and mixed? We'll show you first hand how and where to best leverage each of these modes.
+The [reset command](http://git-scm.com/docs/git-reset.html) is one of Git's real mysteries. What's the difference between soft, hard, and mixed? We'll show you first hand how and where to best leverage each of these modes.
 
 ### Interactive Rebase
 
@@ -232,13 +232,12 @@ Tags are a great way to mark a point in time for events such as an official rele
 
 The bisect feature of Git is a powerful tool that can be used to search for a regression. It is best paired with a strong unit test suite for complete automated execution, but can also be used in support of a manual search for a difficult-to-automatedly-detect problem, such as a subtle shift in an image. We'll explore this feature using a repository that has a latent defect that is easily found using bisect run.
 
-Audience Requirements:
+## Audience Requirements:
+
 * Laptop with Linux, Windows, or Mac OSX
 * Git 1.8 or higher installed prior to class
 * A GitHub account
 * Approximately 6 months or more of hands-on Git experience
-* Required
-
 
 ## Chat Room Notes
 
@@ -431,3 +430,4 @@ https://github.com/blog/1227-commit-status-api
     git log --oneline -10
     git rebase -i  HEAD~9
     git config --list | grep commit
+
