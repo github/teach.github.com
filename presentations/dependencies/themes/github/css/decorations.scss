@@ -82,26 +82,24 @@
 /*Stage Building Diagrams*/
 .diagram-group{
   position: relative;
-  max-width: 100%;
-  max-height: 100%;
-  /*box-shadow: 10px 0 0 0 $mnch-bright, -10px 0 0 0 $mnch-bright, 0 0 30px $mnch-medium;*/
-  border-radius: .5em;
   overflow: hidden;
 }
   .reveal section .fragment.diagram{
     position: absolute;
-
+    background: #fff;
+    width: 95% !important;
+    max-height: 100% !important;
+    max-width: 95% !important;
+    left: 2.5%;
   }
   .reveal section .fragment.diagram:nth-child(n+2){
-    left: 2.5%;
-    top: 2.5%;
+    
+    
     transition: all 700ms;
     opacity: 0;
   }
   .reveal section .fragment.diagram.visible:nth-child(n+2){
-    /*left: 0px;*/
     display: block;
     opacity: 1;
-    /*top: 0;*/
     position: absolute;
   }
