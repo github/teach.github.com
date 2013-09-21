@@ -125,6 +125,8 @@ categories: ['presentations']
   * `git branch <name> <ref>`
 * Deleting a branch
   * `git branch -d <name>`
+* Show all branches sorted by the ones that were most recently changed.
+  * `git for-each-ref --sort=committerdate refs/heads/ --format="%(committerdate) %09 %(committerdate:relative) %09 %(refname:short)"`
 
 ## merge
 * Folding in branches
