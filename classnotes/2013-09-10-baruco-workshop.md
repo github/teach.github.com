@@ -9,6 +9,7 @@ eventdate: 2013-09-10
 
 ## Teachers
 * Brent Beer ([Twitter](http://twitter.com/brntbeer), [GitHub](https://github.com/brntbeer))
+* Mike Skalnik ([Twitter](http://twitter.com/skalnik), [GitHub](https://github.com/skalnik))
 
 ## Resources
 
