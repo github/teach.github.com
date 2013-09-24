@@ -1,6 +1,6 @@
 ---
 layout: bare
-title: Private Advanced Git Training
+title: Private Advanced Git Training at JavaZone
 description: Private Advanced Git Training Class Notes
 tags: [notes]
 path: classnotes/2013-09-10-advanced-git-at-javazone.md
@@ -59,9 +59,9 @@ eventdate: 2013-09-10
 
 # JavaZone Advanced Git & GitHub Workshop
 
-Tuesday 10 Sep.  
+Tuesday 10 September 2013  
 Timeslot: 13:30 - 17:30  
-Instructor: Mathew McCullough
+Instructor: Matthew McCullough
 
 ## Description:
 Advanced Git & GitHub Half-Day Workshop
@@ -70,7 +70,7 @@ Once you've spent some time getting to know Git and GitHub, you'll be interested
 
 ### The hub gem
 
-We'll begin with a look at the helpful hub command line tool (https://github.com/defunkt/hub) that can create, open, and browse repositories in addition to diffing arbitrary hashes and forking repos. CLI aficionados will enjoy the return to the console, doing what they thought was only possible in the web browser.
+We'll begin with a look at the helpful [hub command line tool](https://github.com/defunkt/hub) that can create, open, and browse repositories in addition to diffing arbitrary hashes and forking repos. CLI aficionados will enjoy the return to the console, doing what they thought was only possible in the web browser.
 
 ### Refspecs
 
@@ -78,13 +78,13 @@ All Git interactions, whether transparently or opaquely, leverage a domain speci
 
 ### Notes
 
-You know that Git stores blobs, trees, commits, and tags, but did you know it can also store a parallel stream of notes? These notes can be written and adjusted again and again, categorized by namespace, and even rendered in the GitHub user interface. Notes are supported by automation tools like Jenkins (http://jenkins-ci.org/) and its Git plugins (https://wiki.jenkins-ci.org/display/JENKINS/git-notes+Plugin), and can be a powerful supplement of build results and deployment metadata on to an existing commit history.
+You know that Git stores blobs, trees, commits, and tags, but did you know it can also store a parallel stream of notes? These notes can be written and adjusted again and again, categorized by namespace, and even rendered in the GitHub user interface. Notes are supported by automation tools like [Jenkins](http://jenkins-ci.org/) and [its Git plugins](https://wiki.jenkins-ci.org/display/JENKINS/git-notes+Plugin), and can be a powerful supplement of build results and deployment metadata on to an existing commit history.
 
 ### ReReRe
 
 Git provides the power of being able to reset-away a less than pleasant merge. But what about all that investment in the merge conflicts that you solved? The rerere option switch and command provides a means of preserving your merge conflict resolutions, even for discarded merges. These can be reused across branches; for example, in the scenario of delivering a common fix to more than one branch.
 
-Git provides the power of being able to reset-away a less than plesant merge. But what about all that investment in the merge conflicts that you solved? The rerere option switch and command provides a means of preserving your merge conflict resolutions, even for discarded merges. These can be reused across branches; for example, in the scenario of delivering a common fix to more than one branch.
+Git provides the power of being able to reset-away a less than pleasant merge. But what about all that investment in the merge conflicts that you solved? The rerere option switch and command provides a means of preserving your merge conflict resolutions, even for discarded merges. These can be reused across branches; for example, in the scenario of delivering a common fix to more than one branch.
 
 The `rerere` command (and configuration option) which stands for "reuse recorded resolution" memorizes the two sides of a conflict and can re-use your resolution next time the same conflict is seen.
 
@@ -189,7 +189,7 @@ The most surprising fact is that the rerere cache is not machine-portable in the
 
 ### Pull requests from the command line
 
-Pull Requests are thought of as a web-based feature of GitHub. However, they are fully accessible, fetch able, and create-able from the command line.
+Pull Requests are thought of as a web-based feature of GitHub. However, they are fully accessible, fetchable, and createable from the command line.
 
 
 ### Conflict Resolution
@@ -206,15 +206,15 @@ Pull Requests are thought of as a web-based feature of GitHub. However, they are
 
 ### External merge and diff tools
 
-Merging and diffing with the command line can be effective. But, when an ocean of <<<<< symbols is overwhelming, switch to using Git's integration with any visual diff and merge tool. We'll cover how to configure, invoke, and leverage Open Diff and Araxis and talk about how this can extent to Beyond Compare, VimDiff, P4Merge and other similar tools.
+Merging and diffing with the command line can be effective. But, when an ocean of `<<<<<` symbols is overwhelming, switch to using Git's integration with any visual diff and merge tool. We'll cover how to configure, invoke, and leverage Open Diff and Araxis and talk about how this can extent to Beyond Compare, VimDiff, P4Merge and other similar tools.
 
 ### The Reflog
 
-Git's ability to re-write history may seem scary at first. But once you know that the reflog (http://git-scm.com/docs/git-reflog.html) has a rolling 90 day history of your destructive and creative actions, you'll feel more at ease to use Git's advanced features.
+Git's ability to re-write history may seem scary at first. But once you know that [the reflog](http://git-scm.com/docs/git-reflog.html) has a rolling 90 day history of your destructive and creative actions, you'll feel more at ease to use Git's advanced features.
 
 ### Three reset modes
 
-The reset command (http://git-scm.com/docs/git-reset.html) is one of Git's real mysteries. What's the difference between soft, hard, and mixed? We'll show you first hand how and where to best leverage each of these modes.
+The [reset command](http://git-scm.com/docs/git-reset.html) is one of Git's real mysteries. What's the difference between soft, hard, and mixed? We'll show you first hand how and where to best leverage each of these modes.
 
 ### Interactive Rebase
 
@@ -224,17 +224,210 @@ Interactive rebasing gives you the ability to shape your commit history prior to
 
 Rebase, at its core, is the transport of commits from one place in the graph to another. In this workflow example, we'll show how a feature or fix can atomically be transported on to another branch, isolated from potentially muddying earlier commits.
 
-Signed tags
+### Signed tags
 
 Tags are a great way to mark a point in time for events such as an official release, or bug fix. However, signed tags can also be merged as of the latest versions of Git, thus providing a means of preserving signed-code integrity, all the way through the merge and delivery process.
 
-Bisect
+### Bisect
 
 The bisect feature of Git is a powerful tool that can be used to search for a regression. It is best paired with a strong unit test suite for complete automated execution, but can also be used in support of a manual search for a difficult-to-automatedly-detect problem, such as a subtle shift in an image. We'll explore this feature using a repository that has a latent defect that is easily found using bisect run.
 
-Audience Requirements:
+## Audience Requirements:
+
 * Laptop with Linux, Windows, or Mac OSX
 * Git 1.8 or higher installed prior to class
 * A GitHub account
 * Approximately 6 months or more of hands-on Git experience
-* Required
+
+## Chat Room Notes
+
+Sample repo:  
+https://github.com/githubteacher/hellogitworld
+
+Git Notes overview:  
+http://progit.org/2010/08/25/notes.html
+
+Blobspec:
+
+    git show HEAD~1:README.txt  | mate
+
+File specification for checkout (retrieval):
+
+    git checkout HEAD~1 -- README.txt
+
+Matthew's dotfiles:  
+https://github.com/matthewmccullough/dotfiles
+
+Commit status API on GitHub:  
+https://github.com/blog/1227-commit-status-api
+
+## Command Line History
+
+    hub clone scripts
+    
+    git init project1
+    cd project1
+    hub create
+    
+    git clone https://github.com/balanced/balanced-dashboard
+    hub fork
+    
+    git config user.name
+    git config remote.origin.fetch
+    git ls-remote
+    
+    git clone https://github.com/githubteacher/example-basic
+    tree .git/refs
+    git ls-remote
+    git fetch origin refs/pull/1/head
+    git branch iwanttokeepthis FETCH_HEAD
+    
+    cd balanced-dashboard
+    cd example-basic
+    git checkout remotes/originpulls/1/merge
+    git diff
+    git merge remotes/originpulls/1/head
+    
+    git clone https://github.com/githubteacher/hellogitworld
+    cd hellogitworld
+    
+    z git_git
+    git branch -a
+    open .git
+    cd -
+    cd ../hellogitworld
+    cd refs/
+    git notes add
+    git tag GOODPOINT
+    cat .git/refs/tags/GOODPOINT
+    cat .git/refs/notes/commits
+    git cat-file -t 2bba6a5d39bf1a52d5bf2c6c23ebd9f5646f2c87
+    git cat-file -t 0d522fbd2e5edd4071c3c6f258e9dff033c778ae
+    git show 2bba6a5d39bf1a52d5bf2c6c23ebd9f5646f2c87
+    git log --pretty=raw -2
+    git log -1
+    git pushnotes origin
+    git config --list  | grep notes
+    git fetchnotes origin
+    vim .git/config
+    git notes --ref=testme add -m "Test note 2"
+    git notes --ref=jenkins add -m "Build succeeded at 2013-09-10 3:03 PM"
+    git help notes
+    git branch feature1
+    git commit -a -m"Hotfix on master"
+    git checkout feature1
+    git commit -a -m"Proposing blue"
+    vim README.txt
+    git commit -a
+    echo ran my unitest tests
+    git config rerere.enabled
+    git show
+    git add README.txt
+    git help rerere
+    git merge feature1
+    git checkout --ours README.txt
+    git checkout --theirs README.txt
+    head README.txt
+    echo PATHSPEC
+    git help checkout
+    git show HEAD~1:README.txt
+    git show HEAD~1:README.txt  | mate
+    git checkout HEAD~1 -- README.txt
+    git log
+    git mergetool
+    git help mergetool
+    git mergetool --tool-help
+    git merge feature1
+    git mergetool -t meld
+    git mergetool -t opendiff
+    git merge --abort
+    git diff master...feature1
+    git difftool master...feature1
+    git config --list | grep mergetool
+    mate ~/.gitconfig
+    git reset --hard HEAD~1
+    git checkout 6a3413e
+    cd ..
+    git reset --hard 8d80474
+    git reset --hard 6a3413e
+    git config --list | orphan
+    git branch throwaway
+    git checkout throwaway
+    generaterandomchanges 2 sample txt
+    git reset --hard master
+    git branch savethisplease bb80
+    git config --list | grep orphan
+    git orphanl
+    mate .git/config
+    git remote -v
+    cd hellogitworld-yourcolleagueinsanfrancisco
+    git rebase -i HEAD~2
+    git push -f
+    git reflog
+    git orphank
+    git cherry-pick bb8074d7053c3314e02f9cb9ab13fb14fef33a81
+    git push
+    git pull
+    git log -3
+    git reset --soft 8d80
+    git commit -m "Restoring to a working copy of code:
+    git commit -m "Restoring to a working copy of code"
+    git reset --soft HEAD~7
+    git commit -m "Get this working"
+    git checkout 78f4771
+    git clean -ndx
+    git clean -fdx
+    gradle build
+    git rev-parse HEAD
+    git reset --soft 78f4771957ffcd015caf609a1721f0fb8ba18cb6
+    git commit -m "Got this working"
+    git log -2
+    git reset 78f4771957ffcd015caf609a1721f0fb8ba18cb6
+    git reset --hard
+    git checkout savethisplease
+    git checkout -f savethisplease
+    git reset --hard savethisplease
+    git fetch
+    gitk --all
+    git log --oneline -9
+    git log --oneline -13
+    git checkout 1f4b39b
+    mvn test
+    git checkout bisect
+    git log --oneline -15
+    git bisect bad HEAD
+    git bisect start
+    git bisect bad
+    git bisect good 56cb315
+    git bisect run mvn test
+    git status
+    git bisect reset
+    git checkout maste
+    git checkout master
+    cd .git
+    cd refs
+    git tag REFERENCE
+    git cat-file -t bb8074d7053c3314e02f9cb9ab13fb14fef33a81
+    cat .git/refs/tags/REFERENCE
+    git show bb8074d7053c3314e02f9cb9ab13fb14fef33a81
+    git tag -a ANNOTATED
+    cat .git/refs/tags/ANNOTATED
+    git cat-file -t d4f4a3a780d18738100ab43defb4c3d26bee7d11
+    git log d4f4a3a780d18738100ab43defb4c3d26bee7d11
+    git log ANNOTATED 
+    git show d4f4a3a780d18738100ab43defb4c3d26bee7d11
+    git tag -s SIGNED
+    git show SIGNED
+    git tag -v SIGNED 
+    git reset --hard origin/master
+    generaterandomchanges 10 sample txt
+    git log --oneline
+    echo STUFF >> README.txt
+    git add .
+    git commit -m 'fixup! A random change of 10770'
+    git rebase -i --autosquash HEAD~9
+    git log --stat 0cd6ee5
+    git log --oneline -10
+    git rebase -i  HEAD~9
+    git config --list | grep commit
+

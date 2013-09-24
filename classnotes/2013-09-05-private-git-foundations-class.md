@@ -1,6 +1,6 @@
 ---
 layout: bare
-title: Private Advanced Git Training
+title: Private Git Foundations Training
 description: Private Git Foundations Training Class Notes
 tags: [notes]
 path: classnotes/2013-09-05-private-git-foundations-class.md
