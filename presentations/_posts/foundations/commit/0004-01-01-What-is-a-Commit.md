@@ -4,14 +4,7 @@ layout: slide
 tags: ['commit']
 ---
 
-
-<div class="diagram-group">
-	<img class="diagram" src="assets/diagrams/commit-structure-01.png">
-	<img class="diagram fragment" src="assets/diagrams/commit-structure-02.png">
-	<img class="diagram fragment" src="assets/diagrams/commit-structure-03.png">
-	<img class="diagram fragment" src="assets/diagrams/commit-structure-04.png">
-</div>
-
+<img class="diagram" src="assets/diagrams/commit/structure.png">
 
 {% capture notes %}
 * Git folder is a directory "database" of snapshots for every commit

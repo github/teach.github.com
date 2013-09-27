@@ -4,10 +4,12 @@ layout: slide
 tags: ['diff']
 ---
 
+<img class="diagram" src="assets/diagrams/diff/staged.png">
+
 	# Show the staged changes
 	$ git diff --staged
 
-<img class="diagram" src="assets/diagrams/git-diff-staged.png">
+
 
 {% capture notes %}
 

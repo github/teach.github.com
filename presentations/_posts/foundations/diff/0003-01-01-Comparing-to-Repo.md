@@ -4,10 +4,11 @@ layout: slide
 tags: ['diff']
 ---
 
+<img class="diagram" src="assets/diagrams/diff/head.png">
+
 	# Show uncommitted changes
 	$ git diff HEAD
 
-<img class="diagram" src="assets/diagrams/git-diff-head.png">
 
 {% capture notes %}
 
