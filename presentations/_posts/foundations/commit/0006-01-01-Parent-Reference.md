@@ -4,13 +4,11 @@ layout: slide
 tags: ['commit']
 ---
 
-Parent / One Prior to Last Commit
+    # Parent / One Prior to Last Commit
+    HEAD^
 
-94fc2__^__
-
-
-
-
+    # Parent of Specific Commit Ref
+    94fc2^
 
 {% capture notes %}
 
