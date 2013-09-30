@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rake', '~> 10.0'
-gem 'github-pages'
-gem 'compass'
+ruby File.read('.ruby-version').strip
+
 gem 'anemone'
+gem 'compass'
+gem 'github-pages'
+gem 'rake', '~> 10.0'
