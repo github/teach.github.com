@@ -45,14 +45,14 @@ img{
 /* Background Watermark */
 body::before{
 	content: "";
-  -webkit-mask-box-image: url(../backgrounds/blacktocat-2.png) 100% 100% 0 0;
+  -webkit-mask-box-image: url(../backgrounds/github-mark.png) 100% 100% 0 0;
   background: $brand-linkBlue;
   position: absolute;
   opacity: .08;
   height: 30%;
-  width: 10%;
-  left: 0;
-  top: 0;
+  width: 7%;
+  left: 91%;
+  top: 2%;
 }
 
 /* Authorship/Info footer*/
