@@ -4,13 +4,11 @@ layout: slide
 tags: ['commit']
 ---
 
-Last Commit of Current Branch
+    # Three Prior to Last Commit
+    HEAD~3
 
-__HEAD__
-
-
-
-
+    # Three Prior of Specific Commit Ref
+    3ec81~3
 
 {% capture notes %}
 
