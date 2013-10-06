@@ -2,7 +2,7 @@
 layout: barewithrelated
 title: Other languages
 description: Git courses in languages other than English
-path: courses/_posts/2001-01-01-cursodegit.md
+path: courses/_posts/2001-02-21-other-languages.md
 ---
 
 ## Spanish

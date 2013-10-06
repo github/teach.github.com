@@ -2,7 +2,7 @@
 layout: barewithrelated
 title: GitHub and Git Foundations Course
 description: A curriculum for our GitHub and Git Foundations Course
-path: courses/_posts/2001-01-01-git-and-github-foundations-course.md
+path: courses/_posts/2001-02-27-git-and-github-foundations-course.md
 tags: [outline, course]
 ---
 
