@@ -2,7 +2,7 @@
 layout: barewithrelated
 title: Advanced Git Workshop
 description: An advanced Git workshop outline and course plan.
-path: courses/_posts/2001-01-01-git-advanced-course.md
+path: courses/_posts/2001-02-25-git-advanced-course.md
 ---
 
 # Objectives v1
