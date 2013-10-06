@@ -2,7 +2,7 @@
 layout: barewithrelated
 title: Git Beyond the Basics
 description: An intermediate Git workshop.
-path: courses/_posts/2001-01-01-git-intermediate-course.md
+path: courses/_posts/2001-02-26-git-intermediate-course.md
 ---
 
 This full day Git workshop takes you beyond the basic edit, add, and commit workflow to deep Git features that benefit developers appreciative of what Git's flexible DVCS model brings to hard-core software development. You'll learn how to harvest and inspect commit-specific merges, leverage interactive rebase, and search through history with precision and speed. Tags, GPG signatures, and other cryptographic integrity features will become clear, and pushing and pulling will be controlled with newfound precision.
