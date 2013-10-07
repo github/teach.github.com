@@ -1,7 +1,7 @@
 ---
 chapter: Commit
 layout: slide
-tags: ['commit']
+tags: ['commit','diagram']
 ---
 
 <img class="diagram" src="assets/diagrams/commit/structure.png">

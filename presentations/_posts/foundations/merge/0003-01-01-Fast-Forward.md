@@ -1,7 +1,7 @@
 ---
 chapter: Merge
 layout: slide
-tags: ['merge']
+tags: ['merge','diagram']
 categories: ['slidecontent']
 ---
 

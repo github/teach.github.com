@@ -1,7 +1,7 @@
 ---
 chapter: Commit
 layout: slide
-tags: ['commit']
+tags: ['commit','diagram']
 ---
 
 <div class="diagram-group">

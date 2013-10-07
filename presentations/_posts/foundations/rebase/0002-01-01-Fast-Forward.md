@@ -1,7 +1,7 @@
 ---
 chapter: Rebase
 layout: slide
-tags: ['rebase']
+tags: ['rebase','diagram']
 categories: ['slidecontent']
 ---
 
