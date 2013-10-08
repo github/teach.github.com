@@ -1,30 +1,64 @@
 <div class="reveal" id="reveal">
 	<div class="slides">
 		{% for ch in page.chapters %}
+			
 			<!--Nest all chapter's content. Chapters traverse left-right; Sections slide up-down-->
-			<section>
+			
+
 				{% for section in site.tags[ch] reversed %}
-					<!--Chapter Auto-Injection-->
-					{% if forloop.first %}
-						{% if section.cover != false %}
-							{% include hydeslides/revealjs/slide-open-chapter %}
-								<h1>{{ section.chapter }}</h1>
-							{% include hydeslides/revealjs/slide-close %}
-						{% endif %}
-					{% endif %}
+
+					{% assign is_first = forloop.first %}
+					{% assign is_last = forloop.last %}
+					{% assign cur_ch = section.chapter %}
+
 
 					{% for tag in section.tags %}
+
+						
+
+	                	
+
 		                {% if tag contains "diagram" %}
+
+		                	{% if is_first %}
+								</section>
+								<section>
+		                	{% endif %}
+
+		                	{% if is_first %}
+								{% if section.cover != false %}
+									{% include hydeslides/revealjs/slide-open-chapter %}
+										<h1>{{ section.chapter }}</h1>
+
+								
+
+									{% include hydeslides/revealjs/slide-close %}
+									{% assign is_first = false %}
+								{% endif %}
+							{% endif %}
+
 							{% include hydeslides/revealjs/slide-open %}
 								<h1 {% if section.heading == false %}class="hidden"{% endif %}>{{ section.chapter }}</h1>
 								<h2 {% if section.heading == false %}class="hidden"{% endif %}>{{ section.title }}</h2>
 								<div class="clear-all"></div>		
 								{{ section.content }}
 							{% include hydeslides/revealjs/slide-close %}
+
+			
+							{% if is_last %}
+								{% include hydeslides/revealjs/slide-open %}
+				                	Last slide
+			                	{% include hydeslides/revealjs/slide-close %}
+		                	{% endif %}
+
 		                {% endif %}
+
+		                
 		            {% endfor %}
 				{% endfor %}
-			</section>
+			
+			
+
 		{% endfor %}
 	</div>
 </div>
