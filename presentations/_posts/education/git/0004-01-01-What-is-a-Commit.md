@@ -1,7 +1,7 @@
 ---
 chapter: Data Structure
 layout: slide
-tags: ['education/git']
+tags: ['education/git','diagram']
 ---
 
 <img class="diagram" src="assets/diagrams/git-commit-structure.png">
