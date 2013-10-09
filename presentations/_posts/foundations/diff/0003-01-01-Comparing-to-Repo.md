@@ -1,7 +1,7 @@
 ---
 chapter: Diff
 layout: slide
-tags: ['diff']
+tags: ['diff','diagram']
 ---
 
 <img class="diagram" src="assets/diagrams/diff/head.png">
