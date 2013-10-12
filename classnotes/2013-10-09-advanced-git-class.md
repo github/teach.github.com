@@ -13,7 +13,7 @@ eventdate: 2013-10-09
 
 # Advanced Git & GitHub Course
 
-Many Git workshops successfully focus on the basics for those new to DVCS. However, with Git having a full 5 years on the street now, there is a growing desire to address the maturing users of this innovative DVCS. This workshop will take existing Git users and bring them to a heightened level of productivity by leveraging Git’s powerful, yet underused “advanced” features.
+Many Git workshops successfully focus on the basics for those new to DVCS. However, with Git having a full five years on the street now, there is a growing desire to address the maturing users of this innovative DVCS. This workshop will take existing Git users and bring them to a heightened level of productivity by leveraging Git’s powerful, yet underused “advanced” features.
 
 ## Topics
 * Common Branching Strategies
@@ -171,7 +171,7 @@ __Duration:__ 5m
     * `git ls-remote`
     * `git fetch <refspec>`
     * `git merge FETCH_HEAD`
-    * `git branch <branchname> FETCH_HEAD
+    * `git branch <branchname> FETCH_HEAD`
     *  Manually editing the `.git/config` fetch refspec to retrieve Pull Request heads
 
 ### Merging Strategies
@@ -199,7 +199,7 @@ __Duration:__ 10m
 __Duration:__ 10m
 
 * Tracking
-    * look in `.git/config` for tracking matches
+    * Look in `.git/config` for tracking matches
     * Remote fetching versus pull's automatic merge
 
 * Pulled branches _merge_ in to the local branch by default.
@@ -240,16 +240,16 @@ __Duration:__ 20m
 You can use `git cherry` and its cousin, `git cherry-pick` to harvest and inspect commit-specific merges.
 
 #### cherry
-    * compares patch-id, not the hashes
-    * commits not upstream are prefixed by a symbol
-    * Minus says not upstream
-    * Plus symbol says it is upstream
-    * `git cherry <UPSTREAM> <HEAD>`
-    * `git cherry feature_subtraction master`
+* Compares patch-id, not the hashes
+* Commits not upstream are prefixed by a symbol
+* Minus says not upstream
+* Plus symbol says it is upstream
+* `git cherry <UPSTREAM> <HEAD>`
+* `git cherry feature_subtraction master`
 
 #### cherry-pick
-    * pulls in a commit like copy and paste
-    * `-x` adds the commit ID in the commit message
+* pulls in a commit like copy and paste
+* `-x` adds the commit ID in the commit message
 
 * Merging small pieces into a feature branch
 * A fix is a "feature" (reuse by merging many places)
@@ -585,9 +585,11 @@ subject of a commit message (first line), oneline is clearly best. However, if I
 more complicated project and want to see both authored date and commit date, I'd want
 to use `fuller`. The commit date is the date that is shown by default with `medium`, but
 depending on different types of collaboration, your commit may have actually been
-authored many days previous [Ed Note: If I made a commit, created a Pull request, and
+authored many days previous.
+
+For example, if I made a commit, created a Pull Request, and
 had that pull request accepted 3 days later, the difference in authored and commit date
-would be 3 days]
+would be 3 days.
 
 Now that we can control how many commits we see, and what level of detail we see in the
 summary, often we want to filter these results even more before we start digging through
@@ -606,16 +608,17 @@ specifically what you'd want to search for. When we use a term to grep for, we'r
 going to search the log for that term in the commit message itself. This is one example
 of why a descriptive commit message could be super useful (besides just allowing friends
 or coworkers to see what you're up to without reading your code).
-  * Grep will even look at words you're not actually seeing (pretty=short but word exists
+
+* Grep will even look at words you're not actually seeing (pretty=short but word exists
   in the message body, still finds it!)
 
 _Bonus Online Material_
 
-* `git log --since="2 weeks ago"
+* `git log --since="2 weeks ago"`
   * grab all the commits that happened between now and 2 weeks ago
-* `git log --before="2 weeks ago"
+* `git log --before="2 weeks ago"`
   * grab commits that happened from 2 weeks ago and OLDER
-* `git log gh-pages...gh-pages@{2.weeks.ago}
+* `git log gh-pages...gh-pages@{2.weeks.ago}`
   * Similar to https://github.com/github/teach.github.com/compare/gh-pages@%7B2.days.ago%7D...gh-pages
 
 * `git log --diff-filter=R` (needs `-M` or `-C` etc for renames)
@@ -659,7 +662,7 @@ the commit's patch.
 
 The patch here shows us the specific file that was changed and what that change was
 because there had only been one file changed in this commit. This is a small change, but
-we see there was one line removed, and another almost identical line was inserted in it's 
+we see there was one line removed, and another almost identical line was inserted in its 
 place.
 
     [/github/teach.github.com]$ git log -p
@@ -716,7 +719,7 @@ __Duration:__ 10m
 * Merkle (hash) tree
 * What rebase does these
 * What is a branch and a tag
-* Cecompose commit
+* Recompose commit
     * `git ls-files`
     * `git cat-file -p`
     * `git cat-file -t`
