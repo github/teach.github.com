@@ -2,7 +2,6 @@
 chapter: GUIs
 layout: slide
 tags: ['gui']
-categories: ['slidecontent']
 ---
 
 	# Committing

@@ -5,7 +5,6 @@ layout: hydeside
 title: YAML Behavior
 tags:
   - "pages/jekyll"
-categories: ['slidecontent']
 ---
 
 * Any text-based file, regardless of the filetype, can be supplemented with YML front matter.

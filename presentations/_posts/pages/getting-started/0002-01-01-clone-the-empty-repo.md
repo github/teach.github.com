@@ -4,7 +4,6 @@ cover: true
 layout: hydeside
 tags:
   - "pages/getting-started"
-categories: ['slidecontent']
 ---
 
 Follow the on-page instructions to clone the repository locally to your computer:

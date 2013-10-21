@@ -4,7 +4,6 @@ cover: true
 layout: hydeside
 tags:
   - "pages/layouts"
-categories: ['slidecontent']
 ---
 
 * Let's say we pull the HTML out of `index.html` and save it to `_layouts/page.html` so that it looks like this:

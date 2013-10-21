@@ -3,7 +3,6 @@ chapter: Tag
 heading: false
 layout: slide
 tags: ['tag']
-categories: ['slidecontent']
 ---
 
 	# Annotated Tag with HEAD

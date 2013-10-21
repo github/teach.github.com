@@ -4,7 +4,6 @@ cover: true
 layout: hydeside
 tags:
   - "pages/getting-started"
-categories: ['slidecontent']
 ---
 
 Push the changes to GitHub.

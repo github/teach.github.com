@@ -5,7 +5,6 @@ layout: hydeside
 title: GitHub Pages Serving
 tags:
   - "pages/jekyll"
-categories: ['slidecontent']
 ---
 
 * Any file in the `gh-pages` branch of your repository will be transparently served via GitHub Pages including CSS, HTML, JPEGs, and JavaScript.

@@ -4,7 +4,6 @@ cover: true
 layout: hydeside
 tags:
   - "pages/layouts"
-categories: ['slidecontent']
 ---
 
 * When we push our template to to GitHub pages Jekyll will replace <code>&#123;{ content }}</code> with the actual content, so lets...

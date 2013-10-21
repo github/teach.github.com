@@ -2,7 +2,6 @@
 chapter: Tag
 layout: slide
 tags: ['tag']
-categories: ['slidecontent']
 ---
 
 	git tag -a <TAGNAME>

@@ -4,7 +4,6 @@ cover: true
 layout: hydeside
 tags:
   - "pages/jekyll"
-categories: ['slidecontent']
 ---
 
 * In addition to static file hosting, special files are transparently run through a powerful yet simple templating engine named [Jekyll](https://github.com/mojombo/jekyll) after every push to GitHub.

@@ -3,7 +3,6 @@ chapter: Setup
 heading: false
 layout: slide
 tags: ['education/setup']
-categories: ['slidecontent']
 ---
 
 <div class="sticky">

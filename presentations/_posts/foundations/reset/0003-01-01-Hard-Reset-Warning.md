@@ -3,7 +3,6 @@ chapter: Reset
 heading: false
 layout: slide
 tags: ['reset']
-categories: ['slidecontent']
 ---
 
 <div class="sticky">

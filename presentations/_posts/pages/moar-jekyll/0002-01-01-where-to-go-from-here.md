@@ -4,7 +4,6 @@ cover: true
 layout: hydesides
 tags:
   - "pages/moar-jekyll"
-categories: ['slidecontent']
 ---
 
 * Experiment with pretty [permalinks](https://github.com/mojombo/jekyll/wiki/Permalinks) (hint: `permalink` in a page's YML front matter will manually define its permalink)

@@ -3,7 +3,6 @@ chapter: Stash
 heading: false
 layout: slide
 tags: ['stash']
-categories: ['slidecontent']
 ---
 
 	# Diff stashed patches

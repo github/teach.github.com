@@ -2,7 +2,6 @@
 chapter: Reset
 layout: slide
 tags: ['reset']
-categories: ['slidecontent']
 ---
 
 

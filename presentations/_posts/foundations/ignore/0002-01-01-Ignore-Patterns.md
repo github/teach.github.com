@@ -2,7 +2,6 @@
 chapter: Ignore
 layout: slide
 tags: ['ignore']
-categories: ['slidecontent']
 ---
 
 	# Anything ending ".log"

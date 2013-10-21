@@ -4,7 +4,6 @@ cover: true
 layout: hydeside
 tags:
   - "pages/getting-started"
-categories: ['slidecontent']
 ---
 
 1. Navigate to <br /> <span style="font-size: 0.9em;"">`http://[username].github.io/simple-site`</span>

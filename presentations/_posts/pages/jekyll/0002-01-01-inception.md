@@ -4,7 +4,6 @@ cover: true
 layout: hydeside
 tags:
   - "pages/jekyll"
-categories: ['slidecontent']
 heading: false
 ---
 
