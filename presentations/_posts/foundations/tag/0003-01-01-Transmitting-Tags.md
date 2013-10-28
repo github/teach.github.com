@@ -2,7 +2,6 @@
 chapter: Tag
 layout: slide
 tags: ['tag']
-categories: ['slidecontent']
 ---
 
 	# Push specific tag

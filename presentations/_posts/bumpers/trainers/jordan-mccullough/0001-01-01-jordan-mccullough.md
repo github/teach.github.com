@@ -3,7 +3,6 @@ chapter: 'Trainer'
 cover: false
 layout: slide
 tags: ['trainers/jordan-mccullough']
-categories: ['slidecontent']
 ---
 
 <img class="headshot" src="assets/headshots/mccullough-jordan.jpg" alt="Jordan McCullough">

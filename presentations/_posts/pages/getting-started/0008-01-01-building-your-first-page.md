@@ -4,7 +4,6 @@ cover: true
 layout: hydeside
 tags:
   - "pages/getting-started"
-categories: ['slidecontent']
 ---
 
  * The index file we created is just an HTML file. We can add any HTML we wish.

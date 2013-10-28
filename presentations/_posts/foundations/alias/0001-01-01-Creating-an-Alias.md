@@ -2,7 +2,6 @@
 chapter: Alias
 layout: slide
 tags: ['alias']
-categories: ['slidecontent']
 ---
 
 Command shortcuts

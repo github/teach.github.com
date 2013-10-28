@@ -2,7 +2,6 @@
 chapter: Remove & Move
 layout: slide
 tags: ['rm-mv']
-categories: ['slidecontent']
 ---
 
 	# Renames shown

@@ -2,7 +2,6 @@
 chapter: Setup
 layout: slide
 tags: ['education/setup']
-categories: ['slidecontent']
 ---
 
 Check your version (if it is already installed)

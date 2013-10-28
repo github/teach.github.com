@@ -4,7 +4,6 @@ cover: true
 layout: hydesides
 tags:
   - "pages/template-data"
-categories: ['slidecontent']
 ---
 
 Now, we can go back to update our page layout in `_layouts/page.html` to add a page title like so:

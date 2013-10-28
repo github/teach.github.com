@@ -2,7 +2,6 @@
 chapter: Init
 layout: slide
 tags: ['init']
-categories: ['slidecontent']
 ---
 
 	# New project

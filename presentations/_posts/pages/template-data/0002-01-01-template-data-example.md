@@ -4,7 +4,6 @@ cover: true
 layout: hydesides
 tags:
   - "pages/template-data"
-categories: ['slidecontent']
 ---
 
 * Let's update the YML frontmatter on our `index.html` file to include:

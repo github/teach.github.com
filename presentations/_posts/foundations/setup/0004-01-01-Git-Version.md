@@ -2,7 +2,6 @@
 chapter: Setup
 layout: slide
 tags: ['setup']
-categories: ['slidecontent']
 ---
 
 Test the Install. Check your Version

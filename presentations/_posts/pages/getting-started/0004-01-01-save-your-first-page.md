@@ -4,7 +4,6 @@ cover: true
 layout: hydeside
 tags:
   - "pages/getting-started"
-categories: ['slidecontent']
 ---
 
 - Tell Git to add the file to the staging area.

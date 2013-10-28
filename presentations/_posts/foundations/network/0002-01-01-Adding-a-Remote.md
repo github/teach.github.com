@@ -2,7 +2,6 @@
 chapter: Network
 layout: slide
 tags: ['network']
-categories: ['slidecontent']
 ---
 
 	git remote add <name> <url>

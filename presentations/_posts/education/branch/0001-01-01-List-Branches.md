@@ -2,7 +2,6 @@
 chapter: Branch
 layout: slide
 tags: ['education/branch']
-categories: ['slidecontent']
 ---
 
     #List (Local) Branches

@@ -2,7 +2,6 @@
 chapter: Branch
 layout: slide
 tags: ['branch']
-categories: ['slidecontent']
 ---
 
 * Branches are _cheap_

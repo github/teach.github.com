@@ -5,7 +5,6 @@ layout: hydesides
 title: Let's Take A Look Part Deux
 tags:
   - "pages/template-data"
-categories: ['slidecontent']
 ---
 
 * Let's commit and push our changes:

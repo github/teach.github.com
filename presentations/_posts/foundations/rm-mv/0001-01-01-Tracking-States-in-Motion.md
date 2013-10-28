@@ -2,7 +2,6 @@
 chapter: Remove & Move
 layout: slide
 tags: ['rm-mv','diagram']
-categories: ['slidecontent']
 ---
 
 <div class="diagram-group">

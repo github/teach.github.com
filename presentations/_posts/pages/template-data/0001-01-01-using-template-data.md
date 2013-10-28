@@ -4,7 +4,6 @@ cover: true
 layout: hydesides
 tags:
   - "pages/template-data"
-categories: ['slidecontent']
 ---
 
 * In addition to layouts, Jekyll also provides some more advanced template features

@@ -2,7 +2,6 @@
 chapter: Branch
 layout: slide
 tags: ['education/branch']
-categories: ['slidecontent']
 ---
 
     # Create a branch and then switch to it
