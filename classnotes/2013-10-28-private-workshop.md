@@ -85,7 +85,7 @@ eventdate: 2013-09-17
 
 
 
-## Day One Command Line History
+## Command Line History
 
     git config user.name
     git config --list --global
