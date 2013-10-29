@@ -3,8 +3,8 @@ layout: bare
 title: Private Git Foundations Training
 description: Private Git Foundations Training Class Notes
 tags: [notes]
-path: classnotes/2013-09-17-private-git-foundations-class.md
-eventdate: 2013-09-17
+path: classnotes/2013-10-28-private-git-foundations-training.md
+eventdate: 2013-10-28
 ---
 
 ## Teachers
