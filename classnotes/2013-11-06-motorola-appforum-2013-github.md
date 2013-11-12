@@ -59,7 +59,7 @@ eventdate: 2013-11-06
 
 ## Outline
 
-    * Why is Git so cool?
+* Why is Git so cool?
 * Make a local Git repository
 * Create and commit content
 * Compare differences

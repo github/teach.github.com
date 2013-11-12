@@ -59,12 +59,12 @@ eventdate: 2013-11-07
   * `commit -p`
 * Log
   * `diff-filter`
-  * `log release..test` shows whats in test but not yet release
-  * `git log master --not --remotes=origin` would compare against just origin masters
+  * `log release..test` shows what's in test but not yet in release
+  * `git log master --not --remotes=origin` shows commits in local origin branch not yet in remote
 * Show
   * `git show :/broken` finds most recent commit with "broken" in message
 * Checkout
-  * `git checkout -` really more of a unix hack.
+  * `git checkout -` really more of a Unix hack
   * Ever wonder a good use case for the file separator?
     * `git checkout BRANCH -- path/to/file` copies the file at BRANCH without switching branches
 * Branch
@@ -77,34 +77,34 @@ eventdate: 2013-11-07
   * Have a conflict and you know the one coming in is correct? use --theirs
   * `git merge -Xtheirs BRANCH` the graph may change a bit
 * Bisect
-  * 'git bisect start` and `git bisect bad` to let it know things are currently terrible
+  * `git bisect start` and `git bisect bad` to let it know things are currently terrible
   * `git bisect good <SHA1-HASH>` to let it know when things were good. With proper tagging this works out pretty well
-  * At each new step of the way we run whatever tests we want to see how things are going. if the test pass, we'd say `git bisect good` to say it was good or `git bisect bad` to mark it as bad.
-  * When this finishes, we're returned to the SHA1 of the first introduction of this failure. to go back to master: `git bisect reset`
+  * At each new step of the way we run whatever tests we want to see how things are going. If the test passes, we'd say `git bisect good` to say it was good or `git bisect bad` to mark it as bad.
+  * When this finishes, we're returned to the SHA1 of the first introduction of this failure. To go back to master: `git bisect reset`
   * We could also automate this: `git bisect start HEAD <good-revision>` followed up with a script: `git bisect run ~/script.sh`
 * Cherry Pick
-  * Set up for a rebase. maybe you realize you had some commits you didn't really want
+  * Set up for a rebase. Maybe you realize you had some commits you didn't really want.
   * `-x` automatically places the original commit hash in the new commit message.
-    * similar to revert
+  * Similar to revert
 * Rebase
   * Interactive
   * `--autosquash`: Have some commits with `fixup!` and a similar title to another commit message to `squash!` and fixup to.
-  * edits
-  * rearrange
-  * delete
-  * great for forming good history that allows people to follow your progression
+  * Edits
+  * Rearrange
+  * Delete
+  * Great for forming good history that allows people to follow your progression
 * Reflog
-  * checkout to a point in the middle of a rebase even, but lets go before it. `git log` and look at the sha1 that was deleted
-  * checkout back to `HEAD@{1}` or the point after the rebase. checkout to a new branch, cherry pick it over.
+  * Checkout to a point in the middle of a rebase even, but let's go before it. `git log` and look at the SHA1 that was deleted
+  * Checkout back to `HEAD@{1}` or the point after the rebase. Checkout to a new branch, cherry-pick it over.
 * Notes
-  * Notes are an interesting object in Git. They're like messages but i tend to think of them as something we do AFTER commits
-  * __Example__: You've decided to go back and add a note onto a merge commit explaining the merge. If you went back to edit the commit message itself (which, we know how to do now), that'd alter the commit hash because the message is one input into the SHA1 algorithm for calculating the hash.
+  * Notes are an interesting object in Git. They're like messages but I tend to think of them as something we do AFTER commits
+  * __Example__: You've decided to go back and add a note onto a merge commit explaining the merge. If you went back to edit the commit message itself (which, we know how to do now), that would alter the commit hash because the message is one input into the SHA1 algorithm for calculating the hash.
   * Shows up on that commit on github.com
 * Refspec
-  * git ls-remote
+  * `git ls-remote`
   * Sometimes you may want to interact with your pull requests on the command line and pull them in advance. Maybe you're about to hop on a flight.
   * `+refs/pull/*/head:refs/remotes/origin/pull/*`
-    * custom refspec github created, allows us to set up these pulls as branches.
+    * Custom refspec GitHub created, allows us to set up these pulls as branches.
 
 
 ## Command Line History
