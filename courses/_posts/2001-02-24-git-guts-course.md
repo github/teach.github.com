@@ -110,12 +110,12 @@ Uber-geeks are magic-slayers. We want and need to know precisely how things work
 2. Or retrieve to-be-hased contents from `stdin`:
 
         echo 'Hello World' | git hash-object --stdin
-        557db03de997c86a4a028e1ebd3a1ceb225be238
+                557db03de997c86a4a028e1ebd3a1ceb225be238
 
 3. Then, with the `-w` option, store the resultant hashed object blob in `.git/objects`:
 
         echo 'Hello World' | git hash-object -w --stdin
-        557db03de997c86a4a028e1ebd3a1ceb225be238
+                557db03de997c86a4a028e1ebd3a1ceb225be238
 
 <http://stackoverflow.com/questions/1532405/how-to-view-git-objects-and-index-without-using-git>
 
@@ -132,7 +132,7 @@ The files within `.git/objects` are compressed with zlib. This can be shown by r
 2. Or use Perl and its Zlib functions.
 
         alias deflate="perl -MCompress::Zlib -e 'undef $/; print uncompress(<>)'"  
-        deflate .git/objects/55/7db03de997c86a4a028e1ebd3a1ceb225be238`
+        deflate .git/objects/55/7db03de997c86a4a028e1ebd3a1ceb225be238
 
 
 ## Build an Index and Tree
