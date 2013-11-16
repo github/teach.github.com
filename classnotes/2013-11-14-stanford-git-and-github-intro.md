@@ -52,7 +52,7 @@ eventdate: 2013-11-14
 
 ### Config
 * `git config --global user.name "GitHub Student"`
-* `git config --global user.email "training+githubstudents@github.com"
+* `git config --global user.email "training+githubstudents@github.com"`
 * `git config --global color.ui auto`
 
 ### Branching
