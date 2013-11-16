@@ -2,7 +2,7 @@
 layout: bare
 title: Git and GitHub Intro at Stanford
 description: Git and GitHub Intro given to Stanford
-tags: [notes, talks]
+tags: [notes, talks, workshop]
 path: classnotes/2013-11-14-stanford-git-and-github-intro.md 
 eventdate: 2013-11-14
 ---
