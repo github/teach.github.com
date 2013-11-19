@@ -1,6 +1,6 @@
 ---
 cover: false
-chapter: What are
+chapter: Using
 layout: slide
 title: GH-Pages
 tags: ['gh-pages-np']
