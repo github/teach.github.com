@@ -1,6 +1,6 @@
 ---
 cover: false
-chapter: What is an
+chapter: What's an
 layout: slide
 tags: ['organization-np']
 ---

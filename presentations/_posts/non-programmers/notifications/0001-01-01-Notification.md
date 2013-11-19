@@ -1,6 +1,6 @@
 ---
 cover: false
-chapter: What is a
+chapter: What's a
 layout: slide
 tags: ['notification-np']
 ---
