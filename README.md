@@ -25,6 +25,8 @@ The majority of these materials will be in [Markdown](http://whatismarkdown.com)
 
 ## Developing
 
+To get started, you'll need a recent version of Ruby (we use 1.9.3), with rubygems and the Bundler and Jekyll gems installed (you may well have these already).
+
 Then:
 
 ``` bash
@@ -33,3 +35,5 @@ cd teach.github.com
 script/setup
 script/server
 ```
+
+Your own copy of teach.github.com will now exist at [localhost:4000](http://localhost:4000).
