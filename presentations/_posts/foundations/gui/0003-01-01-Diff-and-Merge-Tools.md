@@ -6,7 +6,8 @@ tags: ['gui']
 
 	# Diff Tool
 	git config diff.tool "myaraxis"
-	git config difftool.myaraxis.cmd araxisgitdiff ONE $LOCAL THREE FOUR $REMOTE
+	git config difftool.myaraxis.cmd 
+        araxisgitdiff ONE $LOCAL THREE FOUR $REMOTE
 	git config difftool.prompt false
 	
 
