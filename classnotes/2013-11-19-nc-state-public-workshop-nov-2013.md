@@ -63,7 +63,7 @@ eventdate: 2013-11-19
 * Protect your work from experimental changes through branching
 * Push code to repositories on GitHub
 * Collaborate with colleagues through Pull Requests
-* Best Pratices for teams
+* Best practices for teams
 * Reset and reflog
 
 
