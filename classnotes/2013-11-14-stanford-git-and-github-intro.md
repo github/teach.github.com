@@ -64,46 +64,45 @@ eventdate: 2013-11-14
 ### Add and Commit
 * `git add -- <filename>`
 * `git commit -m 'first commit of why im making this change'`
-* This is similar to a shopping cart.
-  * We have our list of items to buy (working directory changes), and when we find them in the store, we add them to the cart. When we're doing to leave the store,
-    we go to the register with our items (commit).
+* This is similar to a shopping cart.  
+  We have our list of items to buy (working directory changes), and when we find them in the store, 
+  we add them to the cart. When we're leaving the store, we go to the register with our items (commit).
 
 ### Diff
-* regular slides on this
-  * <http://teach.github.com/presentations/git-foundations.html#/7/1>
+* [GitHub Foundations slides](http://teach.github.com/presentations/git-foundations.html#/7/1)
 * Make a change, view it in diff
-* add it, view it in diff.
+* Add it, view it in diff.
 
 ### Log
 * Review older things, see the differences between branches
-* `git log master..feature1` What is on feature1 that isnt on master
-* You may also think of `git log origin/master..master`. what do I have locally that isn't upstream.
-  * this would only work most accurately after a fetch, origin/master is a branch that's used to track the upstream
+* `git log master..feature1` What is on feature1 that isn't on master
+* You may also think of `git log origin/master..master`. What do I have locally that isn't upstream.  
+    This would only work most accurately after a fetch, origin/master is a branch that's used to track the upstream
 
 ### Push / Pull Request
-* send the pull request
+* Send the pull request
 * Go to `your fork > pull requests > new pull request > recently pushed branches` OR edit the dropdowns on that page.
 
 ### Merging
-* Often, because I do `git fetch origin` instead of `git pull origin` i manually have to follow up with a `git merge origin/master`
-* This can mean conflicts, these conflicts would happen if we did a pull anyways
+* Often, because I do `git fetch origin` instead of `git pull origin` I manually have to follow up with a `git merge origin/master`
+* This can mean conflicts, these conflicts would happen if we did a pull anyway
 * Merges just update your code, something something
 * `git merge --abort` to get out of things.
-* Manually resolve is the way i do it, it's helpful to do this first to understand the syntax.
+* Manually resolve is the way I do it, it's helpful to do this first to understand the syntax.
 
 ### Reset
 * soft, mixed, hard
 * mixed just basically moves things to the working area
 
 ### Reflog
-* has your back
-* records any changes that ever happen to the HEAD file (commits, resets, rebases, checkouts, etc)
-* play with `git reset --hard` and see how reflog gets you back to safety
-* the reflog itself last 90 days
-* the references to hashes that may have been reset and deleted last 30 days
+* Has your back
+* Records any changes that ever happen to the HEAD file (commits, resets, rebases, checkouts, etc)
+* Play with `git reset --hard` and see how reflog gets you back to safety
+* The reflog itself last 90 days
+* The references to hashes that may have been reset and deleted in the last 30 days
 
 ### Stash
-* quick saves, shouldnt last longer than 15 minutes.
+* Quick saves, shouldn't last longer than 15 minutes.
 * `git stash save <keyword>`
 * `git stash apply`
 * `git stash pop`
