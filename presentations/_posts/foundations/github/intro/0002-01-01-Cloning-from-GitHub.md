@@ -8,7 +8,9 @@ tags: ['github/intro']
 Obtain a local "copy":
 
 	# SSH
-	git clone git@github.com:<username>/<repository>.git
+	git clone 
+        git@github.com:<user>/<repo>.git
 
 	# HTTPS
-	https://github.com/<username>/<repository>.git
+    git clone
+    	https://github.com/<user>/<repo>.git

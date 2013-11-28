@@ -7,7 +7,7 @@ tags: ['config']
 	#Colorize console output for legibility
 	git config --global color.ui auto
 
-	#Force files to be LF in the repo, even on Mac/Linux
+	#Force files to be LF in the repo on Mac/Linux
 	git config --global core.autocrlf input
 
 	#Force Windows to convert to CRLF
