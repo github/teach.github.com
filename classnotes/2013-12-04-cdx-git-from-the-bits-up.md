@@ -63,21 +63,79 @@ eventdate: 2013-12-04
 * `reset` and `reflog`
 * `rebase`
 * Hooks
-* remote branches
-* `bisect`
-* Where do you stand on `gitk`?
-  * The back of the neck
-* 
 
 
 
 ## Command History
 
-
-
-
-
-
-
-
+    mkdir repo
+    mkdir .git
+    ls -la
+    cd repo
+    while :\ndo\nclear\ntree .git\nsleep 1\ndone
+    tree .git
+    mkdir .git/objects
+    mkdir .git/refs
+    mkdir .git/refs/heads
+    echo "ref: refs/heads/master" > .git/HEAD
+    git help hash-object
+    echo "So. The Spear-Danes in days gone by had courage and greatness."
+    echo "So. The Spear-Danes in days gone by had courage and greatness." | git hash-object --stdin -w
+    git cat-file -p c023
+    git cat-file -s c023
+    git cat-file -t c023
+    git update-index --add --cacheinfo 100644 c023c23a67e64dc4af96c2932a3292e42039321b beowulf.txt
+    git write-tree
+    git cat-file -p f419
+    git commit-tree f419e48cc86ee4d9c14295b58d74a6ec945a5b45 -m "Initial commit"
+    git cat-file c5e3
+    git cat-file -p c5e3
+    cat .git/HEAD
+    echo c5e3e15c5dacf05ab171cafde078588761cf6f11 > .git/refs/heads/master
+    git checkout HEAD -- beowulf.txt
+    cat beowulf.txt
+    cat `which git-loglive`
+    git loglive
+    git config alias.lol
+    git config --global alias.lol "log --graph --oneline --decorate --all"
+    vi beowulf.txt
+    git commit -m "Noble campaigns"
+    gitlog
+    git log
+    echo e27121ce7992f94b54f125ef4964aeeb6fbc8b6f > .git/refs/heads/feature
+    git commit -m "Added README"
+    git commit -m "Bleak"
+    git rebase master
+    generaterandomchanges 10 junk txt
+    git rebase -i f71a
+    git branch
+    vi .git/refs/heads/master
+    git reset --hard HEAD^
+    git checkout feature
+    git reset --hard 0a7d908
+    ld
+    git reset --hard HEAD@{1}
+    git reflog
+    tree .git/HEAD
+    git init monkey
+    cp -r monkey/.git/hooks repo/.git
+    cd repo/.git/hooks
+    mv commit-msg.sample commit-msg
+    ls
+    vi commit-msg
+    git commit -m "Morrow"
+    git commit -m "Morrow monkey"
+    vi .git/hooks/commit-msg
+    .git/hooks/commit-msg "Morrow "
+    .git/hooks/commit-msg "Morrow monkey"
+    vi .git/hooks/pre-commit.sample
+    cd .git/hooks
+    mv commit-msg commit-msg.sample
+    tree .git/re
+    pwd
+    cd ../..
+    tree .git/refs
+    gitk
+    gitk --all
+    git log -- raven.txt
 
