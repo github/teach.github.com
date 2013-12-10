@@ -1,3 +1,0 @@
-<aside class="notes">
-{{ notes | markdownify }}
-</aside>

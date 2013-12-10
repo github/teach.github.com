@@ -1,9 +1,0 @@
-[submodule "presentations/dependencies/plugins"]
-	path = presentations/dependencies/plugins
-	url = https://github.com/jordanmccullough/hydeslides-plugins.git
-[submodule "presentations/dependencies/impressjs"]
-	path = presentations/dependencies/impressjs
-	url = https://github.com/bartaz/impress.js.git
-[submodule "presentations/dependencies/revealjs"]
-	path = presentations/dependencies/revealjs
-	url = https://github.com/hakimel/reveal.js.git
